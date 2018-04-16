@@ -44,7 +44,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.5)
     (user_trace_width 0.5)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -70,7 +70,7 @@
     (pad_drill 5)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 194.8 63.4)
-    (visible_elements FFFFFF7F)
+    (visible_elements FFFCCE6D)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions false)
