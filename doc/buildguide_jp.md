@@ -103,7 +103,7 @@ ProMicroをソケット化をすることでProMicroが故障してしまった�
 2パターンのソケット化を紹介します。
 
 #### スプリングヘッダを利用したソケット化
-ソケット化を可能とする特殊なピンヘッダを利用する方法です。
+ソケット化を可能とする特殊なピンヘッダを利用する方法です。
 利用方法はHelixのビルドガイドを参考にしてください。
 https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro
 
@@ -111,7 +111,7 @@ https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-mic
 
 https://yushakobo.jp/shop/promicro-spring-pinheader/
 
-同じく遊舎工房で購入可能なOLEDについてくるピンヘッダを利用すると以下のように隙間なくきれいに収まります。また8mmのスペーサーを利用することができるのでより薄い仕上がりとなります。
+同じく遊舎工房で購入可能なOLEDについてくるピンヘッダを利用すると以下のように隙間なくきれいに収まります。また8mmのスペーサーを利用することができるのでより薄い仕上がりとなります。
 
 ![img_4141](https://user-images.githubusercontent.com/736191/41304818-2b65511e-6eac-11e8-9357-999ff14080ed.png)
 
@@ -121,7 +121,7 @@ https://yushakobo.jp/shop/promicro-spring-pinheader/
 
 http://akizukidenshi.com/catalog/g/gC-03138/
 
-12個連結ピンソケット2つ用意し、ブレッドボード等に固定します。
+12個連結ピンソケット2つ用意し、ブレッドボード等に固定します。
 
 ![img_4130](https://user-images.githubusercontent.com/736191/41305246-4d63b7a0-6ead-11e8-8dbe-16c75d8b55e3.png)
 
