@@ -2,9 +2,9 @@
 Corne keyboard, a split keyboard with 3x6 column staggered keys and 3 thumb keys, based on [Helix](https://github.com/MakotoKurauchi/helix).
 
 ## Corne lineup
-- crkbd
-- [wip] crkbd+h: Hotswappable crkbd by kailh PCB sockets.
-- [wip] crkbd++: Next generation crkbd.
+- corne-classic
+- [wip] corne-cherry: Hotswappable corne for CherryMX switches by kailh PCB sockets.
+- [wip] corne-chocolate: Hotswappable corne for Chocolate switches by kailh PCB sockets.
 
 ## Photos
 ![01](https://user-images.githubusercontent.com/736191/43596506-7628b2aa-96ba-11e8-9799-a18d90477979.png)
