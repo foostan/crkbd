@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name corne-cherry-rescue)(type Legacy)(uri ${KIPRJMOD}/corne-cherry-rescue.lib)(options "")(descr ""))
+  (lib (name kbd)(type Legacy)(uri /Users/adachi-kousuke/src/github.com/foostan/kbd/labrary/kbd.lib)(options "")(descr ""))
+)
