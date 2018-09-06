@@ -1,11 +1,11 @@
-(module 1pin_conn (layer F.Cu) (tedit 5AB7DA4F)
+(module 1pin_conn (layer F.Cu) (tedit 5B7FD7E8)
   (descr "Resitance 3 pas")
   (tags R)
   (autoplace_cost180 10)
   (fp_text reference ** (at 0 1.651) (layer F.SilkS)
     (effects (font (size 0.8128 0.8128) (thickness 0.15)))
   )
-  (fp_text value "" (at 0 -1.4605) (layer F.SilkS) hide
+  (fp_text value Val** (at 0 -1.4605) (layer F.Fab) hide
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
   (fp_text user ** (at 0 1.651) (layer B.SilkS)
