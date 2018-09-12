@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:corne-classic-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -504,7 +505,7 @@ Text GLabel 5850 1950 0    60   Input ~ 0
 row1
 Text GLabel 5850 2550 0    60   Input ~ 0
 row2
-Text GLabel 7950 3150 0    60   Input ~ 0
+Text GLabel 7925 3150 0    60   Input ~ 0
 row3
 $Comp
 L power:GND #PWR03
@@ -1364,8 +1365,6 @@ Wire Wire Line
 Wire Wire Line
 	1350 4600 1350 4750
 Wire Wire Line
-	7950 3150 8100 3150
-Wire Wire Line
 	5850 2550 6000 2550
 Wire Wire Line
 	5850 1950 6000 1950
@@ -1509,10 +1508,6 @@ Wire Wire Line
 	7025 6825 7025 6675
 Wire Wire Line
 	6425 6175 6425 6325
-Wire Wire Line
-	6425 6325 5825 6325
-Wire Wire Line
-	5825 6325 5825 6175
 Wire Wire Line
 	8325 6475 8225 6475
 Wire Wire Line
@@ -1871,8 +1866,6 @@ Wire Wire Line
 Wire Wire Line
 	6525 6675 6525 6825
 Wire Wire Line
-	6525 6175 6525 6675
-Wire Wire Line
 	6525 5975 6525 6175
 Wire Wire Line
 	6525 5675 6525 5975
@@ -1965,4 +1958,12 @@ Wire Wire Line
 Connection ~ 8900 2250
 Wire Wire Line
 	8900 2250 8900 2850
+Wire Wire Line
+	6425 6325 5825 6325
+Wire Wire Line
+	5825 6175 5825 6325
+Wire Wire Line
+	7925 3150 8100 3150
+Wire Wire Line
+	6525 6175 6525 6675
 $EndSCHEMATC
