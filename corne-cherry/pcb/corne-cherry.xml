@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/Users/adachi-kousuke/src/github.com/foostan/blockbd/blockbd.sch</source>
     <date>2018年01月19日金曜日 23:37:58</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
@@ -653,20 +652,6 @@
       </pins>
     </libpart>
   </libparts>
-  <libraries>
-    <library logical="promicro">
-      <uri>/Users/adachi-kousuke/src/github.com/Biacco42/Ergo42/ergo42/promicro_library/promicro.lib</uri>
-    </library>
-    <library logical="lets_split-cache">
-      <uri>/Users/adachi-kousuke/src/github.com/climbalima/let-s-Split-v2/lets_split/lets_split-cache.lib</uri>
-    </library>
-    <library logical="ergo42">
-      <uri>/Users/adachi-kousuke/src/github.com/Biacco42/Ergo42/ergo42/library/ergo42.lib</uri>
-    </library>
-    <library logical="device">
-      <uri>/Users/adachi-kousuke/src/github.com/KiCad/kicad-library/library/device.lib</uri>
-    </library>
-  </libraries>
   <nets>
     <net code="1" name="VCC">
       <node ref="J1" pin="1"/>
