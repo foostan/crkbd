@@ -1,8 +1,8 @@
-(module ResetSW (layer F.Cu) (tedit 5B7AC7CD)
-  (fp_text reference RSW1 (at 0.265 0.73) (layer F.SilkS) hide
+(module ResetSW (layer F.Cu) (tedit 5B9559E6)
+  (fp_text reference RSW1 (at 0 2.55) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value "" (at 0 0) (layer F.SilkS)
+  (fp_text value Val** (at 0 -2.55) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text user RESET (at 0.127 0) (layer B.SilkS)
