@@ -171,4 +171,35 @@ Detecting USB port, reset your controller now........
 以上で完成です。
 
 ## LED（オプション）
-整備中
+SK6812MINIを取り付けていきます。
+
+SK6812MINIは非常に熱に弱く、簡単に壊れます。
+温調機能がついたはんだごてを利用し、220℃ ~ 270℃ぐらいの温度で作業することをおすすめします。
+また温度を調整しても長い時間コテをLEDに当てていると破損するので、なるべくすばやくはんだづけすることを心がけます。
+LEDは４つずつはんだづけを行いますが、一度に４つ行わず、２つずつ行ってLEDの温度の上昇を防ぐと破損しづらくなるのでおすすめです。
+
+まずは取り付ける位置の確認です。
+
+1 ~ 6は裏面側(Undergrow)が光るようにし、7 ~ 27は表側（Backlight）が光るようにはんだづけを行います。下記がLEDを取り付ける位置です。
+
+![23](https://user-images.githubusercontent.com/736191/46822561-c6f58d00-cdc6-11e8-90d4-de015410a7a4.png)
+![24](https://user-images.githubusercontent.com/736191/46822569-cc52d780-cdc6-11e8-9602-f6265a2c876d.png)
+
+1 ~ 6 は下記のように丸印で囲った黒い部分を下にしたとき、矢印で示したシルクの目印が上になるようにはんだづけを行います。
+1 ~ 3 と 4 ~ 5 で向きが変わるので注意してください。
+
+![26](https://user-images.githubusercontent.com/736191/46822428-6d8d5e00-cdc6-11e8-8858-06e8dbdb8ee8.png)
+
+7 ~ 27 は下記のように、丸印で囲った一番大きなパッドと、矢印で示したシルクの目印が隣り合うようにはんだづけを行います。
+
+![30](https://user-images.githubusercontent.com/736191/46822434-6ebe8b00-cdc6-11e8-9686-69ac88bb4389.png)
+
+すべて正常にはんだづけができれば下記のように光ります。
+もし途中までしか光らない場合は数字の順番でLEDがつながっているので、光らないLEDもしくはその前のLEDのはんだづけミスやLEDの破損を疑ってください。
+
+![31](https://user-images.githubusercontent.com/736191/46822435-6ebe8b00-cdc6-11e8-892b-dc785fede9ea.JPG)
+
+これで完成です。
+
+![32](https://user-images.githubusercontent.com/736191/46822437-6ebe8b00-cdc6-11e8-8754-aa3438a2eb7b.JPG)
+
