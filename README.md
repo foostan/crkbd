@@ -4,10 +4,8 @@ Crkbd stands for Corne Keyboard.
 
 ## Lineups
 - corne-classic
-- [Not public] corne-cherry: Hotswappable corne for CherryMX switches by kailh PCB sockets.
-- [Not public] corne-chocolate: Hotswappable corne for Chocolate switches by kailh PCB sockets.
-
-Will publish the prev version on MIT License when released new versions at the store.
+- corne-cherry: Hotswappable corne for CherryMX switches by kailh PCB sockets.
+- [wip] corne-chocolate: Hotswappable corne for Chocolate switches by kailh PCB sockets.
 
 ## Photos
 ![01](https://user-images.githubusercontent.com/736191/43596506-7628b2aa-96ba-11e8-9799-a18d90477979.png)
