@@ -142,7 +142,7 @@ ProMicroとOLEDモジュールを付けた段階で動作確認をすること�
 ## ファームウェア
 https://docs.qmk.fm/#/newbs_getting_started こちらを参照して頂き、ファームウェアを書き込む環境を用意します。
 
-環境ができましたら、下記コマンドで Let's Split 用にファームウェアをビルドします。
+環境ができましたら、下記コマンドで Crkbd 用にファームウェアをビルドします。
 
 ```
 make crkbd:default
