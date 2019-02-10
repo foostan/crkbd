@@ -32,6 +32,10 @@
 
 ![01](https://user-images.githubusercontent.com/736191/46775572-c3202700-cd42-11e8-8097-9daa71bccc98.JPG)
 
+## 事前準備
+実装の途中でProMicroにファームを入れる作業がありますが、ファームをビルドする環境を整備するのは時間がかかるのではじめに取り掛かっておくことをおすすめします。
+https://docs.qmk.fm/#/newbs_getting_started こちら等を参考にし、OSに合わせて必要なものをインストールしておきます(インストールに時間がかかるため動かしつつ実装を進めると効率的です)。
+
 ## 実装
 
 PCBはリバーシブルになっているので、最初にどちらを左用/右用にするか決めます。
@@ -97,6 +101,8 @@ OLEDモジュールを利用する場合は下記のようにジャンパしま�
 ![11](https://user-images.githubusercontent.com/736191/46775622-0a0e1c80-cd43-11e8-9910-49b81db92c02.JPG)
 ![12](https://user-images.githubusercontent.com/736191/46775623-0aa6b300-cd43-11e8-826c-d6422070ddea.JPG)
 
+なおスプリングピンヘッダを利用する場合は [Helix のビルドガイド](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro)を参考にしてください。
+
 ### OLEDモジュール
 OLED用のピンソケットにピンヘッダを先に差し込み、その後からピンヘッダとOLEDモジュールをはんだづけします。
 このときOLEDモジュールが浮きやすいので指で押さえつけながら浮かないように気をつけます。
@@ -114,7 +120,7 @@ ProMicroとOLEDモジュールを付けた段階で動作確認をすること�
 ![15](https://user-images.githubusercontent.com/736191/46775628-0b3f4980-cd43-11e8-96d1-59b20da62e5b.JPG)
 
 ### Kailh PCBソケット
-裏面の両側のパッドにはんだを盛ります。後から追加するのが難しいので予め多めに持ってください。
+裏面の両側のパッドにはんだを盛ります。後から追加するのが難しいので予め多めに盛ってください。
 
 ![16](https://user-images.githubusercontent.com/736191/46775629-0b3f4980-cd43-11e8-83e2-ca51572f95d0.JPG)
 
