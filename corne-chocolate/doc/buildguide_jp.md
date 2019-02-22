@@ -1,5 +1,8 @@
 # Build Guide
 
+こちらは Corne Chocolate のビルドガイドになります。
+[Corne Cherry はこちら](https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/buildguide_jp.md)。
+
 ## 部品
 ### 必須
 | 名前 | 数 | 備考 | 
