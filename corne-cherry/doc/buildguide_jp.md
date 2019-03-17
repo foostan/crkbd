@@ -34,7 +34,7 @@
 |:-|:-|:-|
 | SK6812MINI | 54個 | 上向き実装 42個、下向き実装 12個 |
 
-![01](https://user-images.githubusercontent.com/736191/46775572-c3202700-cd42-11e8-8097-9daa71bccc98.JPG)
+![01](https://user-images.githubusercontent.com/736191/54487431-789a6c00-48d9-11e9-9390-a8510b19ba34.jpg)
 
 ## 事前準備
 実装の途中でProMicroにファームを入れる作業がありますが、ファームをビルドする環境を整備するのは時間がかかるのではじめに取り掛かっておくことをおすすめします。
@@ -44,7 +44,7 @@ https://docs.qmk.fm/#/newbs_getting_started こちら等を参考にし、OSに�
 
 PCBはリバーシブルになっているので、最初にどちらを左用/右用にするか決めます。
 
-![02](https://user-images.githubusercontent.com/736191/46775606-024e7800-cd43-11e8-8792-90b0c3c9d060.JPG)
+![02](https://user-images.githubusercontent.com/736191/54487432-789a6c00-48d9-11e9-87ea-3595b2f3ecc2.jpg)
 
 ### ダイオード
 
@@ -54,39 +54,39 @@ PCBはリバーシブルになっているので、最初にどちらを左用/�
 チップ部品は非常に小さいためピンセット及び逆作用ピンセットがあると作業がしやすくなります。
 **ダイオードは取り付ける向きが決まっている**ので、次の写真のように予め取り付ける列と行、ダイオードの向きを揃えて配置しておくとスムーズに進められます。
 
-![03](https://user-images.githubusercontent.com/736191/46775611-04b0d200-cd43-11e8-8f73-919256c0064d.JPG)
+![03](https://user-images.githubusercontent.com/736191/54487433-789a6c00-48d9-11e9-991b-92264a793ec9.jpg)
 
 ダイオードの向きは次のとおりです。チップ部品の「|||」印が、ダイオードマーク「|◁」の「|」の方に向けるように取り付けます。 
 
-![04](https://user-images.githubusercontent.com/736191/46775614-08dcef80-cd43-11e8-907c-7fc853d06b8b.JPG)
+![04](https://user-images.githubusercontent.com/736191/54487434-79330280-48d9-11e9-82be-a9d98803a417.jpg)
 
 チップ部品を取り付けるコツですが、まずは予備ハンダとしてパッドの右側のみにハンダを盛ります。
 
-![05](https://user-images.githubusercontent.com/736191/46775615-09758600-cd43-11e8-9fa4-c78af441bb6f.JPG)
+![05](https://user-images.githubusercontent.com/736191/54487435-79330280-48d9-11e9-9138-525d8ee68144.jpg)
 
 次に予備ハンダを溶かすようにしてダイオードの片足をはんだ付けします。
 このとき、逆作用ピンセットを利用すると力を入れずともチップ部品をしっかりと持つことができ、位置合わせとはんだづけに集中できるのでおすすめです。
 またはんだごてがあつすぎたり、はんだを触りすぎたりするとはんだに含まれるフラックスが気化してきれいにはんだの山ができることがありますが、あとで修復できるのでこの時点ではパーツを付けることだけを意識すれば大丈夫です。
 
-![06](https://user-images.githubusercontent.com/736191/46775616-09758600-cd43-11e8-9cc5-c4f5e49dc578.JPG)
+![06](https://user-images.githubusercontent.com/736191/54487436-79330280-48d9-11e9-856e-f3f5b9f58414.jpg)
 
 片足をつけた段階で横から見てダイオードが浮いていなければ大丈夫です。浮いてしまった場合はダイオードをピンセットや指で押さえつけながらはんだごてではんだづけした部分を再度熱すればきれいになります。
 
-![07](https://user-images.githubusercontent.com/736191/46775618-09758600-cd43-11e8-8305-83972952d307.JPG)
+![07](https://user-images.githubusercontent.com/736191/54487437-79330280-48d9-11e9-996d-a578e767c12c.jpg)
 
 次にもう片方をはんだづけします。少量のはんだで十分なのでつけすぎに注意します。
 つけすぎてしまった場合は吸い取り線で取るか、はんだごてですくうようにすれば取れます。
 
 また予備はんだ側のはんだの量が少ない場合は追加ではんだづけを重ねて行い、山になっている場合はフラックスを上から塗って熱すればきれいになります。
 
-![08](https://user-images.githubusercontent.com/736191/46776208-93bee980-cd45-11e8-82e2-db25e1070ef4.JPG)
+![08](https://user-images.githubusercontent.com/736191/54487438-79cb9900-48d9-11e9-9280-dc72a2087307.jpg)
 
 ### TRRSジャック、リセットスイッチ
 
 下記の写真通りにTRRSジャック、リセットスイッチをPCBの表面にはんだづけします。
 このビルドガイドではダイオードを裏側につけているので、その反対側の面になります。
 
-![09](https://user-images.githubusercontent.com/736191/46775620-0a0e1c80-cd43-11e8-92b4-99a3d63caa16.JPG)
+![09](https://user-images.githubusercontent.com/736191/54487439-79cb9900-48d9-11e9-9a57-80697fa8b484.jpg)
 
 ### OLEDモジュールのためのジャンパとピンソケット
 OLEDモジュールを利用する場合は下記のようにジャンパします。
@@ -94,7 +94,7 @@ OLEDモジュールを利用する場合は下記のようにジャンパしま�
 
 ピンソケットも同じ面にはんだづけします。
 
-![10](https://user-images.githubusercontent.com/736191/46775621-0a0e1c80-cd43-11e8-9ef3-c5c01879eb90.JPG)
+![10](https://user-images.githubusercontent.com/736191/54487440-79cb9900-48d9-11e9-95a7-750251e83a89.jpg)
 
 ジャンパがうまくいかない場合はおそらくはんだの量が少ないか、はんだに含まれるフラックスが気化してしまっています。
 その場合は、はんだを多めに使うか、別途フラックスを塗るとうまくジャンパができます。
@@ -102,8 +102,8 @@ OLEDモジュールを利用する場合は下記のようにジャンパしま�
 ### ProMicro
 ピンヘッダを白い枠に当てはめるようにはんだづけし、そこにProMicroの裏面を上にしてはんだづけします。
 
-![11](https://user-images.githubusercontent.com/736191/46775622-0a0e1c80-cd43-11e8-9910-49b81db92c02.JPG)
-![12](https://user-images.githubusercontent.com/736191/46775623-0aa6b300-cd43-11e8-826c-d6422070ddea.JPG)
+![11](https://user-images.githubusercontent.com/736191/54487441-79cb9900-48d9-11e9-9317-e77c4c408a4f.jpg)
+![12](https://user-images.githubusercontent.com/736191/54487442-7a642f80-48d9-11e9-85f6-469d8beaa9c0.jpg)
 
 なおスプリングピンヘッダを利用する場合は [Helix のビルドガイド](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro)を参考にしてください。
 
@@ -111,8 +111,8 @@ OLEDモジュールを利用する場合は下記のようにジャンパしま�
 OLED用のピンソケットにピンヘッダを先に差し込み、その後からピンヘッダとOLEDモジュールをはんだづけします。
 このときOLEDモジュールが浮きやすいので指で押さえつけながら浮かないように気をつけます。
 
-![13](https://user-images.githubusercontent.com/736191/46775624-0aa6b300-cd43-11e8-8f83-7acc5e0a407c.JPG)
-![14](https://user-images.githubusercontent.com/736191/46775627-0aa6b300-cd43-11e8-8849-ba0d776692e3.JPG)
+![13](https://user-images.githubusercontent.com/736191/54487443-7a642f80-48d9-11e9-818a-4913b8abe986.jpg)
+![14](https://user-images.githubusercontent.com/736191/54487445-7a642f80-48d9-11e9-9bb0-f753a5e4720b.jpg)
 
 ### 動作確認
 ProMicroとOLEDモジュールを付けた段階で動作確認をすることをおすすめします(一番最後にやると問題の切り分けが難しくなる)。
@@ -121,33 +121,33 @@ ProMicroとOLEDモジュールを付けた段階で動作確認をすること�
 
 動作確認は左手側はMicroUSBでPCとつなぎ、左手側と右手側をTRSケーブルで接続させて行います。ジャック等の不良等もありえるので、片方ずつではなく必ず左右を接続させてから動作確認をしてください。ここまで正しくできていれば、PCBソケットを取り付けるパッドをピンセット等でショートさせるとOLEDモジュールに押されたキーが表示されます。
 
-![15](https://user-images.githubusercontent.com/736191/46775628-0b3f4980-cd43-11e8-96d1-59b20da62e5b.JPG)
+![15](https://user-images.githubusercontent.com/736191/54487446-7a642f80-48d9-11e9-8bd2-2b413e3e080a.jpg)
 
 ### Kailh PCBソケット
 裏面の両側のパッドにはんだを盛ります。後から追加するのが難しいので予め多めに盛ってください。
 
-![16](https://user-images.githubusercontent.com/736191/46775629-0b3f4980-cd43-11e8-83e2-ca51572f95d0.JPG)
+![16](https://user-images.githubusercontent.com/736191/54487447-7afcc600-48d9-11e9-91cb-edd541365180.jpg)
 
 ソケットをはめこみ、持ったはんだを溶かすようにして取り付けます。
 このときソケットが浮かないようにピンセットや指で押さえつけながら行います。
 
-![17](https://user-images.githubusercontent.com/736191/46775631-0b3f4980-cd43-11e8-9542-1cc8677782dd.JPG)
+![17](https://user-images.githubusercontent.com/736191/54487448-7afcc600-48d9-11e9-8e72-0449937a2310.jpg)
 
 はんだづけはこれで完了です。
 オプションでLEDを付ける場合は下記の「LED」の章を参照してください（ソケットを取り付けた後でも付けれられます）。
 
-![18](https://user-images.githubusercontent.com/736191/46775632-0b3f4980-cd43-11e8-89a2-dda788a3e35b.JPG)
+![18](https://user-images.githubusercontent.com/736191/54487449-7afcc600-48d9-11e9-9428-0b949a07afc4.jpg)
 
 ### プレート、スイッチ
 
 先にスイッチをトッププレートにはめこみます。
 あとからでもいいですが、スイッチのはめこみは多少ちからを入れる必要があるので、先にはめておいたほうが楽です。
 
-![20](https://user-images.githubusercontent.com/736191/46775633-0bd7e000-cd43-11e8-9dc8-f66a0c14a258.JPG)
+![19](https://user-images.githubusercontent.com/736191/54487450-7afcc600-48d9-11e9-8160-de5b9c6a405b.jpg)
 
 最後にトッププレート、PCB、ボトムプレートの順になるように、ネジでスペーサを取り付けて、四隅にクッションゴムを取り付ければ完成です。
 
-![21](https://user-images.githubusercontent.com/736191/46775634-0bd7e000-cd43-11e8-9523-54ebc370aa37.JPG)
+![20](https://user-images.githubusercontent.com/736191/54487451-7afcc600-48d9-11e9-8c90-2f2919bf9483.jpg)
 
 ## ファームウェア
 https://docs.qmk.fm/#/newbs_getting_started こちらを参照して頂き、ファームウェアを書き込む環境を用意します。
@@ -192,24 +192,24 @@ LEDは４つずつはんだづけを行いますが、一度に４つ行わず�
 
 1 ~ 6は裏面側(Undergrow)が光るようにし、7 ~ 27は表側（Backlight）が光るようにはんだづけを行います。下記がLEDを取り付ける位置です。
 
-![23](https://user-images.githubusercontent.com/736191/46822561-c6f58d00-cdc6-11e8-90d4-de015410a7a4.png)
-![24](https://user-images.githubusercontent.com/736191/46822569-cc52d780-cdc6-11e8-9602-f6265a2c876d.png)
+![21](https://user-images.githubusercontent.com/736191/54487452-7b955c80-48d9-11e9-98f7-87490a584274.png)
+![22](https://user-images.githubusercontent.com/736191/54487455-7b955c80-48d9-11e9-9498-c841747c5dbc.png)
 
 1 ~ 6 は下記のように丸印で囲った黒い部分を下にしたとき、矢印で示したシルクの目印が上になるようにはんだづけを行います。
 1 ~ 3 と 4 ~ 5 で向きが変わるので注意してください。
 
-![26](https://user-images.githubusercontent.com/736191/46822428-6d8d5e00-cdc6-11e8-8858-06e8dbdb8ee8.png)
+![23](https://user-images.githubusercontent.com/736191/54487456-7b955c80-48d9-11e9-8541-cecb8c7dc97b.png)
 
 7 ~ 27 は下記のように、丸印で囲った一番大きなパッドと、矢印で示したシルクの目印が隣り合うようにはんだづけを行います。
 
-![30](https://user-images.githubusercontent.com/736191/46822434-6ebe8b00-cdc6-11e8-9686-69ac88bb4389.png)
+![24](https://user-images.githubusercontent.com/736191/54487457-7b955c80-48d9-11e9-882d-59ff506d5f02.png)
 
 すべて正常にはんだづけができれば下記のように光ります。
 もし途中までしか光らない場合は数字の順番でLEDがつながっているので、光らないLEDもしくはその前のLEDのはんだづけミスやLEDの破損を疑ってください。
 
-![31](https://user-images.githubusercontent.com/736191/46822435-6ebe8b00-cdc6-11e8-892b-dc785fede9ea.JPG)
+![25](https://user-images.githubusercontent.com/736191/54487458-7c2df300-48d9-11e9-9582-88a60d5b71c0.jpg)
 
 これで完成です。
 
-![32](https://user-images.githubusercontent.com/736191/46822437-6ebe8b00-cdc6-11e8-8754-aa3438a2eb7b.JPG)
+![26](https://user-images.githubusercontent.com/736191/54487459-7c2df300-48d9-11e9-8f3c-2c480cef3b03.jpg)
 
