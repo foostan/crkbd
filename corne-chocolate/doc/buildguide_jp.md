@@ -57,7 +57,7 @@ Corne Cherryではどちらの面に取り付けるかは自由でしたが、Co
 
 ダイオードの向きは次のとおりです。チップ部品の「|||」印が、ダイオードマーク「|◁」の「|」の方に向けるように取り付けます(画像はCorne Cherryから転記)。 
 
-![03](https://user-images.githubusercontent.com/736191/46775614-08dcef80-cd43-11e8-907c-7fc853d06b8b.JPG)
+![03](https://user-images.githubusercontent.com/736191/54487560-cb285800-48da-11e9-9e1e-aafaacf5723c.jpg)
 
 チップ部品を取り付けるコツですが、まずは予備ハンダとしてパッドの右側のみにハンダを盛ります。
 
