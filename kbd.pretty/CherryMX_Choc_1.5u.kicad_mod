@@ -1,14 +1,14 @@
-(module CherryMX_Choc_1u (layer F.Cu) (tedit 5C66D612)
-  (fp_text reference SW6 (at 4.6 6) (layer Dwgs.User) hide
+(module CherryMX_Choc_1.5u (layer F.Cu) (tedit 5C66D673)
+  (fp_text reference SW21 (at 4.6 6) (layer Dwgs.User) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value SW_PUSH (at -0.5 6) (layer Dwgs.User) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_line (start -9.525 -9.525) (end 9.525 -9.525) (layer Dwgs.User) (width 0.15))
-  (fp_line (start 9.525 -9.525) (end 9.525 9.525) (layer Dwgs.User) (width 0.15))
-  (fp_line (start 9.525 9.525) (end -9.525 9.525) (layer Dwgs.User) (width 0.15))
-  (fp_line (start -9.525 9.525) (end -9.525 -9.525) (layer Dwgs.User) (width 0.15))
+  (fp_line (start -14.2875 -9.525) (end 14.2875 -9.525) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 14.2875 -9.525) (end 14.2875 9.525) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 14.2875 9.525) (end -14.2875 9.525) (layer Dwgs.User) (width 0.15))
+  (fp_line (start -14.2875 9.525) (end -14.2875 -9.525) (layer Dwgs.User) (width 0.15))
   (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
   (fp_line (start -7 -7) (end -6 -7) (layer Dwgs.User) (width 0.15))
   (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
