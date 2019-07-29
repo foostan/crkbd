@@ -1,4 +1,4 @@
-(module HOLE (layer F.Cu) (tedit 5B7ABFA8)
+(module HOLE (layer F.Cu) (tedit 5CC0625B)
   (descr "Mounting Hole 2.2mm, no annular, M2")
   (tags "mounting hole 2.2mm no annular m2")
   (attr virtual)
