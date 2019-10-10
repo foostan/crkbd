@@ -149,14 +149,17 @@ Comparing pin-headers in the picture. Headers come with OLED available at Yusha-
 
 
 ### Testing
-It is recommended to test the ProMicro and OLED modules before installing key switches because rework would be difficult after that.
+It is recommended to test the ProMicro and OLED modules before installing keyswitches because rework would be difficult after that.
 
-First, build QMK Firmware for built for Crkbd and install on ProMicro.
+First, build QMK Firmware for built for Crkbd and install on ProMicro (if you haven't already done so).
 
 ![image](https://user-images.githubusercontent.com/736191/40888832-0d793c3a-6798-11e8-93b4-55ec7e180748.png)
 
-Using the default keymap, OLED will show information on the keyswitches being pressed. Check the connections by short-circuiting key-switch soldering pads with tweezers. Check all of them.
-If you have mounted LEDs, also make sure all of them are turned on.
+Using the default keymap, OLED will show information on the keyswitches being pressed. Check the connections by short-circuiting keyswitch soldering pads with tweezers or a bit of soldering wire. Check all of them.
+
+If you have OLED displays, you can verify that all keys are responding by looking at the log information showed there. It will say which row and column was pressed, e.g. `1x5` or `0x2`. Using the tweezers or wire, connect each buttons soldering pads and make sure the display changes. If something isn't working, take note of the which row x column it is that isn't working, as it can help when troubleshooting.
+
+If you have mounted LEDs, also make sure all of them are turned on. As note before, the default firmware has LEDs __turned off__, so you have to turn them on in the firmware before you test.
 
 ![image](https://user-images.githubusercontent.com/736191/40888868-73028d36-6798-11e8-8246-0c9ca32711d6.png)
 
