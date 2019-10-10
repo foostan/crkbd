@@ -210,5 +210,12 @@ Detecting USB port, reset your controller now........
 
 Flash the firmware to the other side as well.
 
+### Turning LEDS on
+To turn the LEDs on, you have to edit the `rules.mk` file. If you use the default layout, it can be found here `keyboards/crkbd/keymaps/default/rules.mk`. Add the following line to the top of the file:
+```
+RGBLIGHT_ENABLED = yes
+```
+
+Compile and flash to both sides and all LEDs should turn on and __glow red__ if you have soldered everything correctly. If you run the default firmware and the LEDs turn a differrent color, the data to the LEDs is probably corrupted somewhere along the way. Check the LED before the first one turning a different color using the troubleshooting guide below.
 
 That's it.
