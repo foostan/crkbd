@@ -52,6 +52,7 @@ __For Low Profile Keyswitches__
 If you use low profile keyswitches, you have to implement SMD diodes __on the back side__.
 Otherwise, diodes will interfere with top plate.
 
+As with normal diodes, [SMD diodes have polarity](https://learn.sparkfun.com/tutorials/polarity/diode-and-led-polarity). The lines on the SMD diode should be on the same side as the line on the PCB silkscreen.
 
 ### LEDs (Optional)
 
