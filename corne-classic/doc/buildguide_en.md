@@ -61,18 +61,23 @@ Implement LEDs under keyswitches (No. 7 through 27) upward facing, and others (N
 ![image](https://user-images.githubusercontent.com/736191/40731604-62cee61e-646c-11e8-865f-829a48fa6be0.png)
 
 For No.7 to 27 LEDs, __Install LEDs from the back side__ as shown below.
-Note the '**o**' silkscreen marking and use them as a guide to implement LEDs in the direction.
+Note the '**o**' silkscreen marking and use them as a guide to implement LEDs in the direction. On some versions  of the PCB (e.g. Corne-cherry v2), the '**o**' silkscreen marking has been replaced by a white square around one of the pads, but the principle is still the same.
 
 ![image](https://user-images.githubusercontent.com/736191/40731605-62f840a4-646c-11e8-99d5-b3bdff709e9d.png)
 
+The LED has one pad that is shaped like a square. That square should connect to the pad that has the '**o**' silkscreen marking:
+
+![image](https://user-images.githubusercontent.com/5037505/65895453-ca08d500-e3ab-11e9-81f3-1e03aa1fe547.jpg)
+
+There are many different techniques on how to solder the LEDs, but [this video](https://twitter.com/foostan/status/1005656803818889216) might give you an idea on how to do it.
 
 For No. 1 to 6 LEDs, solder the pattern on the side of the device (highlighted in pink on the picture) and the PCB pattern(blue on the picture). Apply flux and take small amount of solder with a soldering iron and press it on the edge of the patterns.
-
 
 ![image](https://user-images.githubusercontent.com/736191/40733058-c0558402-646f-11e8-9718-e579fab4aaf5.png)
 
 LEDs are connected in the order of the number on the picture above. If it turns on only halfway, it is likely that first LED that doesn't turn on or the last LED that turns on is not implemented correctly.
 
+__Note__ that the default Crkbd firmware has __LEDs turned off__, so you'll have to turn them on before you can test (see the firmware section for instructions how).
 
 ### Jumpers for OLED modules (optional)
 To use OLED modules, short circuit the jumper patterns.
