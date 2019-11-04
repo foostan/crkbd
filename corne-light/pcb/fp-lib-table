@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name locallib)(type KiCad)(uri /Users/foostan/src/github.com/foostan/crkbd-secret/corne-plus/locallib.pretty)(options "")(descr ""))
+  (lib (name MX_Alps_Hybrid)(type KiCad)(uri /Users/foostan/src/github.com/foostan/crkbd-secret/corne-plus/MX_Alps_Hybrid.pretty)(options "")(descr ""))
+)
