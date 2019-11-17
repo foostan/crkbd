@@ -1,4 +1,4 @@
-16764661269845790
+16769380188156790
 Alps_Only
 ALPS-1.5U
 
@@ -49371,6 +49371,13 @@ Jumper
 2
 2
 kbd
+keyswitch_hole
+
+
+0
+2
+2
+kbd
 LED_WS2812B-PLCC4
 http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf
 LED NeoPixel
@@ -49391,6 +49398,13 @@ mounting hole 2.2mm no annular m2
 0
 1
 0
+kbd
+M2_HOLE_v3
+Mounting Hole 2.2mm, no annular, M2
+mounting hole 2.2mm no annular m2
+0
+9
+1
 kbd
 M2_Threads_v2
 Mounting Hole 2.2mm, no annular, M2
@@ -49545,6 +49559,13 @@ StripLED_rev
 0
 6
 3
+kbd
+SW_Hole_TH
+
+
+0
+4
+1
 kbd
 waffle
 
