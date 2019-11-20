@@ -52,6 +52,7 @@ __For Low Profile Keyswitches__
 If you use low profile keyswitches, you have to implement SMD diodes __on the back side__.
 Otherwise, diodes will interfere with top plate.
 
+As with normal diodes, [SMD diodes have polarity](https://learn.sparkfun.com/tutorials/polarity/diode-and-led-polarity). The lines on the SMD diode should be on the same side as the line on the PCB silkscreen.
 
 ### LEDs (Optional)
 
@@ -60,18 +61,23 @@ Implement LEDs under keyswitches (No. 7 through 27) upward facing, and others (N
 ![image](https://user-images.githubusercontent.com/736191/40731604-62cee61e-646c-11e8-865f-829a48fa6be0.png)
 
 For No.7 to 27 LEDs, __Install LEDs from the back side__ as shown below.
-Note the '**o**' silkscreen marking and use them as a guide to implement LEDs in the direction.
+Note the '**o**' silkscreen marking and use them as a guide to implement LEDs in the direction. On some versions  of the PCB (e.g. Corne-cherry v2), the '**o**' silkscreen marking has been replaced by a white square around one of the pads, but the principle is still the same.
 
 ![image](https://user-images.githubusercontent.com/736191/40731605-62f840a4-646c-11e8-99d5-b3bdff709e9d.png)
 
+The LED has one pad that is shaped like a square. That square should connect to the pad that has the '**o**' silkscreen marking:
+
+![image](https://user-images.githubusercontent.com/5037505/65895453-ca08d500-e3ab-11e9-81f3-1e03aa1fe547.jpg)
+
+There are many different techniques on how to solder the LEDs, but [this video](https://twitter.com/foostan/status/1005656803818889216) might give you an idea on how to do it.
 
 For No. 1 to 6 LEDs, solder the pattern on the side of the device (highlighted in pink on the picture) and the PCB pattern(blue on the picture). Apply flux and take small amount of solder with a soldering iron and press it on the edge of the patterns.
-
 
 ![image](https://user-images.githubusercontent.com/736191/40733058-c0558402-646f-11e8-9718-e579fab4aaf5.png)
 
 LEDs are connected in the order of the number on the picture above. If it turns on only halfway, it is likely that first LED that doesn't turn on or the last LED that turns on is not implemented correctly.
 
+__Note__ that the default Crkbd firmware has __LEDs turned off__, so you'll have to turn them on before you can test (see the firmware section for instructions how).
 
 ### Jumpers for OLED modules (optional)
 To use OLED modules, short circuit the jumper patterns.
@@ -88,10 +94,13 @@ For OLEDs, also implement pin sockets.
 
 ### ProMicro
 
-Implement pin headers in the white frame, then install ProMicro with its backside up. (The picture is the right hand side, but it's the same for the left hand side - pins into the through holes in the white frame, backside up.)
+Before you start, flash the Crkbd firmware to the ProMicros to make sure they are alright.
 
+The ProMicro is then installed __in the set of wholes that has a white frame on the frontside of the PCB__. Make sure you solder it in the right set of holes, as desoldering the ProMicro is hard. Implement pin headers in the white frame, then install ProMicro with its __backside up__.
 
 ![image](https://user-images.githubusercontent.com/736191/40737973-3f404de4-647d-11e8-84fe-37f3a34e4c53.png)
+
+The picture is the right hand side, but it's the same for the left hand side - pins into the through holes in the white frame as seen from the frontside, placing the ProMicro with its backside up.
 
 ### OLED Module
 Implement pin header onto the OLED modules, then insert them into the pin sockets.
@@ -149,14 +158,17 @@ Comparing pin-headers in the picture. Headers come with OLED available at Yusha-
 
 
 ### Testing
-It is recommended to test the ProMicro and OLED modules before installing key switches because rework would be difficult after that.
+It is recommended to test the ProMicro and OLED modules before installing keyswitches because rework would be difficult after that.
 
-First, build QMK Firmware for built for Crkbd and install on ProMicro.
+First, build QMK Firmware for built for Crkbd and install on ProMicro (if you haven't already done so).
 
 ![image](https://user-images.githubusercontent.com/736191/40888832-0d793c3a-6798-11e8-93b4-55ec7e180748.png)
 
-Using the default keymap, OLED will show information on the keyswitches being pressed. Check the connections by short-circuiting key-switch soldering pads with tweezers. Check all of them.
-If you have mounted LEDs, also make sure all of them are turned on.
+Using the default keymap, OLED will show information on the keyswitches being pressed. Check the connections by short-circuiting keyswitch soldering pads with tweezers or a bit of soldering wire. Check all of them.
+
+If you have OLED displays, you can verify that all keys are responding by looking at the log information showed there. It will say which row and column was pressed, e.g. `1x5` or `0x2`. Using the tweezers or wire, connect each buttons soldering pads and make sure the display changes. If something isn't working, take note of the which row x column it is that isn't working, as it can help when troubleshooting.
+
+If you have mounted LEDs, also make sure all of them are turned on. As note before, the default firmware has LEDs __turned off__, so you have to turn them on in the firmware before you test.
 
 ![image](https://user-images.githubusercontent.com/736191/40888868-73028d36-6798-11e8-8246-0c9ca32711d6.png)
 
@@ -210,5 +222,12 @@ Detecting USB port, reset your controller now........
 
 Flash the firmware to the other side as well.
 
+### Turning LEDS on
+To turn the LEDs on, you have to edit the `rules.mk` file. If you use the default layout, it can be found here `keyboards/crkbd/keymaps/default/rules.mk`. Add the following line to the top of the file:
+```
+RGBLIGHT_ENABLED = yes
+```
+
+Compile and flash to both sides and all LEDs should turn on and __glow red__ if you have soldered everything correctly. If you run the default firmware and the LEDs turn a differrent color, the data to the LEDs is probably corrupted somewhere along the way. Check the LED before the first one turning a different color using the troubleshooting guide below.
 
 That's it.
