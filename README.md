@@ -17,3 +17,5 @@ Crkbd stands for Corne Keyboard.
 ![chocolate_02](https://user-images.githubusercontent.com/736191/49698493-06462b80-fc08-11e8-95fd-8d18763b38ff.jpg)
 ![classic_01](https://user-images.githubusercontent.com/736191/43596530-8330e31e-96ba-11e8-8aee-4956470d2c3b.png)
 ![classic_02](https://user-images.githubusercontent.com/736191/43596538-8ab6be6a-96ba-11e8-90c5-13edd2eb7fb4.png)
+![light_01](https://user-images.githubusercontent.com/736191/69654854-d615c800-10b8-11ea-8903-ebf019d7b125.png)
+![light_02](https://user-images.githubusercontent.com/736191/69654882-df069980-10b8-11ea-8efe-069b68db3bc0.png)
