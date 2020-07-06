@@ -230,4 +230,36 @@ RGBLIGHT_ENABLE = yes
 
 Compile and flash to both sides and all LEDs should turn on and __glow red__ if you have soldered everything correctly. If you run the default firmware and the LEDs turn a differrent color, the data to the LEDs is probably corrupted somewhere along the way. Check the LED before the first one turning a different color using the troubleshooting guide below.
 
-That's it.
+## Troubleshooting
+Here are some tips and tricks on how to troubleshot a board that is not working.
+
+### No LEDs turn on
+There are a number of things that might be wrong. First of all, make sure you have __turned on LED lighting in the firmware__. If that is the case, then chances are there might be a problem with the first LED. Try the suggestions in the next section.
+
+### Some LEDs not turning on
+If some LEDs aren't turning on, check the first LED not turning on __or__ the one before it.
+
+![LED numbering on the PCB](https://user-images.githubusercontent.com/736191/40731604-62cee61e-646c-11e8-865f-829a48fa6be0.png)
+
+Here are some things to try out:
+- Make sure the LED is soldered correctly. Check the pads to see if it looks like they have a proper connection.
+- Check the LED orientation. Use the pictures above the see the correct orientation. Since the first LED is soldered with its back against the PCB, you might have to determinewhat the orientation should look like from the front using LEDs 7-27 (just double check that they are oriented correctly first).
+- If both of the above looks good, chances are the LED was damaged during soldering. Either replace it directly or use the diod mode of a multimeter to test the connectivity. One way to do this is by simply comparing to some of the other LEDs you have soldered. Choose two of the LED's pads (out of the four available) and compare the reading to that of some of the other LEDs (taking care to measure the same pads with the same needles of your multimeter). Work your way through all combinations of pads and needles. If the differ, you either have a broken LED or bad connectivity. Or simply desolder the LED directly, might be quicker. :)
+
+### A full row/column of keys not working
+If a full row or column of keys is not working, then the culprit is most likely the connection between the PCB and the ProMicro. Check your soldering and make sure there's a proper connection and that you have soldered the ProMicro in the right set of holes. If soldering looks okay, then your ProMicro might be damaged. You can exclude the possibility of problems with the PCB, paths and diodes by short circuiting the pins on the ProMicro directly using a bit of wire. Connecting one row pin with one column pin should result in the corresponding key. Some PCBs have silkscreen print indicating which pin is which row or column, to make this process easier.
+
+### Random key(s) not working
+If it is not a full row or column of keys that are not working, the issue is most likely that there's no connection between the key and the ProMicro. There are multiple places where the connection can get interupted:
+
+- between keyswitch and PCB (if you have installed the switches)
+- between keyswitch and hotswap socket (if you use them)
+- between hotswap socket and PCB (again, if you use hotswap sockets)
+- in the diodes between the key and the ProMicro
+- in the paths inside the PCB
+
+If you have installed the keyswitches already, then check the soldering on the keyswitch. if you use hotswap sockets, check that you didn't accidentally bend one of the legs of the switch when inserting into the socket and that the socket soldering is alright.
+
+Next, visually inspect the PCB. If it looks scratched or damaged anywhere along the path from ProMicro to diode to keyswitch, the path might be interrupted. If you find a spot that looks damaged, you can use some wire to bypass the section that is damaged (e.g. connecting the ProMicro directly to the first pad of the diode). If this fixes the key, then you can either opt to keep the wire permanently, or you can try to repair the path. The path can be repaired by carefully scraping off the paint from a section of the path that is okay on either side of the damaged part (use a small flat head screwdriver intended for electronics). Then clean carefully with alcohol and solder a new connection. Youtube might have some guides on how to do this.
+
+If the PCB looks okay, then the diode would be the next thing to check. Begin by checking the soldering. If it looks okay, then the diode itself might be damaged. If you have a multimeter, use it to check the diode. The reading should be the same as for diodes connected to keys that are working (when measuring, remember that diodes have polarity). You can also use tweezers or a bit of soldering wire to connect the soldering pads on each side of the diode if you don't have a multimeter. Pressing the key (or short circuiting the pads where the key would go) after connecting the pads should make a key press being registered. If this is the case, or if you used the multimeter and got a different reading from the diode, then check your soldering and replace the diode if necessary.
