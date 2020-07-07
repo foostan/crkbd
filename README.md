@@ -1,14 +1,22 @@
 # Corne keyboard
-Corne keyboard, a split keyboard with 3x6 column staggered keys and 3 thumb keys, based on [Helix](https://github.com/MakotoKurauchi/helix).
+
+The Corne keyboard is a split keyboard with 3x6 column staggered keys and 3 thumb keys,
+based on [Helix](https://github.com/MakotoKurauchi/helix).
 Crkbd stands for Corne Keyboard.
 
-## Lineups
-- corne-classic
-- corne-cherry: Hotswappable corne for CherryMX switches by kailh PCB sockets.
-- corne-chocolate: Hotswappable corne for Chocolate switches by kailh PCB sockets.
-- corne-light: Lightweight corne(Easily build and Simply PCB).
+## Lineup
+
+- [corne-classic](corne-classic/doc/buildguide_en.md) ([JP](corne-classic/doc/buildguide_jp.md)):
+    Corne for Cherry MX switches
+- [corne-cherry (JP only!)](corne-cherry/doc/buildguide_jp.md) ([tilting, JP](corne-cherry/doc/buildguide_tilting_tenting_plate_jp.md)):
+    Hotswappable Corne for Cherry MX switches by kailh PCB sockets.
+- [corne-chocolate](corne-chocolate/doc/buildguide_en.md) ([JP](corne-chocolate/doc/buildguide_jp.md)):
+    Hotswappable Corne for Chocolate switches using Kailh PCB hot-swap sockets.
+- [corne-light (JP only!)](corne-light/doc/buildguide_jp.md):
+    Light-weight Corne (Easy build with a simple PCB).
 
 ## Photos
+
 ![cherry_01](https://user-images.githubusercontent.com/736191/47172655-0d0e9b80-d347-11e8-8a11-ccce9bf8d2b4.JPG)
 ![cherry_02](https://user-images.githubusercontent.com/736191/47172658-0da73200-d347-11e8-8ab5-6267faf3e447.JPG)
 ![cherry_03](https://user-images.githubusercontent.com/736191/47172661-0da73200-d347-11e8-95a5-4e978fbb70bb.JPG)
