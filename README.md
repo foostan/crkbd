@@ -6,13 +6,13 @@ Crkbd stands for Corne Keyboard.
 
 ## Lineup
 
-- [corne-classic](corne-classic/doc/buildguide_en.md) ([JP](corne-classic/doc/buildguide_jp.md)):
+- corne-classic([JP](corne-classic/doc/buildguide_jp.md)/[EN](corne-classic/doc/buildguide_en.md)):
     Corne for Cherry MX switches
-- [corne-cherry (JP only!)](corne-cherry/doc/buildguide_jp.md) ([tilting, JP](corne-cherry/doc/buildguide_tilting_tenting_plate_jp.md)):
+- corne-cherry([JP](corne-cherry/doc/buildguide_jp.md)) ([tilting, JP](corne-cherry/doc/buildguide_tilting_tenting_plate_jp.md)):
     Hotswappable Corne for Cherry MX switches by kailh PCB sockets.
-- [corne-chocolate](corne-chocolate/doc/buildguide_en.md) ([JP](corne-chocolate/doc/buildguide_jp.md)):
+- corne-chocolate([JP](corne-chocolate/doc/buildguide_jp.md)/[EN](corne-chocolate/doc/buildguide_en.md)):
     Hotswappable Corne for Chocolate switches using Kailh PCB hot-swap sockets.
-- [corne-light (JP only!)](corne-light/doc/buildguide_jp.md):
+- corne-light([JP](corne-light/doc/buildguide_jp.md)):
     Light-weight Corne (Easy build with a simple PCB).
 
 ## Photos
