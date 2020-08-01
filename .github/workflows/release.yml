@@ -1,0 +1,72 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+*'
+
+jobs:
+  release-gerber-files:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Export corne-cherry gerber
+      uses: nerdyscout/kicad-exports@v2.0
+      with:
+        config: .kiplot.yml
+        dir: corne-cherry/gerber
+        board: corne-cherry/pcb/corne-cherry.kicad_pcb
+        schema: corne-cherry/pcb/corne-cherry.sch
+    - name: Export corne-chocolate gerber
+      uses: nerdyscout/kicad-exports@v2.0
+      with:
+        config: .kiplot.yml
+        dir: corne-chocolate/gerber
+        board: corne-chocolate/pcb/corne-chocolate.kicad_pcb
+        schema: corne-chocolate/pcb/corne-chocolate.sch
+    - name: Export corne-classic gerber
+      uses: nerdyscout/kicad-exports@v2.0
+      with:
+        config: .kiplot.yml
+        dir: corne-classic/gerber
+        board: corne-classic/pcb/corne-classic.kicad_pcb
+        schema: corne-classic/pcb/corne-classic.sch
+    - name: Export corne-light gerber
+      uses: nerdyscout/kicad-exports@v2.0
+      with:
+        config: .kiplot.yml
+        dir: corne-light/gerber
+        board: corne-light/pcb/corne-light.kicad_pcb
+        schema: corne-light/pcb/corne-light.sch
+    - name: Export top plate gerber
+      uses: nerdyscout/kicad-exports@v2.0
+      with:
+        config: .kiplot.yml
+        dir: plates/pcb/top/gerber
+        board: plates/pcb/top/corne-top-plate.kicad_pcb
+        schema: plates/pcb/top/corne-top-plate.sch
+    - name: Export bottom plate gerber
+      uses: nerdyscout/kicad-exports@v2.0
+      with:
+        config: .kiplot.yml
+        dir: plates/pcb/bottom/gerber
+        board: plates/pcb/bottom/corne-bottom-plate.kicad_pcb
+        schema: plates/pcb/bottom/corne-bottom-plate.sch
+
+    - name: Zip Gerber files
+      run: |
+          zip -r --junk-paths corne-cherry-gerber.zip corne-cherry/gerber
+          zip -r --junk-paths corne-chocolate-gerber.zip corne-chocolate/gerber
+          zip -r --junk-paths corne-light-gerber.zip corne-light/gerber
+          zip -r --junk-paths corne-classic-gerber.zip corne-classic/gerber
+          zip -r --junk-paths plates-top-gerber.zip plates/pcb/top/gerber
+          zip -r --junk-paths plates-bottom-gerber.zip plates/pcb/bottom/gerber
+
+    - name: Release to GiHub
+      uses: softprops/action-gh-release@v1
+      with:
+        files: "*.zip"
+        draft: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
