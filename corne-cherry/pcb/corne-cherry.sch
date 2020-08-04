@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:corne-cherry-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L kbd:ProMicro U1
+L corne-cherry-rescue:ProMicro-kbd U1
 U 1 1 5A5E14C2
 P 1800 1950
 F 0 "U1" H 1800 2900 60  0000 C CNN

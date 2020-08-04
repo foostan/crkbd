@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name corne-cherry-rescue)(type Legacy)(uri ${KIPRJMOD}/corne-cherry-rescue.lib)(options "")(descr ""))
 )
