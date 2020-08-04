@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:corne-light-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L kbd:ProMicro U1
+L corne-light-rescue:ProMicro-kbd U1
 U 1 1 5A5E14C2
 P 6225 1625
 F 0 "U1" H 6225 2575 60  0000 C CNN
@@ -844,7 +843,7 @@ Connection ~ 4125 2150
 Wire Wire Line
 	4125 2150 4125 2750
 $Comp
-L kbd:ProMicro U2
+L corne-light-rescue:ProMicro-kbd U2
 U 1 1 5C25F857
 P 6225 4500
 F 0 "U2" H 6225 5450 60  0000 C CNN
