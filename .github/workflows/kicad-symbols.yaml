@@ -1,0 +1,24 @@
+name: kicad-symbols
+on: [pull_request]
+
+jobs:
+  on-pull-request:
+    name: kicad-symbols
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.6]
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Prepare Repositories
+      run: |
+        git clone --depth 1 https://github.com/KiCad/kicad-library-utils kicad-library-utils
+        git clone --depth 1 https://github.com/foostan/kbd kbd-old
+    - name: Comparelibs
+      run: |
+        cd kicad-library-utils
+        python ./comparelibs.py --new ../kicad-symbols/*.lib --old ../kbd-old/kicad-symbols/*.lib --check -v
