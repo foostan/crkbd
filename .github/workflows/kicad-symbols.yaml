@@ -18,4 +18,8 @@ jobs:
     - name: Comparelibs
       run: |
         cd kicad-library-utils/schlib
-        python ./comparelibs.py --new ../kicad-symbols/*.lib --old ../kbd-old/kicad-symbols/*.lib --check -v
+        python ./comparelibs.py --new ../../kicad-symbols/*.lib --old ../../kbd-old/kicad-symbols/*.lib --check -v
+    - name: Check lib table
+      run: |
+        cd kicad-library-utils
+        python ./check_lib_table.py ../kicad-symbols/*.lib --table ../kicad-symbols/sym-lib-table
