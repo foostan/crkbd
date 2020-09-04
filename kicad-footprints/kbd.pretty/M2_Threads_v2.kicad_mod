@@ -1,4 +1,4 @@
-(module M2_HOLE_v2 (layer F.Cu) (tedit 5CC5B725)
+(module M2_Threads_v2 (layer F.Cu) (tedit 5DAE9108)
   (descr "Mounting Hole 2.2mm, no annular, M2")
   (tags "mounting hole 2.2mm no annular m2")
   (attr virtual)
@@ -8,5 +8,5 @@
   (fp_text value Val** (at 0 0.55) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad "" thru_hole circle (at 0 0) (size 4.8 4.8) (drill 4.8) (layers *.Cu *.Mask))
+  (pad "" thru_hole circle (at 0 0) (size 2.1 2.1) (drill 2.1) (layers *.Cu *.Mask))
 )
