@@ -14,11 +14,11 @@ jobs:
     - name: Prepare Repositories
       run: |
         git clone --depth 1 https://github.com/KiCad/kicad-library-utils kicad-library-utils
-    - name: Check all
-      run: |
-        cd kicad-library-utils/pcb
-　　　　./check_all.sh ../../kicad-footprints -v
-    - name: Comparelibs
+    - name: Check lib table
       run: |
         cd kicad-library-utils
         python ./check_lib_table.py ../kicad-footprints/*.pretty --table ../kicad-footprints/fp-lib-table
+    - name: Check all
+      run: |
+        cd kicad-library-utils/pcb
+        ./check_all.sh ../../kicad-footprints -v
