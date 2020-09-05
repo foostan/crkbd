@@ -1,0 +1,53 @@
+kiplot:
+  version: 1
+
+preflight:
+  update_xml: false
+  run_drc: false
+  check_zone_fills: true
+  ignore_unconnected: false
+
+# Note: these settings are the ones foostan is using, reference:
+# https://github.com/foostan/crkbd/issues/11#issuecomment-450635794
+outputs:
+  - name: "Gerber files"
+    type: gerber
+    options:
+      # generic layer options
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: true
+      use_aux_axis_as_origin: false
+      plot_sheet_reference: false
+      plot_footprint_refs: true
+      plot_footprint_values: true
+      force_plot_invisible_refs_vals: false
+      tent_vias: true
+
+      # gerber options
+      line_width: 0.1
+      subtract_mask_from_silk: false
+      use_protel_extensions: false
+      gerber_precision: 4.6
+      create_gerber_job_file: false
+      use_gerber_x2_attributes: false
+      use_gerber_net_attributes: false
+
+    layers:
+      - layer: F.Cu
+      - layer: B.Cu
+      - layer: F.SilkS
+      - layer: B.SilkS
+      - layer: F.Mask
+      - layer: B.Mask
+      - layer: Edge.Cuts
+
+  - name: "Drill files"
+    type: excellon
+    options:
+      metric_units: true
+      pth_and_npth_single_file: false
+      use_aux_axis_as_origin: false
+      minimal_header: false
+      mirror_y_axis: false
+      map:
+        type: 'gerber'
