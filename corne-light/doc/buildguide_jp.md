@@ -124,6 +124,8 @@ https://docs.qmk.fm/#/newbs_getting_started こちら等を参考にし、OSに�
 
 <img alt="assembly-tool-of-diodes" src="https://user-images.githubusercontent.com/736191/69554626-6c78b980-0fe5-11ea-8c4d-ae70374d54bc.JPG" width="100%">
 
+※　バージョンによって治具が付いていないものもあります。
+
 ### ダイオード
 
 まずはリードタイプのダイオードの足を曲げていきます。
