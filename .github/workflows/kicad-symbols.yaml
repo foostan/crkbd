@@ -11,15 +11,12 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.6
-    - name: Prepare Repositories
+    - name: Init tools
       run: |
-        git clone --depth 1 https://github.com/KiCad/kicad-library-utils kicad-library-utils
-        git clone --depth 1 https://github.com/foostan/kbd kbd-old
+        make tools
     - name: Check lib table
       run: |
-        cd kicad-library-utils
-        python ./check_lib_table.py ../kicad-symbols/*.lib --table ../kicad-symbols/sym-lib-table
+        make kicad-symbols-check-lib-table
     - name: Comparelibs
       run: |
-        cd kicad-library-utils/schlib
-        python ./comparelibs.py --new ../../kicad-symbols/*.lib --old ../../kbd-old/kicad-symbols/*.lib --check -v
+        make kicad-symbols-comparelibs

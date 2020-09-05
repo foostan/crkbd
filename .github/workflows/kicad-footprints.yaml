@@ -11,14 +11,12 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.6
-    - name: Prepare Repositories
+    - name: Init tools
       run: |
-        git clone --depth 1 https://github.com/KiCad/kicad-library-utils kicad-library-utils
+        make tools
     - name: Check lib table
       run: |
-        cd kicad-library-utils
-        python ./check_lib_table.py ../kicad-footprints/*.pretty --table ../kicad-footprints/fp-lib-table
+        make kicad-footprints-check-lib-table
     - name: Check all
       run: |
-        cd kicad-library-utils/pcb
-        ./check_all.sh ../../kicad-footprints -v
+        make kicad-footprints-check-all
