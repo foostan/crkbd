@@ -16,6 +16,9 @@ _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
+*-cache.lib
+*-rescue.lib
+*-rescue.dcm
 fp-info-cache
 gerber/
 
