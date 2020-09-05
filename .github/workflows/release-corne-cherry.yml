@@ -38,6 +38,7 @@ jobs:
           zip -r --junk-paths corne-cherry-gerber.zip corne-cherry/gerber
           zip -r --junk-paths plates-top-gerber.zip plates/pcb/top/gerber
           zip -r --junk-paths plates-bottom-gerber.zip plates/pcb/bottom/gerber
+          zip -r --junk-paths plates.zip plates/common
 
     - name: Release to GiHub
       uses: softprops/action-gh-release@v1
