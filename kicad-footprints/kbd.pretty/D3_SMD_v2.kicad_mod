@@ -1,4 +1,4 @@
-(module D3_SMD_v2 (layer F.Cu) (tedit 5F1A9D7F)
+(module D3_SMD_v2 (layer F.Cu) (tedit 5F70BC50)
   (descr "Resitance 3 pas")
   (tags R)
   (autoplace_cost180 10)

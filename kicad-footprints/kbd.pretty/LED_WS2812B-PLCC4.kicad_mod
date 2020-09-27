@@ -1,4 +1,4 @@
-(module LED_WS2812B-PLCC4 (layer F.Cu) (tedit 5F2ACBA2)
+(module LED_WS2812B-PLCC4 (layer F.Cu) (tedit 5F70BCD7)
   (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
   (tags "LED NeoPixel")
   (attr smd)
@@ -25,9 +25,9 @@
   (pad 2 smd rect (at -2.5 1.6) (size 1.6 1) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 2.5 -1.6) (size 1.6 1) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 2.5 1.6) (size 1.6 1) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl
+  (model /Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/WS2812B.step
     (at (xyz 0 0 0))
-    (scale (xyz 0.39 0.39 0.39))
-    (rotate (xyz 0 0 180))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )
