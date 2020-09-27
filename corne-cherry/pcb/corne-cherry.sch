@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Corne Cherry"
-Date "2020-07-20"
-Rev "3.0"
+Date "2020-09-28"
+Rev "3.0.1"
 Comp "foostan"
 Comment1 ""
 Comment2 ""
@@ -19,7 +19,7 @@ U 1 1 5A5E14C2
 P 1775 1725
 F 0 "U1" H 1775 2675 60  0000 C CNN
 F 1 "ProMicro" H 1775 1175 60  0000 C CNN
-F 2 "kbd:ProMicro_v2_1side" H 1875 675 60  0001 C CNN
+F 2 "kbd:ProMicro_v3" H 1875 675 60  0001 C CNN
 F 3 "" H 1875 675 60  0000 C CNN
 	1    1775 1725
 	1    0    0    -1  
@@ -848,7 +848,7 @@ U 1 1 5C25F857
 P 10175 1675
 F 0 "U2" H 10175 2625 60  0000 C CNN
 F 1 "ProMicro" H 10175 1125 60  0000 C CNN
-F 2 "kbd:ProMicro_v2_1side" H 10275 625 60  0001 C CNN
+F 2 "kbd:ProMicro_v3" H 10275 625 60  0001 C CNN
 F 3 "" H 10275 625 60  0000 C CNN
 	1    10175 1675
 	1    0    0    -1  
@@ -1442,17 +1442,17 @@ $EndComp
 $Comp
 L power:GNDA #PWR024
 U 1 1 5C25F9D8
-P 9425 3225
-F 0 "#PWR024" H 9425 2975 50  0001 C CNN
-F 1 "GNDA" H 9425 3075 50  0000 C CNN
-F 2 "" H 9425 3225 50  0001 C CNN
-F 3 "" H 9425 3225 50  0001 C CNN
-	1    9425 3225
+P 9725 3050
+F 0 "#PWR024" H 9725 2800 50  0001 C CNN
+F 1 "GNDA" H 9725 2900 50  0000 C CNN
+F 2 "" H 9725 3050 50  0001 C CNN
+F 3 "" H 9725 3050 50  0001 C CNN
+	1    9725 3050
 	1    0    0    -1  
 $EndComp
-Text GLabel 9350 2975 2    47   Input ~ 0
+Text GLabel 9350 3075 2    47   Input ~ 0
 SCL_r
-Text GLabel 9350 2875 2    47   Input ~ 0
+Text GLabel 9350 3175 2    47   Input ~ 0
 SDA_r
 NoConn ~ 10875 1125
 $Comp
@@ -1624,12 +1624,6 @@ Wire Wire Line
 	1325 2950 1325 2775
 Wire Wire Line
 	1325 2775 1025 2775
-Wire Wire Line
-	9350 3075 9500 3075
-Wire Wire Line
-	9350 3175 9425 3175
-Wire Wire Line
-	9425 3175 9425 3225
 $Comp
 L power:VDD #PWR019
 U 1 1 5C714C7F
@@ -1644,12 +1638,12 @@ $EndComp
 $Comp
 L power:VDD #PWR023
 U 1 1 5C71DE62
-P 9500 3075
-F 0 "#PWR023" H 9500 2925 50  0001 C CNN
-F 1 "VDD" V 9517 3203 50  0000 L CNN
-F 2 "" H 9500 3075 50  0001 C CNN
-F 3 "" H 9500 3075 50  0001 C CNN
-	1    9500 3075
+P 9800 2975
+F 0 "#PWR023" H 9800 2825 50  0001 C CNN
+F 1 "VDD" V 9817 3103 50  0000 L CNN
+F 2 "" H 9800 2975 50  0001 C CNN
+F 3 "" H 9800 2975 50  0001 C CNN
+	1    9800 2975
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2913,4 +2907,10 @@ F 3 "" H 8775 10775 50  0001 C CNN
 	1    8775 10775
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9350 2975 9800 2975
+Wire Wire Line
+	9350 2875 9725 2875
+Wire Wire Line
+	9725 2875 9725 3050
 $EndSCHEMATC
