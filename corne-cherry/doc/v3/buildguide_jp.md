@@ -36,12 +36,15 @@
 | WS2812B | 12個 | Undergrow 用 LEDs |
 
 ## 事前準備
-実装の途中でProMicroにファームを入れる作業がありますが、ファームをビルドする環境を整備するのは時間がかかるのではじめに取り掛かっておくことをおすすめします。
-https://docs.qmk.fm/#/ja/newbs_getting_started こちら等を参考にし、OSに合わせて必要なものをインストールしておきます(インストールに時間がかかるため動かしつつ実装を進めると効率的です)。
+組み立ての途中で ProMicro にファームウェアを入れる作業がありますが、ファームウェアをビルドする環境を整備するのには時間がかかるためはじめに取り掛かっておくことをおすすめします。
+
+https://docs.qmk.fm/#/ja/newbs_getting_started を参考にし、OSに合わせて必要なものをインストールしておきます。
+インストールに時間がかかるため動かしつつ組み立てを進めると効率的です。
 
 ## 確認
 
 Corne Cherry v3 のPCBは以下のものになります。お手持ちのPCBと同一のものかご確認ください。
+
 ![confirm_front](assets/confirm_front.jpg)
 
 ![confirm_back](assets/confirm_back.jpg)
@@ -166,6 +169,7 @@ OLED用のピンソケットにピンヘッダを先に差し込み、その後�
 https://docs.qmk.fm/#/ja/newbs_getting_started こちら等を参考にし、OSに合わせて必要なものをインストールしておきます。
 上記の事前準備にも挙げたとおり、インストールに時間がかかるため事前に用意しておくことをおすすめします。
 
+Corne 用のファームウェアは `keyboards/crkbd` です。
 なお、LEDはデフォルトでは無効になっているため、`keyboards/crkbd/rules.mk` にて `RGBLIGHT_ENABLE = yes` と変更する必要があります。
 
 ```diff
@@ -184,22 +188,22 @@ index 30de5b388..174dd5c7e 100644
  SLEEP_LED_ENABLE = no    # Breathing sleep LED during USB suspend
 ```
 
-環境ができましたら、下記コマンドで Crkbd 用にファームウェアをビルドします。
+環境ができたら、下記コマンドでファームウェアをビルドします。
 
-```
+```bash
 make crkbd:default
 ```
 
 ビルドが完了したら下記コマンドを実行します。
 
-```
+```bash
 make crkbd:default:avrdude
 ```
 
 実行すると下記のようなログがでて、`.` が増えていくことが確認出来ると思います。
 この間にリセットスイッチを **2回** 押すとファームウェアの書き込みが完了します。
 
-```
+```bash
 <省略>
 
 Checking file size of crkbd_rev1_default.hex                                                        [OK]
@@ -211,16 +215,16 @@ Detecting USB port, reset your controller now........
 片側のProMicroにファームウェアの書き込みが完了したら、もう片方も同じ手順で書き込みを行います。
 
 ### 動作確認
-ProMicroとOLEDモジュールを付けた段階で動作確認をすることをおすすめします(一番最後にやると問題の切り分けが難しくなる)。
+ProMicroとOLEDモジュールを付けた段階で動作確認をすることをおすすめします。
+一番最後にやると問題の切り分けが難しくなります。
 
 動作確認は左手側はMicroUSBでPCとつなぎ、左手側と右手側をTRRSケーブルで接続させて行います。ジャック等の不良等もありえるので、片方ずつではなく必ず左右を接続させてから動作確認をしてください。ここまで正しくできていれば、PCBソケットを取り付けるパットをピンセット等でショートさせるとOLEDモジュールに押されたキーが表示されます。
 
 ### PCBソケット
 
-PCBソケットを下記のようにPCBの模様に合わせてはんだづけします。
+PCBソケットを下記のようにマークに合わせてはんだづけします。
 下記ではすべてのPCBソケットが並んでいますが、しっかりハマるものではないので、1つずつ付けてください。
-
-パットは大きめに作ってありますが、そのままのはんだづけが難しい場合は __TIPS: SMD部品を取り付けるコツ__ で紹介したように、予備ハンダをするとうまくつけられると思います。
+__TIPS: SMD部品を取り付けるコツ__ で紹介したように、予備ハンダをするとうまくつけられると思います。
 
 ![build_socket](assets/build_socket.jpg)
 
@@ -230,22 +234,22 @@ PCBソケットを下記のようにPCBの模様に合わせてはんだづけ�
 
 ### OLED保護プレート
 
-M2 8mm のスペーサと M2 ネジで OLED 保護プレートを取り付けます。
+M2 8mm のスペーサーと M2 ネジで OLED 保護プレートを取り付けます。
 
 ![build_oled_plate_front](assets/build_oled_plate_front.jpg)
 ![build_oled_plate_back](assets/build_oled_plate_back.jpg)
 
 ### プレート、スイッチ
 
-トッププレートにキースイッチをはめ込んだ後、キースイッチをソケットにはめ込みます。
-先にすべてのキースイッチをトッププレートに差し込んでしまうと、ソケットにはめ込む難易度が上がってしまうため、先に端のキースイッチのみを取り付ける方が簡単です。
+トッププレートにキースイッチに取り付けた後、キースイッチをソケットにはめ込みます。
+先にすべてのキースイッチをトッププレートに取り付けてしまうと、ソケットにはめ込む難易度が上がってしまうため、先に端のキースイッチのみを取り付ける方が簡単です。
 ![build_top_plate_switches](assets/build_top_plate_switches.jpg)
 
-M2 6.5mm のスペーサと M2 ネジ をトッププレートに取り付けます。
+M2 6.5mm のスペーサーと M2 ネジ をトッププレートに取り付けます。
 
 ![build_screws_spacers_front](assets/build_screws_spacers_front.jpg)
 
-裏側からスペーサを穴に入れた後ネジ止めをすると簡単です。
+裏側からスペーサーを穴に入れた後、ネジ止めをすると簡単です。
 
 ![build_screws_spacers_back](assets/build_screws_spacers_back.jpg)
 
