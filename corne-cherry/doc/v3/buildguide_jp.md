@@ -32,7 +32,7 @@
 | OLEDモジュール | 2枚 | |
 | OLEDモジュール用ピンヘッダ 4連 1.5mm | 2つ | |
 | OLEDモジュール用ピンソケット 4連 2.5mm | 2つ | |
-| YS-SK6812MINI-E | 42個 | Back light用 LEDs |
+| SK6812MINI-E | 42個 | Back light用 LEDs |
 | WS2812B | 12個 | Undergrow 用 LEDs |
 
 ## 事前準備
@@ -100,13 +100,13 @@ SMD部品を取り付けるコツですが、まずは予備ハンダとして�
 
 ### LED（オプション）
 
-YS-SK6812MINI-E と WS2812B をはんだづけします。
+SK6812MINI-E と WS2812B をはんだづけします。
 
 先に取り付け後の様子を確認しておきます。
 
 ![build_led_front_overview](assets/build_led_front_overview.jpg)
 
-はんだづけはすべて裏側から行いますが、YS-SK6812MINI-E は Backlight (表側を光らせる)用、WS2812B は Undergrow (裏側を光らせる)用になっています。
+はんだづけはすべて裏側から行いますが、SK6812MINI-E は Backlight (表側を光らせる)用、WS2812B は Undergrow (裏側を光らせる)用になっています。
 ![build_led_back_overview](assets/build_led_back_overview.jpg)
 
 #### WS2812B (Undergrow)
@@ -124,20 +124,20 @@ __TIPS: SMD部品を取り付けるコツ__ で紹介したように、予備ハ
 
 ![build_led_undergrow_overview](assets/build_led_undergrow_overview.jpg)
 
-#### YS-SK6812MINI-E (Backlight)
+#### SK6812MINI-E (Backlight)
 
-続いて YS-SK6812MINI-E をはんだづけします。
+続いて SK6812MINI-E をはんだづけします。
 
-下記のように YS-SK6812MINI-E の角が欠けた足とPCBの角印が合う向きにしてはんだづけを行います。
+下記のように SK6812MINI-E の角が欠けた足とPCBの角印が合う向きにしてはんだづけを行います。
 __TIPS: SMD部品を取り付けるコツ__ で紹介したように、予備ハンダをするとうまくつけられると思います。
 SK6812MINI に比べて壊れにくいですが、はんだごての熱を直接受けると破損する可能性があります。温調機能のついたはんだごてで 320℃ ほどであれば、4つの足を連続にはんだづけしても問題なさそうでした。
 
-なお、Corne の PCB は YS-SK6812MINI-E の取り付け向きがすべて統一されています。
+なお、Corne の PCB は SK6812MINI-E の取り付け向きがすべて統一されています。
 
 ![build_led_backlight](assets/build_led_backlight.jpg)
 
 
-左右合わせて計42個はんだづけして YS-SK6812MINI-E は完了です。
+左右合わせて計42個はんだづけして SK6812MINI-E は完了です。
 
 ![build_led_back_overview](assets/build_led_back_overview.jpg)
 
