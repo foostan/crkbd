@@ -1,4 +1,4 @@
-(module OLED_1side (layer F.Cu) (tedit 5F70BC75)
+(module OLED_1side (layer F.Cu) (tedit 5F8C836B)
   (descr "Connecteur 6 pins")
   (tags "CONN DEV")
   (fp_text reference J2 (at 3.7 2.1 180) (layer F.Fab)

@@ -1,4 +1,4 @@
-(module MJ-4PP-9_1side (layer F.Cu) (tedit 5F70BCE8)
+(module MJ-4PP-9_1side (layer F.Cu) (tedit 5F8C8304)
   (fp_text reference J1 (at -0.85 4.95) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

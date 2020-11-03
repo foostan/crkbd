@@ -1,4 +1,4 @@
-(module D3_TH (layer F.Cu) (tedit 5F43EB01)
+(module D3_TH (layer F.Cu) (tedit 5F85C08E)
   (descr "Resitance 3 pas")
   (tags R)
   (autoplace_cost180 10)
@@ -21,9 +21,14 @@
     (scale (xyz 0.22 0.15 0.15))
     (rotate (xyz 0 0 180))
   )
-  (model ${KIGITHUB3D}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
-    (offset (xyz -3 0 -0.5))
-    (scale (xyz 0.8 0.8 0.8))
+  (model "/Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/D_SOD-123 Soldered.step"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model /Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/D_SOD-123.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )
