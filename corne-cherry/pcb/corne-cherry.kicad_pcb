@@ -94,11 +94,11 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 5)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "./garber"))
+      (outputdirectory "./svg"))
   )
 
   (net 0 "")
