@@ -1,4 +1,4 @@
-(module ProMicro_v3 (layer F.Cu) (tedit 5F5DB9D6)
+(module ProMicro_v3 (layer F.Cu) (tedit 5F85C4CB)
   (fp_text reference U1 (at 0 -5 270) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
