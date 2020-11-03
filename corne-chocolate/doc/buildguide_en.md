@@ -37,10 +37,8 @@ This is the build guide for Corne Chocolate.
 | SK6812MINI | 54 | 42 for backlight, 12 for under-glow |
 
 ## Preparation
-
-It is recommended to [flash the firmware](#firmware) onto the Pro Micro before doing anything else,
-as it is time-consuming to prepare the environment for building it,
-and doing it in the middle of the soldering process is a hassle.
+If you build the firmware yourself, it will take some time to set up the environment, so it's best to start at the beginning. \
+For more information, please see https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md.
 
 ## Building
 
@@ -254,41 +252,8 @@ because it looks better.
 ![](https://user-images.githubusercontent.com/736191/52534914-00e19a80-2d8b-11e9-8005-7e0b157e09e4.png)
 
 ## Firmware
-
-Refer to [the QMK _getting started_ guide](https://docs.qmk.fm/#/newbs_getting_started),
-and install the necessary software according to your OS
-(it takes quite some time to install).
-
-Once the environment is ready,
-build the firmware for Crkbd with the following command.
-
-```
-make crkbd: default
-```
-
-When the build is completed,
-execute the following command.
-
-```
-make crkbd: default: avrdude
-```
-
-When you execute it,
-you will see the following log,
-and you can progress by `.`s appearing.
-Press the reset switch **twice** during this time to complete the firmware writing.
-
-```
-<Omitted>
-
-Checking file size of crkbd_rev1_default.hex [OK]
- * File size is fine-27328/28672
-Copying crkbd_rev1_default.hex to qmk_firmware folder [OK]
-Detecting USB port, reset your controller now ........
-```
-
-Once the firmware has been written to one side of the Pro Micro,
-follow the same procedure for the other side.
+See below to flash the firmware to the ProMicro. \
+https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md
 
 This is the end.
 
