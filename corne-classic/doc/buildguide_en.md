@@ -31,7 +31,7 @@
 
 ## Preparation
 If you build the firmware yourself, it will take some time to set up the environment, so it's best to start at the beginning. \
-For more information, please see https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md.
+For more information, please see https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md.
 
 ## Soldering
 
@@ -198,7 +198,7 @@ Lastly install keycaps.
 
 ## Firmware
 See below to flash the firmware to the ProMicro. \
-https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md
+https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md
 
 ### Turning LEDS on
 To turn the LEDs on, you have to edit the `rules.mk` file. If you use the default layout, it can be found here `keyboards/crkbd/keymaps/default/rules.mk`. Add the following line to the top of the file:
