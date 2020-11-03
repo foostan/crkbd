@@ -38,7 +38,7 @@ This is the build guide for Corne Chocolate.
 
 ## Preparation
 If you build the firmware yourself, it will take some time to set up the environment, so it's best to start at the beginning. \
-For more information, please see https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md.
+For more information, please see https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md.
 
 ## Building
 
@@ -253,7 +253,7 @@ because it looks better.
 
 ## Firmware
 See below to flash the firmware to the ProMicro. \
-https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md
+https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md
 
 This is the end.
 
