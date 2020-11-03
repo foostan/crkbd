@@ -3,7 +3,7 @@
 
 ## Flash the firmware
 
-There are several ways to flash the firmware, but using [QMK Toolbox] (https://github.com/qmk/qmk_toolbox) is the easiest way.
+There are several ways to flash the firmware, but using [QMK Toolbox](https://github.com/qmk/qmk_toolbox) is the easiest way.
 
 ### Download QMK Toolbox
 Download QMK Toolbox from the following link.\
