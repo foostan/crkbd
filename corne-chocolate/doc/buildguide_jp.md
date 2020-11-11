@@ -34,8 +34,8 @@
 | SK6812MINI | 54個 | 上向き実装 42個、下向き実装 12個 |
 
 ## 事前準備
-実装の途中でProMicroにファームを入れる作業がありますが、ファームをビルドする環境を整備するのは時間がかかるのではじめに取り掛かっておくことをおすすめします。
-https://docs.qmk.fm/#/newbs_getting_started こちら等を参考にし、OSに合わせて必要なものをインストールしておきます(インストールに時間がかかるため動かしつつ実装を進めると効率的です)。
+ファームウェアを自分でビルドする場合は環境を整備するのに時間がかかるのではじめに取り掛かっておくことをおすすめします。\
+詳しくは https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md を参照してください。
 
 ## 実装
 
@@ -191,33 +191,8 @@ LEDは４つずつはんだづけを行いますが、一度に４つ行わず�
 ![33](https://user-images.githubusercontent.com/736191/52534914-00e19a80-2d8b-11e9-8005-7e0b157e09e4.png)
 
 ## ファームウェア
-https://docs.qmk.fm/#/newbs_getting_started こちらを参照して頂き、ファームウェアを書き込む環境を用意します。
-
-環境ができましたら、下記コマンドで Crkbd 用にファームウェアをビルドします。
-
-```
-make crkbd:default
-```
-
-ビルドが完了したら下記コマンドを実行します。
-
-```
-make crkbd:default:avrdude
-```
-
-実行すると下記のようなログがでて、`.` が増えていくことが確認出来ると思います。
-この間にリセットスイッチを **2回** 押すとファームウェアの書き込みが完了します。
-
-```
-<省略>
-
-Checking file size of crkbd_rev1_default.hex                                                        [OK]
- * File size is fine - 27328/28672
-Copying crkbd_rev1_default.hex to qmk_firmware folder                                               [OK]
-Detecting USB port, reset your controller now........
-```
-
-片側のProMicroにファームウェアの書き込みが完了したら、もう片方も同じ手順で書き込みを行います。
+下記を参照しファームウェアをProMicroに書き込みます。\
+https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md
 
 以上で完成です。
 

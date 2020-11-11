@@ -30,8 +30,8 @@
 ![image](https://user-images.githubusercontent.com/736191/40734610-e1ca0136-6473-11e8-8ac7-7bfa4b843f93.png)
 
 ## 事前準備
-実装の途中でProMicroにファームを入れる作業がありますが、ファームをビルドする環境を整備するのは時間がかかるのではじめに取り掛かっておくことをおすすめします。
-https://docs.qmk.fm/#/newbs_getting_started こちら等を参考にし、OSに合わせて必要なものをインストールしておきます(インストールに時間がかかるため動かしつつ実装を進めると効率的です)。
+ファームウェアを自分でビルドする場合は環境を整備するのに時間がかかるのではじめに取り掛かっておくことをおすすめします。\
+詳しくは https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md を参照してください。
 
 ## 実装
 
@@ -179,32 +179,7 @@ LEDを実装した場合はすべて点灯することを確認します。
 ![lrg_dsc03895](https://user-images.githubusercontent.com/736191/40888756-c371e264-6796-11e8-8fc5-e842e8baf2b8.png)
 
 ## ファームウェア
-https://docs.qmk.fm/#/newbs_getting_started こちらを参照して頂き、ファームウェアを書き込む環境を用意します。
-
-環境ができましたら、下記コマンドで Crkbd 用にファームウェアをビルドします。
-
-```
-make crkbd:default
-```
-
-ビルドが完了したら下記コマンドを実行します。
-
-```
-make crkbd:default:avrdude
-```
-
-実行すると下記のようなログがでて、`.` が増えていくことが確認出来ると思います。
-この間にリセットスイッチを __2回__ 押すとファームウェアの書き込みが完了します。
-
-```
-<省略>
-
-Checking file size of crkbd_rev1_default.hex                                                        [OK]
- * File size is fine - 27328/28672
-Copying crkbd_rev1_default.hex to qmk_firmware folder                                               [OK]
-Detecting USB port, reset your controller now........
-```
-
-片側のProMicroにファームウェアの書き込みが完了したら、もう片方も同じ手順で書き込みを行います。
+下記を参照しファームウェアをProMicroに書き込みます。\
+https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md
 
 以上で完成です。

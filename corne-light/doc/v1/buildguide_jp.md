@@ -110,8 +110,8 @@
 </table>
 
 ## 事前準備
-実装の途中でProMicroにファームを入れる作業がありますが、ファームをビルドする環境を整備するのは時間がかかるのではじめに取り掛かっておくことをおすすめします。
-https://docs.qmk.fm/#/newbs_getting_started こちら等を参考にし、OSに合わせて必要なものをインストールしておきます(インストールに時間がかかるため動かしつつ実装を進めると効率的です)。
+ファームウェアを自分でビルドする場合は環境を整備するのに時間がかかるのではじめに取り掛かっておくことをおすすめします。\
+詳しくは https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md を参照してください。
 
 ## 実装
 ### PCBの切り離し
@@ -171,35 +171,8 @@ https://docs.qmk.fm/#/newbs_getting_started こちら等を参考にし、OSに�
 <img alt="assembly-promicro-oled" src="https://user-images.githubusercontent.com/736191/69554644-6e427d00-0fe5-11ea-8c6b-9aaa3d2c3f6c.JPG" width="100%">
 
 ### ファームウェアの書き込み
-ProMicroとOLEDモジュールを付けた段階でファームウェアを書き込み、動作確認をすることをおすすめします(キースイッチを付けたあとに不具合が見つかると厄介です)。
-
-https://docs.qmk.fm/#/newbs_getting_started こちらを参照し、ファームウェアを書き込む環境を用意します。
-
-環境ができたら下記コマンドで Crkbd 用にファームウェアをビルドします。
-
-```
-make crkbd:default
-```
-
-ビルドが完了したら下記コマンドを実行します。
-
-```
-make crkbd:default:avrdude
-```
-
-実行すると下記のようなログがでて、`.` が増えていくことが確認出来ると思います。
-この間にリセットスイッチを **2回** 押すとファームウェアの書き込みが完了します。
-
-```
-<省略>
-
-Checking file size of crkbd_rev1_default.hex                                                        [OK]
- * File size is fine - 27328/28672
-Copying crkbd_rev1_default.hex to qmk_firmware folder                                               [OK]
-Detecting USB port, reset your controller now........
-```
-
-片側のProMicroにファームウェアの書き込みが完了したら、もう片方も同じ手順で書き込みを行います。
+下記を参照しファームウェアをProMicroに書き込みます。\
+https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md
 
 ### 動作確認
 

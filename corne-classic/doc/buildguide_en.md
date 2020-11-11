@@ -29,6 +29,10 @@
 
 ![image](https://user-images.githubusercontent.com/736191/40734610-e1ca0136-6473-11e8-8ac7-7bfa4b843f93.png)
 
+## Preparation
+If you build the firmware yourself, it will take some time to set up the environment, so it's best to start at the beginning. \
+For more information, please see https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md.
+
 ## Soldering
 
 PCB is reversible; use one for the left hand side and the other for the right.
@@ -193,34 +197,8 @@ Lastly install keycaps.
 
 
 ## Firmware
-Setup firmware build environment following the instructions here:
-https://docs.qmk.fm/#/newbs_getting_started
-
-Then build firmware for Crkbd with this command:
-
-```
-make crkbd:default
-```
-
-To flash the firmware image you have just built, execute this:
-
-```
-make crkbd:default:avrdude
-```
-
-You will see `.` after a message like below.
-While you see `.` is being printed on the screen, push the reset switch __twice__.
-
-```
-(snip)
-
-Checking file size of crkbd_rev1_default.hex                                                        [OK]
- * File size is fine - 27328/28672
-Copying crkbd_rev1_default.hex to qmk_firmware folder                                               [OK]
-Detecting USB port, reset your controller now........
-```
-
-Flash the firmware to the other side as well.
+See below to flash the firmware to the ProMicro. \
+https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md
 
 ### Turning LEDS on
 To turn the LEDs on, you have to edit the `rules.mk` file. If you use the default layout, it can be found here `keyboards/crkbd/keymaps/default/rules.mk`. Add the following line to the top of the file:

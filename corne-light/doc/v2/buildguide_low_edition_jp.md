@@ -33,10 +33,8 @@
 | OLEDモジュール用ピンソケット 4連 2.5mm | 2つ | |
 
 ## 事前準備
-組み立ての途中で ProMicro にファームウェアを入れる作業がありますが、ファームウェアをビルドする環境を整備するのには時間がかかるためはじめに取り掛かっておくことをおすすめします。
-
-https://docs.qmk.fm/#/ja/newbs_getting_started を参考にし、OSに合わせて必要なものをインストールしておきます。
-インストールに時間がかかるため動かしつつ組み立てを進めると効率的です。
+ファームウェアを自分でビルドする場合は環境を整備するのに時間がかかるのではじめに取り掛かっておくことをおすすめします。\
+詳しくは https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md を参照してください。
 
 ## 確認
 
@@ -120,53 +118,8 @@ OLED用のピンソケットにピンヘッダを先に差し込み、その後�
 ![build_oled](assets/build_oled.jpg)
 
 ### ファームウェア
-https://docs.qmk.fm/#/ja/newbs_getting_started こちら等を参考にし、OSに合わせて必要なものをインストールしておきます。
-上記の事前準備にも挙げたとおり、インストールに時間がかかるため事前に用意しておくことをおすすめします。
-
-Corne 用のファームウェアは `keyboards/crkbd` です。
-なお、LEDはデフォルトでは無効になっているため、`keyboards/crkbd/rules.mk` にて `RGBLIGHT_ENABLE = yes` と変更する必要があります。
-
-```diff
-diff --git a/keyboards/crkbd/rules.mk b/keyboards/crkbd/rules.mk
-index 30de5b388..174dd5c7e 100644
---- a/keyboards/crkbd/rules.mk
-+++ b/keyboards/crkbd/rules.mk
-@@ -26,7 +26,7 @@ MIDI_ENABLE = no            # MIDI controls
- AUDIO_ENABLE = no           # Audio output on port C6
- UNICODE_ENABLE = no         # Unicode
- BLUETOOTH_ENABLE = no       # Enable Bluetooth with the Adafruit EZ-Key HID
--RGBLIGHT_ENABLE = no       # Enable WS2812 RGB underlight.
-+RGBLIGHT_ENABLE = yes       # Enable WS2812 RGB underlight.
-
- # Do not enable SLEEP_LED_ENABLE. it uses the same timer as BACKLIGHT_ENABLE
- SLEEP_LED_ENABLE = no    # Breathing sleep LED during USB suspend
-```
-
-環境ができたら、下記コマンドでファームウェアをビルドします。
-
-```bash
-make crkbd:default
-```
-
-ビルドが完了したら下記コマンドを実行します。
-
-```bash
-make crkbd:default:avrdude
-```
-
-実行すると下記のようなログがでて、`.` が増えていくことが確認出来ると思います。
-この間にリセットスイッチを **2回** 押すとファームウェアの書き込みが完了します。
-
-```bash
-<省略>
-
-Checking file size of crkbd_rev1_default.hex                                                        [OK]
- * File size is fine - 27328/28672
-Copying crkbd_rev1_default.hex to qmk_firmware folder                                               [OK]
-Detecting USB port, reset your controller now........
-```
-
-片側のProMicroにファームウェアの書き込みが完了したら、もう片方も同じ手順で書き込みを行います。
+下記を参照しファームウェアをProMicroに書き込みます。\
+https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md
 
 ### 動作確認
 ProMicroとOLEDモジュールを付けた段階で動作確認をすることをおすすめします。
