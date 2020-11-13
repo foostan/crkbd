@@ -32,13 +32,23 @@ jobs:
         dir: plates/pcb/bottom/gerber
         board: plates/pcb/bottom/corne-bottom-plate.kicad_pcb
         schema: plates/pcb/bottom/corne-bottom-plate.sch
+    - name: Export top-alps plate gerber
+      uses: nerdyscout/kicad-exports@v2.0
+      with:
+        config: .kiplot.yml
+        dir: plates/pcb/top-alps/gerber
+        board: plates/pcb/top-alps/corne-top-plate.kicad_pcb
+        schema: plates/pcb/top-alps/corne-top-plate.sch
 
     - name: Zip Gerber files
       run: |
           zip -r --junk-paths corne-light-gerber.zip corne-light/gerber
           zip -r --junk-paths plates-top-gerber.zip plates/pcb/top/gerber
+          zip -r --junk-paths plates-top-alps-gerber.zip plates/pcb/top-alps/gerber
           zip -r --junk-paths plates-bottom-gerber.zip plates/pcb/bottom/gerber
           zip -r --junk-paths plates.zip plates/common
+          zip -r --junk-paths plates-alps.zip plates/alps
+          zip -r --junk-paths plates-mini.zip plates/mini
 
     - name: Release to GiHub
       uses: softprops/action-gh-release@v1
