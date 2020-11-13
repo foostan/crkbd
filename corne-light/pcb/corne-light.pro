@@ -1,4 +1,4 @@
-update=2020 October 13, Tuesday 22:02:25
+update=2020 October 19, Monday 00:38:12
 version=1
 last_client=kicad
 [cvpcb]
@@ -68,7 +68,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.2
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -246,4 +246,15 @@ uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=Min
+Clearance=1e-05
+TrackWidth=0.2
+ViaDiameter=0.4
+ViaDrill=0.3
+uViaDiameter=0.2
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=1e-05
 dPairViaGap=0.25
