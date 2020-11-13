@@ -37,8 +37,8 @@ jobs:
       with:
         config: .kiplot.yml
         dir: plates/pcb/top-alps/gerber
-        board: plates/pcb/top-alps/corne-top-plate.kicad_pcb
-        schema: plates/pcb/top-alps/corne-top-plate.sch
+        board: plates/pcb/top-alps/corne-top-alps-plate.kicad_pcb
+        schema: plates/pcb/top-alps/corne-top-alps-plate.sch
 
     - name: Zip Gerber files
       run: |
