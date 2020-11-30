@@ -43,14 +43,14 @@
     </td>
   </tr>
   <tr>
-    <td>スペーサー M2 6.5mm</td>
+    <td>スペーサー M2 7.5mm</td>
     <td>10本</td>
     <td rowspan="3">
       <img alt="screws" src="https://user-images.githubusercontent.com/736191/69554618-6b478c80-0fe5-11ea-8090-b14d989e9d07.JPG" width="100%">
     </td>
   </tr>
   <tr>
-    <td>スペーサー M2 8mm</td>
+    <td>スペーサー M2 9mm</td>
     <td>4本</td>
   </tr>
   <tr>
@@ -200,11 +200,11 @@ https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md
 
 ### ProMicro 保護プレート、ボトムプレート
 
-M2 8mm スペーサーを用いて ProMicro 保護プレートを取り付けます。
+M2 9mm スペーサーを用いて ProMicro 保護プレートを取り付けます。
 
 <img alt="assembly-plates-1" src="https://user-images.githubusercontent.com/736191/69554656-700c4080-0fe5-11ea-8083-b55fea60adc9.JPG" width="100%">
 
-M2 6.5mm スペーサーを用いてボトムプレートを取り付けます。
+M2 7.5mm スペーサーを用いてボトムプレートを取り付けます。
 
 <img alt="assembly-plates-2" src="https://user-images.githubusercontent.com/736191/69554660-70a4d700-0fe5-11ea-9c46-eb32c7589470.JPG" width="100%">
 

@@ -19,8 +19,8 @@
 | PCBソケット | 42個 | Kailh および Gateron に対応 |
 | キースイッチ | 42個 | CherryMX互換のみ対応 |
 | キーキャップ | 42個 | 1u 40個、1.5u 2個 |
-| スペーサー M2 6.5mm | 10本 | |
-| スペーサー M2 8mm | 4本 | |
+| スペーサー M2 7.5mm | 10本 | |
+| スペーサー M2 9mm | 4本 | |
 | ネジ M2 4mm | 28本 | |
 | クッションゴム | 8個 | |
 | TRRS(4極)ケーブル | 1本 | TRS(3極)ケーブルでも可 |
@@ -187,7 +187,7 @@ __TIPS: SMD部品を取り付けるコツ__ で紹介したように、予備ハ
 
 ### OLED保護プレート
 
-M2 8mm のスペーサーと M2 ネジで OLED 保護プレートを取り付けます。
+M2 9mm のスペーサーと M2 ネジで OLED 保護プレートを取り付けます。
 
 ![build_oled_plate_front](assets/build_oled_plate_front.jpg)
 ![build_oled_plate_back](assets/build_oled_plate_back.jpg)
@@ -198,7 +198,7 @@ M2 8mm のスペーサーと M2 ネジで OLED 保護プレートを取り付け
 先にすべてのキースイッチをトッププレートに取り付けてしまうと、ソケットにはめ込む難易度が上がってしまうため、先に端のキースイッチのみを取り付ける方が簡単です。
 ![build_top_plate_switches](assets/build_top_plate_switches.jpg)
 
-M2 6.5mm のスペーサーと M2 ネジ をトッププレートに取り付けます。
+M2 7.5mm のスペーサーと M2 ネジ をトッププレートに取り付けます。
 
 ![build_screws_spacers_front](assets/build_screws_spacers_front.jpg)
 

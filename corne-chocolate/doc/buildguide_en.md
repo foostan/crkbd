@@ -23,9 +23,9 @@ This is the build guide for Corne Chocolate.
 | OLED module | 2 pieces | |
 | 4 pin headers | 2 | |
 | 4 pin sockets | 2 | |
-| Spacer M2 3.5mm | 10 | |
-| Spacer M2 8mm | Four | |
-| Screw M2 3mm | 28 | |
+| Spacer M2 4.5mm | 10 | |
+| Spacer M2 9mm | Four | |
+| Screw M2 4mm | 28 | |
 | Cushion rubber | 8 pieces | |
 | TRS (3 pole) cable | 1 | TRRS (4 pole) cable also available |
 | Micro USB Cable | 1 | |
@@ -240,8 +240,8 @@ The soldering is now complete.
 
 ![](https://user-images.githubusercontent.com/736191/52534879-55384a80-2d8a-11e9-9648-e9e9b81625c1.png)
 
-Use 3.5mm spacers for the top and bottom plates
-and 8mm spacers for the OLED.
+Use 4.5mm spacers for the top and bottom plates
+and 9mm spacers for the OLED.
 
 ![](https://user-images.githubusercontent.com/736191/52534882-67b28400-2d8a-11e9-987d-00b5e14a8f2c.png)
 
