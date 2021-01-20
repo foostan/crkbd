@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:corne-classic-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L corne-classic-rescue:ProMicro-kbd U1
+L kbd:ProMicro U1
 U 1 1 5A5E14C2
 P 1800 1950
 F 0 "U1" H 1800 2900 60  0000 C CNN
@@ -25,12 +26,12 @@ F 3 "" H 1900 900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW2
+L kbd:SW_PUSH SW2
 U 1 1 5A5E2699
 P 6400 1050
 F 0 "SW2" H 6550 1160 50  0000 C CNN
 F 1 "SW_PUSH" H 6400 970 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 6400 1050 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 6400 1050 50  0001 C CNN
 F 3 "" H 6400 1050 50  0000 C CNN
 	1    6400 1050
 	1    0    0    -1  
@@ -47,12 +48,12 @@ F 3 "" H 6700 1200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW3
+L kbd:SW_PUSH SW3
 U 1 1 5A5E27F9
 P 7100 1050
 F 0 "SW3" H 7250 1160 50  0000 C CNN
 F 1 "SW_PUSH" H 7100 970 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 7100 1050 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 7100 1050 50  0001 C CNN
 F 3 "" H 7100 1050 50  0000 C CNN
 	1    7100 1050
 	1    0    0    -1  
@@ -69,34 +70,34 @@ F 3 "" H 7400 1200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW4
+L kbd:SW_PUSH SW4
 U 1 1 5A5E2908
 P 7800 1050
 F 0 "SW4" H 7950 1160 50  0000 C CNN
 F 1 "SW_PUSH" H 7800 970 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 7800 1050 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 7800 1050 50  0001 C CNN
 F 3 "" H 7800 1050 50  0000 C CNN
 	1    7800 1050
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW5
+L kbd:SW_PUSH SW5
 U 1 1 5A5E2933
 P 8500 1050
 F 0 "SW5" H 8650 1160 50  0000 C CNN
 F 1 "SW_PUSH" H 8500 970 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 8500 1050 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 8500 1050 50  0001 C CNN
 F 3 "" H 8500 1050 50  0000 C CNN
 	1    8500 1050
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW6
+L kbd:SW_PUSH SW6
 U 1 1 5A5E295E
 P 9200 1050
 F 0 "SW6" H 9350 1160 50  0000 C CNN
 F 1 "SW_PUSH" H 9200 970 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 9200 1050 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 9200 1050 50  0001 C CNN
 F 3 "" H 9200 1050 50  0000 C CNN
 	1    9200 1050
 	1    0    0    -1  
@@ -135,12 +136,12 @@ F 3 "" H 9500 1200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW1
+L kbd:SW_PUSH SW1
 U 1 1 5A5E2B19
 P 5700 1050
 F 0 "SW1" H 5850 1160 50  0000 C CNN
 F 1 "SW_PUSH" H 5700 970 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 5700 1050 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 5700 1050 50  0001 C CNN
 F 3 "" H 5700 1050 50  0000 C CNN
 	1    5700 1050
 	1    0    0    -1  
@@ -157,12 +158,12 @@ F 3 "" H 6000 1200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW8
+L kbd:SW_PUSH SW8
 U 1 1 5A5E2D26
 P 6400 1650
 F 0 "SW8" H 6550 1760 50  0000 C CNN
 F 1 "SW_PUSH" H 6400 1570 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 6400 1650 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 6400 1650 50  0001 C CNN
 F 3 "" H 6400 1650 50  0000 C CNN
 	1    6400 1650
 	1    0    0    -1  
@@ -179,12 +180,12 @@ F 3 "" H 6700 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW9
+L kbd:SW_PUSH SW9
 U 1 1 5A5E2D32
 P 7100 1650
 F 0 "SW9" H 7250 1760 50  0000 C CNN
 F 1 "SW_PUSH" H 7100 1570 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 7100 1650 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 7100 1650 50  0001 C CNN
 F 3 "" H 7100 1650 50  0000 C CNN
 	1    7100 1650
 	1    0    0    -1  
@@ -201,34 +202,34 @@ F 3 "" H 7400 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW10
+L kbd:SW_PUSH SW10
 U 1 1 5A5E2D3E
 P 7800 1650
 F 0 "SW10" H 7950 1760 50  0000 C CNN
 F 1 "SW_PUSH" H 7800 1570 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 7800 1650 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 7800 1650 50  0001 C CNN
 F 3 "" H 7800 1650 50  0000 C CNN
 	1    7800 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW11
+L kbd:SW_PUSH SW11
 U 1 1 5A5E2D44
 P 8500 1650
 F 0 "SW11" H 8650 1760 50  0000 C CNN
 F 1 "SW_PUSH" H 8500 1570 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 8500 1650 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 8500 1650 50  0001 C CNN
 F 3 "" H 8500 1650 50  0000 C CNN
 	1    8500 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW12
+L kbd:SW_PUSH SW12
 U 1 1 5A5E2D4A
 P 9200 1650
 F 0 "SW12" H 9350 1760 50  0000 C CNN
 F 1 "SW_PUSH" H 9200 1570 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 9200 1650 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 9200 1650 50  0001 C CNN
 F 3 "" H 9200 1650 50  0000 C CNN
 	1    9200 1650
 	1    0    0    -1  
@@ -267,12 +268,12 @@ F 3 "" H 9500 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW7
+L kbd:SW_PUSH SW7
 U 1 1 5A5E2D6E
 P 5700 1650
 F 0 "SW7" H 5850 1760 50  0000 C CNN
 F 1 "SW_PUSH" H 5700 1570 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 5700 1650 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 5700 1650 50  0001 C CNN
 F 3 "" H 5700 1650 50  0000 C CNN
 	1    5700 1650
 	1    0    0    -1  
@@ -289,12 +290,12 @@ F 3 "" H 6000 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW14
+L kbd:SW_PUSH SW14
 U 1 1 5A5E35B1
 P 6400 2250
 F 0 "SW14" H 6550 2360 50  0000 C CNN
 F 1 "SW_PUSH" H 6400 2170 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 6400 2250 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 6400 2250 50  0001 C CNN
 F 3 "" H 6400 2250 50  0000 C CNN
 	1    6400 2250
 	1    0    0    -1  
@@ -311,12 +312,12 @@ F 3 "" H 6700 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW15
+L kbd:SW_PUSH SW15
 U 1 1 5A5E35BD
 P 7100 2250
 F 0 "SW15" H 7250 2360 50  0000 C CNN
 F 1 "SW_PUSH" H 7100 2170 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 7100 2250 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 7100 2250 50  0001 C CNN
 F 3 "" H 7100 2250 50  0000 C CNN
 	1    7100 2250
 	1    0    0    -1  
@@ -333,34 +334,34 @@ F 3 "" H 7400 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW16
+L kbd:SW_PUSH SW16
 U 1 1 5A5E35C9
 P 7800 2250
 F 0 "SW16" H 7950 2360 50  0000 C CNN
 F 1 "SW_PUSH" H 7800 2170 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 7800 2250 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 7800 2250 50  0001 C CNN
 F 3 "" H 7800 2250 50  0000 C CNN
 	1    7800 2250
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW17
+L kbd:SW_PUSH SW17
 U 1 1 5A5E35CF
 P 8500 2250
 F 0 "SW17" H 8650 2360 50  0000 C CNN
 F 1 "SW_PUSH" H 8500 2170 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 8500 2250 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 8500 2250 50  0001 C CNN
 F 3 "" H 8500 2250 50  0000 C CNN
 	1    8500 2250
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW18
+L kbd:SW_PUSH SW18
 U 1 1 5A5E35D5
 P 9200 2250
 F 0 "SW18" H 9350 2360 50  0000 C CNN
 F 1 "SW_PUSH" H 9200 2170 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 9200 2250 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 9200 2250 50  0001 C CNN
 F 3 "" H 9200 2250 50  0000 C CNN
 	1    9200 2250
 	1    0    0    -1  
@@ -399,12 +400,12 @@ F 3 "" H 9500 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW13
+L kbd:SW_PUSH SW13
 U 1 1 5A5E35F9
 P 5700 2250
 F 0 "SW13" H 5850 2360 50  0000 C CNN
 F 1 "SW_PUSH" H 5700 2170 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 5700 2250 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 5700 2250 50  0001 C CNN
 F 3 "" H 5700 2250 50  0000 C CNN
 	1    5700 2250
 	1    0    0    -1  
@@ -421,12 +422,12 @@ F 3 "" H 6000 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW21
+L kbd:SW_PUSH SW20
 U 1 1 5A5E37A4
 P 8500 2850
-F 0 "SW21" H 8650 2960 50  0000 C CNN
+F 0 "SW20" H 8650 2960 50  0000 C CNN
 F 1 "SW_PUSH" H 8500 2770 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 8500 2850 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 8500 2850 50  0001 C CNN
 F 3 "" H 8500 2850 50  0000 C CNN
 	1    8500 2850
 	1    0    0    -1  
@@ -443,12 +444,12 @@ F 3 "" H 8800 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW22
+L kbd:SW_PUSH SW21
 U 1 1 5A5E37B0
 P 9200 2850
-F 0 "SW22" H 9350 2960 50  0000 C CNN
+F 0 "SW21" H 9350 2960 50  0000 C CNN
 F 1 "SW_PUSH" H 9200 2770 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 9200 2850 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed_1.75u" H 9200 2850 50  0001 C CNN
 F 3 "" H 9200 2850 50  0000 C CNN
 	1    9200 2850
 	1    0    0    -1  
@@ -465,12 +466,12 @@ F 3 "" H 9500 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd SW20
+L kbd:SW_PUSH SW19
 U 1 1 5A5E37EC
 P 7800 2850
-F 0 "SW20" H 7950 2960 50  0000 C CNN
+F 0 "SW19" H 7950 2960 50  0000 C CNN
 F 1 "SW_PUSH" H 7800 2770 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 7800 2850 50  0001 C CNN
+F 2 "kbd:MX_ALPS_PG1350_noLed" H 7800 2850 50  0001 C CNN
 F 3 "" H 7800 2850 50  0000 C CNN
 	1    7800 2850
 	1    0    0    -1  
@@ -504,6 +505,8 @@ Text GLabel 5850 1950 0    60   Input ~ 0
 row1
 Text GLabel 5850 2550 0    60   Input ~ 0
 row2
+Text GLabel 7925 3150 0    60   Input ~ 0
+row3
 $Comp
 L power:GND #PWR03
 U 1 1 5A5E8A2C
@@ -589,7 +592,7 @@ row1
 Text GLabel 1100 1800 0    47   Input ~ 0
 row0
 $Comp
-L corne-classic-rescue:SW_PUSH-kbd RSW1
+L kbd:SW_PUSH RSW1
 U 1 1 5A5EB9E2
 P 1650 3300
 F 0 "RSW1" H 1800 3410 50  0000 C CNN
@@ -654,7 +657,7 @@ reset
 Text GLabel 1350 3300 0    60   Input ~ 0
 reset
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L8
+L kbd:SK6812MINI L8
 U 1 1 5A7737BA
 P 5625 5075
 F 0 "L8" H 5625 5075 59  0000 C CNN
@@ -665,7 +668,7 @@ F 3 "" H 5625 5075 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L9
+L kbd:SK6812MINI L9
 U 1 1 5A77395F
 P 6225 5075
 F 0 "L9" H 6225 5075 59  0000 C CNN
@@ -676,7 +679,7 @@ F 3 "" H 6225 5075 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L10
+L kbd:SK6812MINI L10
 U 1 1 5A77468D
 P 6825 5075
 F 0 "L10" H 6825 5075 59  0000 C CNN
@@ -687,7 +690,7 @@ F 3 "" H 6825 5075 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L11
+L kbd:SK6812MINI L11
 U 1 1 5A774838
 P 7425 5075
 F 0 "L11" H 7425 5075 59  0000 C CNN
@@ -698,7 +701,7 @@ F 3 "" H 7425 5075 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L12
+L kbd:SK6812MINI L12
 U 1 1 5A7749E7
 P 8025 5075
 F 0 "L12" H 8025 5075 59  0000 C CNN
@@ -709,7 +712,7 @@ F 3 "" H 8025 5075 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L7
+L kbd:SK6812MINI L7
 U 1 1 5A774B99
 P 5025 5075
 F 0 "L7" H 5025 5075 59  0000 C CNN
@@ -720,7 +723,7 @@ F 3 "" H 5025 5075 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L14
+L kbd:SK6812MINI L14
 U 1 1 5A774F4E
 P 5625 5575
 F 0 "L14" H 5625 5575 59  0000 C CNN
@@ -731,7 +734,7 @@ F 3 "" H 5625 5575 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L15
+L kbd:SK6812MINI L15
 U 1 1 5A774F54
 P 6225 5575
 F 0 "L15" H 6225 5575 59  0000 C CNN
@@ -742,7 +745,7 @@ F 3 "" H 6225 5575 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L16
+L kbd:SK6812MINI L16
 U 1 1 5A774F5A
 P 6825 5575
 F 0 "L16" H 6825 5575 59  0000 C CNN
@@ -753,7 +756,7 @@ F 3 "" H 6825 5575 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L17
+L kbd:SK6812MINI L17
 U 1 1 5A774F60
 P 7425 5575
 F 0 "L17" H 7425 5575 59  0000 C CNN
@@ -764,7 +767,7 @@ F 3 "" H 7425 5575 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L18
+L kbd:SK6812MINI L18
 U 1 1 5A774F66
 P 8025 5575
 F 0 "L18" H 8025 5575 59  0000 C CNN
@@ -775,7 +778,7 @@ F 3 "" H 8025 5575 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L13
+L kbd:SK6812MINI L13
 U 1 1 5A774F6C
 P 5025 5575
 F 0 "L13" H 5025 5575 59  0000 C CNN
@@ -786,7 +789,7 @@ F 3 "" H 5025 5575 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L20
+L kbd:SK6812MINI L20
 U 1 1 5A775150
 P 5625 6075
 F 0 "L20" H 5625 6075 59  0000 C CNN
@@ -797,7 +800,7 @@ F 3 "" H 5625 6075 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L21
+L kbd:SK6812MINI L21
 U 1 1 5A775156
 P 6225 6075
 F 0 "L21" H 6225 6075 59  0000 C CNN
@@ -808,7 +811,7 @@ F 3 "" H 6225 6075 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L22
+L kbd:SK6812MINI L22
 U 1 1 5A77515C
 P 6825 6075
 F 0 "L22" H 6825 6075 59  0000 C CNN
@@ -819,7 +822,7 @@ F 3 "" H 6825 6075 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L23
+L kbd:SK6812MINI L23
 U 1 1 5A775162
 P 7425 6075
 F 0 "L23" H 7425 6075 59  0000 C CNN
@@ -830,7 +833,7 @@ F 3 "" H 7425 6075 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L24
+L kbd:SK6812MINI L24
 U 1 1 5A775168
 P 8025 6075
 F 0 "L24" H 8025 6075 59  0000 C CNN
@@ -841,7 +844,7 @@ F 3 "" H 8025 6075 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L19
+L kbd:SK6812MINI L19
 U 1 1 5A77516E
 P 5025 6075
 F 0 "L19" H 5025 6075 59  0000 C CNN
@@ -852,7 +855,7 @@ F 3 "" H 5025 6075 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L26
+L kbd:SK6812MINI L26
 U 1 1 5A775174
 P 7425 6575
 F 0 "L26" H 7425 6575 59  0000 C CNN
@@ -863,7 +866,7 @@ F 3 "" H 7425 6575 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L27
+L kbd:SK6812MINI L27
 U 1 1 5A77517A
 P 8025 6575
 F 0 "L27" H 8025 6575 59  0000 C CNN
@@ -874,7 +877,7 @@ F 3 "" H 8025 6575 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L25
+L kbd:SK6812MINI L25
 U 1 1 5A775192
 P 6825 6575
 F 0 "L25" H 6825 6575 59  0000 C CNN
@@ -884,9 +887,11 @@ F 3 "" H 6825 6575 60  0001 C CNN
 	1    6825 6575
 	1    0    0    -1  
 $EndComp
+NoConn ~ 2500 2300
 NoConn ~ 1100 2300
 Text GLabel 2500 1600 2    47   Input ~ 0
 col0
+NoConn ~ 2500 2200
 NoConn ~ 1100 2200
 Text GLabel 1100 1600 0    47   Input ~ 0
 SDA
@@ -1182,7 +1187,7 @@ F 3 "" H 2700 1500 50  0001 C CNN
 $EndComp
 NoConn ~ 2500 1200
 $Comp
-L corne-classic-rescue:MJ-4PP-9-kbd J1
+L kbd:MJ-4PP-9 J1
 U 1 1 5ACD605D
 P 2800 3300
 F 0 "J1" H 2800 3450 50  0000 C CNN
@@ -1250,7 +1255,7 @@ F 3 "" H 3300 3025 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L3
+L kbd:SK6812MINI L3
 U 1 1 5AD785A7
 P 8025 3675
 F 0 "L3" H 8025 3675 59  0000 C CNN
@@ -1261,7 +1266,7 @@ F 3 "" H 8025 3675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L2
+L kbd:SK6812MINI L2
 U 1 1 5AD7881D
 P 6825 3675
 F 0 "L2" H 6825 3675 59  0000 C CNN
@@ -1272,7 +1277,7 @@ F 3 "" H 6825 3675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L1
+L kbd:SK6812MINI L1
 U 1 1 5AD78A03
 P 5625 3675
 F 0 "L1" H 5625 3675 59  0000 C CNN
@@ -1283,7 +1288,7 @@ F 3 "" H 5625 3675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L6
+L kbd:SK6812MINI L6
 U 1 1 5AD78CF3
 P 8025 4250
 F 0 "L6" H 8025 4250 59  0000 C CNN
@@ -1294,7 +1299,7 @@ F 3 "" H 8025 4250 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L5
+L kbd:SK6812MINI L5
 U 1 1 5AD78CF9
 P 6825 4250
 F 0 "L5" H 6825 4250 59  0000 C CNN
@@ -1305,7 +1310,7 @@ F 3 "" H 6825 4250 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L corne-classic-rescue:SK6812MINI-kbd L4
+L kbd:SK6812MINI L4
 U 1 1 5AD78CFF
 P 5625 4250
 F 0 "L4" H 5625 4250 59  0000 C CNN
@@ -1958,88 +1963,7 @@ Wire Wire Line
 Wire Wire Line
 	5825 6175 5825 6325
 Wire Wire Line
-	6525 6175 6525 6675
-$Comp
-L corne-classic-rescue:SW_PUSH-kbd SW19
-U 1 1 6026A82C
-P 7100 2850
-F 0 "SW19" H 7250 2960 50  0000 C CNN
-F 1 "SW_PUSH" H 7100 2770 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 7100 2850 50  0001 C CNN
-F 3 "" H 7100 2850 50  0000 C CNN
-	1    7100 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D22
-U 1 1 6026B08C
-P 7400 3000
-F 0 "D22" H 7400 3100 50  0000 C CNN
-F 1 "D" H 7400 2900 50  0000 C CNN
-F 2 "kbd:D3_TH_SMD" H 7400 3000 50  0001 C CNN
-F 3 "" H 7400 3000 50  0001 C CNN
-	1    7400 3000
-	0    -1   -1   0   
-$EndComp
-Text GLabel 7225 3150 0    60   Input ~ 0
-row3
-Connection ~ 7400 3150
-Wire Wire Line
-	6800 2250 6800 2850
-Wire Wire Line
-	7225 3150 7400 3150
-Connection ~ 6800 2250
-Wire Wire Line
 	7925 3150 8100 3150
 Wire Wire Line
-	7400 3150 8100 3150
-$Comp
-L arina:JOYSTICK-PSP1000 RV11
-U 1 1 602C8EEC
-P 4350 2300
-F 0 "RV11" H 4528 2351 50  0000 L CNN
-F 1 "JOYSTICK-PSP1000" H 4528 2260 50  0000 L CNN
-F 2 "HackPack_Footprints:JOYSTICK-PSP1000" H 4300 2400 50  0001 C CNN
-F 3 "" H 4300 2400 50  0001 C CNN
-	1    4350 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 602CB075
-P 3600 2350
-F 0 "#PWR0101" H 3600 2100 50  0001 C CNN
-F 1 "GND" H 3600 2200 50  0000 C CNN
-F 2 "" H 3600 2350 50  0001 C CNN
-F 3 "" H 3600 2350 50  0001 C CNN
-	1    3600 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0102
-U 1 1 602CFD5A
-P 3750 2150
-F 0 "#PWR0102" H 3750 2000 50  0001 C CNN
-F 1 "VCC" H 3750 2300 50  0000 C CNN
-F 2 "" H 3750 2150 50  0001 C CNN
-F 3 "" H 3750 2150 50  0001 C CNN
-	1    3750 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4100 2150 3750 2150
-Text GLabel 2500 2300 2    50   Input ~ 0
-analogY
-Text GLabel 2500 2200 2    50   Input ~ 0
-analogX
-Text GLabel 4050 2450 0    50   Input ~ 0
-analogX
-Text GLabel 4050 2250 0    50   Input ~ 0
-analogY
-Wire Wire Line
-	4100 2350 3600 2350
-Wire Wire Line
-	4100 2250 4050 2250
-Wire Wire Line
-	4100 2450 4050 2450
+	6525 6175 6525 6675
 $EndSCHEMATC

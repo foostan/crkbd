@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name corne-classic-rescue)(type Legacy)(uri ${KIPRJMOD}/corne-classic-rescue.lib)(options "")(descr ""))
+  (lib (name arina)(type Legacy)(uri ${KIPRJMOD}/arina.lib)(options "")(descr ""))
+)

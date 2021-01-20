@@ -13,9 +13,9 @@
 | Diode                 | 42     | You need SMD for low profile. |
 | Key Switch            | 42     | |
 | Key Cap               | 42     | 1u x 40,  1.5u x 2 |
-| Spacer M2 7.5mm         | 10     | use 3mm for low profile |
-| Spacer M2 9mm or 11mm | 4      | |
-| Screw M2 4mm          | 28     | |
+| Spacer M2 6mm         | 10     | use 3mm for low profile |
+| Spacer M2 8mm or 10mm | 4      | |
+| Screw M2              | 28     | |
 | Rubber foot           | 10     | |
 
 ### Optional
@@ -112,7 +112,7 @@ Implement pin header onto the OLED modules, then insert them into the pin socket
 ![image](https://user-images.githubusercontent.com/736191/40888530-7420d1aa-6793-11e8-8813-9681c1411a21.png)
 
 Adjust the height of the spacer accordingly to the height of pin header.
-Most common pin header/socket and 11mm spacers are used in the picture.
+Most common pin header/socket and 10mm spacers are used in the picture.
 
 
 ### Use socket to Mount ProMicro
@@ -128,7 +128,7 @@ ProMicro kit with spring loaded headers is available at Yusha-Kobo
 
 https://yushakobo.jp/shop/promicro-spring-pinheader/
 
-Using OLEDs available at Yusha-Kobo which come with low profile header, together with and 9mm spacers, you can build them think and gap-less.
+Using OLEDs available at Yusha-Kobo which come with low profile header, together with and 8mm spacers, you can build them think and gap-less.
 
 ![img_4141](https://user-images.githubusercontent.com/736191/41304818-2b65511e-6eac-11e8-9357-999ff14080ed.png)
 
@@ -184,7 +184,7 @@ Sandwich top-plate with PCB and key-switches.
 
 ### Bottom Plate
 Use 3mm spacers for low-profile,
-Attach bottom plate to the PCB using 7.5mm (3mm for low-profile) spacers.
+Attach bottom plate to the PCB using 6mm (3mm for low-profile) spacers.
 Then attach six rubber feet.
 
 
