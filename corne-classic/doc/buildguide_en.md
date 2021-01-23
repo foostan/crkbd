@@ -100,7 +100,7 @@ For OLEDs, also implement pin sockets.
 
 Before you start, flash the Crkbd firmware to the ProMicros to make sure they are alright.
 
-The ProMicro is then installed __in the set of wholes that has a white frame on the frontside of the PCB__. Make sure you solder it in the right set of holes, as desoldering the ProMicro is hard. Implement pin headers in the white frame, then install ProMicro with its __backside up__.
+The ProMicro is then installed __in the set of holes that has a white frame on the frontside of the PCB__. Make sure you solder it in the right set of holes, as desoldering the ProMicro is hard. Implement pin headers in the white frame, then install ProMicro with its __backside up__.
 
 ![image](https://user-images.githubusercontent.com/736191/40737973-3f404de4-647d-11e8-84fe-37f3a34e4c53.png)
 
