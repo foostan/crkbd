@@ -19,7 +19,7 @@ U 1 1 5A5E2699
 P 6400 1050
 F 0 "SW2" H 6550 1160 50  0000 C CNN
 F 1 "SW_PUSH" H 6400 970 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 6400 1050 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 6400 1050 50  0001 C CNN
 F 3 "" H 6400 1050 50  0000 C CNN
 	1    6400 1050
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 5A5E27F9
 P 7100 1050
 F 0 "SW3" H 7250 1160 50  0000 C CNN
 F 1 "SW_PUSH" H 7100 970 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 7100 1050 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 7100 1050 50  0001 C CNN
 F 3 "" H 7100 1050 50  0000 C CNN
 	1    7100 1050
 	1    0    0    -1  
@@ -63,7 +63,7 @@ U 1 1 5A5E2908
 P 7800 1050
 F 0 "SW4" H 7950 1160 50  0000 C CNN
 F 1 "SW_PUSH" H 7800 970 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 7800 1050 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 7800 1050 50  0001 C CNN
 F 3 "" H 7800 1050 50  0000 C CNN
 	1    7800 1050
 	1    0    0    -1  
@@ -74,7 +74,7 @@ U 1 1 5A5E2933
 P 8500 1050
 F 0 "SW5" H 8650 1160 50  0000 C CNN
 F 1 "SW_PUSH" H 8500 970 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 8500 1050 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 8500 1050 50  0001 C CNN
 F 3 "" H 8500 1050 50  0000 C CNN
 	1    8500 1050
 	1    0    0    -1  
@@ -85,7 +85,7 @@ U 1 1 5A5E295E
 P 9200 1050
 F 0 "SW6" H 9350 1160 50  0000 C CNN
 F 1 "SW_PUSH" H 9200 970 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 9200 1050 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 9200 1050 50  0001 C CNN
 F 3 "" H 9200 1050 50  0000 C CNN
 	1    9200 1050
 	1    0    0    -1  
@@ -129,7 +129,7 @@ U 1 1 5A5E2B19
 P 5700 1050
 F 0 "SW1" H 5850 1160 50  0000 C CNN
 F 1 "SW_PUSH" H 5700 970 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 5700 1050 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 5700 1050 50  0001 C CNN
 F 3 "" H 5700 1050 50  0000 C CNN
 	1    5700 1050
 	1    0    0    -1  
@@ -151,7 +151,7 @@ U 1 1 5A5E2D26
 P 6400 1650
 F 0 "SW8" H 6550 1760 50  0000 C CNN
 F 1 "SW_PUSH" H 6400 1570 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 6400 1650 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 6400 1650 50  0001 C CNN
 F 3 "" H 6400 1650 50  0000 C CNN
 	1    6400 1650
 	1    0    0    -1  
@@ -173,7 +173,7 @@ U 1 1 5A5E2D32
 P 7100 1650
 F 0 "SW9" H 7250 1760 50  0000 C CNN
 F 1 "SW_PUSH" H 7100 1570 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 7100 1650 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 7100 1650 50  0001 C CNN
 F 3 "" H 7100 1650 50  0000 C CNN
 	1    7100 1650
 	1    0    0    -1  
@@ -195,7 +195,7 @@ U 1 1 5A5E2D3E
 P 7800 1650
 F 0 "SW10" H 7950 1760 50  0000 C CNN
 F 1 "SW_PUSH" H 7800 1570 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 7800 1650 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 7800 1650 50  0001 C CNN
 F 3 "" H 7800 1650 50  0000 C CNN
 	1    7800 1650
 	1    0    0    -1  
@@ -206,7 +206,7 @@ U 1 1 5A5E2D44
 P 8500 1650
 F 0 "SW11" H 8650 1760 50  0000 C CNN
 F 1 "SW_PUSH" H 8500 1570 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 8500 1650 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 8500 1650 50  0001 C CNN
 F 3 "" H 8500 1650 50  0000 C CNN
 	1    8500 1650
 	1    0    0    -1  
@@ -217,7 +217,7 @@ U 1 1 5A5E2D4A
 P 9200 1650
 F 0 "SW12" H 9350 1760 50  0000 C CNN
 F 1 "SW_PUSH" H 9200 1570 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 9200 1650 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 9200 1650 50  0001 C CNN
 F 3 "" H 9200 1650 50  0000 C CNN
 	1    9200 1650
 	1    0    0    -1  
@@ -261,7 +261,7 @@ U 1 1 5A5E2D6E
 P 5700 1650
 F 0 "SW7" H 5850 1760 50  0000 C CNN
 F 1 "SW_PUSH" H 5700 1570 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 5700 1650 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 5700 1650 50  0001 C CNN
 F 3 "" H 5700 1650 50  0000 C CNN
 	1    5700 1650
 	1    0    0    -1  
@@ -283,7 +283,7 @@ U 1 1 5A5E35B1
 P 6400 2250
 F 0 "SW14" H 6550 2360 50  0000 C CNN
 F 1 "SW_PUSH" H 6400 2170 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 6400 2250 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 6400 2250 50  0001 C CNN
 F 3 "" H 6400 2250 50  0000 C CNN
 	1    6400 2250
 	1    0    0    -1  
@@ -305,7 +305,7 @@ U 1 1 5A5E35BD
 P 7100 2250
 F 0 "SW15" H 7250 2360 50  0000 C CNN
 F 1 "SW_PUSH" H 7100 2170 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 7100 2250 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 7100 2250 50  0001 C CNN
 F 3 "" H 7100 2250 50  0000 C CNN
 	1    7100 2250
 	1    0    0    -1  
@@ -327,7 +327,7 @@ U 1 1 5A5E35C9
 P 7800 2250
 F 0 "SW16" H 7950 2360 50  0000 C CNN
 F 1 "SW_PUSH" H 7800 2170 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 7800 2250 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 7800 2250 50  0001 C CNN
 F 3 "" H 7800 2250 50  0000 C CNN
 	1    7800 2250
 	1    0    0    -1  
@@ -338,7 +338,7 @@ U 1 1 5A5E35CF
 P 8500 2250
 F 0 "SW17" H 8650 2360 50  0000 C CNN
 F 1 "SW_PUSH" H 8500 2170 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 8500 2250 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 8500 2250 50  0001 C CNN
 F 3 "" H 8500 2250 50  0000 C CNN
 	1    8500 2250
 	1    0    0    -1  
@@ -349,7 +349,7 @@ U 1 1 5A5E35D5
 P 9200 2250
 F 0 "SW18" H 9350 2360 50  0000 C CNN
 F 1 "SW_PUSH" H 9200 2170 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 9200 2250 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 9200 2250 50  0001 C CNN
 F 3 "" H 9200 2250 50  0000 C CNN
 	1    9200 2250
 	1    0    0    -1  
@@ -393,7 +393,7 @@ U 1 1 5A5E35F9
 P 5700 2250
 F 0 "SW13" H 5850 2360 50  0000 C CNN
 F 1 "SW_PUSH" H 5700 2170 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 5700 2250 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 5700 2250 50  0001 C CNN
 F 3 "" H 5700 2250 50  0000 C CNN
 	1    5700 2250
 	1    0    0    -1  
@@ -415,7 +415,7 @@ U 1 1 5A5E37A4
 P 8500 2850
 F 0 "SW21" H 8650 2960 50  0000 C CNN
 F 1 "SW_PUSH" H 8500 2770 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 8500 2850 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 8500 2850 50  0001 C CNN
 F 3 "" H 8500 2850 50  0000 C CNN
 	1    8500 2850
 	1    0    0    -1  
@@ -437,7 +437,7 @@ U 1 1 5A5E37B0
 P 9200 2850
 F 0 "SW22" H 9350 2960 50  0000 C CNN
 F 1 "SW_PUSH" H 9200 2770 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 9200 2850 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 9200 2850 50  0001 C CNN
 F 3 "" H 9200 2850 50  0000 C CNN
 	1    9200 2850
 	1    0    0    -1  
@@ -459,7 +459,7 @@ U 1 1 5A5E37EC
 P 7800 2850
 F 0 "SW20" H 7950 2960 50  0000 C CNN
 F 1 "SW_PUSH" H 7800 2770 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 7800 2850 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 7800 2850 50  0001 C CNN
 F 3 "" H 7800 2850 50  0000 C CNN
 	1    7800 2850
 	1    0    0    -1  
@@ -1948,7 +1948,7 @@ U 1 1 6026A82C
 P 7100 2850
 F 0 "SW19" H 7250 2960 50  0000 C CNN
 F 1 "SW_PUSH" H 7100 2770 50  0000 C CNN
-F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane" H 7100 2850 50  0001 C CNN
+F 2 "kailh-pg1425-x-switch:MX-ALPS-Choc-X-straight-crane2" H 7100 2850 50  0001 C CNN
 F 3 "" H 7100 2850 50  0000 C CNN
 	1    7100 2850
 	1    0    0    -1  
