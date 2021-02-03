@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name kailh-pg1425-x-switch)(type KiCad)(uri C:/Users/arina/source/Keyboard/crkbd/libraries/kicad-footprint-kailh-pg1425-x-switch/kailh-pg1425-x-switch.pretty)(options "")(descr ""))
+  (lib (name HackPack_Footprints)(type KiCad)(uri C:/Users/arina/source/Keyboard/crkbd/libraries/HackPack_Footprints.pretty)(options "")(descr ""))
+  (lib (name keyboard_parts)(type KiCad)(uri C:/Users/arina/source/Keyboard/crkbd/libraries/keyboard_parts.pretty)(options "")(descr ""))
+  (lib (name keebs)(type KiCad)(uri C:/Users/arina/source/Keyboard/crkbd/libraries/keebs.pretty)(options "")(descr ""))
+  (lib (name kbd)(type KiCad)(uri C:/Users/arina/source/Keyboard/crkbd/libraries/kbd/kicad-footprints/kbd.pretty)(options "")(descr ""))
+)
