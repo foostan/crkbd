@@ -2,9 +2,9 @@
 
 This is the build guide for Corne Light v2 Low edition.
 
-![corne-light-low-edition-001](assets/corner-light-low-edition-001.jpg)
-![corne-light-low-edition-002](assets/corner-light-low-edition-002.jpg)
-![corne-light-low-edition-003](assets/corner-light-low-edition-003.jpg)
+![corne-light-low-edition-001](assets/corne-light-low-edition-001.jpg)
+![corne-light-low-edition-002](assets/corne-light-low-edition-002.jpg)
+![corne-light-low-edition-003](assets/corne-light-low-edition-003.jpg)
 
 ## Parts
 
