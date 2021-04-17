@@ -42,8 +42,8 @@ For more information, please see https://github.com/foostan/crkbd/blob/master/do
 PCB is reversible; use one for the left hand side and the other for the right.
 
 ### Diodes
-__For non Low Profile keyswitches__
 
+#### For non Low Profile keyswitches
 Solder diodes as indicated in the picture. You can place it on either side, but front side is recommended if you implement under-glow LED. You can use SMD diodes too.
 
 ![image](https://user-images.githubusercontent.com/736191/40736513-306a0976-6479-11e8-8f98-a88073919a71.png)
@@ -55,7 +55,7 @@ Diode has polarity; make sure to match the polarity with PCB silkscreen.
 
 ![image](https://user-images.githubusercontent.com/736191/40735282-bac94180-6475-11e8-96f9-1d1cc43b1ee9.png)
 
-__For Low Profile Keyswitches__
+#### For Low Profile Keyswitches
 
 If you use low profile keyswitches, you have to implement SMD diodes __on the back side__.
 Otherwise, diodes will interfere with top plate.
