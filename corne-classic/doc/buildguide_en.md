@@ -1,7 +1,9 @@
 # Build Guide
 
 ## Parts
+
 ### Required
+
 | Item | Count | Remark |
 |:-|:-|:-|
 | PCB                   | 2      | |
@@ -13,12 +15,13 @@
 | Diode                 | 42     | You need SMD for low profile. |
 | Key Switch            | 42     | |
 | Key Cap               | 42     | 1u x 40,  1.5u x 2 |
-| Spacer M2 7.5mm         | 10     | use 3mm for low profile |
+| Spacer M2 7.5mm       | 10     | use 3mm for low profile |
 | Spacer M2 9mm or 11mm | 4      | |
 | Screw M2 4mm          | 28     | |
 | Rubber foot           | 10     | |
 
 ### Optional
+
 | Item | Count | Remark |
 |:-|:-|:-|
 | OLED Module           | 1 or 2 | |
@@ -30,6 +33,7 @@
 ![image](https://user-images.githubusercontent.com/736191/40734610-e1ca0136-6473-11e8-8ac7-7bfa4b843f93.png)
 
 ## Preparation
+
 If you build the firmware yourself, it will take some time to set up the environment, so it's best to start at the beginning. \
 For more information, please see https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md.
 
@@ -84,12 +88,13 @@ LEDs are connected in the order of the number on the picture above. If it turns 
 __Note__ that the default Crkbd firmware has __LEDs turned off__, so you'll have to turn them on before you can test (see the firmware section for instructions how).
 
 ### Jumpers for OLED modules (optional)
+
 To use OLED modules, short circuit the jumper patterns.
 __Only short circuit the front side__
 
 ![image](https://user-images.githubusercontent.com/736191/40734778-56ded514-6474-11e8-8da7-3ebba048d62d.png)
 
-### TRRS socket, reset switch, OLED header sockets.
+### TRRS socket, reset switch, OLED header sockets
 
 Install TRRS sockets and reset switches as in the picture.
 For OLEDs, also implement pin sockets.
@@ -107,6 +112,7 @@ The ProMicro is then installed __in the set of holes that has a white frame on t
 The picture is the right hand side, but it's the same for the left hand side - pins into the through holes in the white frame as seen from the frontside, placing the ProMicro with its backside up.
 
 ### OLED Module
+
 Implement pin header onto the OLED modules, then insert them into the pin sockets.
 
 ![image](https://user-images.githubusercontent.com/736191/40888530-7420d1aa-6793-11e8-8813-9681c1411a21.png)
@@ -114,11 +120,9 @@ Implement pin header onto the OLED modules, then insert them into the pin socket
 Adjust the height of the spacer accordingly to the height of pin header.
 Most common pin header/socket and 11mm spacers are used in the picture.
 
-
 ### Use socket to Mount ProMicro
 
 With using sockets for mounting ProMicro, you can replace it easily when it breaks. Two methods are introduced here.
-
 
 #### Using Spring Loaded Header
 
@@ -126,16 +130,17 @@ Refer to [Helix Buildguide](https://github.com/MakotoKurauchi/helix/blob/master/
 
 ProMicro kit with spring loaded headers is available at Yusha-Kobo
 
-https://yushakobo.jp/shop/promicro-spring-pinheader/
+<https://yushakobo.jp/shop/promicro-spring-pinheader/>
 
 Using OLEDs available at Yusha-Kobo which come with low profile header, together with and 9mm spacers, you can build them think and gap-less.
 
 ![img_4141](https://user-images.githubusercontent.com/736191/41304818-2b65511e-6eac-11e8-9357-999ff14080ed.png)
 
 #### Using Pin Sockets
+
 Low profile pin sockets are available from Akizuki Denshi etc. Requires some work.
 
-http://akizukidenshi.com/catalog/g/gC-03138/
+<http://akizukidenshi.com/catalog/g/gC-03138/>
 
 Install a couple of 12x1 pin sockets on a breadboard.
 
@@ -155,11 +160,9 @@ Spring loaded headers can make the height lower.
 
 ![img_4134](https://user-images.githubusercontent.com/736191/41305254-53bc4522-6ead-11e8-83ed-c4c7c2787828.png)
 
-
 Comparing pin-headers in the picture. Headers come with OLED available at Yusha-Kobo are lower.
 
 ![img_4137](https://user-images.githubusercontent.com/736191/41305263-57e53dac-6ead-11e8-9b5d-5667bca5599e.png)
-
 
 ### Testing
 It is recommended to test the ProMicro and OLED modules before installing keyswitches because rework would be difficult after that.
@@ -177,31 +180,34 @@ If you have mounted LEDs, also make sure all of them are turned on. As note befo
 ![image](https://user-images.githubusercontent.com/736191/40888868-73028d36-6798-11e8-8246-0c9ca32711d6.png)
 
 ### Keyswitches and Top Plate
+
 Sandwich top-plate with PCB and key-switches.
 
 ![image](https://user-images.githubusercontent.com/736191/40888597-8a5bf7a0-6794-11e8-89e2-535c3f8381b9.png)
 
-
 ### Bottom Plate
+
 Use 3mm spacers for low-profile,
 Attach bottom plate to the PCB using 7.5mm (3mm for low-profile) spacers.
 Then attach six rubber feet.
 
-
 ![image](https://user-images.githubusercontent.com/736191/40888724-2892c24a-6796-11e8-8f38-a0a3d5e5440e.png)
 
 ### Keycaps
+
 Lastly install keycaps.
 
 ![lrg_dsc03895](https://user-images.githubusercontent.com/736191/40888756-c371e264-6796-11e8-8fc5-e842e8baf2b8.png)
 
-
 ## Firmware
+
 See below to flash the firmware to the ProMicro. \
-https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md
+<https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md>
 
 ### Turning LEDS on
+
 To turn the LEDs on, you have to edit the `rules.mk` file. If you use the default layout, it can be found here `keyboards/crkbd/keymaps/default/rules.mk`. Add the following line to the top of the file:
+
 ```
 RGBLIGHT_ENABLE = yes
 ```
@@ -209,25 +215,31 @@ RGBLIGHT_ENABLE = yes
 Compile and flash to both sides and all LEDs should turn on and __glow red__ if you have soldered everything correctly. If you run the default firmware and the LEDs turn a differrent color, the data to the LEDs is probably corrupted somewhere along the way. Check the LED before the first one turning a different color using the troubleshooting guide below.
 
 ## Troubleshooting
+
 Here are some tips and tricks on how to troubleshot a board that is not working.
 
 ### No LEDs turn on
+
 There are a number of things that might be wrong. First of all, make sure you have __turned on LED lighting in the firmware__. If that is the case, then chances are there might be a problem with the first LED. Try the suggestions in the next section.
 
 ### Some LEDs not turning on
+
 If some LEDs aren't turning on, check the first LED not turning on __or__ the one before it.
 
 ![LED numbering on the PCB](https://user-images.githubusercontent.com/736191/40731604-62cee61e-646c-11e8-865f-829a48fa6be0.png)
 
 Here are some things to try out:
+
 - Make sure the LED is soldered correctly. Check the pads to see if it looks like they have a proper connection.
 - Check the LED orientation. Use the pictures above the see the correct orientation. Since the first LED is soldered with its back against the PCB, you might have to determinewhat the orientation should look like from the front using LEDs 7-27 (just double check that they are oriented correctly first).
 - If both of the above looks good, chances are the LED was damaged during soldering. Either replace it directly or use the diod mode of a multimeter to test the connectivity. One way to do this is by simply comparing to some of the other LEDs you have soldered. Choose two of the LED's pads (out of the four available) and compare the reading to that of some of the other LEDs (taking care to measure the same pads with the same needles of your multimeter). Work your way through all combinations of pads and needles. If the differ, you either have a broken LED or bad connectivity. Or simply desolder the LED directly, might be quicker. :)
 
 ### A full row/column of keys not working
+
 If a full row or column of keys is not working, then the culprit is most likely the connection between the PCB and the ProMicro. Check your soldering and make sure there's a proper connection and that you have soldered the ProMicro in the right set of holes. If soldering looks okay, then your ProMicro might be damaged. You can exclude the possibility of problems with the PCB, paths and diodes by short circuiting the pins on the ProMicro directly using a bit of wire. Connecting one row pin with one column pin should result in the corresponding key. Some PCBs have silkscreen print indicating which pin is which row or column, to make this process easier.
 
 ### Random key(s) not working
+
 If it is not a full row or column of keys that are not working, the issue is most likely that there's no connection between the key and the ProMicro. There are multiple places where the connection can get interupted:
 
 - between keyswitch and PCB (if you have installed the switches)

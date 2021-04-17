@@ -4,8 +4,10 @@
 [Corne Cherry v3 はこちら](https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v3/buildguide_jp.md)。
 
 ## 部品
+
 ### 必須
-| 名前 | 数 | 備考 | 
+
+| 名前 | 数 | 備考 |
 |:-|:-|:-|
 | PCB | 2枚 | |
 | トッププレート | 2枚 | |
@@ -29,6 +31,7 @@
 | Micro USBケーブル | 1本 | |
 
 ### オプション
+
 | 名前 | 数 | 備考 |
 |:-|:-|:-|
 | SK6812MINI | 54個 | 上向き実装 42個、下向き実装 12個 |
@@ -36,8 +39,9 @@
 ![01](https://user-images.githubusercontent.com/736191/54487431-789a6c00-48d9-11e9-9390-a8510b19ba34.jpg)
 
 ## 事前準備
+
 ファームウェアを自分でビルドする場合は環境を整備するのに時間がかかるのではじめに取り掛かっておくことをおすすめします。\
-詳しくは https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md を参照してください。
+詳しくは <https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md> を参照してください。
 
 ## 実装
 
@@ -56,7 +60,7 @@ PCBはリバーシブルになっているので、最初にどちらを左用/�
 
 ![03](https://user-images.githubusercontent.com/736191/54487433-789a6c00-48d9-11e9-991b-92264a793ec9.jpg)
 
-ダイオードの向きは次のとおりです。チップ部品の「|||」印が、ダイオードマーク「|◁」の「|」の方に向けるように取り付けます。 
+ダイオードの向きは次のとおりです。チップ部品の「|||」印が、ダイオードマーク「|◁」の「|」の方に向けるように取り付けます。
 
 ![04](https://user-images.githubusercontent.com/736191/54487434-79330280-48d9-11e9-82be-a9d98803a417.jpg)
 
@@ -89,6 +93,7 @@ PCBはリバーシブルになっているので、最初にどちらを左用/�
 ![09](https://user-images.githubusercontent.com/736191/54487439-79cb9900-48d9-11e9-9a57-80697fa8b484.jpg)
 
 ### OLEDモジュールのためのジャンパとピンソケット
+
 OLEDモジュールを利用する場合は下記のようにジャンパします。
 なお**表面のみジャンパしてください**。
 
@@ -100,6 +105,7 @@ OLEDモジュールを利用する場合は下記のようにジャンパしま�
 その場合は、はんだを多めに使うか、別途フラックスを塗るとうまくジャンパができます。
 
 ### ProMicro
+
 ピンヘッダを白い枠に当てはめるようにはんだづけし、そこにProMicroの裏面を上にしてはんだづけします。
 
 ![11](https://user-images.githubusercontent.com/736191/54487441-79cb9900-48d9-11e9-9317-e77c4c408a4f.jpg)
@@ -108,6 +114,7 @@ OLEDモジュールを利用する場合は下記のようにジャンパしま�
 なおスプリングピンヘッダを利用する場合は [Helix のビルドガイド](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro)を参考にしてください。
 
 ### OLEDモジュール
+
 OLED用のピンソケットにピンヘッダを先に差し込み、その後からピンヘッダとOLEDモジュールをはんだづけします。
 このときOLEDモジュールが浮きやすいので指で押さえつけながら浮かないように気をつけます。
 
@@ -115,6 +122,7 @@ OLED用のピンソケットにピンヘッダを先に差し込み、その後�
 ![14](https://user-images.githubusercontent.com/736191/54487445-7a642f80-48d9-11e9-9bb0-f753a5e4720b.jpg)
 
 ### 動作確認
+
 ProMicroとOLEDモジュールを付けた段階で動作確認をすることをおすすめします(一番最後にやると問題の切り分けが難しくなる)。
 
 動作確認をする場合は先に下記の「ファームウェア」の章を参考にしてcrkbd用のファームウェアをProMicroに入れてください（必ず両側に入れてください）。
@@ -124,6 +132,7 @@ ProMicroとOLEDモジュールを付けた段階で動作確認をすること�
 ![15](https://user-images.githubusercontent.com/736191/54487446-7a642f80-48d9-11e9-8bd2-2b413e3e080a.jpg)
 
 ### Kailh PCBソケット
+
 裏面の両側のパッドにはんだを盛ります。後から追加するのが難しいので予め多めに盛ってください。
 
 ![16](https://user-images.githubusercontent.com/736191/54487447-7afcc600-48d9-11e9-91cb-edd541365180.jpg)
@@ -150,10 +159,12 @@ ProMicroとOLEDモジュールを付けた段階で動作確認をすること�
 ![20](https://user-images.githubusercontent.com/736191/54487451-7afcc600-48d9-11e9-8c90-2f2919bf9483.jpg)
 
 ## ファームウェア
+
 下記を参照しファームウェアをProMicroに書き込みます。\
-https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md
+<https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md>
 
 ## LED（オプション）
+
 SK6812MINIを取り付けていきます。
 
 SK6812MINIは非常に熱に弱く、簡単に壊れます。

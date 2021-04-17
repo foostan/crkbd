@@ -6,8 +6,9 @@
 There are several ways to flash the firmware, but using [QMK Toolbox](https://github.com/qmk/qmk_toolbox) is the easiest way.
 
 ### Download QMK Toolbox
+
 Download QMK Toolbox from the following link.\
-https://github.com/qmk/qmk_toolbox/releases/
+<https://github.com/qmk/qmk_toolbox/releases/>
 
 ![qmk_toolbox_download](assets/qmk_toolbox_download.jpg)
 
@@ -82,7 +83,7 @@ It can be used by flashing the firmware for VIA as described above.
 ### Download VIA
 
 Download VIA from the following link.\
-https://github.com/the-via/releases/releases/
+<https://github.com/the-via/releases/releases/>
 
 ![via_download](assets/via_download.jpg)
 

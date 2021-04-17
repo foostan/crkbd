@@ -7,7 +7,7 @@ This is the build guide for Corne Chocolate.
 
 ### Required
 
-| Name | Number | Remarks | 
+| Name | Number | Remarks |
 |:-|:-|:-|
 | PCB | 2 pieces | |
 | Top plate | 2 pieces | |
@@ -37,6 +37,7 @@ This is the build guide for Corne Chocolate.
 | SK6812MINI | 54 | 42 for backlight, 12 for under-glow |
 
 ## Preparation
+
 If you build the firmware yourself, it will take some time to set up the environment, so it's best to start at the beginning. \
 For more information, please see https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md.
 
@@ -252,8 +253,9 @@ because it looks better.
 ![](https://user-images.githubusercontent.com/736191/52534914-00e19a80-2d8b-11e9-8005-7e0b157e09e4.png)
 
 ## Firmware
+
 See below to flash the firmware to the ProMicro. \
-https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md
+<https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md>
 
 This is the end.
 

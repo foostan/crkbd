@@ -2,7 +2,6 @@
 
 こちらは Corne Light のビルドガイドになります。
 
-
 ## 部品
 
 <table>
@@ -110,11 +109,14 @@
 </table>
 
 ## 事前準備
+
 ファームウェアを自分でビルドする場合は環境を整備するのに時間がかかるのではじめに取り掛かっておくことをおすすめします。\
-詳しくは https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md を参照してください。
+詳しくは <https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md> を参照してください。
 
 ## 実装
+
 ### PCBの切り離し
+
 裏表を確認して左右のPCBを切り離します(写真は表です)。
 
 <img alt="assembly-pcb" src="https://user-images.githubusercontent.com/736191/69554624-6c78b980-0fe5-11ea-9828-3be0af9f27af.JPG" width="100%">
@@ -159,6 +161,7 @@
 <img alt="assembly-diodes-7" src="https://user-images.githubusercontent.com/736191/69554635-6da9e680-0fe5-11ea-9ee3-b503bc0fcc83.JPG" width="100%">
 
 ### TRRSジャック、リセットスイッチ、ピンソケット
+
 指定の位置に取り付けます。
 ※ 右手側も同じ位置に取り付けます(表裏の間違いに気を付けてください)。
 
@@ -171,8 +174,9 @@
 <img alt="assembly-promicro-oled" src="https://user-images.githubusercontent.com/736191/69554644-6e427d00-0fe5-11ea-8c6b-9aaa3d2c3f6c.JPG" width="100%">
 
 ### ファームウェアの書き込み
+
 下記を参照しファームウェアをProMicroに書き込みます。\
-https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md
+<https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md>
 
 ### 動作確認
 
@@ -212,15 +216,10 @@ M2 7.5mm スペーサーを用いてボトムプレートを取り付けます�
 
 <img alt="assembly-plates-3" src="https://user-images.githubusercontent.com/736191/69554661-70a4d700-0fe5-11ea-85c1-acae90ea7725.JPG" width="100%">
 
-
 ## 完成
+
 キーキャップを取り付けて完成です。
 
 <img alt="assembly-finished-1" src="https://user-images.githubusercontent.com/736191/69654854-d615c800-10b8-11ea-8903-ebf019d7b125.png" width="100%">
 <img alt="assembly-finished-2" src="https://user-images.githubusercontent.com/736191/69654882-df069980-10b8-11ea-8efe-069b68db3bc0.png" width="100%">
-
-
-
-
-
 
