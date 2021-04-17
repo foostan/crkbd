@@ -141,7 +141,7 @@ and solder the Pro Micro with back side up.
 ![](https://user-images.githubusercontent.com/736191/52534643-aa269180-2d87-11e9-9c05-67924d235968.png)
 
 When using the spring pin header,
-please refer to the [Helix Build Guide](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro).
+please refer to the [Helix Build Guide](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_en.md#pro-micro).
 
 ### OLED module
 
