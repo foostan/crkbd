@@ -128,7 +128,7 @@ When using an OLED module, use solder as jumpers (4 times per side) as follows.
 If the jumper doesn't work,
 you probably have a small amount of solder,
 or the flux has vaporized.
-If so, you cna fix the jumper by applying more solder or separate flux.
+If so, you can fix the jumper by applying more solder or separate flux.
 
 ### Pro Micro
 
