@@ -1,13 +1,14 @@
-
 # Firmware
 
 ## Flash the firmware
 
-There are several ways to flash the firmware, but using [QMK Toolbox](https://github.com/qmk/qmk_toolbox) is the easiest way.
+There are several ways to flash the firmware,
+but using [QMK Toolbox](https://github.com/qmk/qmk_toolbox) is the easiest way.
 
 ### Download QMK Toolbox
+
 Download QMK Toolbox from the following link.\
-https://github.com/qmk/qmk_toolbox/releases/
+<https://github.com/qmk/qmk_toolbox/releases/>
 
 ![qmk_toolbox_download](assets/qmk_toolbox_download.jpg)
 
@@ -28,7 +29,8 @@ And enable the check box for "**Auto-Flash**".
 
 ![qmk_toolbox_flash](assets/qmk_toolbox_flash.jpg)
 
-With the keyboard connected via USB, press the reset button to start flashing the firmware. \
+With the keyboard connected via USB,
+press the reset button to start flashing the firmware. \
 If you see the message, it's done.
 
 ![qmk_toolbox_flashed](assets/qmk_toolbox_flashed.jpg)
@@ -82,7 +84,7 @@ It can be used by flashing the firmware for VIA as described above.
 ### Download VIA
 
 Download VIA from the following link.\
-https://github.com/the-via/releases/releases/
+<https://github.com/the-via/releases/releases/>
 
 ![via_download](assets/via_download.jpg)
 
@@ -97,8 +99,10 @@ When VIA is opened with the keyboard plugged in, the following window will appea
 
 In this screen, you can change the key map.
 
-There are several types of keys that can be changed and you can find them in the "1" area.
-If you want to change the key, click on "2" to change the key and "3" to select the key you want to change.
+There are several types of keys that can be changed
+and you can find them in the "1" area.
+If you want to change the key,
+click on "2" to change the key and "3" to select the key you want to change.
 VIA instantly changes the keymap.
 
 ![via_keymap_configure](assets/via_keymap_configure.jpg)
@@ -107,7 +111,8 @@ VIA instantly changes the keymap.
 
 In this screen, you can test the operation of the keymap.
 
-You can confirm that the key is set correctly by checking that the color of the key you press changes.
+You can confirm that the key is set correctly
+by checking that the color of the key you press changes.
 
 ![via_keymap_tester](assets/via_keymap_tester.jpg)
 
