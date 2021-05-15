@@ -8,7 +8,7 @@ https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v2/buildguide_en.m
 
 ### Required
 
-| Name | Number | Remarks |
+| Name | Count | Remarks |
 |:-|:-|:-|
 | PCB | 1 set | |
 | Top plate | 2 sheets | |
@@ -30,7 +30,7 @@ https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v2/buildguide_en.m
 
 ### Options
 
-| Name | Number | Remarks |
+| Name | Count | Remarks |
 |:-|:-|:-|
 | OLED module | 2 sheets | |
 | Pin header for OLED module 4 series 1.5mm | 2 | |

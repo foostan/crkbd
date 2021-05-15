@@ -6,7 +6,7 @@ This is the Corne Light build guide.
 
 <table>
 <thead>
-  <tr> <td width = "30%"> Name </td> <td width = "15%"> Number </td> <td> Remarks </td> </tr>
+  <tr> <td width = "30%"> Name </td> <td width = "15%"> Count </td> <td> Remarks </td> </tr>
 </header>
 <tbody>
   <tr>

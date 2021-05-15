@@ -4,7 +4,7 @@
 
 ### Required
 
-| Item | Count | Remark |
+| Name | Count | Remarks |
 |:-|:-|:-|
 | PCB                   | 2      | |
 | Plate                 | 2 sets | |
@@ -22,7 +22,7 @@
 
 ### Optional
 
-| Item | Count | Remark |
+| Name | Count | Remarks |
 |:-|:-|:-|
 | OLED Module           | 1 or 2 | |
 | 4x1 Pin Male Header   | 2      | For OLED |

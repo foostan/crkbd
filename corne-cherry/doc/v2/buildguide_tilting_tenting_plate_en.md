@@ -2,7 +2,7 @@
 
 ## Parts
 
-| Name | Number | Remarks |
+| Name | Count | Remarks |
 |:-|:-|:-|
 | Completed Corne Cherry | 1 set | Corne Chocolate / 3mm top plate is not supported |
 | Middle plate 3mm | 2 sheets | |

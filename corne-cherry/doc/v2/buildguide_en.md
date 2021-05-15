@@ -8,7 +8,7 @@ https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v3/buildguide_en.m
 
 ### Required
 
-| Name | Number | Remarks |
+| Name | Count | Remarks |
 |:-|:-|:-|
 | PCB | 2 sheets | |
 | Top plate | 2 sheets | |
@@ -33,7 +33,7 @@ https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v3/buildguide_en.m
 
 ### Options
 
-| Name | Number | Remarks |
+| Name | Count | Remarks |
 |:-|:-|:-|
 | SK6812MINI | 54 pcs | Upward mounting 42 pcs, Downward mounting 12 pcs |
 

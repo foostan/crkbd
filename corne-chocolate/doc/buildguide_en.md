@@ -8,7 +8,7 @@ https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/buildguide_en.md).
 
 ### Required
 
-| Name | Number | Remarks |
+| Name | Count | Remarks |
 |:-|:-|:-|
 | PCB | 2 pieces | |
 | Top plate | 2 pieces | |
@@ -33,7 +33,7 @@ https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/buildguide_en.md).
 
 ### Optional
 
-| Name | Number | Remarks |
+| Name | Count | Remarks |
 |:-|:-|:-|
 | SK6812MINI | 54 | 42 for backlight, 12 for under-glow |
 

@@ -10,7 +10,7 @@ This is the build guide for Corne Light v2 Low edition.
 
 ### Required
 
-| Name | Number | Remarks |
+| Name | Count | Remarks |
 |:-|:-|:-|
 | PCB | 1 set | |
 | Top plate (acrylic) 2mm | 2 sheets | |
@@ -29,7 +29,7 @@ This is the build guide for Corne Light v2 Low edition.
 
 ### Options
 
-| Name | Number | Remarks |
+| Name | Count | Remarks |
 |:-|:-|:-|
 | OLED module | 2 sheets | |
 | Pin header for OLED module 4 series 1.5mm | 2 | |
