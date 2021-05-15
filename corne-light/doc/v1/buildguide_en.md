@@ -131,7 +131,7 @@ Separate it if necessary.
 
 * Some versions do not have a jig.
 
-### diode
+### Diodes
 
 First, bend the legs of the reed type diode.
 

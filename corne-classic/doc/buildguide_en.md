@@ -32,7 +32,7 @@
 
 ![image](https://user-images.githubusercontent.com/736191/40734610-e1ca0136-6473-11e8-8ac7-7bfa4b843f93.png)
 
-## Preparation
+## Advance preparation
 
 If you build the firmware yourself,
 it will take some time to set up the environment,

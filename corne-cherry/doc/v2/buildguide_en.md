@@ -31,7 +31,7 @@ https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v3/buildguide_en.m
 | TRS (3-pole) cable | 1 | TRRS (4-pole) cable is also acceptable |
 | Micro USB cable | 1 | |
 
-### Options
+### Optional
 
 | Name | Count | Remarks |
 |:-|:-|:-|
@@ -53,7 +53,7 @@ left or right.
 
 ![02](https://user-images.githubusercontent.com/736191/54487432-789a6c00-48d9-11e9-87ea-3595b2f3ecc2.jpg)
 
-### Diode
+### Diodes
 
 Solder the diode of the chip part.
 You can attach it to either side, but in this build guide,

@@ -27,7 +27,7 @@ This is the build guide for Corne Light v2 Low edition.
 | TRRS (4 poles) cable | 1 | TRS (3 poles) cable is also acceptable |
 | Micro USB cable | 1 | |
 
-### Options
+### Optional
 
 | Name | Count | Remarks |
 |:-|:-|:-|
@@ -65,7 +65,7 @@ which are marked in red in the image below.*
 
 ## Assembly
 
-### diode
+### Diodes
 
 Solder diodes for SMD components.
 Since SMD parts are very small,

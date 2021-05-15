@@ -37,7 +37,7 @@ https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/buildguide_en.md).
 |:-|:-|:-|
 | SK6812MINI | 54 | 42 for backlight, 12 for under-glow |
 
-## Preparation
+## Advance preparation
 
 If you build the firmware yourself,
 it will take some time to set up the environment,

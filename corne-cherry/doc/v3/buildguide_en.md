@@ -28,7 +28,7 @@ https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v2/buildguide_en.m
 | TRRS (4 poles) cable | 1 | TRS (3 poles) cable is also acceptable |
 | Micro USB cable | 1 | |
 
-### Options
+### Optional
 
 | Name | Count | Remarks |
 |:-|:-|:-|
@@ -67,7 +67,7 @@ which are marked in red in the image below.*
 
 ## Assembly
 
-### Diode
+### Diodes
 
 Solder diodes for SMD components.
 Since SMD parts are very small,
