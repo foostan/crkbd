@@ -153,7 +153,7 @@ https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_en.md#pro-mic
 Insert the pin header into the OLED pin socket first,
 then solder the pin header and the OLED module.
 At this time,
-make sure that he OLED module sits tightly on the socket
+make sure that the OLED module sits tightly on the socket
 while holding it down with your finger,
 because it tends to stick out easily.
 
