@@ -44,7 +44,8 @@ https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v3/buildguide_en.m
 If you build the firmware yourself,
 it takes time to prepare the environment,
 so it is recommended to start first. \
-See <https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md> for more information.
+See <https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md>
+for more information.
 
 ## Implementation
 
