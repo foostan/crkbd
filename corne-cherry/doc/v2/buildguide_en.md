@@ -1,7 +1,7 @@
 # Build Guide
 
 This is the build guide for Corne Cherry v2.
-[Corne Cherry v3 build guide](
+[Click here for the Corne Cherry v3 build guide](
 https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v3/buildguide_en.md).
 
 ## Parts
@@ -88,20 +88,21 @@ and you can concentrate on alignment and soldering.
 Also, if the soldering iron is too hot or the solder is touched too much,
 the flux contained in the solder may evaporate and form a clean pile of solder,
 but it can be repaired later,
-so at this point you should only be aware of attaching parts.
+so at this point you should only care about attaching parts.
 It's okay.
 
 ![06](https://user-images.githubusercontent.com/736191/54487436-79330280-48d9-11e9-856e-f3f5b9f58414.jpg)
 
 It is okay if the diode does not float when viewed from the side
 when one foot is attached.
-If it floats, press the diode with tweezers
-or your fingers and reheat the soldered part with a soldering iron to clean it.
+If it floats, press the diode with tweezers or your fingers
+and reheat the soldered part with a soldering iron to clean it.
 
 ![07](https://user-images.githubusercontent.com/736191/54487437-79330280-48d9-11e9-996d-a578e767c12c.jpg)
 
 Then solder the other one.
-Be careful not to apply too much as a small amount of solder is sufficient.
+Be careful not to apply too much,
+as a small amount of solder is sufficient.
 If you apply too much, you can remove it with a blotting wire
 or by scooping it with a soldering iron.
 
@@ -142,8 +143,8 @@ and then solder it with the back side of the Pro Micro facing up.
 ![11](https://user-images.githubusercontent.com/736191/54487441-79cb9900-48d9-11e9-9317-e77c4c408a4f.jpg)
 ![12](https://user-images.githubusercontent.com/736191/54487442-7a642f80-48d9-11e9-85f6-469d8beaa9c0.jpg)
 
-If you want to use the spring pin header,
-please refer to [Helix Build Guide](
+If you want to use spring-loaded pin headers,
+please refer to the [Helix Build Guide](
 https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_en.md#pro-micro).
 
 ### OLED module
@@ -164,10 +165,12 @@ It is recommended to check the operation when ProMicro and OLED module are attac
 To check the operation, first insert the firmware for crkbd into ProMicro
 by referring to the "Firmware" chapter below (be sure to insert it on both sides).
 
-To check the operation, connect the left hand side to the PC with MicroUSB
+To check the operation,
+connect the left hand side to the PC with MicroUSB,
 and connect the left hand side and the right hand side with the TRS cable.
 Since there may be defects such as jacks,
-be sure to connect the left and right instead of one by one before checking the operation.
+be sure to connect the left and right instead of one by one
+before checking the operation.
 If it is done correctly so far,
 if you short the pad to attach the PCB socket with tweezers etc.,
 the key pressed on the OLED module will be displayed.

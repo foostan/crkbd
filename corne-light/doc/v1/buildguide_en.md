@@ -1,6 +1,6 @@
 # Build Guide
 
-This is the Corne Light build guide.
+This is the Corne Light v1 build guide.
 
 ## Parts
 
@@ -113,7 +113,8 @@ This is the Corne Light build guide.
 If you build the firmware yourself,
 it takes time to prepare the environment,
 so it is recommended to start first. \
-See <https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md> for more information.
+See <https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md>
+for more information.
 
 ## Implementation
 
@@ -184,7 +185,7 @@ https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_en.md#pro-mic
 
 ![assembly-promicro-oled](https://user-images.githubusercontent.com/736191/69554644-6e427d00-0fe5-11ea-8c6b-9aaa3d2c3f6c.JPG)
 
-### Write firmware
+### Firmware
 
 Write the firmware to ProMicro by referring to the following. \
 <https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md>
@@ -193,10 +194,10 @@ Write the firmware to ProMicro by referring to the following. \
 
 To check the operation,
 connect the left hand side to the PC with a USB cable,
-and connect the left hand side and the right hand side with a TRRS cable.
+and connect the left hand side and the right hand side with the TRRS cable.
 Since there may be defects such as jacks,
-be sure to connect the left and right
-instead of one by one before checking the operation.
+be sure to connect the left and right instead of one by one
+before checking the operation.
 
 * Since the switch is not attached,
   check the operation with tweezers as shown in the photo.

@@ -165,7 +165,8 @@ Two methods are introduced here.
 
 #### Using Spring Loaded Header
 
-Refer to [Helix Buildguide](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_en.md#pro-micro)
+Refer to the [Helix build guide](
+https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_en.md#pro-micro)
 
 ProMicro kit with spring loaded headers is available at Yusha-Kobo
 

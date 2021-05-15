@@ -1,7 +1,7 @@
 # Build Guide
 
 This is the build guide for Corne Cherry v3.
-[Click here for Corne Cherry v2](
+[Click here for the Corne Cherry v2 build guide](
 https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v2/buildguide_en.md).
 
 ## Parts
@@ -41,10 +41,10 @@ https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v2/buildguide_en.m
 ## Advance preparation
 
 If you build the firmware yourself,
-it takes time to prepare the environment,
-so it is recommended to start first. \
-See <https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md>
-for more information.
+it will take some time to set up the environment,
+so it's best to start at the beginning. \
+For more information,
+please see <https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md>.
 
 ## Verification
 
@@ -57,7 +57,8 @@ Make sure it is the same as your PCB.
 
 The PCB comes with a frame for manufacturing reasons.
 You can fold it by hand to remove it, but if it is difficult,
-make a cut in the joint \* with a cutter etc. to make it easier to remove.
+make a cut in the joint \* with a cutter or similar,
+to make it easier to remove.
 In addition, the joint can be cleaned with a file.
 
 \* *Joint part: There are a total of 8 parts,
@@ -74,7 +75,7 @@ Since SMD parts are very small,
 it is convenient to have tweezers and counter-acting tweezers.
 
 **The diode has a fixed mounting direction**,
-and solder it so that the "|" mark on the part faces the "|" on the diode mark "|◁".
+so solder it so that the "|" mark on the part faces the "|" on the diode mark "|◁".
 In addition, Corne's PCB has all the same diode mounting orientations.
 
 ![build_diode](assets/build_diode.jpg)
@@ -88,13 +89,14 @@ put the solder on only one side of the pad.
 ![tips_building_smd_01](https://user-images.githubusercontent.com/736191/54487435-79330280-48d9-11e9-9138-525d8ee68144.jpg)
 
 Next, solder one leg of the diode so that the spare solder melts.
-At this time, it is recommended to use reverse-action tweezers,
-because you can hold the chip parts firmly without exerting force
-and you can concentrate on alignment and soldering.
-Also, if the soldering iron is too hot or the solder is touched too much,
-the flux contained in the solder may evaporate and form a clean pile of solder,
-but it can be repaired later,
-so at this point you should only be aware of attaching parts.
+At this time,
+it is recommended to use [reverse-action tweezers](https://www.alimed.com/_resources/cache/images/product/70895A_850x480-pad.jpg),
+so that you can hold the SMD part firmly without applying force,
+and concentrate on alignment and soldering instead.
+Also, if the soldering iron is too hot or the solder is touched too long,
+the flux contained in the solder may evaporate and form an undesirable pile solder,
+but since it can be repaired later,
+so at this point you should only care about attaching parts.
 It's okay.
 
 ![tips_building_smd_02](https://user-images.githubusercontent.com/736191/54487436-79330280-48d9-11e9-856e-f3f5b9f58414.jpg)
@@ -106,13 +108,15 @@ and reheat the soldered part with a soldering iron to clean it.
 
 ![tips_building_smd_03](https://user-images.githubusercontent.com/736191/54487437-79330280-48d9-11e9-996d-a578e767c12c.jpg)
 
-Then solder the other one. Be careful not to apply too much,
-as a small amount of solder is sufficient.
-If you apply too much, you can remove it with a blotting wire
+Then solder the other pin.
+Be careful not to apply too much solder,
+as a small amount is sufficient.
+If you have applied too much,
+you can remove it with a suction pump, blotting wire
 or by scooping it with a soldering iron.
 
 If the amount of solder on the preliminary solder side is small,
-additional soldering is performed, and if it is a mountain,
+additional soldering is performed, and if it is a heap,
 apply flux from above and heat it to clean it.
 
 ![tips_building_smd_04](https://user-images.githubusercontent.com/736191/54487438-79cb9900-48d9-11e9-9280-dc72a2087307.jpg)
@@ -191,10 +195,11 @@ Solder ProMicro in the following orientation
 
 ![build_promicro](assets/build_promicro.jpg)
 
-If you use Conthru, you do not need to solder the back side.
-Please refer to [Helix Build Guide](
+If you use spring-loaded pin headers (e.g. Conthrough),
+you do not need to solder the back side.
+Please refer to the [Helix Build Guide](
 https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_en.md#pro-micro)
-for details on how to use Consul.
+for details on how to use spring-loaded pin headers.
 
 ![build_promicro_conthrough](assets/build_promicro_conthrough.jpg)
 
@@ -207,7 +212,7 @@ so be careful not to float it while pressing it with your finger.
 
 ![build_oled](assets/build_oled.jpg)
 
-## Firmware
+### Firmware
 
 Write the firmware to ProMicro by referring to the following. \
 <https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md>
@@ -217,10 +222,12 @@ Write the firmware to ProMicro by referring to the following. \
 We recommend that you check the operation when the ProMicro and OLED module are attached.
 If you do it at the very end, it will be difficult to isolate the problem.
 
-To check the operation, connect the left hand side to the PC with MicroUSB,
+To check the operation,
+connect the left hand side to the PC with MicroUSB,
 and connect the left hand side and the right hand side with the TRRS cable.
 Since there may be defects such as jacks,
-be sure to connect the left and right instead of one by one before checking the operation.
+be sure to connect the left and right instead of one by one
+before checking the operation.
 If it is done correctly so far,
 if you short the pad to attach the PCB socket with tweezers etc.,
 the key pressed on the OLED module will be displayed.
@@ -242,7 +249,7 @@ The PCB socket is completed by soldering a total of 42 left and right.
 
 ### OLED protective plate
 
-Install the OLED protective plate with M2 9mm spacers and M2 screws.
+Attach the OLED protective plate with M2 9mm spacers and M2 screws.
 
 ![build_oled_plate_front](assets/build_oled_plate_front.jpg)
 ![build_oled_plate_back](assets/build_oled_plate_back.jpg)

@@ -105,7 +105,8 @@ and reheat the soldered part with a soldering iron to clean it.
 ![tips_building_smd_03](https://user-images.githubusercontent.com/736191/54487437-79330280-48d9-11e9-996d-a578e767c12c.jpg)
 
 Then solder the other one.
-Be careful not to apply too much, as a small amount of solder is sufficient.
+Be careful not to apply too much,
+as a small amount of solder is sufficient.
 If you apply too much, you can remove it with a blotting wire
 or by scooping it with a soldering iron.
 
@@ -138,10 +139,11 @@ Solder ProMicro in the following orientation
 
 ![build_promicro](assets/build_promicro.jpg)
 
-If you use Conthru, you do not need to solder the back side.
-Please refer to [Helix Build Guide](
+If you use spring-loaded pin headers (e.g. Conthrough),
+you do not need to solder the back side.
+Please refer to the [Helix Build Guide](
 https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_en.md#pro-micro)
-for details on how to use Consul.
+for details on how to use spring-loaded pin headers.
 
 ![build_promicro_conthrough](assets/build_promicro_conthrough.jpg)
 
@@ -164,7 +166,8 @@ Write the firmware to ProMicro by referring to the following. \
 We recommend that you check the operation when the ProMicro and OLED module are attached.
 If you do it at the very end, it will be difficult to isolate the problem.
 
-To check the operation, connect the left hand side to the PC with MicroUSB,
+To check the operation,
+connect the left hand side to the PC with MicroUSB,
 and connect the left hand side and the right hand side with the TRRS cable.
 Since there may be defects such as jacks,
 be sure to connect the left and right instead of one by one
@@ -183,7 +186,7 @@ so it is easier to attach only the end key switches first.
 
 ### OLED protective plate
 
-Attach his OLED protective plate with M2 9mm spacers and M2 screws.
+Attach the OLED protective plate with M2 9mm spacers and M2 screws.
 
 ![build_oled_plate_front](assets/build_oled_plate_front.jpg)
 ![build_oled_plate_back](assets/build_oled_plate_back.jpg)
