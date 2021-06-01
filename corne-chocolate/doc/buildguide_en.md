@@ -1,14 +1,14 @@
 # Build Guide
 
 This is the build guide for Corne Chocolate.
-[Click here for Corne Cherry](
+[Click here for the Corne Cherry build guide](
 https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/buildguide_en.md).
 
 ## Parts
 
 ### Required
 
-| Name | Number | Remarks |
+| Name | Count | Remarks |
 |:-|:-|:-|
 | PCB | 2 pieces | |
 | Top plate | 2 pieces | |
@@ -33,11 +33,11 @@ https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/buildguide_en.md).
 
 ### Optional
 
-| Name | Number | Remarks |
+| Name | Count | Remarks |
 |:-|:-|:-|
 | SK6812MINI | 54 | 42 for backlight, 12 for under-glow |
 
-## Preparation
+## Advance preparation
 
 If you build the firmware yourself,
 it will take some time to set up the environment,
@@ -82,21 +82,23 @@ First put solder only on the right side of the pad.
 
 Next, solder one of the diodes by melting the solder you already put on the board.
 At this time,
-it is recommended that you use inverted tweezers
+it is recommended to use [reverse-action tweezers](https://www.alimed.com/_resources/cache/images/product/70895A_850x480-pad.jpg),
 so that you can hold the SMD part firmly without applying force,
 and concentrate on alignment and soldering instead.
 Also, if the soldering iron is too hot or the solder is touched too long,
-the flux contained in the solder may evaporate and a solder pile may be formed,
+the flux contained in the solder may evaporate and form an undesirable pile solder,
 but since it can be repaired later,
-at this point just be aware of attaching parts;
+so at this point you should only care about attaching parts.
 It's okay.
 
 ![](https://user-images.githubusercontent.com/736191/52534541-320b9c00-2d86-11e9-982c-45ec7f7b7741.png)
 
 Then solder the other pin.
-Be careful not to apply too much solder because a small amount is sufficient.
+Be careful not to apply too much solder,
+as a small amount is sufficient.
 If you have applied too much,
-you can remove it with a suction pump or scoop it with a soldering iron.
+you can remove it with a suction pump, blotting wire
+or by scooping it with a soldering iron.
 
 ![](https://user-images.githubusercontent.com/736191/52534553-56677880-2d86-11e9-872e-ea374c8f6824.png)
 
@@ -140,8 +142,9 @@ and solder the Pro Micro with back side up.
 ![](https://user-images.githubusercontent.com/736191/52534641-a266ed00-2d87-11e9-8dcb-832b90556ac2.png)
 ![](https://user-images.githubusercontent.com/736191/52534643-aa269180-2d87-11e9-9c05-67924d235968.png)
 
-When using the spring pin header,
-please refer to the [Helix Build Guide](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_en.md#pro-micro).
+When using the spring-loaded pin headers,
+please refer to the [Helix Build Guide](
+https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_en.md#pro-micro).
 
 ### OLED module
 
@@ -150,7 +153,7 @@ please refer to the [Helix Build Guide](https://github.com/MakotoKurauchi/helix/
 Insert the pin header into the OLED pin socket first,
 then solder the pin header and the OLED module.
 At this time,
-make sure that he OLED module sits tightly on the socket
+make sure that the OLED module sits tightly on the socket
 while holding it down with your finger,
 because it tends to stick out easily.
 
