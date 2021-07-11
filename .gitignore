@@ -1,6 +1,9 @@
+# SPDX-FileCopyrightText: 2020 foostan <ks@fstn.jp>
+#
+# SPDX-License-Identifier: CC0-1.0
+
 # OSX thumbnails cache file
 .DS_Store
-
 
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 # Format documentation: http://kicad-pcb.org/help/file-formats/

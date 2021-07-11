@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2021 foostan <ks@fstn.jp>
+
+SPDX-License-Identifier: MIT
+-->
+
 # Build Guide
 
 ## Parts

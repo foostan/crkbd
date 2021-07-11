@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2021 foostan <ks@fstn.jp>
+
+SPDX-License-Identifier: MIT
+-->
+
 # Corne keyboard
 
 The Corne keyboard is a split keyboard with 3x6 column staggered keys

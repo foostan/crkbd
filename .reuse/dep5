@@ -1,0 +1,9 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Corne Keyboard (crkbd)
+Upstream-Contact: foostan <ks@fstn.jp>
+Source: https://gitlab.com/foostan/crkbd
+
+Files: *.ai *.dcm *.drl *.dxf **/fp-lib-table *.gbl *.gbo *.gbr *.gbs *.gm1 *.gtl *.gto *.gts *.jpg *.kicad_pcb *.lib *.net *.pro *.ps *.sch *.svg **/sym-lib-table *.xml
+Copyright: foostan <ks@fstn.jp>
+License: MIT
+

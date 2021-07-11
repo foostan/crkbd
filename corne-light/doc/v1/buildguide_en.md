@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2021 foostan <ks@fstn.jp>
+
+SPDX-License-Identifier: MIT
+-->
+
 # Build Guide
 
 This is the Corne Light v1 build guide.

@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2020 foostan <ks@fstn.jp>
+#
+# SPDX-License-Identifier: CC0-1.0
+
 name: Release Corne Classic
 
 on:
