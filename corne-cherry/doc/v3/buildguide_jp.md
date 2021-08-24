@@ -122,7 +122,7 @@ __TIPS: SMD部品を取り付けるコツ__ で紹介したように、予備ハ
 
 ![build_led_undergrow](assets/build_led_undergrow.jpg)
 
-左右合わせて計8個はんだづけして WS2812B は完了です。
+左右合わせて計12個はんだづけして WS2812B は完了です。
 
 ![build_led_undergrow_overview](assets/build_led_undergrow_overview.jpg)
 

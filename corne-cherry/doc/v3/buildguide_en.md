@@ -152,7 +152,7 @@ In addition, his PCB of Corne has the same mounting orientation of his WS2812B.
 
 ![build_led_undergrow](assets/build_led_undergrow.jpg)
 
-He soldered a total of 8 pieces on the left and right, and he completed the WS2812B.
+He soldered a total of 12 pieces on the left and right, and he completed the WS2812B.
 
 ![build_led_undergrow_overview](assets/build_led_undergrow_overview.jpg)
 
