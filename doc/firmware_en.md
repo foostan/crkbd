@@ -22,7 +22,7 @@ Open QMK Toolbox, you will see a window like the one below.
 ### Flash the firmware
 
 Download the firmware of VIA from the following link.\
-[crkbd_rev1_common_via.hex](https://github.com/foostan/qmk_firmware-hex/releases/download/release-20201208/crkbd_rev1_common_via.hex)
+[crkbd_rev1_common_via.hex](https://github.com/foostan/qmk_firmware-hex/blob/main/.build/crkbd_rev1_via.hex)
 
 Specify the file downloaded from "**Open**" in QMK Toolbox.
 And enable the check box for "**Auto-Flash**".
