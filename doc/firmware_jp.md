@@ -21,7 +21,7 @@ QMK Toolbox を開くと下記のようなウィンドウが表示されます�
 ### ファームウェアの書き込み
 
 VIA用のファームウェアを下記よりダウンロードします。\
-[crkbd_rev1_common_via.hex](https://github.com/foostan/qmk_firmware-hex/blob/main/.build/crkbd_rev1_via.hex)
+[crkbd_rev1_common_via.hex](https://raw.githubusercontent.com/foostan/qmk_firmware-hex/main/.build/crkbd_rev1_via.hex)
 
 QMK Toolbox の 「**Open**」 からダウンロードしたファイルを指定します。\
 また「**Auto-Flash**」のチェックボックスをチェックします。
