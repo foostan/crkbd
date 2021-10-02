@@ -50,7 +50,7 @@ jobs:
           zip -r --junk-paths plates-alps.zip plates/alps
           zip -r --junk-paths plates-mini.zip plates/mini
 
-    - name: Release to GiHub
+    - name: Release to GitHub
       uses: softprops/action-gh-release@v1
       with:
         files: "*.zip"

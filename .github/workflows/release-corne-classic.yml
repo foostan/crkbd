@@ -40,7 +40,7 @@ jobs:
           zip -r --junk-paths plates-bottom-gerber.zip plates/pcb/bottom/gerber
           zip -r --junk-paths plates.zip plates/common
 
-    - name: Release to GiHub
+    - name: Release to GitHub
       uses: softprops/action-gh-release@v1
       with:
         files: "*.zip"
