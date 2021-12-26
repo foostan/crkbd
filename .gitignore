@@ -28,3 +28,6 @@ gerber/
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+
+# Backup files (exported from Pcbnew)
+*-backups/
