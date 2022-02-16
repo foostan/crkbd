@@ -173,7 +173,7 @@ ProMicro kit with spring loaded headers is available at Yusha-Kobo
 <https://yushakobo.jp/shop/promicro-spring-pinheader/>
 
 Using OLEDs available at Yusha-Kobo which come with low profile header,
-together with and 9mm spacers, you can build them think and gap-less.
+together with and 9mm spacers, you can build them thin and gap-less.
 
 ![img_4141](https://user-images.githubusercontent.com/736191/41304818-2b65511e-6eac-11e8-9357-999ff14080ed.png)
 
