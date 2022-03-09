@@ -17,5 +17,5 @@ This repository contains the KiCad schematic symbol libraries for building keybo
 Each symbol library is stored as a `.lib` and `.dcm` file pair.
 
 ## KiCad 3D Models
-This repository contains 3D models for rendering and MCAD integration, for use with [KiCAD EDA](http://kicad-pcb.org/) software.
+This repository contains 3D models for rendering and MCAD integration, for use with [KiCad EDA](http://www.kicad.org/) software.
 The model needs a mechanical model source (a manually-modelled or script-generated file); its WRL counterpart file must be obtained as a conversion from the MCAD model
