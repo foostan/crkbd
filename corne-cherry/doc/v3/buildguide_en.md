@@ -41,8 +41,8 @@ https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v2/buildguide_en.m
 ## Firmware preparation
 
 If you build the firmware yourself, it will take some time to set up the environment,
-so it's best to start at the beginning.
-It is recommended to flash ProMicro's prior to soldering.
+so it's best to start at the beginning.\
+It is recommended to flash ProMicro's prior to soldering.\
 For more information,
 please see <https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md>.
 
