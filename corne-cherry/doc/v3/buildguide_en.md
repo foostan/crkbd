@@ -13,10 +13,10 @@ https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v2/buildguide_en.m
 | PCB | 1 set | |
 | Top plate | 2 sheets | |
 | Bottom plate | 2 sheets | |
-| OLED protective plate | 2 sheets | |
-| ProMicro | 2 sheets | |
+| OLED cover | 2 sheets | |
+| ProMicro | 2 | |
 | TRRS jack | 2 | |
-| Tact switch | 2 | |
+| Reset switch | 2 | |
 | Diodes | 42 | Only SMD parts are supported |
 | PCB sockets | 42 | Compatible with Kailh and Gateron |
 | Key switches | 42 | Only compatible with CherryMX |
@@ -24,7 +24,7 @@ https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v2/buildguide_en.m
 | Spacer M2 7.5mm | 10 pieces | |
 | Spacer M2 9mm | 4 pieces | |
 | Screw M2 4mm | 28 screws | |
-| Cushion rubber | 8 pieces | |
+| Rubber feet | 8 pieces | |
 | TRRS (4 poles) cable | 1 | TRS (3 poles) cable is also acceptable |
 | Micro USB cable | 1 | |
 
@@ -32,17 +32,17 @@ https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v2/buildguide_en.m
 
 | Name | Count | Remarks |
 |:-|:-|:-|
-| OLED module | 2 sheets | |
+| OLED module | 2 | |
 | Pin header for OLED module 4 series 1.5mm | 2 | |
 | 4 pin sockets for OLED module 2.5mm | 2 | |
 | SK6812MINI-E | 42 pieces | LEDs for Back light |
 | WS2812B | 12 | LEDs for Undergrow |
 
-## Advance preparation
+## Firmware preparation
 
-If you build the firmware yourself,
-it will take some time to set up the environment,
-so it's best to start at the beginning. \
+If you build the firmware yourself, it will take some time to set up the environment,
+so it's best to start at the beginning.
+It is recommended to flash ProMicro's prior to soldering.
 For more information,
 please see <https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md>.
 
@@ -191,7 +191,7 @@ or fix it with masking tape and then solder it.
 
 ### ProMicro
 
-Solder ProMicro in the following orientation
+Solder headers to PCB. Then solder ProMicro to headers, with components facing PCB
 
 ![build_promicro](assets/build_promicro.jpg)
 
@@ -211,11 +211,6 @@ At this time, the OLED module is easy to float,
 so be careful not to float it while pressing it with your finger.
 
 ![build_oled](assets/build_oled.jpg)
-
-### Firmware
-
-Write the firmware to ProMicro by referring to the following. \
-<https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md>
 
 ### Operation check
 
