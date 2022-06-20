@@ -21,12 +21,12 @@
     (scale (xyz 0.22 0.15 0.15))
     (rotate (xyz 0 0 180))
   )
-  (model "/Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/D_SOD-123 Soldered.step"
+  (model "${KIPRJMOD}/kbd/kicad-packages3D/kbd.3dshapes/D_SOD-123 Soldered.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model /Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/D_SOD-123.step
+  (model ${KIPRJMOD}/kbd/kicad-packages3D/kbd.3dshapes/D_SOD-123.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

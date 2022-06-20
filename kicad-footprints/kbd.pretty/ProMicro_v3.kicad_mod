@@ -134,7 +134,7 @@
   (pad 22 thru_hole circle (at -7.6086 -9.398) (size 1.524 1.524) (drill 0.8128) (layers *.Cu B.Mask))
   (pad 23 thru_hole circle (at -7.6086 -11.938) (size 1.524 1.524) (drill 0.8128) (layers *.Cu B.Mask))
   (pad 24 thru_hole circle (at -7.6086 -14.478) (size 1.524 1.524) (drill 0.8128) (layers *.Cu B.Mask))
-  (model /Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/ProMicro.step
+  (model ${KIPRJMOD}/kbd/kicad-packages3D/kbd.3dshapes/ProMicro.step
     (offset (xyz 0 1.8 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))

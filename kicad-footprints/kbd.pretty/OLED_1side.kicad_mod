@@ -18,12 +18,12 @@
   (pad 2 thru_hole oval (at 2.54 0) (size 1.397 1.778) (drill 0.8128) (layers *.Cu B.Mask))
   (pad 3 thru_hole oval (at 5.08 0) (size 1.397 1.778) (drill 0.8128) (layers *.Cu B.Mask))
   (pad 4 thru_hole oval (at 7.62 0) (size 1.397 1.778) (drill 0.8128) (layers *.Cu B.Mask))
-  (model /Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/pin-header-1x4.step
+  (model ${KIPRJMOD}/kbd/kicad-packages3D/kbd.3dshapes/pin-header-1x4.step
     (offset (xyz 3.8 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model /Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/OLED-Module-with-Pins.step
+  (model ${KIPRJMOD}/kbd/kicad-packages3D/kbd.3dshapes/OLED-Module-with-Pins.step
     (offset (xyz 3.8 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

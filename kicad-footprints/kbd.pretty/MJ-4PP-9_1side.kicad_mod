@@ -20,7 +20,7 @@
     (clearance 0.15))
   (pad A thru_hole oval (at -2.1 11.8) (size 1.7 2.5) (drill oval 1 1.5) (layers *.Cu B.Mask)
     (clearance 0.15))
-  (model /Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/PJ320A.step
+  (model ${KIPRJMOD}/kbd/kicad-packages3D/kbd.3dshapes/PJ320A.step
     (offset (xyz 0 -8.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
