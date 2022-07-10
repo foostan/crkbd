@@ -8,7 +8,7 @@ kicad-symbols-comparelibs:
 	if [ -d old ]; then rm -rf old; fi
 	git clone --depth 1 https://github.com/foostan/kbd old
 	cd kicad-library-utils/schlib; \
-          ./comparelibs.py --new ../../kicad-symbols/*.lib --old ../../kbd-old/kicad-symbols/*.lib --check -v
+          ./comparelibs.py --new ../../kicad-symbols/*.lib --old ../../old/kicad-symbols/*.lib --check -v
 
 .PHONY: kicad-symbols-check-lib-table
 kicad-symbols-check-lib-table:
