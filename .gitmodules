@@ -4,3 +4,9 @@
 [submodule "corne-light/pcb/kbd"]
 	path = corne-light/pcb/kbd
 	url = https://github.com/foostan/kbd
+[submodule "corne-light/pcb/keebio-parts"]
+	path = corne-light/pcb/keebio-parts
+	url = git@github.com:keebio/Keebio-Parts.pretty.git
+[submodule "corne-light/pcb/keebio-components"]
+	path = corne-light/pcb/keebio-components
+	url = git@github.com:keebio/keebio-components.git
