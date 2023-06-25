@@ -19,6 +19,7 @@ _autosave-*
 *-cache.lib
 *-rescue.lib
 *-rescue.dcm
+*.kicad_prl
 fp-info-cache
 gerber/
 

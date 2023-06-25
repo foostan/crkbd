@@ -3,7 +3,7 @@
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.15,
-        "copper_line_width": 0.09999999999999999,
+        "copper_line_width": 2.1,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
@@ -113,7 +113,6 @@
       },
       "track_widths": [
         0.0,
-        0.2,
         0.5
       ],
       "via_dimensions": [],
@@ -336,7 +335,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "corne-bottom-plate.kicad_pro",
+    "filename": "corne-classic.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -387,9 +386,9 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "label_size_ratio": 0.25,
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -397,6 +396,15 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
@@ -404,6 +412,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "58178a87-b9e0-43ed-818f-f084dd006382",
+      ""
+    ]
+  ],
   "text_variables": {}
 }

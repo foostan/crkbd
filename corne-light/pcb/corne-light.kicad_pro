@@ -2,8 +2,8 @@
   "board": {
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.15,
-        "copper_line_width": 0.09999999999999999,
+        "board_outline_line_width": 0.19999999999999998,
+        "copper_line_width": 0.15,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.2,
-          "height": 4.0,
-          "width": 4.0
+          "drill": 0.8128,
+          "height": 0.8128,
+          "width": 0.8128
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -94,12 +94,14 @@
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
+      "rule_severitieslegacy_courtyards_overlap": true,
+      "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.075,
+        "min_copper_edge_clearance": 0.09999999999999999,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -113,8 +115,10 @@
       },
       "track_widths": [
         0.0,
-        0.2,
-        0.5
+        0.2032,
+        0.254,
+        0.5,
+        0.508
       ],
       "via_dimensions": [],
       "zones_allow_external_fillets": false,
@@ -336,7 +340,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "corne-bottom-plate.kicad_pro",
+    "filename": "corne-light.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -357,6 +361,24 @@
         "via_diameter": 0.6,
         "via_drill": 0.4,
         "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 1e-05,
+        "diff_pair_gap": 1e-05,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.2,
+        "microvia_drill": 0.1,
+        "name": "Min",
+        "nets": [],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
+        "wire_width": 6.0
       }
     ],
     "meta": {
@@ -368,7 +390,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "corne-light.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -387,16 +409,25 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "label_size_ratio": 0.25,
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "Pcbnew",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
@@ -404,6 +435,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "37c34543-4f5f-4f90-bc04-c7ab95ae8ea4",
+      ""
+    ]
+  ],
   "text_variables": {}
 }
