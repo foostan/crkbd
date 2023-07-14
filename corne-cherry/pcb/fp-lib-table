@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name kbd)(type KiCad)(uri ${KIPRJMOD}/kbd/kicad-footprints/kbd.pretty)(options "")(descr ""))
+  (version 7)
+  (lib (name "kbd_local")(type "KiCad")(uri "${KIPRJMOD}/kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
 )
