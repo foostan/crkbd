@@ -20,6 +20,7 @@ _autosave-*
 *-rescue.lib
 *-rescue.dcm
 *.kicad_prl
+\#auto_saved_files\#
 fp-info-cache
 gerber/
 

@@ -1827,6 +1827,60 @@
         )
       )
     )
+    (symbol "SW_Push_1" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "SW" (at 1.27 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "SW_Push" (at 0 -1.524 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "switch normally-open pushbutton push-button" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Push button switch, generic, two pins" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "SW_Push_1_0_1"
+        (circle (center -2.032 0) (radius 0.508)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 1.27)
+            (xy 0 3.048)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 1.27)
+            (xy -2.54 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 2.032 0) (radius 0.508)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 0 0) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 0 180) (length 2.54)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Switch:SW_Push" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "SW" (at 1.27 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -2510,7 +2564,7 @@
   (no_connect (at 106.68 163.83) (uuid 348ff4ee-62d8-4623-9b40-120b736d68db))
   (no_connect (at 45.72 60.96) (uuid 50435f89-7be9-412d-8749-b25b4b756b1f))
   (no_connect (at 45.72 58.42) (uuid 9eba1f96-a0a0-46c8-af40-1ec754fc59e0))
-  (no_connect (at 187.96 250.19) (uuid a6165070-9087-4fc5-ba63-b1485fdbdd5e))
+  (no_connect (at 279.4 232.41) (uuid a6165070-9087-4fc5-ba63-b1485fdbdd5e))
 
   (wire (pts (xy 210.82 194.31) (xy 226.06 194.31))
     (stroke (width 0) (type default))
@@ -2648,10 +2702,6 @@
     (stroke (width 0) (type default))
     (uuid 288ace72-fac6-41b7-910a-066280fea403)
   )
-  (wire (pts (xy 279.4 267.97) (xy 279.4 232.41))
-    (stroke (width 0) (type default))
-    (uuid 28d6de80-bf58-44be-beef-c377b223d92c)
-  )
   (wire (pts (xy 210.82 224.79) (xy 210.82 242.57))
     (stroke (width 0) (type default))
     (uuid 28f398b3-783f-4041-a63b-0f8e10da704f)
@@ -2776,6 +2826,10 @@
     (stroke (width 0) (type default))
     (uuid 5bfb5f0d-ff62-4352-8930-ecdf8625f0a6)
   )
+  (wire (pts (xy 279.4 196.215) (xy 279.4 198.12))
+    (stroke (width 0) (type default))
+    (uuid 5cc35fdf-69b2-4dfd-8662-8236729168a0)
+  )
   (wire (pts (xy 254 128.27) (xy 266.7 128.27))
     (stroke (width 0) (type default))
     (uuid 5cc88f84-4f6b-49ad-92ce-df115921d98f)
@@ -2807,10 +2861,6 @@
   (wire (pts (xy 180.34 205.74) (xy 180.34 224.79))
     (stroke (width 0) (type default))
     (uuid 649a80e9-9474-42a7-bee1-875657126aa4)
-  )
-  (wire (pts (xy 264.16 267.97) (xy 279.4 267.97))
-    (stroke (width 0) (type default))
-    (uuid 6590c13c-97b5-4a39-9e66-6087d1c61406)
   )
   (wire (pts (xy 45.72 30.48) (xy 52.07 30.48))
     (stroke (width 0) (type default))
@@ -2911,6 +2961,10 @@
   (wire (pts (xy 190.5 128.27) (xy 203.2 128.27))
     (stroke (width 0) (type default))
     (uuid 8c7711d3-4a3a-4fe8-9d19-417a0b76f17a)
+  )
+  (wire (pts (xy 187.96 250.19) (xy 178.435 250.19))
+    (stroke (width 0) (type default))
+    (uuid 8d8ae30b-714c-408c-a46a-07c6267b7b31)
   )
   (wire (pts (xy 91.44 107.95) (xy 100.33 107.95))
     (stroke (width 0) (type default))
@@ -3027,6 +3081,10 @@
   (wire (pts (xy 205.74 101.6) (xy 205.74 105.41))
     (stroke (width 0) (type default))
     (uuid bc668f9b-1037-40d7-92d8-bbf2be81906d)
+  )
+  (wire (pts (xy 178.435 250.19) (xy 178.435 196.215))
+    (stroke (width 0) (type default))
+    (uuid bdc31b73-9926-46d4-aed2-d3fd2b9f1308)
   )
   (wire (pts (xy 271.78 242.57) (xy 271.78 260.35))
     (stroke (width 0) (type default))
@@ -3180,6 +3238,10 @@
     (stroke (width 0) (type default))
     (uuid facc433c-4ca1-44e9-9f92-d8e53e18ded7)
   )
+  (wire (pts (xy 178.435 196.215) (xy 279.4 196.215))
+    (stroke (width 0) (type default))
+    (uuid fcc58925-a453-4ccd-af28-56d6177d837a)
+  )
   (wire (pts (xy 243.84 101.6) (xy 243.84 105.41))
     (stroke (width 0) (type default))
     (uuid fd82dd23-c9b8-4304-b83b-972343576369)
@@ -3257,7 +3319,7 @@
     (effects (font (size 3.175 3.175)) (justify left bottom))
     (uuid ac8c7b02-4121-427b-b13b-7425614c73f3)
   )
-  (text "VBUS USD" (at 68.707 22.606 0)
+  (text "VBUS ESD" (at 68.707 22.606 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bbfbe073-53a5-47d3-a84a-90e07cc8ee4e)
   )
@@ -3566,8 +3628,8 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid df9b6bdd-16d5-4a53-8543-38dcaea39d95)
   )
-  (label "LED" (at 279.4 198.12 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+  (label "LED" (at 264.16 267.97 270) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e2984272-aad2-478f-8ee4-7efba211124a)
   )
   (label "QSPI_SS" (at 218.44 45.72 180) (fields_autoplaced)
@@ -4418,7 +4480,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 187.96 205.74 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f165e23)
-    (property "Reference" "LED1" (at 182.245 200.66 0)
+    (property "Reference" "LED19" (at 182.245 200.66 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 182.245 206.375 0)
@@ -4437,7 +4499,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED1") (unit 1)
+          (reference "LED19") (unit 1)
         )
       )
     )
@@ -4446,7 +4508,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 203.2 205.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f1b3e9c)
-    (property "Reference" "LED4" (at 197.485 203.2 0)
+    (property "Reference" "LED18" (at 197.485 203.835 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 197.485 217.17 0)
@@ -4465,7 +4527,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED4") (unit 1)
+          (reference "LED18") (unit 1)
         )
       )
     )
@@ -4474,7 +4536,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 218.44 205.74 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f1c4b97)
-    (property "Reference" "LED7" (at 212.725 200.66 0)
+    (property "Reference" "LED13" (at 212.725 200.66 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 212.725 206.375 0)
@@ -4493,7 +4555,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED7") (unit 1)
+          (reference "LED13") (unit 1)
         )
       )
     )
@@ -4502,7 +4564,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 233.68 205.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f1c4ba1)
-    (property "Reference" "LED10" (at 227.965 203.2 0)
+    (property "Reference" "LED12" (at 227.965 203.835 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 227.965 216.535 0)
@@ -4521,7 +4583,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED10") (unit 1)
+          (reference "LED12") (unit 1)
         )
       )
     )
@@ -4530,7 +4592,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 248.92 205.74 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f1cfbff)
-    (property "Reference" "LED14" (at 243.205 200.025 0)
+    (property "Reference" "LED5" (at 243.205 200.66 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 243.205 206.375 0)
@@ -4549,7 +4611,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED14") (unit 1)
+          (reference "LED5") (unit 1)
         )
       )
     )
@@ -4558,7 +4620,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 264.16 205.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f1cfc09)
-    (property "Reference" "LED18" (at 258.445 203.2 0)
+    (property "Reference" "LED4" (at 258.445 203.2 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 258.445 216.535 0)
@@ -4577,7 +4639,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED18") (unit 1)
+          (reference "LED4") (unit 1)
         )
       )
     )
@@ -4586,7 +4648,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 187.96 224.79 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f1d937e)
-    (property "Reference" "LED2" (at 182.245 219.71 0)
+    (property "Reference" "LED20" (at 182.245 219.71 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 182.245 225.425 0)
@@ -4605,7 +4667,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED2") (unit 1)
+          (reference "LED20") (unit 1)
         )
       )
     )
@@ -4614,7 +4676,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 203.2 224.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f1d9388)
-    (property "Reference" "LED5" (at 197.485 222.25 0)
+    (property "Reference" "LED17" (at 197.485 222.885 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 197.485 235.585 0)
@@ -4633,7 +4695,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED5") (unit 1)
+          (reference "LED17") (unit 1)
         )
       )
     )
@@ -4642,7 +4704,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 218.44 224.79 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f1d9392)
-    (property "Reference" "LED8" (at 212.725 219.71 0)
+    (property "Reference" "LED14" (at 212.725 219.71 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 212.725 225.425 0)
@@ -4661,7 +4723,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED8") (unit 1)
+          (reference "LED14") (unit 1)
         )
       )
     )
@@ -4670,7 +4732,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 233.68 224.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f1d939c)
-    (property "Reference" "LED11" (at 227.965 222.25 0)
+    (property "Reference" "LED11" (at 227.965 222.885 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 227.965 235.585 0)
@@ -4698,7 +4760,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 248.92 224.79 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f1d93a6)
-    (property "Reference" "LED15" (at 243.205 219.075 0)
+    (property "Reference" "LED6" (at 243.205 219.075 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 243.205 225.425 0)
@@ -4717,7 +4779,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED15") (unit 1)
+          (reference "LED6") (unit 1)
         )
       )
     )
@@ -4726,7 +4788,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 264.16 224.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f1d93b0)
-    (property "Reference" "LED19" (at 258.445 222.25 0)
+    (property "Reference" "LED3" (at 258.445 222.25 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 258.445 235.585 0)
@@ -4745,7 +4807,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED19") (unit 1)
+          (reference "LED3") (unit 1)
         )
       )
     )
@@ -4754,7 +4816,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 187.96 242.57 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f202322)
-    (property "Reference" "LED3" (at 182.245 237.49 0)
+    (property "Reference" "LED21" (at 182.245 237.49 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 182.245 243.205 0)
@@ -4773,7 +4835,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED3") (unit 1)
+          (reference "LED21") (unit 1)
         )
       )
     )
@@ -4782,7 +4844,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 203.2 242.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f20232c)
-    (property "Reference" "LED6" (at 197.485 240.03 0)
+    (property "Reference" "LED16" (at 197.485 240.665 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 197.485 253.365 0)
@@ -4801,7 +4863,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED6") (unit 1)
+          (reference "LED16") (unit 1)
         )
       )
     )
@@ -4810,7 +4872,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 218.44 242.57 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f202336)
-    (property "Reference" "LED9" (at 212.725 237.49 0)
+    (property "Reference" "LED15" (at 212.725 237.49 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 212.725 243.205 0)
@@ -4829,7 +4891,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED9") (unit 1)
+          (reference "LED15") (unit 1)
         )
       )
     )
@@ -4838,7 +4900,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 233.68 242.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f202340)
-    (property "Reference" "LED12" (at 227.965 240.03 0)
+    (property "Reference" "LED10" (at 227.965 240.665 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 227.965 253.365 0)
@@ -4857,7 +4919,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED12") (unit 1)
+          (reference "LED10") (unit 1)
         )
       )
     )
@@ -4866,7 +4928,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 248.92 242.57 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f20234a)
-    (property "Reference" "LED16" (at 243.205 236.855 0)
+    (property "Reference" "LED7" (at 243.205 236.855 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 243.205 243.205 0)
@@ -4885,7 +4947,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED16") (unit 1)
+          (reference "LED7") (unit 1)
         )
       )
     )
@@ -4894,7 +4956,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 264.16 242.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f202354)
-    (property "Reference" "LED20" (at 258.445 240.03 0)
+    (property "Reference" "LED2" (at 258.445 240.03 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 258.445 253.365 0)
@@ -4913,7 +4975,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED20") (unit 1)
+          (reference "LED2") (unit 1)
         )
       )
     )
@@ -4922,7 +4984,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 233.68 260.35 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f20237c)
-    (property "Reference" "LED13" (at 227.965 257.81 0)
+    (property "Reference" "LED9" (at 227.965 257.81 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 227.965 271.145 0)
@@ -4941,7 +5003,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED13") (unit 1)
+          (reference "LED9") (unit 1)
         )
       )
     )
@@ -4950,7 +5012,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 248.92 260.35 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f202386)
-    (property "Reference" "LED17" (at 243.205 254.635 0)
+    (property "Reference" "LED8" (at 243.205 254.635 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 243.205 260.985 0)
@@ -4969,7 +5031,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED17") (unit 1)
+          (reference "LED8") (unit 1)
         )
       )
     )
@@ -4978,7 +5040,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 264.16 260.35 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f202390)
-    (property "Reference" "LED21" (at 258.445 257.81 0)
+    (property "Reference" "LED1" (at 258.445 257.81 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 258.445 271.145 0)
@@ -4997,7 +5059,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED21") (unit 1)
+          (reference "LED1") (unit 1)
         )
       )
     )
@@ -5146,27 +5208,27 @@
   (symbol (lib_id "Device:RotaryEncoder_Switch") (at 274.32 102.87 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1113ecbd-8f52-425e-a93f-421ba9d30695)
-    (property "Reference" "SW22" (at 290.068 92.71 0)
+    (property "Reference" "EXSW1" (at 290.068 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RotaryEncoder_Switch" (at 290.068 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 278.13 106.934 0)
+    (property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u_rotary_encoder_ec12" (at 278.13 106.934 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 274.32 109.474 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A" (uuid ad1a0818-c770-459e-81a7-7ac073357fc3))
-    (pin "B" (uuid d43b5a72-f262-4c15-845e-b9c1b1ee991e))
-    (pin "C" (uuid 0127ce17-9c5a-49ef-92c9-eb71fc384bbd))
-    (pin "S1" (uuid e17168a3-048f-4b92-9b8f-007018a8a863))
-    (pin "S2" (uuid 4b670754-b3aa-489f-a38d-ae5dce9b0260))
+    (pin "A" (uuid 249f82ff-cd0e-4f01-9e80-3f414bb08a50))
+    (pin "B" (uuid 762152bb-1af6-4a9c-9eb1-59010612c89b))
+    (pin "C" (uuid 283a9395-c4c6-4e2e-8cb2-ffc12f750cd5))
+    (pin "S1" (uuid a69a2338-51b6-47a7-8e32-d7beabe51241))
+    (pin "S2" (uuid f5939b26-cf2e-49b0-ac9d-3e419be6051a))
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW22") (unit 1)
+          (reference "EXSW1") (unit 1)
         )
       )
     )
@@ -5289,7 +5351,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 210.82 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c749850-94a4-4b9b-b4a9-b460aec768d8)
-    (property "Reference" "SW7" (at 210.82 99.314 0)
+    (property "Reference" "SW13" (at 210.82 99.314 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 210.82 101.346 0)
@@ -5306,7 +5368,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW7") (unit 1)
+          (reference "SW13") (unit 1)
         )
       )
     )
@@ -5341,7 +5403,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 198.12 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1de7016a-622f-4afa-819d-507f7a1df6d2)
-    (property "Reference" "SW4" (at 198.12 99.314 0)
+    (property "Reference" "SW18" (at 198.12 99.314 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 198.12 101.346 0)
@@ -5358,7 +5420,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW4") (unit 1)
+          (reference "SW18") (unit 1)
         )
       )
     )
@@ -5422,7 +5484,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 248.92 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 264ccfc4-5b84-4994-a0de-776ce99a9e20)
-    (property "Reference" "SW21" (at 248.92 145.034 0)
+    (property "Reference" "SW1" (at 248.92 145.034 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 248.92 147.066 0)
@@ -5439,7 +5501,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW21") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -5498,7 +5560,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 223.52 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 27585a7c-824e-4452-9dc1-044726c415d8)
-    (property "Reference" "SW12" (at 223.52 129.794 0)
+    (property "Reference" "SW10" (at 223.52 129.794 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 223.52 131.826 0)
@@ -5515,7 +5577,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW12") (unit 1)
+          (reference "SW10") (unit 1)
         )
       )
     )
@@ -5830,13 +5892,16 @@
     (property "Reference" "D1" (at 66.04 32.385 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "ESD5Z5V0" (at 66.04 34.925 90)
+    (property "Value" "ESD5Z5V0C" (at 66.04 34.925 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Diode_SMD:D_SOD-523" (at 59.055 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf" (at 63.5 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB Part #" "C2901325" (at 63.5 34.29 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 26d3493c-8778-4d02-ae29-4a7163a60561))
@@ -5853,7 +5918,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 279.4 205.74 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3deb30db-4aa6-4126-a56c-63acc218abfe)
-    (property "Reference" "LED22" (at 273.685 200.025 0)
+    (property "Reference" "EXLED1" (at 273.685 200.025 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 273.685 206.375 0)
@@ -5872,7 +5937,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED22") (unit 1)
+          (reference "EXLED1") (unit 1)
         )
       )
     )
@@ -5950,7 +6015,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 223.52 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b4ef01a-75ff-47ae-b2c1-9fb461376ada)
-    (property "Reference" "SW13" (at 223.52 145.034 0)
+    (property "Reference" "SW9" (at 223.52 145.034 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 223.52 147.066 0)
@@ -5967,7 +6032,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW13") (unit 1)
+          (reference "SW9") (unit 1)
         )
       )
     )
@@ -6054,7 +6119,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 198.12 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 567d8d2d-0ce3-476a-a7e8-b310e3c299fd)
-    (property "Reference" "SW5" (at 198.12 114.554 0)
+    (property "Reference" "SW17" (at 198.12 114.554 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 198.12 116.586 0)
@@ -6071,7 +6136,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW5") (unit 1)
+          (reference "SW17") (unit 1)
         )
       )
     )
@@ -6363,7 +6428,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 236.22 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75e793b8-eb65-4d25-beb6-c3d7189a3507)
-    (property "Reference" "SW15" (at 236.22 114.554 0)
+    (property "Reference" "SW6" (at 236.22 114.554 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 236.22 116.586 0)
@@ -6380,7 +6445,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW15") (unit 1)
+          (reference "SW6") (unit 1)
         )
       )
     )
@@ -6420,10 +6485,16 @@
     (property "Value" "SMD0805-050-16V" (at 73.66 27.94 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 73.66 32.258 90)
+    (property "Footprint" "Fuse:Fuse_0805_2012Metric" (at 73.66 32.258 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 73.66 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "16V 500mA 100A 1A 0805 Resettable Fuses ROHS" (at 73.66 30.48 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB Part #" "C2833485" (at 73.66 30.48 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 479bb9ed-c168-49c1-bc13-b4f5a9e5c201))
@@ -6465,7 +6536,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 248.92 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 79ebb2d6-1294-4066-9aa9-7c48f3544a37)
-    (property "Reference" "SW20" (at 248.92 129.794 0)
+    (property "Reference" "SW2" (at 248.92 129.794 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 248.92 131.826 0)
@@ -6482,7 +6553,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW20") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
     )
@@ -6491,7 +6562,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 223.52 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b1b28b6-b1ef-4360-96d5-7cc61117522d)
-    (property "Reference" "SW10" (at 223.52 99.314 0)
+    (property "Reference" "SW12" (at 223.52 99.314 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 223.52 101.346 0)
@@ -6508,7 +6579,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW10") (unit 1)
+          (reference "SW12") (unit 1)
         )
       )
     )
@@ -6568,7 +6639,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 248.92 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e4ae3f8-ddfd-4aaa-8042-c231132d11e0)
-    (property "Reference" "SW19" (at 248.92 114.554 0)
+    (property "Reference" "SW3" (at 248.92 114.554 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 248.92 116.586 0)
@@ -6585,7 +6656,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW19") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
     )
@@ -6754,13 +6825,13 @@
   (symbol (lib_id "Device:RotaryEncoder_Switch") (at 274.32 118.11 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b81158a-3d06-406b-91be-e37db2767499)
-    (property "Reference" "SW23" (at 290.322 108.712 0)
+    (property "Reference" "EXSW2" (at 290.322 108.712 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RotaryEncoder_Switch" (at 290.322 111.252 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 278.13 122.174 0)
+    (property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u_rotary_encoder_ec12" (at 278.13 122.174 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 274.32 124.714 0)
@@ -6774,7 +6845,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW23") (unit 1)
+          (reference "EXSW2") (unit 1)
         )
       )
     )
@@ -6783,7 +6854,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 279.4 224.79 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ca92c94-854d-4994-a460-e91f739a9a94)
-    (property "Reference" "LED23" (at 273.685 219.075 0)
+    (property "Reference" "EXLED2" (at 273.685 219.075 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 273.685 225.425 0)
@@ -6802,7 +6873,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED23") (unit 1)
+          (reference "EXLED2") (unit 1)
         )
       )
     )
@@ -6994,7 +7065,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 185.42 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9bb86cc-3c3e-4aeb-ab23-d64f6212c2c0)
-    (property "Reference" "SW3" (at 185.42 129.794 0)
+    (property "Reference" "SW21" (at 185.42 129.794 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 185.42 131.826 0)
@@ -7011,7 +7082,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW3") (unit 1)
+          (reference "SW21") (unit 1)
         )
       )
     )
@@ -7149,7 +7220,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 210.82 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bb58c15f-e3ab-4a51-8bf2-7a59c98d0c53)
-    (property "Reference" "SW8" (at 210.82 114.554 0)
+    (property "Reference" "SW14" (at 210.82 114.554 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 210.82 116.586 0)
@@ -7166,7 +7237,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW8") (unit 1)
+          (reference "SW14") (unit 1)
         )
       )
     )
@@ -7175,7 +7246,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 236.22 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2b9dfa3-c111-43a4-aad4-b2bdad0f53e4)
-    (property "Reference" "SW16" (at 236.22 129.794 0)
+    (property "Reference" "SW7" (at 236.22 129.794 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 236.22 131.826 0)
@@ -7192,7 +7263,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW16") (unit 1)
+          (reference "SW7") (unit 1)
         )
       )
     )
@@ -7201,7 +7272,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 236.22 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2cbe98b-2643-4070-bc14-edfd6018ff07)
-    (property "Reference" "SW14" (at 236.22 99.314 0)
+    (property "Reference" "SW5" (at 236.22 99.314 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 236.22 101.346 0)
@@ -7218,7 +7289,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW14") (unit 1)
+          (reference "SW5") (unit 1)
         )
       )
     )
@@ -7309,7 +7380,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 185.42 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d144f520-782b-48a3-a89d-ece1e5e80490)
-    (property "Reference" "SW2" (at 185.42 114.554 0)
+    (property "Reference" "SW20" (at 185.42 114.554 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 185.42 116.586 0)
@@ -7326,7 +7397,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW2") (unit 1)
+          (reference "SW20") (unit 1)
         )
       )
     )
@@ -7489,7 +7560,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 198.12 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid deda7572-7e58-4a6c-86f6-96529e41b478)
-    (property "Reference" "SW6" (at 198.12 129.794 0)
+    (property "Reference" "SW16" (at 198.12 129.794 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 198.12 131.826 0)
@@ -7506,7 +7577,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW6") (unit 1)
+          (reference "SW16") (unit 1)
         )
       )
     )
@@ -7591,7 +7662,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 236.22 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4af6070-63d3-45c3-b40d-7b41b5fa01e3)
-    (property "Reference" "SW17" (at 236.22 145.034 0)
+    (property "Reference" "SW8" (at 236.22 145.034 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 236.22 147.066 0)
@@ -7608,7 +7679,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW17") (unit 1)
+          (reference "SW8") (unit 1)
         )
       )
     )
@@ -7643,7 +7714,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 210.82 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f12dc4ca-b0bb-472e-89ab-335b5c616248)
-    (property "Reference" "SW9" (at 210.82 129.794 0)
+    (property "Reference" "SW15" (at 210.82 129.794 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 210.82 131.826 0)
@@ -7660,16 +7731,16 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW9") (unit 1)
+          (reference "SW15") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 248.92 105.41 0) (unit 1)
+  (symbol (lib_name "SW_Push_1") (lib_id "Switch:SW_Push") (at 248.92 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2ac2e5f-eefc-45cc-95d7-5458b1abf660)
-    (property "Reference" "SW18" (at 248.92 99.314 0)
+    (property "Reference" "SW4" (at 248.92 99.314 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 248.92 101.346 0)
@@ -7686,7 +7757,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW18") (unit 1)
+          (reference "SW4") (unit 1)
         )
       )
     )
@@ -7746,7 +7817,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 185.42 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4c3c06d-a98b-4189-905d-1d0132c7e75b)
-    (property "Reference" "SW1" (at 185.42 99.314 0)
+    (property "Reference" "SW19" (at 185.42 99.314 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 185.42 101.346 0)
@@ -7763,7 +7834,7 @@
     (instances
       (project "corne"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW1") (unit 1)
+          (reference "SW19") (unit 1)
         )
       )
     )
