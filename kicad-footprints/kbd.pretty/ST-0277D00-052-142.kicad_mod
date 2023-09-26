@@ -1,6 +1,5 @@
 (footprint "ST-0277D00-052-142" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
   (tags "usb usb-c 2.0 pd")
   (attr smd)
   (fp_text reference "REF**" (at 0 14.65) (layer "F.SilkS")
