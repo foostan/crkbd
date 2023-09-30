@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.3,
-          "height": 4.3,
-          "width": 4.3
+          "drill": 0.6,
+          "height": 2.3,
+          "width": 1.1
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -452,8 +452,8 @@
       "idf": "",
       "netlist": "corne.net",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "../../../../../../Desktop/corne-pcb.STEP",
+      "vrml": "../../../../../../Desktop/corne.wrl"
     },
     "page_layout_descr_file": ""
   },
