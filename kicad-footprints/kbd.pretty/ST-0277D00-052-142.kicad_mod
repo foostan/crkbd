@@ -1,7 +1,7 @@
 (footprint "ST-0277D00-052-142" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (tags "usb usb-c 2.0 pd")
-  (attr smd)
+  (attr through_hole)
   (fp_text reference "REF**" (at 0 14.65) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a144ce76-cc23-44fb-8108-bf18e64a4c3d)
