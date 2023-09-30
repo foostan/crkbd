@@ -52,9 +52,9 @@
   (pad "B9" smd rect (at -2.45 -5.35) (size 0.6 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 70539c09-2020-4a42-a156-43d1513170d0))
   (pad "B12" smd rect (at -3.25 -5.35) (size 0.6 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp eda87c04-3a59-4e2c-a9bd-f59ed31672aa))
   (pad "S1" thru_hole oval (at -5.62 -4) (size 1.1 1.9) (drill oval 0.6 1.4) (layers "*.Cu" "*.Mask") (tstamp 69c3dc88-a37e-49ef-ae4d-497d3191ad5b))
-  (pad "S1" thru_hole oval (at -5.62 0) (size 1.1 2.3) (drill oval 0.6 1.8) (layers "*.Cu" "*.Mask") (tstamp 5991ca6f-c5c1-4692-8fe9-cf4b7ca50c4b))
+  (pad "S1" thru_hole oval (at -5.62 0) (size 1.1 2.1) (drill oval 0.6 1.6) (layers "*.Cu" "*.Mask") (tstamp 5991ca6f-c5c1-4692-8fe9-cf4b7ca50c4b))
   (pad "S1" thru_hole oval (at 5.62 -4) (size 1.1 1.9) (drill oval 0.6 1.4) (layers "*.Cu" "*.Mask") (tstamp 5dc4787c-500b-4b2c-b886-ee32763dab59))
-  (pad "S1" thru_hole oval (at 5.62 0) (size 1.1 2.3) (drill oval 0.6 1.8) (layers "*.Cu" "*.Mask") (tstamp 65cf2b82-36e4-42e8-a6dc-885e76cac8c0))
+  (pad "S1" thru_hole oval (at 5.62 0) (size 1.1 2.1) (drill oval 0.6 1.6) (layers "*.Cu" "*.Mask") (tstamp 65cf2b82-36e4-42e8-a6dc-885e76cac8c0))
   (model "${KICAD_KBD_DIR}/kicad-packages3D/kbd.3dshapes/TYPE-C-31-M-13C.step"
     (offset (xyz 0 4.5 -1.6))
     (scale (xyz 1 1 1))
