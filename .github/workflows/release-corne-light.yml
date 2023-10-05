@@ -17,42 +17,37 @@ jobs:
         config: .kiplot.yml
         dir: corne-light/gerber
         board: corne-light/pcb/corne-light.kicad_pcb
-        schema: corne-light/pcb/corne-light.sch
+        schema: corne-light/pcb/corne-light.kicad_sch
     - name: Export top plate gerber
       uses: nerdyscout/kicad-exports@v2.0
       with:
         config: .kiplot.yml
         dir: plates/pcb/top/gerber
         board: plates/pcb/top/corne-top-plate.kicad_pcb
-        schema: plates/pcb/top/corne-top-plate.sch
     - name: Export bottom plate gerber
       uses: nerdyscout/kicad-exports@v2.0
       with:
         config: .kiplot.yml
         dir: plates/pcb/bottom/gerber
         board: plates/pcb/bottom/corne-bottom-plate.kicad_pcb
-        schema: plates/pcb/bottom/corne-bottom-plate.sch
     - name: Export top plate mini gerber
       uses: nerdyscout/kicad-exports@v2.0
       with:
         config: .kiplot.yml
         dir: plates/pcb/top-mini/gerber
         board: plates/pcb/top-mini/corne-top-plate.kicad_pcb
-        schema: plates/pcb/top-mini/corne-top-plate.sch
     - name: Export bottom plate mini gerber
       uses: nerdyscout/kicad-exports@v2.0
       with:
         config: .kiplot.yml
         dir: plates/pcb/bottom-mini/gerber
         board: plates/pcb/bottom-mini/corne-bottom-plate.kicad_pcb
-        schema: plates/pcb/bottom-mini/corne-bottom-plate.sch
     - name: Export top-alps plate gerber
       uses: nerdyscout/kicad-exports@v2.0
       with:
         config: .kiplot.yml
         dir: plates/pcb/top-alps/gerber
         board: plates/pcb/top-alps/corne-top-alps-plate.kicad_pcb
-        schema: plates/pcb/top-alps/corne-top-alps-plate.sch
 
     - name: Zip Gerber files
       run: |

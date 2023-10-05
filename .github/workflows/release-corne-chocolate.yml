@@ -17,35 +17,31 @@ jobs:
         config: .kiplot.yml
         dir: corne-chocolate/gerber
         board: corne-chocolate/pcb/corne-chocolate.kicad_pcb
-        schema: corne-chocolate/pcb/corne-chocolate.sch
+        schema: corne-chocolate/pcb/corne-chocolate.kicad_sch
     - name: Export top plate gerber
       uses: nerdyscout/kicad-exports@v2.0
       with:
         config: .kiplot.yml
         dir: plates/pcb/top/gerber
         board: plates/pcb/top/corne-top-plate.kicad_pcb
-        schema: plates/pcb/top/corne-top-plate.sch
     - name: Export bottom plate gerber
       uses: nerdyscout/kicad-exports@v2.0
       with:
         config: .kiplot.yml
         dir: plates/pcb/bottom/gerber
         board: plates/pcb/bottom/corne-bottom-plate.kicad_pcb
-        schema: plates/pcb/bottom/corne-bottom-plate.sch
     - name: Export top plate mini gerber
       uses: nerdyscout/kicad-exports@v2.0
       with:
         config: .kiplot.yml
         dir: plates/pcb/top-mini/gerber
         board: plates/pcb/top-mini/corne-top-plate.kicad_pcb
-        schema: plates/pcb/top-mini/corne-top-plate.sch
     - name: Export bottom plate mini gerber
       uses: nerdyscout/kicad-exports@v2.0
       with:
         config: .kiplot.yml
         dir: plates/pcb/bottom-mini/gerber
         board: plates/pcb/bottom-mini/corne-bottom-plate.kicad_pcb
-        schema: plates/pcb/bottom-mini/corne-bottom-plate.sch
 
     - name: Zip Gerber files
       run: |
