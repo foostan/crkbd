@@ -60,8 +60,8 @@ jobs:
           zip -r --junk-paths plates-top-gerber.zip plates/pcb/top/gerber
           zip -r --junk-paths plates-top-mini-gerber.zip plates/pcb/top-mini/gerber
           zip -r --junk-paths plates-top-alps-gerber.zip plates/pcb/top-alps/gerber
-          zip -r --junk-paths plates-bottom-gerber.zip plates/pcb/bottom-mini/gerber
-          zip -r --junk-paths plates-bottom-mini-gerber.zip plates/pcb/bottom/gerber
+          zip -r --junk-paths plates-bottom-gerber.zip plates/pcb/bottom/gerber
+          zip -r --junk-paths plates-bottom-mini-gerber.zip plates/pcb/bottom-mini/gerber
           zip -r --junk-paths plates.zip plates/common
           zip -r --junk-paths plates-alps.zip plates/alps
           zip -r --junk-paths plates-mini.zip plates/mini
