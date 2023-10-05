@@ -32,12 +32,28 @@ jobs:
         dir: plates/pcb/bottom/gerber
         board: plates/pcb/bottom/corne-bottom-plate.kicad_pcb
         schema: plates/pcb/bottom/corne-bottom-plate.sch
+    - name: Export top plate mini gerber
+      uses: nerdyscout/kicad-exports@v2.0
+      with:
+        config: .kiplot.yml
+        dir: plates/pcb/top-mini/gerber
+        board: plates/pcb/top-mini/corne-top-plate.kicad_pcb
+        schema: plates/pcb/top-mini/corne-top-plate.sch
+    - name: Export bottom plate mini gerber
+      uses: nerdyscout/kicad-exports@v2.0
+      with:
+        config: .kiplot.yml
+        dir: plates/pcb/bottom-mini/gerber
+        board: plates/pcb/bottom-mini/corne-bottom-plate.kicad_pcb
+        schema: plates/pcb/bottom-mini/corne-bottom-plate.sch
 
     - name: Zip Gerber files
       run: |
           zip -r --junk-paths corne-chocolate-gerber.zip corne-chocolate/gerber
           zip -r --junk-paths plates-top-gerber.zip plates/pcb/top/gerber
+          zip -r --junk-paths plates-top-mini-gerber.zip plates/pcb/top-mini/gerber
           zip -r --junk-paths plates-bottom-gerber.zip plates/pcb/bottom/gerber
+          zip -r --junk-paths plates-bottom-mini-gerber.zip plates/pcb/bottom-mini/gerber
           zip -r --junk-paths plates.zip plates/common
 
     - name: Release to GitHub
