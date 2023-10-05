@@ -12,32 +12,32 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Export corne-cherry gerber
-      uses: nerdyscout/kicad-exports@v2.2
+      uses: nerdyscout/kicad-exports@v2.3
       with:
         config: .kiplot.yml
         dir: corne-cherry/gerber
         board: corne-cherry/pcb/corne-cherry.kicad_pcb
         schema: corne-cherry/pcb/corne-cherry.kicad_sch
     - name: Export top plate gerber
-      uses: nerdyscout/kicad-exports@v2.2
+      uses: nerdyscout/kicad-exports@v2.3
       with:
         config: .kiplot.yml
         dir: plates/pcb/top/gerber
         board: plates/pcb/top/corne-top-plate.kicad_pcb
     - name: Export bottom plate gerber
-      uses: nerdyscout/kicad-exports@v2.2
+      uses: nerdyscout/kicad-exports@v2.3
       with:
         config: .kiplot.yml
         dir: plates/pcb/bottom/gerber
         board: plates/pcb/bottom/corne-bottom-plate.kicad_pcb
     - name: Export top plate mini gerber
-      uses: nerdyscout/kicad-exports@v2.2
+      uses: nerdyscout/kicad-exports@v2.3
       with:
         config: .kiplot.yml
         dir: plates/pcb/top-mini/gerber
         board: plates/pcb/top-mini/corne-top-plate.kicad_pcb
     - name: Export bottom plate mini gerber
-      uses: nerdyscout/kicad-exports@v2.2
+      uses: nerdyscout/kicad-exports@v2.3
       with:
         config: .kiplot.yml
         dir: plates/pcb/bottom-mini/gerber
