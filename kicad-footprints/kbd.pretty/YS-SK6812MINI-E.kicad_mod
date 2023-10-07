@@ -1,8 +1,8 @@
 (footprint "YS-SK6812MINI-E" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
-  (fp_text reference "REF**" (at -2.9 2.15) (layer "F.SilkS")
-      (effects (font (size 0.6 0.6) (thickness 0.1)))
+  (fp_text reference "REF**" (at 0 -1.95) (layer "F.SilkS")
+      (effects (font (size 0.5 0.5) (thickness 0.1)))
     (tstamp 1efcc3df-967a-4089-a9fe-c9cb2a0ceeec)
   )
   (fp_text value "YS-SK6812MINI-E" (at 0 -2.2) (layer "F.Fab") hide
