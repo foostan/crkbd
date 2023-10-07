@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (attr smd)
   (fp_text reference "REF**" (at 0 -7.25) (layer "B.SilkS")
-      (effects (font (size 0.6 0.6) (thickness 0.1) bold) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1) bold) (justify mirror))
     (tstamp 14f14c5a-6ef3-4731-9da9-b9924759015b)
   )
   (fp_text value "keyswitch_cherrymx_hotswap_1u" (at 0 -7.8) (layer "F.Fab") hide
