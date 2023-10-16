@@ -35,7 +35,7 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.6,
-          "height": 2.3,
+          "height": 2.1,
           "width": 1.1
         },
         "silk_line_width": 0.15,
@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -83,7 +83,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -94,13 +94,13 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
-        "text_thickness": "warning",
+        "text_height": "ignore",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -148,27 +148,27 @@
       ],
       "teardrop_parameters": [
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
-          "td_length_ratio": 0.5,
+          "td_length_ratio": 0.4,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
           "td_target_name": "td_round_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
-          "td_length_ratio": 0.5,
+          "td_length_ratio": 0.4,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
           "td_target_name": "td_rect_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
-          "td_length_ratio": 0.5,
+          "td_length_ratio": 0.4,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
           "td_target_name": "td_track_end",
@@ -177,11 +177,8 @@
       ],
       "track_widths": [
         0.0,
-        0.2,
         0.2032,
-        0.25,
         0.254,
-        0.5,
         0.508
       ],
       "via_dimensions": [
@@ -385,7 +382,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
@@ -505,6 +502,14 @@
     [
       "4cc5d416-57f5-4147-8183-e03ae6b1198a",
       ""
+    ],
+    [
+      "089db7cd-2934-428b-a62a-55e0735649ba",
+      "left"
+    ],
+    [
+      "50d96a5e-3d25-4129-9495-15388c76587f",
+      "right"
     ]
   ],
   "text_variables": {}
