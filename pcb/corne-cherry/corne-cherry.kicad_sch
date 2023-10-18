@@ -26,7 +26,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "cherry"
+      (project "corne-cherry"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a" (page "2"))
       )
     )
@@ -43,7 +43,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "cherry"
+      (project "corne-cherry"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a" (page "3"))
       )
     )
