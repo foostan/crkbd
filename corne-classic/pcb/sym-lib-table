@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "corne-classic-rescue")(type "Legacy")(uri "${KIPRJMOD}/corne-classic-rescue.lib")(options "")(descr ""))
-)
