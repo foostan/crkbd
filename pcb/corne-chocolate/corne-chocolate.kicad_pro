@@ -449,7 +449,7 @@
       "idf": "",
       "netlist": "corne.net",
       "specctra_dsn": "",
-      "step": "../../../../../../Desktop/corne-pcb.STEP",
+      "step": "../../../../../../../Desktop/corne-pcb.STEP",
       "vrml": "../../../../../../Desktop/corne.wrl"
     },
     "page_layout_descr_file": ""
