@@ -1,11 +1,11 @@
-(footprint "keyswitch_chock12_hotswap_1u" (version 20221018) (generator pcbnew)
+(footprint "keyswitch_choc12_hotswap_1u" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
   (fp_text reference "REF**" (at 0 8.7) (layer "F.SilkS")
       (effects (font (size 0.5 0.5) (thickness 0.1) bold))
     (tstamp 0a9e7192-6667-4289-8263-f2652c7b8e01)
   )
-  (fp_text value "keyswitch_chock12_hotswap_1u" (at 0 -7.8) (layer "F.Fab") hide
+  (fp_text value "keyswitch_choc12_hotswap_1u" (at 0 -7.8) (layer "F.Fab") hide
       (effects (font (size 0.6 0.6) (thickness 0.1) bold))
     (tstamp 7784b1de-84b6-45a0-807d-51a82d97720c)
   )
