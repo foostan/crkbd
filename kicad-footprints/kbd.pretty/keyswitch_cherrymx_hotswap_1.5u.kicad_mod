@@ -1,8 +1,8 @@
 (footprint "keyswitch_cherrymx_hotswap_1.5u" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -7.25) (layer "F.SilkS")
-      (effects (font (size 0.5 0.5) (thickness 0.1) bold))
+  (fp_text reference "REF**" (at 0 -7.5) (layer "F.SilkS")
+      (effects (font (size 0.8 0.8) (thickness 0.1) bold))
     (tstamp 14f14c5a-6ef3-4731-9da9-b9924759015b)
   )
   (fp_text value "keyswitch_cherrymx_hotswap_1.5u" (at 0 -7.8) (layer "F.Fab") hide

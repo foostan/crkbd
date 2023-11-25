@@ -1,8 +1,8 @@
 (footprint "keyswitch_cherrymx_hotswap_1u_rotary_encoder_ec12" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -7.25) (layer "F.SilkS")
-      (effects (font (size 0.5 0.5) (thickness 0.1) bold))
+  (fp_text reference "REF**" (at 0 -7.5) (layer "F.SilkS")
+      (effects (font (size 0.8 0.8) (thickness 0.1) bold))
     (tstamp 14f14c5a-6ef3-4731-9da9-b9924759015b)
   )
   (fp_text value "keyswitch_cherrymx_hotswap_1u_ec12" (at 0 -8.65) (layer "F.Fab") hide
