@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "kbd_local")(type "KiCad")(uri "/Users/foostan/go/src/github.com/foostan/crkbd/pcb/common/kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
+  (lib (name "kbd_local")(type "KiCad")(uri "${KBD_DIR}/kicad-footprints/kbd.pretty")(options "")(descr ""))
 )
