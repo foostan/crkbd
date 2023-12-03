@@ -22,11 +22,11 @@
     (property "Sheetname" "left" (at 26.67 37.3884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "../common/left.kicad_sch" (at 26.67 81.8646 0)
+    (property "Sheetfile" "../../common/left.kicad_sch" (at 26.67 81.8646 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "corne-chocolate"
+      (project "corne-cherry"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a" (page "2"))
       )
     )
@@ -39,11 +39,11 @@
     (property "Sheetname" "right" (at 86.36 37.3884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "../common/right.kicad_sch" (at 86.36 83.1346 0)
+    (property "Sheetfile" "../../common/right.kicad_sch" (at 86.36 83.1346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "corne-chocolate"
+      (project "corne-cherry"
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a" (page "3"))
       )
     )
