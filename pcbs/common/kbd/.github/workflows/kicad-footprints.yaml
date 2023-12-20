@@ -1,0 +1,22 @@
+name: kicad-footprints
+on: [pull_request]
+
+jobs:
+  on-pull-request:
+    name: kicad-footprints
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.6
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.6
+    - name: Init tools
+      run: |
+        make tools
+    - name: Check lib table
+      run: |
+        make kicad-footprints-check-lib-table
+    - name: Check all
+      run: |
+        make kicad-footprints-check-all

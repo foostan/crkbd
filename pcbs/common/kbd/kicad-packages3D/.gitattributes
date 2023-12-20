@@ -1,0 +1,10 @@
+*.md text=auto
+*.txt text=auto
+
+*.STEP binary
+*.step binary
+*.STP  binary
+*.stp  binary
+
+*.wrl -diff
+*.WRL -diff
