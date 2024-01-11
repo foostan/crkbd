@@ -3,10 +3,11 @@
 こちらは Corne Cherry v3 のビルドガイドになります。
 [Corne Cherry v2 はこちら](https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v2/buildguide_jp.md)。
 
-
 ## 部品
+
 ### 必須
-| 名前 | 数 | 備考 | 
+
+| 名前 | 数 | 備考 |
 |:-|:-|:-|
 | PCB | 1セット | |
 | トッププレート | 2枚 | |
@@ -19,14 +20,15 @@
 | PCBソケット | 42個 | Kailh および Gateron に対応 |
 | キースイッチ | 42個 | CherryMX互換のみ対応 |
 | キーキャップ | 42個 | 1u 40個、1.5u 2個 |
-| スペーサー M2 6.5mm | 10本 | |
-| スペーサー M2 8mm | 4本 | |
+| スペーサー M2 7.5mm | 10本 | |
+| スペーサー M2 9mm | 4本 | |
 | ネジ M2 4mm | 28本 | |
 | クッションゴム | 8個 | |
 | TRRS(4極)ケーブル | 1本 | TRS(3極)ケーブルでも可 |
 | Micro USBケーブル | 1本 | |
 
 ### オプション
+
 | 名前 | 数 | 備考 |
 |:-|:-|:-|
 | OLEDモジュール | 2枚 | |
@@ -36,8 +38,9 @@
 | WS2812B | 12個 | Undergrow 用 LEDs |
 
 ## 事前準備
+
 ファームウェアを自分でビルドする場合は環境を整備するのに時間がかかるのではじめに取り掛かっておくことをおすすめします。\
-詳しくは https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md を参照してください。
+詳しくは <https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md> を参照してください。
 
 ## 確認
 
@@ -56,6 +59,7 @@ PCBは製造の都合上フレームが付いた状態となっています。
 ![confirm_remove_frame](assets/confirm_remove_frame.jpg)
 
 ## 組み立て
+
 ### ダイオード
 
 SMD部品のダイオードのはんだづけを行います。
@@ -118,7 +122,7 @@ __TIPS: SMD部品を取り付けるコツ__ で紹介したように、予備ハ
 
 ![build_led_undergrow](assets/build_led_undergrow.jpg)
 
-左右合わせて計8個はんだづけして WS2812B は完了です。
+左右合わせて計12個はんだづけして WS2812B は完了です。
 
 ![build_led_undergrow_overview](assets/build_led_undergrow_overview.jpg)
 
@@ -134,7 +138,6 @@ SK6812MINI に比べて壊れにくいですが、はんだごての熱を直接
 
 ![build_led_backlight](assets/build_led_backlight.jpg)
 
-
 左右合わせて計42個はんだづけして SK6812MINI-E は完了です。
 
 ![build_led_back_overview](assets/build_led_back_overview.jpg)
@@ -148,6 +151,7 @@ SK6812MINI に比べて壊れにくいですが、はんだごての熱を直接
 ずれやすい部品なので、手で部品を抑えながらはんだづけするか、マスキングテープ等で固定してからはんだづけするときれいに付きます。
 
 ### ProMicro
+
 ProMicroを下記のような向きではんだ付けします
 
 ![build_promicro](assets/build_promicro.jpg)
@@ -158,16 +162,19 @@ ProMicroを下記のような向きではんだ付けします
 ![build_promicro_conthrough](assets/build_promicro_conthrough.jpg)
 
 ### OLEDモジュール
+
 OLED用のピンソケットにピンヘッダを先に差し込み、その後からピンヘッダとOLEDモジュールをはんだづけします。
 このときOLEDモジュールが浮きやすいので指で押さえつけながら浮かないように気をつけます。
 
 ![build_oled](assets/build_oled.jpg)
 
 ## ファームウェア
+
 下記を参照しファームウェアをProMicroに書き込みます。\
-https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md
+<https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md>
 
 ### 動作確認
+
 ProMicroとOLEDモジュールを付けた段階で動作確認をすることをおすすめします。
 一番最後にやると問題の切り分けが難しくなります。
 
@@ -187,7 +194,7 @@ __TIPS: SMD部品を取り付けるコツ__ で紹介したように、予備ハ
 
 ### OLED保護プレート
 
-M2 8mm のスペーサーと M2 ネジで OLED 保護プレートを取り付けます。
+M2 9mm のスペーサーと M2 ネジで OLED 保護プレートを取り付けます。
 
 ![build_oled_plate_front](assets/build_oled_plate_front.jpg)
 ![build_oled_plate_back](assets/build_oled_plate_back.jpg)
@@ -198,7 +205,7 @@ M2 8mm のスペーサーと M2 ネジで OLED 保護プレートを取り付け
 先にすべてのキースイッチをトッププレートに取り付けてしまうと、ソケットにはめ込む難易度が上がってしまうため、先に端のキースイッチのみを取り付ける方が簡単です。
 ![build_top_plate_switches](assets/build_top_plate_switches.jpg)
 
-M2 6.5mm のスペーサーと M2 ネジ をトッププレートに取り付けます。
+M2 7.5mm のスペーサーと M2 ネジ をトッププレートに取り付けます。
 
 ![build_screws_spacers_front](assets/build_screws_spacers_front.jpg)
 

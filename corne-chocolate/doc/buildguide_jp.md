@@ -4,8 +4,10 @@
 [Corne Cherry はこちら](https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/buildguide_jp.md)。
 
 ## 部品
+
 ### 必須
-| 名前 | 数 | 備考 | 
+
+| 名前 | 数 | 備考 |
 |:-|:-|:-|
 | PCB | 2枚 | |
 | トッププレート | 2枚 | |
@@ -21,21 +23,23 @@
 | OLEDモジュール | 2枚 | |
 | ピンヘッダ 4連 | 2つ | |
 | ピンソケット4連 | 2つ | |
-| スペーサー M2 3.5mm | 10本 | |
-| スペーサー M2 8mm | 4本 | |
-| ネジ M2 3mm | 28本 | |
+| スペーサー M2 4.5mm | 10本 | |
+| スペーサー M2 9mm | 4本 | |
+| ネジ M2 4mm | 28本 | |
 | クッションゴム | 8個 | |
 | TRS(3極)ケーブル | 1本 | TRRS(4極)ケーブルでも可 |
 | Micro USBケーブル | 1本 | |
 
 ### オプション
+
 | 名前 | 数 | 備考 |
 |:-|:-|:-|
 | SK6812MINI | 54個 | 上向き実装 42個、下向き実装 12個 |
 
 ## 事前準備
+
 ファームウェアを自分でビルドする場合は環境を整備するのに時間がかかるのではじめに取り掛かっておくことをおすすめします。\
-詳しくは https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md を参照してください。
+詳しくは <https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md> を参照してください。
 
 ## 実装
 
@@ -44,7 +48,6 @@ PCBはリバーシブルになっているので、最初にどちらを左用/�
 ![01](https://user-images.githubusercontent.com/736191/52534345-dcce8b00-2d83-11e9-9b6a-b1f9f4b75519.png)
 
 ### ダイオード
-
 
 チップ部品のダイオードのはんだづけを行います。
 Corne Cherryではどちらの面に取り付けるかは自由でしたが、Corne Chocolateでは**必ず裏面に取り付けてください**。
@@ -55,7 +58,7 @@ Corne Cherryではどちらの面に取り付けるかは自由でしたが、Co
 
 ![02](https://user-images.githubusercontent.com/736191/52534466-1b187a00-2d85-11e9-8ce3-bb13067a1b29.png)
 
-ダイオードの向きは次のとおりです。チップ部品の「|||」印が、ダイオードマーク「|◁」の「|」の方に向けるように取り付けます(画像はCorne Cherryから転記)。 
+ダイオードの向きは次のとおりです。チップ部品の「|||」印が、ダイオードマーク「|◁」の「|」の方に向けるように取り付けます(画像はCorne Cherryから転記)。
 
 ![03](https://user-images.githubusercontent.com/736191/54487560-cb285800-48da-11e9-9e1e-aafaacf5723c.jpg)
 
@@ -88,6 +91,7 @@ Corne Cherryではどちらの面に取り付けるかは自由でしたが、Co
 ![09](https://user-images.githubusercontent.com/736191/52534621-40a68300-2d87-11e9-9749-14459d2b1eac.png)
 
 ### OLEDモジュールのためのジャンパ
+
 OLEDモジュールを利用する場合は下記のようにジャンパします。
 なお**表面のみジャンパしてください**。
 
@@ -118,6 +122,7 @@ OLED用のピンソケットにピンヘッダを先に差し込み、その後�
 ![16](https://user-images.githubusercontent.com/736191/52534722-67b18480-2d88-11e9-94d0-e3c899bcc020.png)
 
 ### 動作確認
+
 ProMicroとOLEDモジュールを付けた段階で動作確認をすることをおすすめします(一番最後にやると問題の切り分けが難しくなる)。
 
 動作確認をする場合は先に下記の「ファームウェア」の章を参考にしてcrkbd用のファームウェアをProMicroに入れてください（必ず両側に入れてください）。
@@ -162,6 +167,7 @@ LEDは４つずつはんだづけを行いますが、一度に４つ行わず�
 ![25](https://user-images.githubusercontent.com/736191/52534811-85331e00-2d89-11e9-9752-c40ffab23419.png)
 
 ### Kailh PCBソケット
+
 ![26](https://user-images.githubusercontent.com/736191/52534832-be6b8e00-2d89-11e9-82e6-be53dd82bf59.png)
 
 裏面の両側のパッドにはんだを盛ります。後から追加するのが難しいので予め多めに盛ってください。
@@ -182,7 +188,7 @@ LEDは４つずつはんだづけを行いますが、一度に４つ行わず�
 
 ![31](https://user-images.githubusercontent.com/736191/52534879-55384a80-2d8a-11e9-9648-e9e9b81625c1.png)
 
-トッププレートとボトムプレート用のスペーサーは3.5mm、OLED用のスペーサーは8mmを使用します。
+トッププレートとボトムプレート用のスペーサーは4.5mm、OLED用のスペーサーは9mmを使用します。
 
 ![32](https://user-images.githubusercontent.com/736191/52534882-67b28400-2d8a-11e9-987d-00b5e14a8f2c.png)
 
@@ -191,12 +197,10 @@ LEDは４つずつはんだづけを行いますが、一度に４つ行わず�
 ![33](https://user-images.githubusercontent.com/736191/52534914-00e19a80-2d8b-11e9-8005-7e0b157e09e4.png)
 
 ## ファームウェア
+
 下記を参照しファームウェアをProMicroに書き込みます。\
-https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md
+<https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md>
 
 以上で完成です。
 
 ![34](https://user-images.githubusercontent.com/736191/52534969-be6c8d80-2d8b-11e9-82ac-a2cd09ab96d1.png)
-
-
-

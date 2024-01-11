@@ -1,13 +1,14 @@
-
 # Firmware
 
 ## Flash the firmware
 
-There are several ways to flash the firmware, but using [QMK Toolbox](https://github.com/qmk/qmk_toolbox) is the easiest way.
+There are several ways to flash the firmware,
+but using [QMK Toolbox](https://github.com/qmk/qmk_toolbox) is the easiest way.
 
 ### Download QMK Toolbox
+
 Download QMK Toolbox from the following link.\
-https://github.com/qmk/qmk_toolbox/releases/
+<https://github.com/qmk/qmk_toolbox/releases/>
 
 ![qmk_toolbox_download](assets/qmk_toolbox_download.jpg)
 
@@ -21,14 +22,15 @@ Open QMK Toolbox, you will see a window like the one below.
 ### Flash the firmware
 
 Download the firmware of VIA from the following link.\
-[crkbd_rev1_common_via.hex](https://github.com/foostan/qmk_firmware-hex/releases/download/release-20201103/crkbd_rev1_common_via.hex)
+[crkbd_rev1_common_via.hex](https://raw.githubusercontent.com/foostan/qmk_firmware-hex/main/.build/crkbd_rev1_via.hex)
 
 Specify the file downloaded from "**Open**" in QMK Toolbox.
 And enable the check box for "**Auto-Flash**".
 
 ![qmk_toolbox_flash](assets/qmk_toolbox_flash.jpg)
 
-With the keyboard connected via USB, press the reset button to start flashing the firmware. \
+With the keyboard connected via USB,
+press the reset button **twice** or short **GND & RST** pins on ProMicro to start flashing the firmware. \
 If you see the message, it's done.
 
 ![qmk_toolbox_flashed](assets/qmk_toolbox_flashed.jpg)
@@ -46,25 +48,22 @@ Once the environment is ready,
 build the firmware for Crkbd with the following command.
 
 ```
-make crkbd/rev1/common:via
+make crkbd:via
 ```
 
 When the build is completed,
-execute the following command.
+execute the following command to flash.
 
 ```
-make crkbd/rev1/common:via:avrdude
+make crkbd:via:avrdude
 ```
 
 When you execute it,
-you will see the following log,
-and you can progress by `.`s appearing.
-Press the reset switch **twice** during this time to complete the firmware writing.
-Depending on the ProMicro, it may be one time.
+you will see the following output (`.`'s progressively appearing).
+Press the reset switch **twice** or short **GND & RST** pins on ProMicro during this time to complete the firmware writing.
+Depending on the ProMicro, it may be only require pressing reset switch once.
 
 ```
-<Omitted>
-
 Checking file size of crkbd_rev1_default.hex [OK]
  * File size is fine-27328/28672
 Copying crkbd_rev1_default.hex to qmk_firmware folder [OK]
@@ -82,7 +81,7 @@ It can be used by flashing the firmware for VIA as described above.
 ### Download VIA
 
 Download VIA from the following link.\
-https://github.com/the-via/releases/releases/
+<https://github.com/the-via/releases/releases/>
 
 ![via_download](assets/via_download.jpg)
 
@@ -93,21 +92,24 @@ When VIA is opened with the keyboard plugged in, the following window will appea
 
 ![via_begin](assets/via_begin.jpg)
 
-### KEYMAP / CONFIGURE
+### Configure
 
-In this screen, you can change the key map.
+In this screen, you can change the keymap.
 
-There are several types of keys that can be changed and you can find them in the "1" area.
-If you want to change the key, click on "2" to change the key and "3" to select the key you want to change.
+There are several types of keys that can be changed
+and you can find them in the "1" area.
+If you want to change the key,
+click on "2" to change the key and "3" to select the key you want to change.
 VIA instantly changes the keymap.
 
 ![via_keymap_configure](assets/via_keymap_configure.jpg)
 
-### KEYMAP / TESTER
+### Tester
 
 In this screen, you can test the operation of the keymap.
 
-You can confirm that the key is set correctly by checking that the color of the key you press changes.
+You can confirm that the key is set correctly
+by checking that the color of the key you press changes.
 
 ![via_keymap_tester](assets/via_keymap_tester.jpg)
 
@@ -116,7 +118,7 @@ It is easier to check the operation of each switch after build.
 
 ![via_keymap_tester_matrix](assets/via_keymap_tester_matrix.jpg)
 
-### LIGHTING
+### Lighting
 
 In this screen, you can change the pattern and color of the LEDs.
 

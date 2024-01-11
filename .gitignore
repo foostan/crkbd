@@ -19,6 +19,7 @@ _autosave-*
 *-cache.lib
 *-rescue.lib
 *-rescue.dcm
+*.kicad_prl
 fp-info-cache
 gerber/
 
@@ -28,3 +29,6 @@ gerber/
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+
+# Backup files (exported from Pcbnew)
+*-backups/

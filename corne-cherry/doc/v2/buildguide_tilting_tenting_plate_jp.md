@@ -1,15 +1,16 @@
-# Build Guide Tilting/Tenting plate 
+# Build Guide Tilting/Tenting plate
 
 ## 部品
-| 名前 | 数 | 備考 | 
+
+| 名前 | 数 | 備考 |
 |:-|:-|:-|
 | 完成済み Corne Cherry | 1セット | Corne Chocolate / 3mmのトッププレート は非対応 |
 | ミドルプレート 3mm | 2枚 | |
 | ボトムプレート 3mm | 2枚 | |
-| ボルト M5 15mm~50mm | 4本 | |
-| ナット M5 | 8個 | |
+| ボルト M5 15mm~50mm | 8本 | |
+| ナット M5 | 16個 | |
 | ネジ M2 6mm | 10本 | |
-| ネジ M2 4mm | 14本 | |
+| ネジ M2 4mm | 10本 | |
 | スペーサー M2 3.5mm | 10本 | |
 | クッションゴム | 8本 | |
 

@@ -7,8 +7,10 @@
 ![corne-light-low-edition-003](assets/corne-light-low-edition-003.jpg)
 
 ## 部品
+
 ### 必須
-| 名前 | 数 | 備考 | 
+
+| 名前 | 数 | 備考 |
 |:-|:-|:-|
 | PCB | 1セット | |
 | トッププレート(アクリル) 2mm | 2枚 | |
@@ -20,12 +22,13 @@
 | ダイオード | 42本 | SMD部品推奨 |
 | キースイッチ | 42個 | Kailh Choc v1 or v2 推奨 |
 | キーキャップ | 42個 | 1u 40個、1.5u 2個 |
-| スペーサー M2 8mm | 4本 | |
+| スペーサー M2 9mm | 4本 | |
 | ネジ M2 4mm | 8本 | |
 | TRRS(4極)ケーブル | 1本 | TRS(3極)ケーブルでも可 |
 | Micro USBケーブル | 1本 | |
 
 ### オプション
+
 | 名前 | 数 | 備考 |
 |:-|:-|:-|
 | OLEDモジュール | 2枚 | |
@@ -33,8 +36,9 @@
 | OLEDモジュール用ピンソケット 4連 2.5mm | 2つ | |
 
 ## 事前準備
+
 ファームウェアを自分でビルドする場合は環境を整備するのに時間がかかるのではじめに取り掛かっておくことをおすすめします。\
-詳しくは https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md を参照してください。
+詳しくは <https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md> を参照してください。
 
 ## 確認
 
@@ -53,6 +57,7 @@ PCBは製造の都合上フレームが付いた状態となっています。
 ![confirm_remove_frame](assets/confirm_remove_frame.jpg)
 
 ## 組み立て
+
 ### ダイオード
 
 SMD部品のダイオードのはんだづけを行います。
@@ -102,6 +107,7 @@ SMD部品を取り付けるコツですが、まずは予備ハンダとして�
 ずれやすい部品なので、手で部品を抑えながらはんだづけするか、マスキングテープ等で固定してからはんだづけするときれいに付きます。
 
 ### ProMicro
+
 ProMicroを下記のような向きではんだ付けします
 
 ![build_promicro](assets/build_promicro.jpg)
@@ -112,16 +118,19 @@ ProMicroを下記のような向きではんだ付けします
 ![build_promicro_conthrough](assets/build_promicro_conthrough.jpg)
 
 ### OLEDモジュール
+
 OLED用のピンソケットにピンヘッダを先に差し込み、その後からピンヘッダとOLEDモジュールをはんだづけします。
 このときOLEDモジュールが浮きやすいので指で押さえつけながら浮かないように気をつけます。
 
 ![build_oled](assets/build_oled.jpg)
 
 ### ファームウェア
+
 下記を参照しファームウェアをProMicroに書き込みます。\
-https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md
+<https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md>
 
 ### 動作確認
+
 ProMicroとOLEDモジュールを付けた段階で動作確認をすることをおすすめします。
 一番最後にやると問題の切り分けが難しくなります。
 
@@ -135,7 +144,7 @@ ProMicroとOLEDモジュールを付けた段階で動作確認をすること�
 
 ### OLED保護プレート
 
-M2 8mm のスペーサーと M2 ネジで OLED 保護プレートを取り付けます。
+M2 9mm のスペーサーと M2 ネジで OLED 保護プレートを取り付けます。
 
 ![build_oled_plate_front](assets/build_oled_plate_front.jpg)
 ![build_oled_plate_back](assets/build_oled_plate_back.jpg)
