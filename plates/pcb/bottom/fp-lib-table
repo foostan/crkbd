@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name kbd)(type Github)(uri https://github.com/foostan/kbd)(options "")(descr ""))
-)

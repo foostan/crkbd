@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name "corne-chocolate-rescue")(type "Legacy")(uri "${KIPRJMOD}/corne-chocolate-rescue.lib")(options "")(descr ""))
 )

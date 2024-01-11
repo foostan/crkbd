@@ -5,8 +5,9 @@
 ファームウェアの書き込み方法はいくつか用意されていますが、[QMK Toolbox](https://github.com/qmk/qmk_toolbox) を利用する方法が手軽です。
 
 ### QMK Toolbox のダウンロード
+
 下記のURLから最新版の QMK Toolbox をダウンロードします。\
-https://github.com/qmk/qmk_toolbox/releases/
+<https://github.com/qmk/qmk_toolbox/releases/>
 
 ![qmk_toolbox_download](assets/qmk_toolbox_download.jpg)
 
@@ -20,7 +21,7 @@ QMK Toolbox を開くと下記のようなウィンドウが表示されます�
 ### ファームウェアの書き込み
 
 VIA用のファームウェアを下記よりダウンロードします。\
-[crkbd_rev1_common_via.hex](https://github.com/foostan/qmk_firmware-hex/releases/download/release-20201208/crkbd_rev1_common_via.hex)
+[crkbd_rev1_common_via.hex](https://raw.githubusercontent.com/foostan/qmk_firmware-hex/main/.build/crkbd_rev1_via.hex)
 
 QMK Toolbox の 「**Open**」 からダウンロードしたファイルを指定します。\
 また「**Auto-Flash**」のチェックボックスをチェックします。
@@ -36,7 +37,7 @@ QMK Toolbox の 「**Open**」 からダウンロードしたファイルを指�
 
 ### (オプション) 自分でファームウェアをビルドする場合
 
-https://docs.qmk.fm/#/newbs_getting_started こちらを参照して頂き、ファームウェアを書き込む環境を用意します。
+<https://docs.qmk.fm/#/newbs_getting_started> こちらを参照して頂き、ファームウェアを書き込む環境を用意します。
 
 環境ができましたら、下記コマンドで Crkbd 用にファームウェアをビルドします。
 
@@ -71,8 +72,9 @@ Corne Keyboard は [VIA](https://caniusevia.com/) に対応しています。\
 上記の手順で VIA 用のファームウェアを書き込むことで利用することできます。
 
 ### VIA のダウンロード
+
 下記のURLから最新版の VIA をダウンロードします。\
-https://github.com/the-via/releases/releases/
+<https://github.com/the-via/releases/releases/>
 
 ![via_download](assets/via_download.jpg)
 
