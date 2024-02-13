@@ -1,33 +1,33 @@
 # Firmware
 
-## Flash the firmware
+## Flash the firmware for rev4
+Download the firmware of VIA from below
+- [crkbd_rev4_standard_via.uf2](https://github.com/foostan/kbd_firmware/blob/main/keyboards/crkbd/qmk/qmk_firmware/.build/crkbd_rev4_standard_via.uf2)
+- [crkbd_rev4_mini_via.uf2](https://github.com/foostan/kbd_firmware/blob/main/keyboards/crkbd/qmk/qmk_firmware/.build/crkbd_rev4_mini_via.uf2)
 
-There are several ways to flash the firmware,
-but using [QMK Toolbox](https://github.com/qmk/qmk_toolbox) is the easiest way.
+Connect to the PC while holding down the BOOT button, or while connected to the PC, hold down the BOOT button and press the RESET button.
+After that, an RPI-PR2 device will be mounted.
 
-### Download QMK Toolbox
+![btn](https://github.com/foostan/kbd_firmware/assets/736191/05fd9c4b-12c7-4a32-9606-8fea27bfe7b4)
 
-Download QMK Toolbox from the following link.\
-<https://github.com/qmk/qmk_toolbox/releases/>
+Drop the downloaded uf2 file into the RPI-PR2 device to complete flash.
 
-![qmk_toolbox_download](assets/qmk_toolbox_download.jpg)
+![flash](https://github.com/foostan/crkbd/assets/736191/5e5e6eab-3ad3-47f1-9871-1e2bfe554490)
 
-Install QMK Toolbox from the downloaded file. \
-Follow the instructions for each operating system for installation.
+Once the firmware has been written to one side, follow the same procedure for the other side.
 
-Open QMK Toolbox, you will see a window like the one below.
+## Flash the firmware for rev1
 
-![qmk_toolbox_begin](assets/qmk_toolbox_begin.jpg)
+### Use [Remap](https://remap-keys.app/catalog/EfziB9K7ZcxLnIHXl5AQ/firmware)
+The easiest and most recommended way is to go to Remap and select FLASH for crkbd:via.
 
-### Flash the firmware
+![flash_by_remap](https://github.com/foostan/kbd_firmware/assets/736191/78b74abe-9853-4a5f-9577-421d39a4a380)
 
-Download the firmware of VIA from the following link.\
-[crkbd_rev1_common_via.hex](https://raw.githubusercontent.com/foostan/qmk_firmware-hex/main/.build/crkbd_rev1_via.hex)
+Once the firmware has been written to one side, follow the same procedure for the other side.
 
-Specify the file downloaded from "**Open**" in QMK Toolbox.
-And enable the check box for "**Auto-Flash**".
+### Use [QMK Toolbox](https://github.com/qmk/qmk_toolbox)
 
-![qmk_toolbox_flash](assets/qmk_toolbox_flash.jpg)
+Download the firmware of VIA from [crkbd_rev1_via.hex](https://github.com/foostan/kbd_firmware/blob/main/keyboards/crkbd/qmk/qmk_firmware/.build/crkbd_rev1_via.hex)
 
 With the keyboard connected via USB,
 press the reset button **twice** or short **GND & RST** pins on ProMicro to start flashing the firmware. \
@@ -35,92 +35,28 @@ If you see the message, it's done.
 
 ![qmk_toolbox_flashed](assets/qmk_toolbox_flashed.jpg)
 
-Once the firmware has been written to one side of the Pro Micro,
-follow the same procedure for the other side.
+Once the firmware has been written to one side, follow the same procedure for the other side.
 
-### (Optional) If you build the firmware yourself
+## (Optional) If you build the firmware yourself
 
 Refer to [the QMK _getting started_ guide](https://docs.qmk.fm/#/newbs_getting_started),
 and install the necessary software according to your OS
 (it takes quite some time to install).
 
 Once the environment is ready,
-build the firmware for Crkbd with the following command.
-
-```
-make crkbd:via
-```
-
-When the build is completed,
-execute the following command to flash.
-
-```
-make crkbd:via:avrdude
-```
-
-When you execute it,
-you will see the following output (`.`'s progressively appearing).
-Press the reset switch **twice** or short **GND & RST** pins on ProMicro during this time to complete the firmware writing.
-Depending on the ProMicro, it may be only require pressing reset switch once.
-
-```
-Checking file size of crkbd_rev1_default.hex [OK]
- * File size is fine-27328/28672
-Copying crkbd_rev1_default.hex to qmk_firmware folder [OK]
-Detecting USB port, reset your controller now ........
-```
-
-Once the firmware has been written to one side of the Pro Micro,
-follow the same procedure for the other side.
+build the firmware for Crkbd with the following files.
+https://github.com/foostan/kbd_firmware/tree/main/keyboards/crkbd/qmk/qmk_firmware
 
 ## Change your keymap
 
-The Corne Keyboard is supported by [VIA](https://caniusevia.com/). \
-It can be used by flashing the firmware for VIA as described above.
+The Corne Keyboard is supported by [VIA](https://usevia.app/). \
+It can be used by flashing the firmware for VIA.
 
-### Download VIA
+### for v4
 
-Download VIA from the following link.\
-<https://github.com/the-via/releases/releases/>
+If you use Corne v4, please download json file from bellow and load at VIA
+- [Corne v4](https://github.com/foostan/kbd_firmware/blob/main/keyboards/crkbd/the-via/crkbd_rev4.json)
+- [Corne v4 mini](https://github.com/foostan/kbd_firmware/blob/main/keyboards/crkbd/the-via/crkbd_rev4_mini.json)
 
-![via_download](assets/via_download.jpg)
-
-Install VIA from the downloaded file. \
-Follow the instructions for each operating system for installation.
-
-When VIA is opened with the keyboard plugged in, the following window will appear.
-
-![via_begin](assets/via_begin.jpg)
-
-### Configure
-
-In this screen, you can change the keymap.
-
-There are several types of keys that can be changed
-and you can find them in the "1" area.
-If you want to change the key,
-click on "2" to change the key and "3" to select the key you want to change.
-VIA instantly changes the keymap.
-
-![via_keymap_configure](assets/via_keymap_configure.jpg)
-
-### Tester
-
-In this screen, you can test the operation of the keymap.
-
-You can confirm that the key is set correctly
-by checking that the color of the key you press changes.
-
-![via_keymap_tester](assets/via_keymap_tester.jpg)
-
-Test Matrix allows you to check the operation of each switch on the keyboard.
-It is easier to check the operation of each switch after build.
-
-![via_keymap_tester_matrix](assets/via_keymap_tester_matrix.jpg)
-
-### Lighting
-
-In this screen, you can change the pattern and color of the LEDs.
-
-![via_lighitng](assets/via_lighting.jpg)
-
+![load_json](https://github.com/foostan/kbd_firmware/assets/736191/67398174-0ef7-4698-9e39-6595b8320428)
+![loaded_json](https://github.com/foostan/kbd_firmware/assets/736191/e3e850a8-a5c1-4116-a43d-b2b71c2f606e)
