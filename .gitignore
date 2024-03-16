@@ -1,7 +1,6 @@
 # OSX thumbnails cache file
 .DS_Store
 
-
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
@@ -9,7 +8,9 @@
 *.000
 *.bak
 *.bck
+*.lck
 *.kicad_pcb-bak
+*.kicad_sch-bak
 *.sch-bak
 *~
 _autosave-*
@@ -20,6 +21,7 @@ _autosave-*
 *-rescue.lib
 *-rescue.dcm
 *.kicad_prl
+\#auto_saved_files\#
 fp-info-cache
 gerber/
 
@@ -32,3 +34,6 @@ gerber/
 
 # Backup files (exported from Pcbnew)
 *-backups/
+
+# Order files
+order/
