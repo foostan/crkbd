@@ -4,10 +4,11 @@ The Corne keyboard is a split keyboard with 3x6 column staggered keys
 and 3 thumb keys, based on [Helix](https://github.com/MakotoKurauchi/helix).
 Crkbd stands for Corne Keyboard.
 
-![v4](https://github.com/foostan/crkbd/assets/736191/97750874-9e48-4647-9f3e-79ded2fbe1ac)
+![v4](https://github.com/foostan/crkbd/assets/736191/bc32e4e8-f737-4516-b92b-55a7cb93a336)
 
 ## Latest versions
 - corne-cherry: for Cherry MX compatible switches
+
   - v4 Hotswappable ([JP](docs/corne-cherry/v4/buildguide_jp.md)/[EN](docs/corne-cherry/v4/buildguide_en.md))
   - v4 Soldering (will be released)
 - corne-chocolate: for Kailh choc v1 and v2 switches
