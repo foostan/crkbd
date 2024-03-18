@@ -79,7 +79,7 @@
   (pad "" thru_hole rect (at -8 0 90) (size 2.6 2) (drill oval 2.3 1.5) (layers "*.Cu" "*.Mask")
     (thermal_bridge_angle 45) (tstamp 4e5a5613-b02d-49d0-9993-5cfce77fc2c7))
   (pad "" np_thru_hole circle (at -5.5 0 270) (size 1.9 1.9) (drill 1.9) (layers "F&B.Cu" "*.Mask") (tstamp 45cbeebb-4a11-46b5-8154-858ab7b71d07))
-  (pad "" thru_hole circle (at -5 -5.15) (size 1.5 1.5) (drill oval 1 0.5) (layers "*.Cu" "F.Mask") (tstamp 09206e17-94bd-48f2-b789-264b915d5a7e))
+  (pad "" np_thru_hole oval (at -5 -5.15) (size 1.5 2) (drill oval 1.5 2) (layers "F&B.Cu" "*.Mask") (tstamp 33f02f11-e4ba-4d57-8542-6136af5488d1))
   (pad "" np_thru_hole circle (at 0 0 270) (size 5 5) (drill 5) (layers "F&B.Cu" "*.Mask") (tstamp fc5a3f0a-46c3-488a-a492-ec02434d8be4))
   (pad "" np_thru_hole circle (at 0 5.9 270) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask") (tstamp ac0c3d4f-3db8-4ce9-aa30-dafe1b8a8a05))
   (pad "" np_thru_hole circle (at 5 3.7 270) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask") (tstamp c6d74dc2-a067-489f-a4c5-0b17f890b5af))
