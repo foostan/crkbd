@@ -27,9 +27,7 @@
 | Rotary Encoder | 0 - 4 pieces | EC12互換  |
 
 ## Firmware preparation
-
-ファームウェアを自分でビルドする場合は環境を整備するのに時間がかかるのではじめに取り掛かっておくことをおすすめします。\
-詳しくは [docs/firmware](../../firmware/firmware_jp.md) を参照してください。
+[docs/firmware/rev4](../../firmware/rev4/firmware_jp.md) を参照してください。
 
 ## Build
 これは左手側のビルドガイドですが、右手側も手順は同じです。

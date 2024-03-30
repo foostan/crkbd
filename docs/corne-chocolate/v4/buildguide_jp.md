@@ -27,9 +27,7 @@
 | Rotary Encoder | 0 - 4 pieces | EC12互換  |
 
 ## Firmware preparation
-
-ファームウェアを自分でビルドする場合は環境を整備するのに時間がかかるのではじめに取り掛かっておくことをおすすめします。\
-詳しくは [docs/firmware](../../firmware/firmware_jp.md) を参照してください。
+[docs/firmware/rev4](../../firmware/rev4/firmware_jp.md) を参照してください。
 
 ## Build
 これは左手側のビルドガイドですが、右手側も手順は同じです。
@@ -37,11 +35,6 @@
 ### 1: キースイッチを取り付ける
 ![plate](https://github.com/foostan/crkbd/assets/736191/c1f87d76-35b6-4aeb-b8c1-26124c8daf27)
 ![plate-side](https://github.com/foostan/crkbd/assets/736191/781b7c37-877d-4206-aaa6-dac7cd261063)
-
-### オプション: キースイッチの代わりにロータリーエンコーダをはんだ付けする
-ロータリーエンコーダを使う場合、下記の図の位置にキースイッチの代わりにロータリーエンコーダを付けることができます。その場合は、裏側からはんだ付けが必要です。
-
-![rotary-encoder](https://github.com/foostan/crkbd/assets/736191/cda08836-46b7-4833-93fe-bcd37a7b9aa7)
 
 ### 2: ケースにスペーサーを付ける
 ![case](https://github.com/foostan/crkbd/assets/736191/3f295698-29c5-4ed4-9973-3297876a9fc3)

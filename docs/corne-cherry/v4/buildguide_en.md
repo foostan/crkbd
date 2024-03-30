@@ -27,11 +27,7 @@ This is the build guide for Corne Cherry v4.
 | Rotary Encoder | 0 - 4 pieces | compatible product of the rotary encoder EC12 |
 
 ## Firmware preparation
-
-If you build the firmware yourself, it will take some time to set up the environment,
-so it's best to start at the beginning.\
-For more information,
-please see [docs/firmware](../../firmware/firmware_en.md).
+please see [docs/firmware/rev4](../../firmware/rev4/firmware_en.md).
 
 ## Build
 This is the build guide for the left hand side. The right side is the same procedure.
