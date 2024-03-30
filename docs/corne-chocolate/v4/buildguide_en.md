@@ -28,11 +28,7 @@ This is the build guide for Corne Chocolate v4.
 | Rotary Encoder | 0 - 4 pieces | compatible product of the rotary encoder EC12 |
 
 ## Firmware preparation
-
-If you build the firmware yourself, it will take some time to set up the environment,
-so it's best to start at the beginning.\
-For more information,
-please see [docs/firmware](../../firmware/firmware_en.md).
+please see [docs/firmware/rev4](../../firmware/rev4/firmware_en.md).
 
 ## Build
 This is the build guide for the left hand side. The right side is the same procedure.
@@ -40,11 +36,6 @@ This is the build guide for the left hand side. The right side is the same proce
 ### 1: Attach switches to PCB
 ![plate](https://github.com/foostan/crkbd/assets/736191/c1f87d76-35b6-4aeb-b8c1-26124c8daf27)
 ![plate-side](https://github.com/foostan/crkbd/assets/736191/781b7c37-877d-4206-aaa6-dac7cd261063)
-
-### Option: Solder rotary encoders instead of switches
-If a rotary encoder is used, it can be attached instead of a switch at the position shown in the figure below. In that case, soldering from the back side is required.
-
-![rotary-encoder](https://github.com/foostan/crkbd/assets/736191/cda08836-46b7-4833-93fe-bcd37a7b9aa7)
 
 ### 2: Attach spacers to Case
 ![case](https://github.com/foostan/crkbd/assets/736191/3f295698-29c5-4ed4-9973-3297876a9fc3)
