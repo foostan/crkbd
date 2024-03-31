@@ -23,11 +23,7 @@ QMK Toolbox の 「Open」 からダウンロードしたファイルを指定�
 片側にファームウェアの書き込みが完了したら、もう片方も同じ手順で書き込みを行います。
 
 ## (オプション) 自分でファームウェアをビルドする場合
-
-[the QMK _getting started_ guide](https://docs.qmk.fm/#/newbs_getting_started) こちらを参照して頂き、ファームウェアを書き込む環境を用意します。
-
-環境ができましたら、下記のファイルを利用して自身でビルドを行ってください。
-https://github.com/foostan/kbd_firmware/tree/main/keyboards/crkbd/qmk/qmk_firmware
+こちらを参照しくてください。https://github.com/foostan/kbd_firmware
 
 ## キーマップの変更
 
