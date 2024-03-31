@@ -26,14 +26,7 @@ Drop the downloaded uf2 file into the RPI-PR2 device to complete flash.
 Once the firmware has been written to one side, follow the same procedure for the other side.
 
 ## (Optional) If you build the firmware yourself
-
-Refer to [the QMK _getting started_ guide](https://docs.qmk.fm/#/newbs_getting_started),
-and install the necessary software according to your OS
-(it takes quite some time to install).
-
-Once the environment is ready,
-build the firmware for Crkbd with the following files.
-https://github.com/foostan/kbd_firmware/tree/main/keyboards/crkbd/qmk/qmk_firmware
+Please refer to https://github.com/foostan/kbd_firmware.
 
 ## Change your keymap
 
