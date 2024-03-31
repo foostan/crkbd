@@ -26,7 +26,7 @@ BOOTボタンを押しながらPCに接続するか、PCに接続した状態で
 片側にファームウェアの書き込みが完了したら、もう片方も同じ手順で書き込みを行います。
 
 ## (オプション) 自分でファームウェアをビルドする場合
-こちらを参照しくてください。https://github.com/foostan/kbd_firmware
+こちらを参照してください。https://github.com/foostan/kbd_firmware
 
 ## キーマップの変更
 
