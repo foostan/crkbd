@@ -99,7 +99,7 @@
   (pad "S1" thru_hole circle (at -2.5 -7.6) (size 1.2 1.2) (drill oval 1 0.5) (layers "*.Cu" "F.Mask") (tstamp 472de830-a7e9-4c3b-9f77-421404c0a788))
   (pad "S2" thru_hole circle (at 2.5 -7.6) (size 1.2 1.2) (drill oval 1 0.5) (layers "*.Cu" "F.Mask") (tstamp 9377934d-ee22-412b-95e5-13afb5db90eb))
   (pad "S2" smd rect (at 7 -2.54 180) (size 2.55 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a28031be-cb1a-4a9e-a321-22e0a056a425))
-  (model "/Users/foostan/go/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/kailh_hotswap_socket.step"
+  (model "${KIPRJMOD}/kicad-packages3D/kbd.3dshapes/kailh_hotswap_socket.step"
     (offset (xyz 1.3 7.6 1.6))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 180))
