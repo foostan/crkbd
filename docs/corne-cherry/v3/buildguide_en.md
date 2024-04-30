@@ -45,7 +45,7 @@ If you build the firmware yourself, it will take some time to set up the environ
 so it's best to start at the beginning.\
 It is recommended to flash ProMicro's prior to soldering.\
 For more information,
-please see <https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md>.
+please see <https://github.com/foostan/crkbd/blob/master/docs/firmware/firmware_en.md>.
 
 ## Verification
 
