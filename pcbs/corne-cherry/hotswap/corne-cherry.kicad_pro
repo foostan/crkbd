@@ -56,7 +56,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_sliver|21309063|8937106|00000000-0000-0000-0000-000000000000|F.Cu"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2

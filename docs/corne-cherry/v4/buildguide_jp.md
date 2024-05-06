@@ -7,18 +7,18 @@
 
 ### Required
 
-| Name                 | Count   | Remarks               |
-|:---------------------|:--------|:----------------------|
-| PCB                  | 1 set   |                       |
-| Case                 | 1 set   |                       |
-| Switch plate         | 1 set   | FR4 厚さ 1.6mm          |
-| Key switches         | 42 - 46 | Cherry MX 互換のみ        |
-| Keycaps              | 42 - 46 | 1u 40 pcs, 1.5u 2 pcs |
-| Spacer M2            | 8       | 長さ 7.5 mm             |
-| Screw M2             | 16      | 長さ 5 mm               |
-| Rubber cushion       | 8       |                       |
-| TRRS (4 poles) cable | 1       | TRS (3 poles) は非対応    |
-| Type-C cable         | 1       |                       |
+| Name                 | Count   | Remarks                                                   |
+|:---------------------|:--------|:----------------------------------------------------------|
+| PCB                  | 1 set   |                                                           |
+| Case                 | 1 set   |                                                           |
+| Switch plate         | 1 set   | FR4 厚さ 1.6mm                                              |
+| Key switches         | 42 - 46 | Cherry MX 互換のみ                                            |
+| Keycaps              | 42 - 46 | 1u 40 pcs, 1.5u 2 pcs                                     |
+| Spacer M2            | 8       | 長さ 7.5 mm                                                 |
+| Screw M2             | 16      | 長さ 5 mm                                                   |
+| Rubber cushion       | 8       |                                                           |
+| TRRS (4 poles) cable | 1       | v4.0.0: TRS (3 poles) は非対応<br/> v4.1.0: TRS (3 poles) に対応 |
+| Type-C cable         | 1       |                                                           |
 
 ### Optional
 

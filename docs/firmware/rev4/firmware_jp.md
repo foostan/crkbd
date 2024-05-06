@@ -2,17 +2,28 @@
 こちらは Corne v4向け(rev4) のファームウェアガイドになります。
 
 ## ファームウェアの書き込み
-VIA/Vial用のファームウェアを下記からダウンロードします
+はじめにPCBのバージョンをご確認ください(v4.0.0 または v4.1.0)。\
+そしてVIA/Vial用のファームウェアを下記からダウンロードします。
 
-standard (3x6)
+standard (3x6) v4.0.0
 
-- [crkbd_rev4_standard_via.uf2](https://github.com/foostan/kbd_firmware/raw/main/keyboards/crkbd/qmk/qmk_firmware/.build/crkbd_rev4_standard_via.uf2)
-- [crkbd_rev4_standard_vial.uf2](https://github.com/foostan/kbd_firmware/raw/main/keyboards/crkbd/vial-kb/vial-qmk/.build/crkbd_rev4_standard_vial.uf2)
+- [crkbd_rev4_0_standard_via.uf2](https://github.com/foostan/kbd_firmware/raw/main/keyboards/crkbd/qmk/qmk_firmware/.build/crkbd_rev4_0_standard_via.uf2)
+- [crkbd_rev4_0_standard_vial.uf2](https://github.com/foostan/kbd_firmware/raw/main/keyboards/crkbd/vial-kb/vial-qmk/.build/crkbd_rev4_0_standard_vial.uf2)
 
-mini (3x5)
+mini (3x5) v4.0.0
 
-- [crkbd_rev4_mini_via.uf2](https://github.com/foostan/kbd_firmware/raw/main/keyboards/crkbd/qmk/qmk_firmware/.build/crkbd_rev4_mini_via.uf2)
-- [crkbd_rev4_mini_vial_mini.uf2](https://github.com/foostan/kbd_firmware/raw/main/keyboards/crkbd/vial-kb/vial-qmk/.build/crkbd_rev4_mini_vial_mini.uf2)
+- [crkbd_rev4_0_mini_via.uf2](https://github.com/foostan/kbd_firmware/raw/main/keyboards/crkbd/qmk/qmk_firmware/.build/crkbd_rev4_0_mini_via.uf2)
+- [crkbd_rev4_0_mini_vial_mini.uf2](https://github.com/foostan/kbd_firmware/raw/main/keyboards/crkbd/vial-kb/vial-qmk/.build/crkbd_rev4_0_mini_vial_mini.uf2)
+
+standard (3x6) v4.1.0
+
+- [crkbd_rev4_1_standard_via.uf2](https://github.com/foostan/kbd_firmware/raw/main/keyboards/crkbd/qmk/qmk_firmware/.build/crkbd_rev4_1_standard_via.uf2)
+- [crkbd_rev4_1_standard_vial.uf2](https://github.com/foostan/kbd_firmware/raw/main/keyboards/crkbd/vial-kb/vial-qmk/.build/crkbd_rev4_1_standard_vial.uf2)
+
+mini (3x5) v4.1.0
+
+- [crkbd_rev4_1_mini_via.uf2](https://github.com/foostan/kbd_firmware/raw/main/keyboards/crkbd/qmk/qmk_firmware/.build/crkbd_rev4_1_mini_via.uf2)
+- [crkbd_rev4_1_mini_vial_mini.uf2](https://github.com/foostan/kbd_firmware/raw/main/keyboards/crkbd/vial-kb/vial-qmk/.build/crkbd_rev4_1_mini_vial_mini.uf2)
 
 BOOTボタンを押しながらPCに接続するか、PCに接続した状態でBOOTボタンを押しながらリセットボタンを押します。
 すると、RPI-PR2デバイスがマウントされます。
