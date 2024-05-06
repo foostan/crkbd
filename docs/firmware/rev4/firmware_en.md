@@ -8,7 +8,7 @@ After that, download the firmware of VIA/Vial from below.
 standard (3x6) v4.0.0
 
 - [crkbd_rev4_0_standard_via.uf2](https://github.com/foostan/kbd_firmware/raw/main/keyboards/crkbd/qmk/qmk_firmware/.build/crkbd_rev4_0_standard_via.uf2)
-- [crkbd_rev4_0_standard_vial.uf2](https://github.com/foostan/kbd_firmware/raw/main/keyboards/crkbd/vial-kb/vial-qmk/.build/crkbd_rev4__0standard_vial.uf2)
+- [crkbd_rev4_0_standard_vial.uf2](https://github.com/foostan/kbd_firmware/raw/main/keyboards/crkbd/vial-kb/vial-qmk/.build/crkbd_rev4_0_standard_vial.uf2)
 
 mini (3x5) v4.0.0
 
