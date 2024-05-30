@@ -40,7 +40,7 @@
 ## 事前準備
 
 ファームウェアを自分でビルドする場合は環境を整備するのに時間がかかるのではじめに取り掛かっておくことをおすすめします。\
-詳しくは <https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md> を参照してください。
+詳しくは <https://github.com/foostan/crkbd/blob/main/docs/firmware/rev1/firmware_jp.md> を参照してください。
 
 ## 確認
 
