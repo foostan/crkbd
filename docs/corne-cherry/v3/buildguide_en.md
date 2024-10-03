@@ -34,7 +34,7 @@ https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v2/buildguide_en.m
 |:-|:-|:-|
 | OLED module | 2 | |
 | SK6812MINI-E | 42 | LEDs for Backlight |
-| WS2812B | 12 | LEDs for Undergrow |
+| WS2812B | 12 | LEDs for Underglow |
 | [Microcontroller/OLED Sockets](https://www.digikey.com/en/products/detail/315-43-112-41-003000/ED4764-12-ND/4455232) | 1 | Alternative: [2.54 1row femal sliv](https://www.aliexpress.com/item/4001122376295.html) option |
 | [Microcontroller Pins](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/3320-0-00-15-00-00-03-0/4147392) | 48 | Alternative: Diode/Resistor legs |
 | [OLED Headers](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/350-10-164-00-006000/357045) | 1 | Soldered to OLED module |
