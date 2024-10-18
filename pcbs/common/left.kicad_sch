@@ -377,67 +377,6 @@
         )
       )
     )
-    (symbol "Connector_Generic:Conn_01x04" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x04" (at 0 -7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x04_1_1"
-        (rectangle (start -1.27 -4.953) (end 0 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 3.81) (end 1.27 -6.35)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.254 1.778 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -1896,6 +1835,58 @@
         )
       )
     )
+    (symbol "kbd:+4V5" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+4V5" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+1V1\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+4V5_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+4V5_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+4V5R" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "kbd_local:YS-SK6812MINI-E" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "LED" (at 2.54 -7.62 0)
         (effects (font (size 0.7366 0.7366)))
@@ -2554,10 +2545,6 @@
     (stroke (width 0) (type default))
     (uuid 371f16b1-1e44-4f8d-bf3f-6de3deb0f2c4)
   )
-  (wire (pts (xy 111.76 143.51) (xy 120.015 143.51))
-    (stroke (width 0) (type default))
-    (uuid 39c300c7-a9d0-44c4-ae5c-b925487ecad0)
-  )
   (wire (pts (xy 261.62 190.5) (xy 261.62 208.28))
     (stroke (width 0) (type default))
     (uuid 3d1b0e49-df81-48d5-943a-03fa8ac59acb)
@@ -2565,10 +2552,6 @@
   (wire (pts (xy 96.52 110.49) (xy 96.52 114.3))
     (stroke (width 0) (type default))
     (uuid 3f3e565d-2c21-4063-a285-7b7420954b70)
-  )
-  (wire (pts (xy 314.96 44.45) (xy 313.69 44.45))
-    (stroke (width 0) (type default))
-    (uuid 43c5fb2e-1186-43c2-b8e1-4c20146f558e)
   )
   (wire (pts (xy 231.14 190.5) (xy 261.62 190.5))
     (stroke (width 0) (type default))
@@ -2734,10 +2717,6 @@
     (stroke (width 0) (type default))
     (uuid 8b33ac62-9a32-4818-83ba-64e51afe4220)
   )
-  (wire (pts (xy 314.96 46.99) (xy 313.69 46.99))
-    (stroke (width 0) (type default))
-    (uuid 8b5e3041-fc30-4020-a759-856bf69a3f0e)
-  )
   (wire (pts (xy 48.26 184.15) (xy 52.07 184.15))
     (stroke (width 0) (type default))
     (uuid 8c853401-2365-413a-9fd6-24efa356acfb)
@@ -2833,10 +2812,6 @@
   (wire (pts (xy 231.14 208.28) (xy 231.14 227.33))
     (stroke (width 0) (type default))
     (uuid c39a5541-9e5b-4f30-9d01-7c87781dbd51)
-  )
-  (wire (pts (xy 111.76 146.05) (xy 120.015 146.05))
-    (stroke (width 0) (type default))
-    (uuid c81c4808-aada-4aa7-bcee-d4512a45d150)
   )
   (wire (pts (xy 48.26 173.99) (xy 60.96 173.99))
     (stroke (width 0) (type default))
@@ -2975,10 +2950,6 @@
     (effects (font (size 3.175 3.175)) (justify left bottom))
     (uuid 0deb053f-dabd-4c73-a2e6-2654fdb0aab8)
   )
-  (text "OLED" (at 305.816 29.464 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 14be8b66-8805-45df-95a4-4ce02c2f2101)
-  )
   (text "close to pin 45" (at 55.372 114.046 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 25086633-0182-4494-8b44-441e2fe0fbd1)
@@ -3048,10 +3019,6 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 101bbf06-e909-4a41-ad69-2dbbb221877f)
   )
-  (label "SCL" (at 314.96 44.45 0) (fields_autoplaced)
-    (effects (font (size 1 1)) (justify left bottom))
-    (uuid 104a6318-fb0b-4168-9369-907fe8025054)
-  )
   (label "USB_VBUS_PIN" (at 120.65 161.29 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1239e235-a4d5-48d5-b3aa-a23de4b8a80b)
@@ -3091,10 +3058,6 @@
   (label "QSPI_SS" (at 223.52 48.26 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1e856350-5c88-4a69-a6d2-5dd1f4cc34bc)
-  )
-  (label "SDA" (at 314.96 46.99 0) (fields_autoplaced)
-    (effects (font (size 1 1)) (justify left bottom))
-    (uuid 26fc3ea1-beda-4898-bd40-f432c23a71bd)
   )
   (label "D+" (at 143.51 30.48 180) (fields_autoplaced)
     (effects (font (size 1 1)) (justify right bottom))
@@ -3195,10 +3158,6 @@
   (label "D+" (at 168.91 30.48 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 76140576-e842-4e11-ace0-728da6ef7332)
-  )
-  (label "SCL" (at 120.015 146.05 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 7b4c2867-3672-46aa-bf24-0dbaf7889a7f)
   )
   (label "QSPI_SCLK" (at 223.52 50.8 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3332,10 +3291,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ca030506-6005-4b3d-b9c8-c1bd92482de4)
   )
-  (label "SDA" (at 120.015 143.51 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid cabf1cd5-ec5f-4366-9cea-dd8e682dcc42)
-  )
   (label "D-" (at 143.51 40.64 180) (fields_autoplaced)
     (effects (font (size 1 1)) (justify right bottom))
     (uuid d1603fb8-3982-486c-8270-4439038ef1a1)
@@ -3408,7 +3363,7 @@
   (symbol (lib_id "power:GND") (at 55.88 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01234c50-0a57-4a12-969b-f2b5e685d6b2)
-    (property "Reference" "#PWR?" (at 62.23 38.1 0)
+    (property "Reference" "#PWR05" (at 62.23 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.055 38.1 90)
@@ -3423,9 +3378,6 @@
     (pin "1" (uuid a7eda341-dce6-4c99-8d12-519628f84e5e))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR05") (unit 1)
         )
@@ -3436,7 +3388,7 @@
   (symbol (lib_id "power:GND") (at 233.68 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0135de77-9cb9-4f3f-8fde-ccd504875d98)
-    (property "Reference" "#PWR?" (at 233.68 160.02 0)
+    (property "Reference" "#PWR044" (at 233.68 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 158.115 0)
@@ -3451,9 +3403,6 @@
     (pin "1" (uuid 5d2f7431-92ee-40eb-bcfc-0c18f17b35db))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR044") (unit 1)
         )
@@ -3464,7 +3413,7 @@
   (symbol (lib_id "power:GND") (at 195.58 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 027ea81d-28d2-4b28-874e-1cf8649a1871)
-    (property "Reference" "#PWR?" (at 195.58 144.78 0)
+    (property "Reference" "#PWR030" (at 195.58 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 195.58 142.875 0)
@@ -3479,9 +3428,6 @@
     (pin "1" (uuid 2fdf1434-fbc6-4d6a-95da-4a3f40eec377))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR030") (unit 1)
         )
@@ -3492,7 +3438,7 @@
   (symbol (lib_id "power:GND") (at 273.05 140.97 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02abf6c6-4aac-42f6-81d6-f48273bb937f)
-    (property "Reference" "#PWR?" (at 273.05 134.62 0)
+    (property "Reference" "#PWR055" (at 273.05 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 273.05 135.89 90)
@@ -3507,9 +3453,6 @@
     (pin "1" (uuid 31e76ec1-2a96-4915-aa79-2f7f5e2c0870))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR055") (unit 1)
         )
@@ -3520,7 +3463,7 @@
   (symbol (lib_id "power:GND") (at 55.88 40.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0859f3ee-4cfc-455e-8f56-75bd219846ca)
-    (property "Reference" "#PWR?" (at 62.23 40.64 0)
+    (property "Reference" "#PWR06" (at 62.23 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.055 40.64 90)
@@ -3535,9 +3478,6 @@
     (pin "1" (uuid 3e76208d-143e-4e12-9467-bcece55d01e1))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR06") (unit 1)
         )
@@ -3548,7 +3488,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 208.28 227.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 085a7a9f-9863-4753-a556-103c418c03f9)
-    (property "Reference" "LED?" (at 202.565 225.425 0)
+    (property "Reference" "LED17" (at 202.565 225.425 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 202.565 238.125 0)
@@ -3566,9 +3506,6 @@
     (pin "4" (uuid d8ebccd9-74d4-42be-9053-dbeb4f4668d5))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED17") (unit 1)
         )
@@ -3579,7 +3516,7 @@
   (symbol (lib_id "Device:R_Small") (at 58.42 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08887039-c6b7-42d8-a33e-27930c890a6f)
-    (property "Reference" "R?" (at 58.42 133.985 90)
+    (property "Reference" "R4" (at 58.42 133.985 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27" (at 58.42 135.89 90)
@@ -3595,9 +3532,6 @@
     (pin "2" (uuid 0b7c89ce-c64e-4c20-9161-2d33cbab6640))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "R?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "R4") (unit 1)
         )
@@ -3608,7 +3542,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 241.3 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08f128da-5d97-4f55-93dd-6717b82a7f39)
-    (property "Reference" "SW?" (at 241.3 101.854 0)
+    (property "Reference" "SW5" (at 241.3 101.854 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 241.3 103.886 0)
@@ -3624,9 +3558,6 @@
     (pin "2" (uuid 176309a3-00fb-4666-b2bd-e0a844d10cac))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW5") (unit 1)
         )
@@ -3637,7 +3568,7 @@
   (symbol (lib_id "power:+3V3") (at 233.68 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 092efb62-8df8-42a9-827b-8074a4a317e3)
-    (property "Reference" "#PWR?" (at 233.68 35.56 0)
+    (property "Reference" "#PWR039" (at 233.68 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 233.68 26.924 0)
@@ -3652,11 +3583,33 @@
     (pin "1" (uuid e8ead598-83d2-464d-8447-180f127c3405))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR039") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "kbd:+4V5") (at 231.14 190.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 094b9a06-3c26-4123-8910-ae3ccd315008)
+    (property "Reference" "#PWR079" (at 231.14 194.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+4V5" (at 231.14 185.42 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 231.14 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 231.14 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2d8e9bd6-d36e-41d3-b75e-2575f5bd9aab))
+    (instances
+      (project "corne-cherry"
+        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -3665,7 +3618,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 254 227.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09d6b10f-b7e0-498f-8aa2-72c2f862d4ce)
-    (property "Reference" "LED?" (at 248.285 221.615 0)
+    (property "Reference" "LED6" (at 248.285 221.615 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 248.285 227.965 0)
@@ -3683,9 +3636,6 @@
     (pin "4" (uuid 896694a4-23da-49e6-8fb3-bb8197800825))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED6") (unit 1)
         )
@@ -3696,7 +3646,7 @@
   (symbol (lib_id "power:GND") (at 208.28 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a67c84b-669c-401a-a398-3a6e2b60cea7)
-    (property "Reference" "#PWR?" (at 208.28 129.54 0)
+    (property "Reference" "#PWR032" (at 208.28 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 208.28 127.635 0)
@@ -3711,9 +3661,6 @@
     (pin "1" (uuid 73dc9804-3b02-403e-8632-ffa786e6784c))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR032") (unit 1)
         )
@@ -3724,7 +3671,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 269.24 208.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b063131-6d62-4df0-b21b-f5b284e2137b)
-    (property "Reference" "LED?" (at 263.525 205.74 0)
+    (property "Reference" "LED4" (at 263.525 205.74 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 263.525 219.075 0)
@@ -3742,9 +3689,6 @@
     (pin "4" (uuid cc8a0df0-cf64-49d3-8b38-6f6fbe64fcc8))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED4") (unit 1)
         )
@@ -3755,7 +3699,7 @@
   (symbol (lib_id "power:GND") (at 220.98 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0dd137f9-195b-4a78-a56c-6db00ba8a6dd)
-    (property "Reference" "#PWR?" (at 220.98 144.78 0)
+    (property "Reference" "#PWR038" (at 220.98 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.98 142.875 0)
@@ -3770,9 +3714,6 @@
     (pin "1" (uuid c9549f5c-d49b-492a-b9c5-a91c31d47f77))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR038") (unit 1)
         )
@@ -3783,7 +3724,7 @@
   (symbol (lib_name "SW_Push_1") (lib_id "Switch:SW_Push") (at 254 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e74e9f9-5663-4b3b-af6e-fb3e164de70a)
-    (property "Reference" "SW?" (at 254 101.854 0)
+    (property "Reference" "SW4" (at 254 101.854 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 254 103.886 0)
@@ -3799,9 +3740,6 @@
     (pin "2" (uuid 0a1da4e4-cd86-4d90-8320-a6262d48df94))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW4") (unit 1)
         )
@@ -3812,7 +3750,7 @@
   (symbol (lib_id "power:+3V3") (at 125.73 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10c4dd2f-cef6-4e6d-b310-31e1b84b7800)
-    (property "Reference" "#PWR?" (at 125.73 36.83 0)
+    (property "Reference" "#PWR023" (at 125.73 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 125.73 28.702 0)
@@ -3827,9 +3765,6 @@
     (pin "1" (uuid 01c3bac7-537b-4164-9df8-80e1d430cabc))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR023") (unit 1)
         )
@@ -3840,7 +3775,7 @@
   (symbol (lib_id "Device:R_Small") (at 67.945 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12f1c1b5-2d12-4f63-b6f2-1ee4474a35fe)
-    (property "Reference" "R?" (at 66.04 45.72 90)
+    (property "Reference" "R9" (at 66.04 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 67.945 45.72 90)
@@ -3856,9 +3791,6 @@
     (pin "2" (uuid 5599884e-78de-4c15-9408-5e73be25a283))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "R?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "R9") (unit 1)
         )
@@ -3869,7 +3801,7 @@
   (symbol (lib_id "power:GND") (at 233.68 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14518342-eba5-4ca3-8b10-e6d1658cf616)
-    (property "Reference" "#PWR?" (at 233.68 129.54 0)
+    (property "Reference" "#PWR042" (at 233.68 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 127.635 0)
@@ -3884,9 +3816,6 @@
     (pin "1" (uuid 776ad6f2-a8c4-4731-8929-2f983cb9013e))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR042") (unit 1)
         )
@@ -3897,7 +3826,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 228.6 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 185c227d-fdc2-4199-99b0-1f02e241cdb3)
-    (property "Reference" "SW?" (at 228.6 101.854 0)
+    (property "Reference" "SW12" (at 228.6 101.854 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 228.6 103.886 0)
@@ -3913,9 +3842,6 @@
     (pin "2" (uuid 46d17380-656a-443c-8eb0-bd6b5b266546))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW12") (unit 1)
         )
@@ -3926,7 +3852,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 241.3 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1901e972-4f47-4dcb-baf1-a24edaa35a0a)
-    (property "Reference" "SW?" (at 241.3 132.334 0)
+    (property "Reference" "SW7" (at 241.3 132.334 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 241.3 134.366 0)
@@ -3942,9 +3868,6 @@
     (pin "2" (uuid b4d5586f-576d-47a5-915e-837717999db0))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW7") (unit 1)
         )
@@ -3955,7 +3878,7 @@
   (symbol (lib_id "power:VBUS") (at 72.39 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20cd2d68-e60d-421a-9376-5fa167226833)
-    (property "Reference" "#PWR?" (at 72.39 64.77 0)
+    (property "Reference" "#PWR011" (at 72.39 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 72.39 55.88 0)
@@ -3970,9 +3893,6 @@
     (pin "1" (uuid bdfe484a-a7aa-4fe5-b078-784b594e8df5))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR011") (unit 1)
         )
@@ -3983,7 +3903,7 @@
   (symbol (lib_id "MCU_RaspberryPi:RP2040") (at 86.36 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23434944-a491-4560-9179-901caf2993ec)
-    (property "Reference" "U?" (at 88.3159 210.82 0)
+    (property "Reference" "U1" (at 88.3159 210.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RP2040" (at 88.3159 213.36 0)
@@ -4057,9 +3977,6 @@
     (pin "9" (uuid ecbd6b34-3386-4246-9db5-8167c9135aee))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "U?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "U1") (unit 1)
         )
@@ -4070,7 +3987,7 @@
   (symbol (lib_id "power:GND") (at 35.56 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23f06933-80ea-4a28-a5be-b97baf624d64)
-    (property "Reference" "#PWR?" (at 35.56 77.47 0)
+    (property "Reference" "#PWR03" (at 35.56 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 35.56 76.2 0)
@@ -4085,9 +4002,6 @@
     (pin "1" (uuid 8880d62c-920b-487d-8b40-cb4f56a0b7af))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR03") (unit 1)
         )
@@ -4098,7 +4012,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 190.5 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26318ad0-3060-4adb-8041-ce709327f2df)
-    (property "Reference" "SW?" (at 190.5 132.334 0)
+    (property "Reference" "SW21" (at 190.5 132.334 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 190.5 134.366 0)
@@ -4114,9 +4028,6 @@
     (pin "2" (uuid ac7522a8-f4ff-4191-aec5-6232a462f763))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW21") (unit 1)
         )
@@ -4127,7 +4038,7 @@
   (symbol (lib_id "power:GND") (at 259.08 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ce8b146-27b9-437b-9ad4-b8dde762d5a9)
-    (property "Reference" "#PWR?" (at 259.08 144.78 0)
+    (property "Reference" "#PWR052" (at 259.08 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 259.08 142.875 0)
@@ -4142,9 +4053,6 @@
     (pin "1" (uuid 2991c467-51fb-46d6-a6e5-e8038df8f686))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR052") (unit 1)
         )
@@ -4155,7 +4063,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 208.28 208.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e6fa43b-e14e-41ba-adac-7b64c6aab629)
-    (property "Reference" "LED?" (at 202.565 206.375 0)
+    (property "Reference" "LED18" (at 202.565 206.375 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 202.565 219.71 0)
@@ -4173,9 +4081,6 @@
     (pin "4" (uuid ef8d0ecd-aee4-4388-b77d-48b6f4685987))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED18") (unit 1)
         )
@@ -4186,7 +4091,7 @@
   (symbol (lib_id "power:GND") (at 215.9 275.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f28c700-f315-4956-9e51-84e1de299a65)
-    (property "Reference" "#PWR?" (at 215.9 281.94 0)
+    (property "Reference" "#PWR035" (at 215.9 281.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 216.027 279.9842 0)
@@ -4201,9 +4106,6 @@
     (pin "1" (uuid aaafe99d-8217-4dc4-88ea-77e5fa2be6be))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR035") (unit 1)
         )
@@ -4214,7 +4116,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 190.5 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2fe16295-839b-4c35-aabd-d5ed5ce3b2db)
-    (property "Reference" "SW?" (at 190.5 101.854 0)
+    (property "Reference" "SW19" (at 190.5 101.854 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 190.5 103.886 0)
@@ -4230,9 +4132,6 @@
     (pin "2" (uuid fa814cfc-d2b7-450c-8500-4c3e63cdef2b))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW19") (unit 1)
         )
@@ -4243,7 +4142,7 @@
   (symbol (lib_id "power:GND") (at 105.41 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 321fb01c-8a8f-4d75-aa6d-d73814545d96)
-    (property "Reference" "#PWR?" (at 105.41 121.92 0)
+    (property "Reference" "#PWR020" (at 105.41 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 105.41 120.015 0)
@@ -4258,9 +4157,6 @@
     (pin "1" (uuid 9161b516-e969-4ae3-8c99-e2372a9ac4e2))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR020") (unit 1)
         )
@@ -4271,7 +4167,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 238.76 227.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3742c8db-522d-4c25-accf-50eabf521e5c)
-    (property "Reference" "LED?" (at 233.045 225.425 0)
+    (property "Reference" "LED11" (at 233.045 225.425 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 233.045 238.125 0)
@@ -4289,9 +4185,6 @@
     (pin "4" (uuid c0828df9-cd69-4080-a40d-0b851ac3e529))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED11") (unit 1)
         )
@@ -4302,7 +4195,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 269.24 245.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 389759b8-5848-47f7-8226-c4bf985f6323)
-    (property "Reference" "LED?" (at 263.525 242.57 0)
+    (property "Reference" "LED2" (at 263.525 242.57 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 263.525 255.905 0)
@@ -4320,9 +4213,6 @@
     (pin "4" (uuid 5c85461e-615d-4d87-92cc-0e6365daf9e5))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED2") (unit 1)
         )
@@ -4333,7 +4223,7 @@
   (symbol (lib_id "Diode:1N4148WT") (at 215.9 181.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39267409-d303-4d9b-a6dd-0934e0182b41)
-    (property "Reference" "D?" (at 218.44 180.34 90)
+    (property "Reference" "D1" (at 218.44 180.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148WT" (at 218.44 182.88 90)
@@ -4352,9 +4242,6 @@
     (pin "2" (uuid 9ccff7f0-0a9c-4f20-8b49-b5877a64e03e))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "D?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "D1") (unit 1)
         )
@@ -4365,7 +4252,7 @@
   (symbol (lib_id "power:GND") (at 195.58 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a54ea44-8ac9-4715-bef8-6127f6bbb434)
-    (property "Reference" "#PWR?" (at 195.58 114.3 0)
+    (property "Reference" "#PWR028" (at 195.58 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 195.58 112.395 0)
@@ -4380,9 +4267,6 @@
     (pin "1" (uuid f70473f6-698d-4052-bd65-4755d395e910))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR028") (unit 1)
         )
@@ -4393,7 +4277,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 284.48 227.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a7446c4-1bb3-4f2a-91aa-8b39b241611e)
-    (property "Reference" "EXLED?" (at 278.765 221.615 0)
+    (property "Reference" "EXLED2" (at 278.765 221.615 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 278.765 227.965 0)
@@ -4411,9 +4295,6 @@
     (pin "4" (uuid 8452ae4e-0864-4f98-b432-441b290a28cc))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "EXLED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "EXLED2") (unit 1)
         )
@@ -4424,7 +4305,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 241.3 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3bcdd04e-9d9a-4e5c-a99c-5053f7ad6713)
-    (property "Reference" "SW?" (at 241.3 117.094 0)
+    (property "Reference" "SW6" (at 241.3 117.094 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 241.3 119.126 0)
@@ -4440,39 +4321,8 @@
     (pin "2" (uuid 3528f05c-cd6a-474b-b330-c6049e8046e9))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 313.69 41.91 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3cd640d0-5557-4f40-9004-7802f0039f34)
-    (property "Reference" "#PWR?" (at 309.88 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 316.865 41.91 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 313.69 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 313.69 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid edc9d3bc-8286-4f02-a84a-1f446d769c18))
-    (instances
-      (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -4481,7 +4331,7 @@
   (symbol (lib_id "Device:C_Small") (at 38.1 184.15 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ea7135a-499a-4ff9-a286-b0062f0e5b1e)
-    (property "Reference" "C?" (at 39.37 182.88 90)
+    (property "Reference" "C2" (at 39.37 182.88 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "27p" (at 39.37 185.42 90)
@@ -4497,9 +4347,6 @@
     (pin "2" (uuid f859cb76-c242-484b-85d5-d8a5155c3402))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "C?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "C2") (unit 1)
         )
@@ -4510,7 +4357,7 @@
   (symbol (lib_id "power:GND") (at 220.98 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41ca6d8c-deca-402f-a76f-04280296cbba)
-    (property "Reference" "#PWR?" (at 220.98 129.54 0)
+    (property "Reference" "#PWR037" (at 220.98 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.98 127.635 0)
@@ -4525,9 +4372,6 @@
     (pin "1" (uuid cc7c0b9c-2670-4553-9882-93f1606e14a4))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR037") (unit 1)
         )
@@ -4538,7 +4382,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 254 208.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43a5cf8f-cc9e-4bd6-b1a4-26035db69032)
-    (property "Reference" "LED?" (at 248.285 203.2 0)
+    (property "Reference" "LED5" (at 248.285 203.2 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 248.285 208.915 0)
@@ -4556,9 +4400,6 @@
     (pin "4" (uuid 3c66e951-637e-4ee9-93ec-981ff5eb83bf))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED5") (unit 1)
         )
@@ -4569,7 +4410,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 254 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 445e4b5b-062e-43d1-b2a7-b5c2e275449b)
-    (property "Reference" "SW?" (at 254 147.574 0)
+    (property "Reference" "SW1" (at 254 147.574 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 254 149.606 0)
@@ -4585,9 +4426,6 @@
     (pin "2" (uuid 02b63dc9-c04b-4989-8e1f-bdbb3fdb2c1d))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW1") (unit 1)
         )
@@ -4598,7 +4436,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 215.9 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44f55e27-ec00-47ef-96f8-d2f13a4fcc01)
-    (property "Reference" "SW?" (at 215.9 117.094 0)
+    (property "Reference" "SW14" (at 215.9 117.094 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 215.9 119.126 0)
@@ -4614,9 +4452,6 @@
     (pin "2" (uuid 2cd8eb57-953c-4189-a32d-acd4246577c1))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW14") (unit 1)
         )
@@ -4641,9 +4476,6 @@
     )
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-          (reference "BT2") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "BT2") (unit 1)
         )
@@ -4654,7 +4486,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 203.2 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 463e9906-104f-4e1f-8efd-acf141caff15)
-    (property "Reference" "SW?" (at 203.2 117.094 0)
+    (property "Reference" "SW17" (at 203.2 117.094 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 203.2 119.126 0)
@@ -4670,9 +4502,6 @@
     (pin "2" (uuid d0c145c7-8387-42cc-aa17-6ccab2a032e5))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW17") (unit 1)
         )
@@ -4683,7 +4512,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 223.52 208.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46568157-e50b-4a43-9c17-bce0a464cdf1)
-    (property "Reference" "LED?" (at 217.805 203.2 0)
+    (property "Reference" "LED13" (at 217.805 203.2 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 217.805 208.915 0)
@@ -4701,9 +4530,6 @@
     (pin "4" (uuid ba921469-555c-437e-a011-900279771a02))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED13") (unit 1)
         )
@@ -4714,7 +4540,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 193.04 245.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ccb7b1a-e637-4622-bacd-3911a838e662)
-    (property "Reference" "LED?" (at 187.325 240.03 0)
+    (property "Reference" "LED21" (at 187.325 240.03 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 187.325 245.745 0)
@@ -4732,9 +4558,6 @@
     (pin "4" (uuid ede53844-72b8-49d9-90b2-47fd5f66cf48))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED21") (unit 1)
         )
@@ -4745,7 +4568,7 @@
   (symbol (lib_id "power:GND") (at 220.98 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4de38ce7-fe91-4728-b30f-9699af9219ee)
-    (property "Reference" "#PWR?" (at 220.98 114.3 0)
+    (property "Reference" "#PWR036" (at 220.98 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.98 112.395 0)
@@ -4760,9 +4583,6 @@
     (pin "1" (uuid 1a5fbf69-d31e-436e-8c96-a463f1b2c23d))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR036") (unit 1)
         )
@@ -4773,7 +4593,7 @@
   (symbol (lib_id "power:GND") (at 233.68 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4df410c6-2755-47d3-b7e8-98fd9636445a)
-    (property "Reference" "#PWR?" (at 233.68 74.93 0)
+    (property "Reference" "#PWR040" (at 233.68 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 72.39 0)
@@ -4788,9 +4608,6 @@
     (pin "1" (uuid a9453528-efa6-4018-a7aa-3a37a1229ce7))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR040") (unit 1)
         )
@@ -4801,7 +4618,7 @@
   (symbol (lib_id "Device:R_Small") (at 67.945 38.735 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 502f024e-975e-4837-a306-c49d1b4fd999)
-    (property "Reference" "R?" (at 66.04 38.735 90)
+    (property "Reference" "R8" (at 66.04 38.735 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.6k" (at 67.945 38.735 90)
@@ -4817,9 +4634,6 @@
     (pin "2" (uuid ebba1c6b-77fa-4f0e-ab72-53ff53b9e60b))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "R?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "R8") (unit 1)
         )
@@ -4830,7 +4644,7 @@
   (symbol (lib_id "power:GND") (at 334.01 41.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5048dd21-d953-40d7-9bd8-cfca3f615c13)
-    (property "Reference" "#PWR?" (at 340.36 41.91 0)
+    (property "Reference" "#PWR062" (at 340.36 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 337.82 41.91 90)
@@ -4845,9 +4659,6 @@
     (pin "1" (uuid 47fb66f7-7058-40ea-aa1b-56caad6a0c57))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR062") (unit 1)
         )
@@ -4858,7 +4669,7 @@
   (symbol (lib_id "power:GND") (at 33.02 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52017cb9-7bc4-48c5-8c6c-5925d3afdf3b)
-    (property "Reference" "#PWR?" (at 33.02 194.31 0)
+    (property "Reference" "#PWR02" (at 33.02 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 33.02 192.405 0)
@@ -4873,9 +4684,6 @@
     (pin "1" (uuid 1c88263b-7c2d-4d56-9b7a-8050ba305c56))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR02") (unit 1)
         )
@@ -4886,7 +4694,7 @@
   (symbol (lib_id "power:GND") (at 50.8 128.27 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 522cc626-78c4-4da9-87d8-b828593b461b)
-    (property "Reference" "#PWR?" (at 44.45 128.27 0)
+    (property "Reference" "#PWR04" (at 44.45 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 46.99 128.27 0)
@@ -4901,9 +4709,6 @@
     (pin "1" (uuid 9c2f08a1-993a-451f-898b-2d863fb8ee77))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR04") (unit 1)
         )
@@ -4914,7 +4719,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 223.52 227.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 540d70a4-896d-4405-93bc-a45a98544102)
-    (property "Reference" "LED?" (at 217.805 222.25 0)
+    (property "Reference" "LED14" (at 217.805 222.25 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 217.805 227.965 0)
@@ -4932,9 +4737,6 @@
     (pin "4" (uuid c0ebc2aa-b005-4cc5-8af8-5d79d2098628))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED14") (unit 1)
         )
@@ -4945,7 +4747,7 @@
   (symbol (lib_id "power:+3V3") (at 96.52 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55652823-474f-4e85-82e4-ef844fb2f2b6)
-    (property "Reference" "#PWR?" (at 96.52 105.41 0)
+    (property "Reference" "#PWR018" (at 96.52 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 96.52 96.52 0)
@@ -4960,9 +4762,6 @@
     (pin "1" (uuid e1cfa739-8e6f-488f-9bb3-9c4a3069f6e4))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR018") (unit 1)
         )
@@ -4973,7 +4772,7 @@
   (symbol (lib_id "Power_Protection:TPD4EUSB30") (at 156.21 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 557fbb5e-c288-459e-8753-26099644c101)
-    (property "Reference" "U?" (at 156.21 25.4 0)
+    (property "Reference" "U3" (at 156.21 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPD4E05U06DQAR" (at 156.21 27.94 0)
@@ -5000,9 +4799,6 @@
     (pin "9" (uuid 01489e12-5158-412f-8bda-75bec743ed55))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "U?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "U3") (unit 1)
         )
@@ -5013,7 +4809,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 92.71 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 57e1c7b0-5264-43d4-9500-6f0ef54654e7)
-    (property "Reference" "#FLG?" (at 92.71 59.055 0)
+    (property "Reference" "#FLG03" (at 92.71 59.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 92.71 57.15 0)
@@ -5028,9 +4824,6 @@
     (pin "1" (uuid 5d451e6a-a43e-4a3c-8fbd-a9889dbad263))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#FLG?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#FLG03") (unit 1)
         )
@@ -5041,7 +4834,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 193.04 208.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 58af1e0a-e4b9-4da9-acfc-893a78fe5408)
-    (property "Reference" "LED?" (at 187.325 203.2 0)
+    (property "Reference" "LED19" (at 187.325 203.2 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 187.325 208.915 0)
@@ -5059,9 +4852,6 @@
     (pin "4" (uuid 69f27427-c84e-4db2-a166-570efcd339e0))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED19") (unit 1)
         )
@@ -5072,7 +4862,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 203.2 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c8180e9-a884-430d-aa45-815478c2a450)
-    (property "Reference" "SW?" (at 203.2 132.334 0)
+    (property "Reference" "SW16" (at 203.2 132.334 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 203.2 134.366 0)
@@ -5088,9 +4878,6 @@
     (pin "2" (uuid 362f7a29-917c-4de2-a60e-fc08e1b7af22))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW16") (unit 1)
         )
@@ -5101,7 +4888,7 @@
   (symbol (lib_id "power:GND") (at 67.945 48.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5dd239fa-6718-4faa-b902-4ff19d7c9190)
-    (property "Reference" "#PWR?" (at 67.945 55.245 0)
+    (property "Reference" "#PWR010" (at 67.945 55.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.945 53.34 0)
@@ -5116,9 +4903,6 @@
     (pin "1" (uuid 8a600a91-e65c-4c02-9bfa-db184efb87fb))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR010") (unit 1)
         )
@@ -5129,7 +4913,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 215.9 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e803f82-dcb9-4850-b958-f7ad300cf468)
-    (property "Reference" "SW?" (at 215.9 132.334 0)
+    (property "Reference" "SW15" (at 215.9 132.334 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 215.9 134.366 0)
@@ -5145,11 +4929,33 @@
     (pin "2" (uuid d154f600-2aa8-416d-b84a-9d9e799eb482))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW15") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "kbd:+4V5") (at 102.235 60.96 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5efa8608-bab5-4a95-93c7-94028378994f)
+    (property "Reference" "#PWR074" (at 102.235 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+4V5" (at 102.235 55.88 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 102.235 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 102.235 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4728d51d-71a4-4018-b7a6-058a1a2532a5))
+    (instances
+      (project "corne-cherry"
+        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -5158,7 +4964,7 @@
   (symbol (lib_id "Device:RotaryEncoder_Switch") (at 273.05 148.59 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60d12e80-f4a8-45a2-ae28-1e98c417bdc2)
-    (property "Reference" "EXSW?" (at 273.05 128.905 90)
+    (property "Reference" "EXSW2" (at 273.05 128.905 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RotaryEncoder_Switch" (at 273.05 131.445 90)
@@ -5177,9 +4983,6 @@
     (pin "S2" (uuid aa3aa7a5-0f76-4937-be03-39826c2d0be8))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "EXSW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "EXSW2") (unit 1)
         )
@@ -5190,7 +4993,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 203.2 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 62b5ae5c-d2ed-446a-9d68-459a90712857)
-    (property "Reference" "SW?" (at 203.2 101.854 0)
+    (property "Reference" "SW18" (at 203.2 101.854 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 203.2 103.886 0)
@@ -5206,11 +5009,33 @@
     (pin "2" (uuid 27b80996-b8bf-4a18-8a1b-cfe7ae0ac270))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW18") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 102.235 60.96 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6612375b-52f0-414f-8c04-156f38e22cf5)
+    (property "Reference" "#FLG04" (at 102.235 62.865 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 102.235 64.77 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 102.235 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 102.235 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d427007a-d6da-444b-a65b-615b7127c1cd))
+    (instances
+      (project "corne-cherry"
+        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
+          (reference "#FLG04") (unit 1)
         )
       )
     )
@@ -5219,7 +5044,7 @@
   (symbol (lib_id "power:GND") (at 233.68 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66528a73-fbcb-4787-9d3a-ca7834b4e33e)
-    (property "Reference" "#PWR?" (at 233.68 114.3 0)
+    (property "Reference" "#PWR041" (at 233.68 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 112.395 0)
@@ -5234,9 +5059,6 @@
     (pin "1" (uuid 5ca43f5f-7d4d-4b0f-97e7-aad8ebdebbd9))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR041") (unit 1)
         )
@@ -5247,7 +5069,7 @@
   (symbol (lib_id "power:GND") (at 259.08 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 675cc2df-a204-47f7-9fb6-d3612fb8901d)
-    (property "Reference" "#PWR?" (at 259.08 160.02 0)
+    (property "Reference" "#PWR053" (at 259.08 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 259.08 158.115 0)
@@ -5262,9 +5084,6 @@
     (pin "1" (uuid c005f24a-c92d-454e-8fc3-a2a43bc0bac7))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR053") (unit 1)
         )
@@ -5301,7 +5120,7 @@
   (symbol (lib_id "Device:C_Small") (at 124.46 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6cff744c-ecf2-4a6e-9a76-45e2b8bc6fd3)
-    (property "Reference" "C?" (at 127 102.87 0)
+    (property "Reference" "C10" (at 127 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 127 105.41 0)
@@ -5317,9 +5136,6 @@
     (pin "2" (uuid 9d0e2efe-b10b-4f28-9886-d1c2ea27866c))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "C?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "C10") (unit 1)
         )
@@ -5330,7 +5146,7 @@
   (symbol (lib_id "power:+3V3") (at 120.65 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6d972f02-3954-4da9-88ee-2197b64c06f0)
-    (property "Reference" "#PWR?" (at 120.65 185.42 0)
+    (property "Reference" "#PWR022" (at 120.65 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 120.65 177.292 0)
@@ -5345,9 +5161,6 @@
     (pin "1" (uuid 8c344428-cbca-44c3-bd23-dccf5183f950))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR022") (unit 1)
         )
@@ -5358,7 +5171,7 @@
   (symbol (lib_id "power:GND") (at 73.66 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 753ea9b5-d18b-4b49-8051-5ba0b4f5d1f4)
-    (property "Reference" "#PWR?" (at 73.66 121.92 0)
+    (property "Reference" "#PWR012" (at 73.66 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.66 120.015 0)
@@ -5373,9 +5186,6 @@
     (pin "1" (uuid 5f5a415e-20ad-4020-afe1-c63d090d30d5))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR012") (unit 1)
         )
@@ -5386,7 +5196,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 254 262.89 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 766e2d4e-7d94-4dc3-8a2b-4a7665d74798)
-    (property "Reference" "LED?" (at 248.285 257.175 0)
+    (property "Reference" "LED8" (at 248.285 257.175 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 248.285 263.525 0)
@@ -5404,39 +5214,8 @@
     (pin "4" (uuid 738f2ffb-a53b-4402-8ef6-47fe8ece7cab))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 313.69 39.37 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 76985b5a-8388-41aa-b95e-350880556901)
-    (property "Reference" "#PWR?" (at 320.04 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 318.77 39.37 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 313.69 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 313.69 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c53bea17-576a-4240-ba39-310fc76eac05))
-    (instances
-      (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -5445,7 +5224,7 @@
   (symbol (lib_id "Device:C_Small") (at 62.23 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77b830dc-b57e-4d87-b5f6-ae460d0b2535)
-    (property "Reference" "C?" (at 64.77 101.6 0)
+    (property "Reference" "C3" (at 64.77 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 64.77 104.14 0)
@@ -5461,9 +5240,6 @@
     (pin "2" (uuid a4719865-e092-47ee-8e24-7e2f8eb844cc))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "C?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "C3") (unit 1)
         )
@@ -5474,7 +5250,7 @@
   (symbol (lib_id "power:GND") (at 86.36 212.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 786e1374-90a8-467b-81f1-acee40dbe5e6)
-    (property "Reference" "#PWR?" (at 86.36 218.44 0)
+    (property "Reference" "#PWR015" (at 86.36 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 216.535 0)
@@ -5489,9 +5265,6 @@
     (pin "1" (uuid 512c1db9-5f2b-4fca-ac0c-1f5da5ab4777))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR015") (unit 1)
         )
@@ -5502,7 +5275,7 @@
   (symbol (lib_id "power:GND") (at 246.38 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7a6513b7-7e03-4529-bf8f-5081a1c08437)
-    (property "Reference" "#PWR?" (at 246.38 160.02 0)
+    (property "Reference" "#PWR049" (at 246.38 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 158.115 0)
@@ -5517,9 +5290,6 @@
     (pin "1" (uuid bf086921-472d-48d5-a5ce-51f9ecf0b0ff))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR049") (unit 1)
         )
@@ -5530,7 +5300,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 238.76 208.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7aad426d-f63c-4da8-a462-0d9b983259b0)
-    (property "Reference" "LED?" (at 233.045 206.375 0)
+    (property "Reference" "LED12" (at 233.045 206.375 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 233.045 219.075 0)
@@ -5548,9 +5318,6 @@
     (pin "4" (uuid beef472d-5ee7-4b58-8c77-5e75cf5640f7))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED12") (unit 1)
         )
@@ -5561,7 +5328,7 @@
   (symbol (lib_id "Device:C_Small") (at 73.66 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7bd79bd9-10c7-49ef-9663-eb6f5e40d2f6)
-    (property "Reference" "C?" (at 76.2 101.6 0)
+    (property "Reference" "C4" (at 76.2 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 76.2 104.14 0)
@@ -5577,9 +5344,6 @@
     (pin "2" (uuid 0f3aa200-a525-4e20-bf38-c02274fcd8eb))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "C?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "C4") (unit 1)
         )
@@ -5590,7 +5354,7 @@
   (symbol (lib_id "Diode:ESD5Zxx") (at 78.74 33.02 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c45f75d-dc61-4f01-b912-b5f17aaad99a)
-    (property "Reference" "ZD?" (at 80.645 35.56 0)
+    (property "Reference" "ZD1" (at 80.645 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RB521S30T1G" (at 90.17 38.1 0)
@@ -5609,9 +5373,6 @@
     (pin "2" (uuid d73141b3-74bc-47e2-84c4-ba6582eaeb8e))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "ZD?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "ZD1") (unit 1)
         )
@@ -5622,7 +5383,7 @@
   (symbol (lib_id "Device:C_Small") (at 73.66 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7df47938-0c4e-4486-8ca2-8cbaccbf8b39)
-    (property "Reference" "C?" (at 76.2 111.76 0)
+    (property "Reference" "C5" (at 76.2 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 76.2 114.3 0)
@@ -5638,9 +5399,6 @@
     (pin "2" (uuid 36217624-096a-4519-9958-fb94d8564059))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "C?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "C5") (unit 1)
         )
@@ -5651,7 +5409,7 @@
   (symbol (lib_id "power:GND") (at 60.96 204.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f666b10-d4ec-480f-a2ca-964bd7ea95f2)
-    (property "Reference" "#PWR?" (at 60.96 210.82 0)
+    (property "Reference" "#PWR08" (at 60.96 210.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 208.915 0)
@@ -5666,9 +5424,6 @@
     (pin "1" (uuid 14623d3b-2ef8-430e-ba53-04b1290d51eb))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR08") (unit 1)
         )
@@ -5679,7 +5434,7 @@
   (symbol (lib_id "Device:C_Small") (at 114.3 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 801078fb-d53a-434d-93cd-a0d71f5146a7)
-    (property "Reference" "C?" (at 116.84 102.87 0)
+    (property "Reference" "C9" (at 116.84 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 116.84 105.41 0)
@@ -5695,11 +5450,33 @@
     (pin "2" (uuid b2bb7725-d9ec-4b09-bd41-bef37ce5c59a))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "C?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "C9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VBUS") (at 277.495 39.37 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 80390c4d-6a80-488a-949f-d51071bd6817)
+    (property "Reference" "#PWR057" (at 273.685 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VBUS" (at 281.305 39.37 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 277.495 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 277.495 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6d91296c-bee3-4c2f-8805-110f7b18a8e1))
+    (instances
+      (project "corne-cherry"
+        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -5708,7 +5485,7 @@
   (symbol (lib_id "Device:Crystal_GND24_Small") (at 48.26 179.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 805acd07-15a1-4ec7-8838-25ec8feb5552)
-    (property "Reference" "Y?" (at 53.34 177.8 90)
+    (property "Reference" "Y1" (at 53.34 177.8 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "12MHz 18pF" (at 57.15 180.34 90)
@@ -5735,9 +5512,6 @@
     (pin "4" (uuid 08c7e60c-7433-4d46-9066-ceac928e477c))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "Y?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "Y1") (unit 1)
         )
@@ -5748,7 +5522,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 238.76 262.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 81061d3b-d378-4d64-8a7b-403d6cc870c5)
-    (property "Reference" "LED?" (at 233.045 260.35 0)
+    (property "Reference" "LED9" (at 233.045 260.35 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 233.045 273.685 0)
@@ -5766,9 +5540,6 @@
     (pin "4" (uuid 15a16fa6-eef1-4141-a210-ba0dd2849aea))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED9") (unit 1)
         )
@@ -5779,7 +5550,7 @@
   (symbol (lib_id "Memory_Flash:W25Q128JVS") (at 233.68 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 81da7f2f-ed6f-4367-903c-9f79e404aac7)
-    (property "Reference" "U?" (at 227.33 40.005 0)
+    (property "Reference" "U4" (at 227.33 40.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "W25Q128JVSIQ" (at 215.9 43.18 0)
@@ -5804,9 +5575,6 @@
     (pin "8" (uuid 800792b8-db74-4803-962b-70fb5ea40f83))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "U?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "U4") (unit 1)
         )
@@ -5817,7 +5585,7 @@
   (symbol (lib_id "power:GND") (at 208.28 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83b6051e-7ac8-4ee1-9f79-b847d7e60df6)
-    (property "Reference" "#PWR?" (at 208.28 144.78 0)
+    (property "Reference" "#PWR033" (at 208.28 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 208.28 142.875 0)
@@ -5832,9 +5600,6 @@
     (pin "1" (uuid dac6f2b2-2c33-4da2-8c68-26213b6d4edc))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR033") (unit 1)
         )
@@ -5845,7 +5610,7 @@
   (symbol (lib_id "Device:C_Small") (at 133.35 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8414e7a1-fe41-4110-b66a-8ed7da41b403)
-    (property "Reference" "C?" (at 135.89 102.87 0)
+    (property "Reference" "C12" (at 135.89 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 136.525 105.41 0)
@@ -5861,9 +5626,6 @@
     (pin "2" (uuid 0147af24-7d79-4831-86a0-2a14fe0688a7))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "C?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "C12") (unit 1)
         )
@@ -5874,7 +5636,7 @@
   (symbol (lib_id "Device:C_Small") (at 125.73 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84167f5b-de81-4d68-baab-b817a4d6b17e)
-    (property "Reference" "C?" (at 128.27 34.29 0)
+    (property "Reference" "C11" (at 128.27 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 128.27 36.83 0)
@@ -5890,9 +5652,6 @@
     (pin "2" (uuid 23e2897b-6ba5-447f-83eb-a8642631f2e5))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "C?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "C11") (unit 1)
         )
@@ -5903,7 +5662,7 @@
   (symbol (lib_id "power:GND") (at 237.49 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8746311a-887c-4b96-9027-bd8b259432c0)
-    (property "Reference" "#PWR?" (at 237.49 45.72 0)
+    (property "Reference" "#PWR045" (at 237.49 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 237.49 43.815 0)
@@ -5918,9 +5677,6 @@
     (pin "1" (uuid c07143f7-447d-4ac6-b6cc-ab192b6a50ba))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR045") (unit 1)
         )
@@ -5931,7 +5687,7 @@
   (symbol (lib_id "power:+5V") (at 90.17 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 893ee711-5338-4d80-ba5e-1f676d6a7bae)
-    (property "Reference" "#PWR?" (at 90.17 36.83 0)
+    (property "Reference" "#PWR016" (at 90.17 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 90.17 29.845 90)
@@ -5946,9 +5702,6 @@
     (pin "1" (uuid b69cb131-7023-446c-bc0d-99975f1370e5))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR016") (unit 1)
         )
@@ -5959,7 +5712,7 @@
   (symbol (lib_id "power:GND") (at 156.21 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a44952f-8125-4b24-880a-30b4f2e4cd66)
-    (property "Reference" "#PWR?" (at 156.21 57.15 0)
+    (property "Reference" "#PWR025" (at 156.21 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 156.21 55.88 0)
@@ -5974,9 +5727,6 @@
     (pin "1" (uuid cd792cd9-2a3b-4800-9950-f05d70af4bb1))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR025") (unit 1)
         )
@@ -5987,7 +5737,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 254 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b5fd432-f058-442f-9f2e-854ed4fd3899)
-    (property "Reference" "SW?" (at 254 132.334 0)
+    (property "Reference" "SW2" (at 254 132.334 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 254 134.366 0)
@@ -6003,9 +5753,6 @@
     (pin "2" (uuid 394499af-8c50-48fb-b4a3-310c5df80ee6))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW2") (unit 1)
         )
@@ -6030,9 +5777,6 @@
     )
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-          (reference "BT3") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "BT3") (unit 1)
         )
@@ -6043,7 +5787,7 @@
   (symbol (lib_id "Device:C_Small") (at 143.51 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 911dc30e-1c9d-4fb5-ad67-89e15753f890)
-    (property "Reference" "C?" (at 146.05 102.87 0)
+    (property "Reference" "C13" (at 146.05 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 146.05 105.41 0)
@@ -6059,9 +5803,6 @@
     (pin "2" (uuid c72850e1-895e-4430-9053-63e118df6140))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "C?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "C13") (unit 1)
         )
@@ -6072,7 +5813,7 @@
   (symbol (lib_id "power:+1V1") (at 81.28 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9190ca0d-2414-44a3-a45d-bf21b23acd97)
-    (property "Reference" "#PWR?" (at 81.28 104.14 0)
+    (property "Reference" "#PWR013" (at 81.28 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V1" (at 81.28 95.504 0)
@@ -6087,42 +5828,8 @@
     (pin "1" (uuid 1ec266dc-b077-407d-a89e-da74e6515987))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR013") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x04") (at 308.61 44.45 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 957d30f4-c88f-4d0e-8485-7a739183063d)
-    (property "Reference" "J?" (at 308.61 33.274 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x04" (at 308.61 35.814 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "kbd_local:OLED" (at 308.61 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 308.61 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 942f984e-c966-473c-b8b4-8e42011e51a8))
-    (pin "2" (uuid d3f1e18a-c36d-4b5f-839e-1c2d45cdc721))
-    (pin "3" (uuid 2b42ebf7-1c0f-4610-8836-c5e037fef064))
-    (pin "4" (uuid 78320533-69b9-48fa-a5b3-1a1a54b19b43))
-    (instances
-      (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "J?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "J3") (unit 1)
         )
       )
     )
@@ -6131,7 +5838,7 @@
   (symbol (lib_id "power:VBUS") (at 63.5 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97f3d542-e63f-4edb-ba7d-d6b5d95c7a74)
-    (property "Reference" "#PWR?" (at 63.5 36.83 0)
+    (property "Reference" "#PWR083" (at 63.5 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 63.5 28.448 0)
@@ -6146,9 +5853,6 @@
     (pin "1" (uuid dd1305d4-2d0f-4211-945c-1b1e0b4e37f3))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR083") (unit 1)
         )
@@ -6159,7 +5863,7 @@
   (symbol (lib_id "Device:C_Small") (at 104.14 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 983c48f7-3a1a-461f-b3ac-7174eb2079f9)
-    (property "Reference" "C?" (at 106.68 102.87 0)
+    (property "Reference" "C7" (at 106.68 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 106.68 105.41 0)
@@ -6175,9 +5879,6 @@
     (pin "2" (uuid 27d6ac48-fd3e-4a4d-9b0a-d6417651932d))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "C?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "C7") (unit 1)
         )
@@ -6202,9 +5903,6 @@
     )
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-          (reference "BT4") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "BT4") (unit 1)
         )
@@ -6215,7 +5913,7 @@
   (symbol (lib_id "power:GND") (at 246.38 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a23499f-7c01-4124-8118-2b61d8c134bb)
-    (property "Reference" "#PWR?" (at 246.38 114.3 0)
+    (property "Reference" "#PWR046" (at 246.38 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 112.395 0)
@@ -6230,9 +5928,6 @@
     (pin "1" (uuid a0242554-f0f1-4e76-b25b-452e534820fb))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR046") (unit 1)
         )
@@ -6243,7 +5938,7 @@
   (symbol (lib_id "power:GND") (at 92.71 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f9c30da-9b2f-41db-9f69-c26dd44f5c6e)
-    (property "Reference" "#PWR?" (at 92.71 67.31 0)
+    (property "Reference" "#PWR017" (at 92.71 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 92.71 64.77 0)
@@ -6258,9 +5953,6 @@
     (pin "1" (uuid 68c9517c-cc80-432e-a5df-1cc0fd0379e8))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR017") (unit 1)
         )
@@ -6271,7 +5963,7 @@
   (symbol (lib_id "power:+5V") (at 215.9 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ff6a5c0-1822-4e22-9e07-1de62cea3955)
-    (property "Reference" "#PWR?" (at 215.9 181.61 0)
+    (property "Reference" "#PWR034" (at 215.9 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 215.9 172.72 0)
@@ -6286,9 +5978,6 @@
     (pin "1" (uuid a55f71a6-76f3-4db9-9930-b0165db1b015))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR034") (unit 1)
         )
@@ -6299,7 +5988,7 @@
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 35.56 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a1c3b0cf-fc0d-462c-9c72-e19cc2b4fa02)
-    (property "Reference" "J?" (at 35.56 25.4 0)
+    (property "Reference" "J1" (at 35.56 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TYPE-C-31-M-13C" (at 35.56 27.94 0)
@@ -6333,9 +6022,6 @@
     (pin "S1" (uuid 1b759a15-3afc-4f11-8ab2-2c59be09f1b5))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "J?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "J1") (unit 1)
         )
@@ -6346,7 +6032,7 @@
   (symbol (lib_id "power:GND") (at 162.56 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a70b64b1-a983-4c03-a4f4-8cc168c81083)
-    (property "Reference" "#PWR?" (at 162.56 113.03 0)
+    (property "Reference" "#PWR026" (at 162.56 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 162.56 111.125 0)
@@ -6361,9 +6047,6 @@
     (pin "1" (uuid 8ab632ea-b815-4216-973e-b4906a657a73))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR026") (unit 1)
         )
@@ -6374,7 +6057,7 @@
   (symbol (lib_id "power:GND") (at 208.28 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8f1e7b5-84a0-4359-851c-31534ad5f603)
-    (property "Reference" "#PWR?" (at 208.28 114.3 0)
+    (property "Reference" "#PWR031" (at 208.28 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 208.28 112.395 0)
@@ -6389,9 +6072,6 @@
     (pin "1" (uuid 7ffcc59d-e686-4d62-b661-053e816d3dc7))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR031") (unit 1)
         )
@@ -6402,7 +6082,7 @@
   (symbol (lib_id "power:GND") (at 274.955 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9697767-aba2-4657-86c8-baec4bd8d1d5)
-    (property "Reference" "#PWR?" (at 274.955 127 0)
+    (property "Reference" "#PWR056" (at 274.955 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 274.955 125.095 0)
@@ -6417,9 +6097,6 @@
     (pin "1" (uuid 95a56d13-271f-4d8e-a69e-1e9f90ecf30c))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR056") (unit 1)
         )
@@ -6430,7 +6107,7 @@
   (symbol (lib_id "Device:R_Small") (at 58.42 138.43 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ace8c15e-ebb7-4e8d-afc7-b8ca3bb91c36)
-    (property "Reference" "R?" (at 58.42 140.335 90)
+    (property "Reference" "R5" (at 58.42 140.335 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27" (at 58.42 138.43 90)
@@ -6446,9 +6123,6 @@
     (pin "2" (uuid e802add3-b493-4385-a2e8-633aa576dc0b))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "R?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "R5") (unit 1)
         )
@@ -6459,7 +6133,7 @@
   (symbol (lib_id "Device:C_Small") (at 38.1 173.99 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad0e78d8-5559-4d23-913d-f50f1d0c1c2b)
-    (property "Reference" "C?" (at 39.37 172.72 90)
+    (property "Reference" "C1" (at 39.37 172.72 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "27p" (at 39.37 175.26 90)
@@ -6475,9 +6149,6 @@
     (pin "2" (uuid 314503e1-d67d-4b06-9368-dcdc5505fc65))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "C?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "C1") (unit 1)
         )
@@ -6488,7 +6159,7 @@
   (symbol (lib_id "power:GND") (at 111.76 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aef32170-f8ee-4e1c-a8b2-4fee8075787d)
-    (property "Reference" "#PWR?" (at 111.76 46.99 0)
+    (property "Reference" "#PWR021" (at 111.76 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 45.72 0)
@@ -6503,9 +6174,6 @@
     (pin "1" (uuid 955955c5-a6dd-48e4-ae9b-5823127b976c))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR021") (unit 1)
         )
@@ -6516,7 +6184,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 228.6 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid afbeccb9-0929-402f-b068-684d893acfb3)
-    (property "Reference" "SW?" (at 228.6 117.094 0)
+    (property "Reference" "SW11" (at 228.6 117.094 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 228.6 119.126 0)
@@ -6532,9 +6200,6 @@
     (pin "2" (uuid 391e8253-c8ab-433c-9269-8ba29307f611))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW11") (unit 1)
         )
@@ -6545,7 +6210,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 328.93 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0546930-7e44-4b86-96c0-01ff7908ffd4)
-    (property "Reference" "J?" (at 328.93 33.274 0)
+    (property "Reference" "J4" (at 328.93 33.274 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03" (at 328.93 35.814 0)
@@ -6562,9 +6227,6 @@
     (pin "3" (uuid 4f9f29a6-d70c-45fe-92d6-a9d57adb2857))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "J?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "J4") (unit 1)
         )
@@ -6575,7 +6237,7 @@
   (symbol (lib_id "power:GND") (at 27.94 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b123cab3-e384-4494-96de-32815c50afb3)
-    (property "Reference" "#PWR?" (at 27.94 77.47 0)
+    (property "Reference" "#PWR01" (at 27.94 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 27.94 76.2 0)
@@ -6590,39 +6252,8 @@
     (pin "1" (uuid 9e6b5c3f-e176-498a-9b59-4dcdd6028d84))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 277.495 39.37 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b26abc12-6811-4f06-b475-8f42c474ab9a)
-    (property "Reference" "#PWR?" (at 273.685 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 280.67 39.37 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 277.495 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 277.495 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 004e0db6-f687-489d-a9db-74b30619cca4))
-    (instances
-      (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -6631,7 +6262,7 @@
   (symbol (lib_id "power:GND") (at 246.38 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b312a114-d786-4293-b78b-6b78017e4cc6)
-    (property "Reference" "#PWR?" (at 246.38 144.78 0)
+    (property "Reference" "#PWR048" (at 246.38 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 142.875 0)
@@ -6646,9 +6277,6 @@
     (pin "1" (uuid 41678423-37af-49b0-bc68-4ff0ccde8a81))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR048") (unit 1)
         )
@@ -6659,7 +6287,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 190.5 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4e34a05-9f0b-47a6-b849-c05bc6a1b990)
-    (property "Reference" "SW?" (at 190.5 117.094 0)
+    (property "Reference" "SW20" (at 190.5 117.094 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 190.5 119.126 0)
@@ -6675,9 +6303,6 @@
     (pin "2" (uuid 07de1697-b9cd-4fdc-bc18-6f15cca56c89))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW20") (unit 1)
         )
@@ -6688,7 +6313,7 @@
   (symbol (lib_id "power:GND") (at 259.08 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8483de0-dc9f-45ad-979a-2e7a0057623d)
-    (property "Reference" "#PWR?" (at 259.08 114.3 0)
+    (property "Reference" "#PWR050" (at 259.08 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 259.08 112.395 0)
@@ -6703,9 +6328,6 @@
     (pin "1" (uuid e0e2abe6-31e6-4945-9473-58ac416bf2da))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR050") (unit 1)
         )
@@ -6716,7 +6338,7 @@
   (symbol (lib_id "Device:R_Small") (at 53.34 40.64 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b8c9fe11-0dcb-4c1f-97df-eed66150cef2)
-    (property "Reference" "R?" (at 53.34 42.545 90)
+    (property "Reference" "R2" (at 53.34 42.545 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 53.34 40.64 90)
@@ -6732,9 +6354,6 @@
     (pin "2" (uuid 21d4a280-5779-4b55-9d00-16584f5c4d0d))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "R?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "R2") (unit 1)
         )
@@ -6745,7 +6364,7 @@
   (symbol (lib_id "Device:C_Small") (at 162.56 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid baf713bd-6ad3-4b2c-9e49-9e103edb33d1)
-    (property "Reference" "C?" (at 165.1 102.87 0)
+    (property "Reference" "C15" (at 165.1 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 165.1 105.41 0)
@@ -6761,9 +6380,6 @@
     (pin "2" (uuid 909acf64-eed3-463c-b636-324f8d72ea95))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "C?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "C15") (unit 1)
         )
@@ -6774,7 +6390,7 @@
   (symbol (lib_id "Device:C_Small") (at 152.4 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bdf0ec4c-26c1-4c7c-858e-c1bcbf878196)
-    (property "Reference" "C?" (at 154.94 102.87 0)
+    (property "Reference" "C14" (at 154.94 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 154.94 105.41 0)
@@ -6790,9 +6406,6 @@
     (pin "2" (uuid 88f68eb1-24b8-48bd-abd2-4240647a311b))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "C?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "C14") (unit 1)
         )
@@ -6803,7 +6416,7 @@
   (symbol (lib_id "power:GND") (at 275.59 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0e9e75c-6586-4e70-9266-396b687a41c7)
-    (property "Reference" "#PWR?" (at 275.59 162.56 0)
+    (property "Reference" "#PWR059" (at 275.59 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 275.59 160.655 0)
@@ -6818,9 +6431,6 @@
     (pin "1" (uuid 50c9d194-d91d-4d5d-9f20-43d6615f23dc))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR059") (unit 1)
         )
@@ -6831,7 +6441,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 284.48 208.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4a6db05-9b3d-4ca9-bf63-abe3739f22ef)
-    (property "Reference" "EXLED?" (at 278.765 202.565 0)
+    (property "Reference" "EXLED1" (at 278.765 202.565 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 278.765 208.915 0)
@@ -6849,9 +6459,6 @@
     (pin "4" (uuid 0f3b4e9e-3c86-487e-9345-973dd6cf31a2))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "EXLED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "EXLED1") (unit 1)
         )
@@ -6862,7 +6469,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 223.52 245.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4be08b9-032b-47f1-b0b7-97cfbea4aff9)
-    (property "Reference" "LED?" (at 217.805 240.03 0)
+    (property "Reference" "LED15" (at 217.805 240.03 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 217.805 245.745 0)
@@ -6880,9 +6487,6 @@
     (pin "4" (uuid 27d15bb9-7ede-4e17-b17c-9a8a2f1d3e24))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED15") (unit 1)
         )
@@ -6893,7 +6497,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 215.9 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5028db0-03c8-4680-9a21-475bc9c7aa4d)
-    (property "Reference" "SW?" (at 215.9 101.854 0)
+    (property "Reference" "SW13" (at 215.9 101.854 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 215.9 103.886 0)
@@ -6909,9 +6513,6 @@
     (pin "2" (uuid 72e3bfce-57de-4dbe-93a2-6f7fb68ccf62))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW13") (unit 1)
         )
@@ -6922,7 +6523,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 208.28 245.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c57df176-9783-43cb-bd4c-82cb2eb278e7)
-    (property "Reference" "LED?" (at 202.565 243.205 0)
+    (property "Reference" "LED16" (at 202.565 243.205 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 202.565 255.905 0)
@@ -6940,9 +6541,6 @@
     (pin "4" (uuid 840e21c4-f8c0-498e-ae47-5d6966336e18))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED16") (unit 1)
         )
@@ -6953,7 +6551,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 195.58 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6673d7b-dd0e-4b3f-aa47-49b99f25961b)
-    (property "Reference" "SMDSW?" (at 195.58 40.64 0)
+    (property "Reference" "SMDSW1" (at 195.58 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TS-1088R-02026" (at 195.58 43.18 0)
@@ -6972,9 +6570,6 @@
     (pin "2" (uuid 6cf2a450-4c39-46df-b2d2-c2f0a1498d2d))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SMDSW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SMDSW1") (unit 1)
         )
@@ -6985,7 +6580,7 @@
   (symbol (lib_id "Device:R") (at 212.09 44.45 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cbef6d52-0ffd-44eb-a58b-7404d8fc6c0c)
-    (property "Reference" "R?" (at 214.63 43.18 90)
+    (property "Reference" "R7" (at 214.63 43.18 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 212.09 43.18 90)
@@ -7001,9 +6596,6 @@
     (pin "2" (uuid 35b4ca73-1fa7-4d03-b531-4dcbca6dc5ff))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "R?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "R7") (unit 1)
         )
@@ -7014,7 +6606,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 241.3 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cca8555c-1399-43fe-9b91-22e865d5dce5)
-    (property "Reference" "SW?" (at 241.3 147.574 0)
+    (property "Reference" "SW8" (at 241.3 147.574 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 241.3 149.606 0)
@@ -7030,9 +6622,6 @@
     (pin "2" (uuid 12032f33-f6bf-4edb-94e8-90685d9303a9))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW8") (unit 1)
         )
@@ -7043,7 +6632,7 @@
   (symbol (lib_id "power:GND") (at 272.415 105.41 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d05eb1c6-2734-41aa-9561-4fc6c785e41b)
-    (property "Reference" "#PWR?" (at 272.415 99.06 0)
+    (property "Reference" "#PWR054" (at 272.415 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 272.415 100.33 90)
@@ -7058,9 +6647,6 @@
     (pin "1" (uuid bc0050c6-16d2-4f30-896c-edc18738ab9d))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR054") (unit 1)
         )
@@ -7071,7 +6657,7 @@
   (symbol (lib_id "Device:C_Small") (at 237.49 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1a572f2-a3a4-4643-9732-bfe42fcb9df5)
-    (property "Reference" "C?" (at 240.03 35.56 0)
+    (property "Reference" "C16" (at 240.03 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 240.03 38.1 0)
@@ -7087,9 +6673,6 @@
     (pin "2" (uuid 8bdc4d0b-6f9f-4b35-b135-a981a08bc2ce))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "C?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "C16") (unit 1)
         )
@@ -7100,7 +6683,7 @@
   (symbol (lib_id "power:GND") (at 259.08 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d21f91eb-c130-48cf-9f91-774d4f3ee493)
-    (property "Reference" "#PWR?" (at 259.08 129.54 0)
+    (property "Reference" "#PWR051" (at 259.08 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 259.08 127.635 0)
@@ -7115,9 +6698,6 @@
     (pin "1" (uuid fa565f38-93b4-487b-90cd-586cca2baa05))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR051") (unit 1)
         )
@@ -7128,7 +6708,7 @@
   (symbol (lib_id "power:GND") (at 195.58 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d289eae6-7c5e-48b2-82a3-cefff63a9116)
-    (property "Reference" "#PWR?" (at 195.58 129.54 0)
+    (property "Reference" "#PWR029" (at 195.58 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 195.58 127.635 0)
@@ -7143,9 +6723,6 @@
     (pin "1" (uuid e9c4abbf-4061-46ff-8b8a-e8be5efb2ace))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR029") (unit 1)
         )
@@ -7156,7 +6733,7 @@
   (symbol (lib_id "Device:C_Small") (at 97.79 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d2c44a79-bd5b-432e-9fae-6ce02534ef51)
-    (property "Reference" "C?" (at 100.33 34.29 0)
+    (property "Reference" "C6" (at 100.33 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 100.33 36.83 0)
@@ -7172,9 +6749,6 @@
     (pin "2" (uuid bc499882-8ef4-48a8-8e57-580e9a77091a))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "C?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "C6") (unit 1)
         )
@@ -7185,7 +6759,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 55.88 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3cd01db-8912-4d8b-b07c-804247da3cf0)
-    (property "Reference" "SMDSW?" (at 55.88 120.65 0)
+    (property "Reference" "SMDSW2" (at 55.88 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TS-1088R-02026" (at 55.88 123.19 0)
@@ -7204,9 +6778,6 @@
     (pin "2" (uuid 17840860-cd31-4fb2-ad82-b88da48a981a))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SMDSW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SMDSW2") (unit 1)
         )
@@ -7217,7 +6788,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 254 245.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d50bf836-858e-4c21-9b29-a49270322db5)
-    (property "Reference" "LED?" (at 248.285 239.395 0)
+    (property "Reference" "LED7" (at 248.285 239.395 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 248.285 245.745 0)
@@ -7235,9 +6806,6 @@
     (pin "4" (uuid 5f516cbd-6121-42c3-b557-2d7d48e1013d))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED7") (unit 1)
         )
@@ -7248,7 +6816,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 269.24 262.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7caa342-bb87-4e4a-9a06-f60d6167736f)
-    (property "Reference" "LED?" (at 263.525 260.35 0)
+    (property "Reference" "LED1" (at 263.525 260.35 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 263.525 273.685 0)
@@ -7266,9 +6834,6 @@
     (pin "4" (uuid d5feafa4-5ee3-4114-922b-1fbd0d25d09e))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED1") (unit 1)
         )
@@ -7279,7 +6844,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 82.55 60.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8cca7f3-c7b1-4688-84f2-6ec2a0b8932a)
-    (property "Reference" "#FLG?" (at 82.55 62.865 0)
+    (property "Reference" "#FLG02" (at 82.55 62.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 82.55 64.77 0)
@@ -7294,9 +6859,6 @@
     (pin "1" (uuid 99e9c897-161b-4df2-b35f-ec4dae00dbd4))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#FLG?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#FLG02") (unit 1)
         )
@@ -7307,7 +6869,7 @@
   (symbol (lib_id "power:+5V") (at 82.55 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc31722d-7b6d-44f4-b2cc-186f691c72e2)
-    (property "Reference" "#PWR?" (at 82.55 64.77 0)
+    (property "Reference" "#PWR014" (at 82.55 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 82.55 56.642 0)
@@ -7322,9 +6884,6 @@
     (pin "1" (uuid c49db73d-5a28-4f1c-9907-cc24e27bc7cd))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR014") (unit 1)
         )
@@ -7335,7 +6894,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 228.6 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd447255-942f-45db-9db0-2de610c5109c)
-    (property "Reference" "SW?" (at 228.6 147.574 0)
+    (property "Reference" "SW9" (at 228.6 147.574 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 228.6 149.606 0)
@@ -7351,9 +6910,6 @@
     (pin "2" (uuid d26ab208-9d92-4fae-b582-b2d9972ffa6d))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW9") (unit 1)
         )
@@ -7364,7 +6920,7 @@
   (symbol (lib_id "power:GND") (at 125.73 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dfc8d48d-17ba-444b-8113-5adf818beed9)
-    (property "Reference" "#PWR?" (at 125.73 44.45 0)
+    (property "Reference" "#PWR024" (at 125.73 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 125.73 43.18 0)
@@ -7379,9 +6935,6 @@
     (pin "1" (uuid 4cf741ef-c044-4824-b71a-a1a84a0cda96))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR024") (unit 1)
         )
@@ -7392,7 +6945,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 72.39 60.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e04b10a8-572e-4c9a-bc6f-237d36158eb8)
-    (property "Reference" "#FLG?" (at 72.39 62.865 0)
+    (property "Reference" "#FLG01" (at 72.39 62.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 72.39 64.77 0)
@@ -7407,9 +6960,6 @@
     (pin "1" (uuid c90fa373-7863-41dd-9eee-23feccffe0ba))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#FLG?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#FLG01") (unit 1)
         )
@@ -7420,7 +6970,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 238.76 245.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0bcd15e-1e7b-4a5d-a321-454141bd79fb)
-    (property "Reference" "LED?" (at 233.045 243.205 0)
+    (property "Reference" "LED10" (at 233.045 243.205 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 233.045 255.905 0)
@@ -7438,9 +6988,6 @@
     (pin "4" (uuid 12617369-19f5-4c85-9b53-11389712a840))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED10") (unit 1)
         )
@@ -7451,7 +6998,7 @@
   (symbol (lib_id "Device:R") (at 55.88 184.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e264ef85-3f1a-48a1-8e3e-88f63112c733)
-    (property "Reference" "R?" (at 57.15 186.69 90)
+    (property "Reference" "R3" (at 57.15 186.69 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 57.15 184.15 90)
@@ -7467,9 +7014,6 @@
     (pin "2" (uuid 4814065a-3830-4e1c-a51c-84b2b8c0b8f2))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "R?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "R3") (unit 1)
         )
@@ -7480,7 +7024,7 @@
   (symbol (lib_id "Regulator_Linear:NCP1117-3.3_SOT223") (at 111.76 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e31e2740-9d76-4c03-b0db-d370699622fc)
-    (property "Reference" "U?" (at 111.76 26.67 0)
+    (property "Reference" "U2" (at 111.76 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NCP1117LPST33T3G" (at 112.395 29.21 0)
@@ -7500,9 +7044,6 @@
     (pin "3" (uuid 30961d63-d7b4-4b87-bb42-162eca9b7c73))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "U?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "U2") (unit 1)
         )
@@ -7513,7 +7054,7 @@
   (symbol (lib_id "power:GND") (at 62.23 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5746652-9bb6-4776-bbd9-51dc128b0ce4)
-    (property "Reference" "#PWR?" (at 62.23 111.76 0)
+    (property "Reference" "#PWR09" (at 62.23 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.23 109.855 0)
@@ -7528,9 +7069,6 @@
     (pin "1" (uuid ab432fb9-be9c-4969-a350-cdfc38f2eff8))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR09") (unit 1)
         )
@@ -7541,7 +7079,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 269.24 227.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e68b7438-7a85-4bb3-a2d8-abcadd18a4ba)
-    (property "Reference" "LED?" (at 263.525 224.79 0)
+    (property "Reference" "LED3" (at 263.525 224.79 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 263.525 238.125 0)
@@ -7559,9 +7097,6 @@
     (pin "4" (uuid b5ed2196-79db-4e83-8a35-37493cf2f3e2))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED3") (unit 1)
         )
@@ -7572,7 +7107,7 @@
   (symbol (lib_id "power:GND") (at 190.5 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7991362-08b2-4f64-afce-4fce8af3cb3e)
-    (property "Reference" "#PWR?" (at 190.5 54.61 0)
+    (property "Reference" "#PWR027" (at 190.5 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 190.5 52.07 0)
@@ -7587,9 +7122,6 @@
     (pin "1" (uuid 45537fef-64b1-4a01-8565-0f707bba022e))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR027") (unit 1)
         )
@@ -7600,7 +7132,7 @@
   (symbol (lib_id "power:GND") (at 277.495 34.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e925abc7-e4b2-4ec0-bb92-f867aa91174a)
-    (property "Reference" "#PWR?" (at 283.845 34.29 0)
+    (property "Reference" "#PWR078" (at 283.845 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 281.305 34.29 90)
@@ -7615,9 +7147,6 @@
     (pin "1" (uuid dc611e00-965b-4ee9-98d5-6333113ab7ea))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR078") (unit 1)
         )
@@ -7628,7 +7157,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 254 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ebfee43d-6ba0-48a0-85f8-ff6ef3d760ec)
-    (property "Reference" "SW?" (at 254 117.094 0)
+    (property "Reference" "SW3" (at 254 117.094 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 254 119.126 0)
@@ -7644,9 +7173,6 @@
     (pin "2" (uuid 9917b3b9-58a9-4f20-8469-37723941a387))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW3") (unit 1)
         )
@@ -7657,7 +7183,7 @@
   (symbol (lib_id "kbd_local:YS-SK6812MINI-E") (at 193.04 227.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eea2ff4e-103c-412d-8d34-367bbf4e663b)
-    (property "Reference" "LED?" (at 187.325 222.25 0)
+    (property "Reference" "LED20" (at 187.325 222.25 0)
       (effects (font (size 0.7366 0.7366)) (justify left))
     )
     (property "Value" "YS-SK6812MINI-E" (at 187.325 227.965 0)
@@ -7675,9 +7201,6 @@
     (pin "4" (uuid a4b917b7-cccc-45aa-8a6d-4efebb695ace))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "LED?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "LED20") (unit 1)
         )
@@ -7688,7 +7211,7 @@
   (symbol (lib_id "power:GND") (at 246.38 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f152f3f8-51f5-466f-a91d-4ca663007adc)
-    (property "Reference" "#PWR?" (at 246.38 129.54 0)
+    (property "Reference" "#PWR047" (at 246.38 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 127.635 0)
@@ -7703,9 +7226,6 @@
     (pin "1" (uuid 4be1c7c7-6f33-4849-8d87-b550e77ee53e))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR047") (unit 1)
         )
@@ -7746,7 +7266,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 228.6 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f3d7103b-935f-4330-a3aa-bd9812100898)
-    (property "Reference" "SW?" (at 228.6 132.334 0)
+    (property "Reference" "SW10" (at 228.6 132.334 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "SW_Push" (at 228.6 134.366 0)
@@ -7762,9 +7282,6 @@
     (pin "2" (uuid 1d76b816-ff94-4f80-bbb4-c129cd766c8d))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "SW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "SW10") (unit 1)
         )
@@ -7775,7 +7292,7 @@
   (symbol (lib_id "Device:C_Small") (at 105.41 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6e87b82-abc7-4f65-bdff-16c887fe0dbf)
-    (property "Reference" "C?" (at 107.95 111.76 0)
+    (property "Reference" "C8" (at 107.95 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 107.95 114.3 0)
@@ -7791,9 +7308,6 @@
     (pin "2" (uuid 82d5ce66-34b2-49c6-9238-615dc68f651c))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "C?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "C8") (unit 1)
         )
@@ -7804,7 +7318,7 @@
   (symbol (lib_id "Device:R_Small") (at 53.34 38.1 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7eb0b8b-0069-4b49-a13b-8cea04156ed8)
-    (property "Reference" "R?" (at 53.34 36.195 90)
+    (property "Reference" "R1" (at 53.34 36.195 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 53.34 38.1 90)
@@ -7820,9 +7334,6 @@
     (pin "2" (uuid 6a0108d5-2f54-42d2-b4c5-7d465ac509f6))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "R?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "R1") (unit 1)
         )
@@ -7847,9 +7358,6 @@
     )
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-          (reference "BT1") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "BT1") (unit 1)
         )
@@ -7860,7 +7368,7 @@
   (symbol (lib_id "Device:R") (at 204.47 48.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fcf48556-0af2-40bb-9dc8-6cff63568828)
-    (property "Reference" "R?" (at 203.2 45.72 90)
+    (property "Reference" "R6" (at 203.2 45.72 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 203.2 48.26 90)
@@ -7876,9 +7384,6 @@
     (pin "2" (uuid 21ce32ee-5de6-4bd0-9d8f-16b600f12746))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "R?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "R6") (unit 1)
         )
@@ -7889,7 +7394,7 @@
   (symbol (lib_id "power:GND") (at 233.68 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd0bbc2d-7e16-4e11-b830-29afc22436ae)
-    (property "Reference" "#PWR?" (at 233.68 144.78 0)
+    (property "Reference" "#PWR043" (at 233.68 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 142.875 0)
@@ -7904,9 +7409,6 @@
     (pin "1" (uuid f687b6ca-ff8a-4ed8-a498-3919832518f8))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR043") (unit 1)
         )
@@ -7917,7 +7419,7 @@
   (symbol (lib_id "power:GND") (at 97.79 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fdb89aa6-fca4-4728-a700-b08b021eb3a2)
-    (property "Reference" "#PWR?" (at 97.79 44.45 0)
+    (property "Reference" "#PWR019" (at 97.79 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 43.18 0)
@@ -7932,9 +7434,6 @@
     (pin "1" (uuid 06221fcc-a9aa-4cb0-b2b1-9385042f8c38))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "#PWR019") (unit 1)
         )
@@ -7945,7 +7444,7 @@
   (symbol (lib_id "Device:RotaryEncoder_Switch") (at 272.415 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffe6fb1d-692e-48d7-aa11-8e89e3c2a886)
-    (property "Reference" "EXSW?" (at 272.415 94.615 90)
+    (property "Reference" "EXSW1" (at 272.415 94.615 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RotaryEncoder_Switch" (at 272.415 97.155 90)
@@ -7964,9 +7463,6 @@
     (pin "S2" (uuid 579aa078-979c-43ca-9566-8e2664d89ed5))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "EXSW?") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
           (reference "EXSW1") (unit 1)
         )

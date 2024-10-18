@@ -56,9 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "copper_sliver|21309063|8937106|00000000-0000-0000-0000-000000000000|F.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -76,7 +74,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -181,7 +179,8 @@
         0.0,
         0.2032,
         0.254,
-        0.508
+        0.508,
+        1.016
       ],
       "via_dimensions": [
         {

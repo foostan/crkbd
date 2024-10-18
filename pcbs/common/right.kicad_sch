@@ -377,67 +377,6 @@
         )
       )
     )
-    (symbol "Connector_Generic:Conn_01x04" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x04" (at 0 -7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x04_1_1"
-        (rectangle (start -1.27 -4.953) (end 0 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 3.81) (end 1.27 -6.35)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.254 1.778 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -2000,6 +1939,58 @@
         )
       )
     )
+    (symbol "kbd:+4V5R" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+4V5R" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+1V1\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+4V5R_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+4V5R_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+4V5" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "kbd:+5VR" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -2438,10 +2429,6 @@
     (stroke (width 0) (type default))
     (uuid 0aa65106-33f8-4260-ad7f-6dcc5a80b2ee)
   )
-  (wire (pts (xy 106.68 146.05) (xy 114.935 146.05))
-    (stroke (width 0) (type default))
-    (uuid 0c89825d-3a3f-4567-95f8-46684e70c1da)
-  )
   (wire (pts (xy 138.43 101.6) (xy 147.32 101.6))
     (stroke (width 0) (type default))
     (uuid 0d2d011f-75d7-4fa7-b05d-afb406cbceb1)
@@ -2626,10 +2613,6 @@
     (stroke (width 0) (type default))
     (uuid 5e062b61-b075-40e4-b3f9-74fb97f5f80b)
   )
-  (wire (pts (xy 309.88 46.99) (xy 308.61 46.99))
-    (stroke (width 0) (type default))
-    (uuid 5ec55477-9aba-4f92-8647-b2f005f48967)
-  )
   (wire (pts (xy 27.94 184.15) (xy 30.48 184.15))
     (stroke (width 0) (type default))
     (uuid 5eff1c8f-a8d3-48e5-bb68-edf60622ea04)
@@ -2694,10 +2677,6 @@
     (stroke (width 0) (type default))
     (uuid 88399019-fef2-4b78-acef-7005d5516614)
   )
-  (wire (pts (xy 106.68 143.51) (xy 114.935 143.51))
-    (stroke (width 0) (type default))
-    (uuid 89239eaa-480c-4f6b-880c-7b05453cb37b)
-  )
   (wire (pts (xy 57.15 105.41) (xy 68.58 105.41))
     (stroke (width 0) (type default))
     (uuid 8b6b5201-3e8f-43b5-857e-f9e3a50b691e)
@@ -2737,10 +2716,6 @@
   (wire (pts (xy 88.9 114.3) (xy 88.9 120.65))
     (stroke (width 0) (type default))
     (uuid a63d86d9-8b3e-4e13-9b1b-640ad05d76ef)
-  )
-  (wire (pts (xy 309.88 44.45) (xy 308.61 44.45))
-    (stroke (width 0) (type default))
-    (uuid a88533a6-7306-4ff3-af93-c824f2289ad3)
   )
   (wire (pts (xy 279.4 215.9) (xy 279.4 219.71))
     (stroke (width 0) (type default))
@@ -3015,10 +2990,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 93dffe34-2a47-48a2-86fd-5a15d56612e3)
   )
-  (text "OLED" (at 300.736 29.464 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid a5fe0891-6d91-41f3-b52a-19881ae63a19)
-  )
   (text "close to pin 45" (at 50.292 114.046 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d009c383-2e9c-4b56-b57c-8569d374bd95)
@@ -3047,10 +3018,6 @@
   (label "TX" (at 106.68 158.75 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0eda859b-76e0-4f58-8ce5-31fd61362159)
-  )
-  (label "SCL" (at 309.88 44.45 0) (fields_autoplaced)
-    (effects (font (size 1 1)) (justify left bottom))
-    (uuid 1868ecdc-5506-44c5-9e95-ea9922867514)
   )
   (label "RE0A" (at 269.875 105.41 90) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
@@ -3148,10 +3115,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4cd52293-541f-49c3-bc8f-8cda9cf57701)
   )
-  (label "SDA" (at 114.935 143.51 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 521704fd-f924-468c-b592-2eff562906b0)
-  )
   (label "KEY9" (at 106.68 168.91 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 568ebba9-80ae-4c60-95c0-c61e2cb8b728)
@@ -3219,10 +3182,6 @@
   (label "KEY1" (at 243.84 153.67 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 84b7b931-a05c-4ec9-8321-e004ae3b8d18)
-  )
-  (label "SCL" (at 114.935 146.05 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 858805a9-4212-4157-8688-88551ee63cb2)
   )
   (label "KEY19" (at 106.68 148.59 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3324,10 +3283,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d3c6b576-999f-4329-a6ae-cac9f201cda1)
   )
-  (label "SDA" (at 309.88 46.99 0) (fields_autoplaced)
-    (effects (font (size 1 1)) (justify left bottom))
-    (uuid d6025e86-9424-40cb-b02f-595aa17df477)
-  )
   (label "KEYEX1" (at 106.68 191.77 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dbccd7a4-19ea-4d8b-97b1-a334a30bb7c6)
@@ -3428,14 +3383,33 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR062") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0118") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "kbd_local:VBUSR") (at 274.32 38.735 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 024050eb-fbde-41e9-86c8-3d9d2bea7106)
+    (property "Reference" "#PWR07" (at 270.51 38.735 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VBUSR" (at 277.495 38.735 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 274.32 38.735 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 274.32 38.735 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1da8f4d7-75cc-4ef0-baee-fc0afaad36c0))
+    (instances
+      (project "corne-cherry"
+        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -3467,12 +3441,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED10") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED10") (unit 1)
         )
@@ -3504,12 +3472,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rC?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rC2") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rC2") (unit 1)
         )
@@ -3570,12 +3532,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR047") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0126") (unit 1)
         )
@@ -3607,12 +3563,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW6") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW6") (unit 1)
         )
@@ -3644,12 +3594,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW4") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW4") (unit 1)
         )
@@ -3680,12 +3624,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR036") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0104") (unit 1)
         )
@@ -3716,12 +3654,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR049") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0129") (unit 1)
         )
@@ -3757,12 +3689,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rU?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rU2") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rU2") (unit 1)
         )
@@ -3796,12 +3722,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED5") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED5") (unit 1)
         )
@@ -3862,12 +3782,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR055") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0107") (unit 1)
         )
@@ -3898,12 +3812,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR037") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0123") (unit 1)
         )
@@ -3953,12 +3861,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rJ?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rJ1") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rJ1") (unit 1)
         )
@@ -3989,12 +3891,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR01") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0155") (unit 1)
         )
@@ -4025,12 +3921,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR015") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0146") (unit 1)
         )
@@ -4065,12 +3955,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rEXSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rEXSW2") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rEXSW2") (unit 1)
         )
@@ -4101,12 +3985,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR06") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0151") (unit 1)
         )
@@ -4138,12 +4016,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW5") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW5") (unit 1)
         )
@@ -4174,12 +4046,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR028") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0112") (unit 1)
         )
@@ -4213,12 +4079,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED18") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED18") (unit 1)
         )
@@ -4250,12 +4110,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW16") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW16") (unit 1)
         )
@@ -4319,12 +4173,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED11") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED11") (unit 1)
         )
@@ -4355,12 +4203,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR052") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0127") (unit 1)
         )
@@ -4391,12 +4233,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR025") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0134") (unit 1)
         )
@@ -4427,12 +4263,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR056") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR063") (unit 1)
         )
@@ -4464,12 +4294,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW15") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW15") (unit 1)
         )
@@ -4501,12 +4325,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rR2") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rR2") (unit 1)
         )
@@ -4541,12 +4359,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rD?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rD1") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rD1") (unit 1)
         )
@@ -4589,12 +4401,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rY?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rY1") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rY1") (unit 1)
         )
@@ -4628,12 +4434,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED7") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED7") (unit 1)
         )
@@ -4665,12 +4465,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW1") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW1") (unit 1)
         )
@@ -4701,12 +4495,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR038") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0131") (unit 1)
         )
@@ -4737,12 +4525,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR027") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0138") (unit 1)
         )
@@ -4803,12 +4585,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rC?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rC3") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rC3") (unit 1)
         )
@@ -4872,12 +4648,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED8") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED8") (unit 1)
         )
@@ -4908,12 +4678,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR08") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0147") (unit 1)
         )
@@ -4924,7 +4688,7 @@
   (symbol (lib_id "Device:R_Small") (at 62.865 38.735 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4cc04ab4-e03b-49b8-a667-0e54068cf50c)
-    (property "Reference" "R?" (at 60.96 38.735 90)
+    (property "Reference" "rR8" (at 60.96 38.735 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.6k" (at 62.865 38.735 90)
@@ -4940,12 +4704,6 @@
     (pin "2" (uuid 443fa0e2-4a75-40ff-af92-e2557d1f1e1c))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "R8") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rR8") (unit 1)
         )
@@ -4977,12 +4735,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rC?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rC4") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rC4") (unit 1)
         )
@@ -5013,12 +4765,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0128") (unit 1)
         )
@@ -5052,12 +4798,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED12") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED12") (unit 1)
         )
@@ -5091,12 +4831,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED4") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED4") (unit 1)
         )
@@ -5127,12 +4861,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR051") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0125") (unit 1)
         )
@@ -5164,12 +4892,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rC?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rC8") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rC8") (unit 1)
         )
@@ -5201,12 +4923,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW17") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW17") (unit 1)
         )
@@ -5238,12 +4954,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rC?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rC12") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rC12") (unit 1)
         )
@@ -5275,12 +4985,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW21") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW21") (unit 1)
         )
@@ -5311,12 +5015,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR09") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0139") (unit 1)
         )
@@ -5347,12 +5045,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0159") (unit 1)
         )
@@ -5383,12 +5075,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR035") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0101") (unit 1)
         )
@@ -5456,6 +5142,56 @@
     )
   )
 
+  (symbol (lib_id "power:PWR_FLAG") (at 90.17 60.96 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 64077018-d6d1-4e0c-87dc-2fcc2c3836ec)
+    (property "Reference" "#FLG05" (at 90.17 62.865 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 90.17 64.77 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 90.17 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 90.17 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 88beff4f-1596-4819-bd04-3af4d7a472e6))
+    (instances
+      (project "corne-cherry"
+        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
+          (reference "#FLG05") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "kbd:+4V5R") (at 90.17 60.96 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 64fbcc83-2f77-47d8-97a7-871bd7c263d3)
+    (property "Reference" "#PWR080" (at 90.17 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+4V5R" (at 90.17 55.88 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 90.17 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 90.17 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 39ad07df-7811-49bd-bbe7-d050fec7accc))
+    (instances
+      (project "corne-cherry"
+        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
+          (reference "#PWR080") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "kbd:GNDR") (at 254 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67f9ffa3-60b8-4f90-8059-cf34eef861d4)
@@ -5479,12 +5215,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR050") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0102") (unit 1)
         )
@@ -5516,12 +5246,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW9") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW9") (unit 1)
         )
@@ -5553,12 +5277,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rC?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rC10") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rC10") (unit 1)
         )
@@ -5569,7 +5287,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack3") (at 269.24 36.195 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70db14b3-1c57-44d2-bda1-82d6e0714721)
-    (property "Reference" "J2" (at 267.335 27.94 0)
+    (property "Reference" "rJ2" (at 267.335 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TRS" (at 267.335 30.48 0)
@@ -5589,41 +5307,8 @@
     (pin "T" (uuid deb2209f-6a08-461b-a7d2-43749282112a))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "J2") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rJ2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "kbd:+5VR") (at 274.32 38.735 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7135ad8b-930d-4bc1-9c40-d7e46954c0b1)
-    (property "Reference" "#PWR075" (at 270.51 38.735 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5VR" (at 278.13 38.735 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 274.32 38.735 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 274.32 38.735 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dfd1550b-b60f-4fbf-ba25-538548c171ce))
-    (instances
-      (project "right"
-        (path "/04ecfb8d-8dc8-41d9-b176-68a9b73f1e5e"
-          (reference "#PWR075") (unit 1)
-        )
-      )
-      (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -5653,12 +5338,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW19") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW19") (unit 1)
         )
@@ -5701,12 +5380,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rU?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rU3") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rU3") (unit 1)
         )
@@ -5738,12 +5411,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rC?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rC1") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rC1") (unit 1)
         )
@@ -5774,12 +5441,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR03") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0156") (unit 1)
         )
@@ -5814,12 +5475,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rEXSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rEXSW1") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rEXSW1") (unit 1)
         )
@@ -5851,44 +5506,8 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW2") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "kbd:+5VR") (at 308.61 41.91 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 75fa14af-4739-47fd-b8a3-0c925313d4a4)
-    (property "Reference" "#PWR075" (at 304.8 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5VR" (at 312.42 41.91 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 308.61 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 308.61 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 47dc52c3-cee9-43e1-b553-77053a1578cb))
-    (instances
-      (project "right"
-        (path "/04ecfb8d-8dc8-41d9-b176-68a9b73f1e5e"
-          (reference "#PWR075") (unit 1)
-        )
-      )
-      (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -5918,50 +5537,8 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rC?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rC6") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rC6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "kbd:GNDR") (at 308.61 39.37 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 77496d39-41d1-4c22-a4f5-befefdde1e7b)
-    (property "Reference" "#PWR?" (at 314.96 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDR" (at 313.69 39.37 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 308.61 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 308.61 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3e856ce2-d707-4363-9f82-dc93340de6aa))
-    (instances
-      (project "right"
-        (path "/04ecfb8d-8dc8-41d9-b176-68a9b73f1e5e"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR060") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-          (reference "#PWR0117") (unit 1)
         )
       )
     )
@@ -5991,12 +5568,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW13") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW13") (unit 1)
         )
@@ -6027,12 +5598,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR024") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0136") (unit 1)
         )
@@ -6064,12 +5629,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rR3") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rR3") (unit 1)
         )
@@ -6103,12 +5662,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rEXLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rEXLED1") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rEXLED1") (unit 1)
         )
@@ -6140,12 +5693,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rR7") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rR7") (unit 1)
         )
@@ -6179,12 +5726,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED9") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED9") (unit 1)
         )
@@ -6218,12 +5759,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED21") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED21") (unit 1)
         )
@@ -6255,12 +5790,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW7") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW7") (unit 1)
         )
@@ -6291,12 +5820,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0113") (unit 1)
         )
@@ -6327,12 +5850,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0149") (unit 1)
         )
@@ -6367,12 +5884,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSMDSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSMDSW2") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSMDSW2") (unit 1)
         )
@@ -6404,12 +5915,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW14") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW14") (unit 1)
         )
@@ -6473,12 +5978,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED2") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED2") (unit 1)
         )
@@ -6510,12 +6009,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rC?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rC7") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rC7") (unit 1)
         )
@@ -6547,12 +6040,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rC?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rC16") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rC16") (unit 1)
         )
@@ -6583,12 +6070,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR019") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0160") (unit 1)
         )
@@ -6619,12 +6100,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR033") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0110") (unit 1)
         )
@@ -6655,12 +6130,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR032") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0105") (unit 1)
         )
@@ -6691,12 +6160,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR059") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR064") (unit 1)
         )
@@ -6730,12 +6193,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED20") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED20") (unit 1)
         )
@@ -6766,12 +6223,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR019") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR082") (unit 1)
         )
@@ -6803,12 +6254,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rR4") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rR4") (unit 1)
         )
@@ -6839,12 +6284,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#FLG?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#FLG01") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#FLG0101") (unit 1)
         )
@@ -6876,12 +6315,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rC?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rC15") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rC15") (unit 1)
         )
@@ -6913,12 +6346,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rC?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rC13") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rC13") (unit 1)
         )
@@ -6950,12 +6377,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW3") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW3") (unit 1)
         )
@@ -6987,12 +6408,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rR5") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rR5") (unit 1)
         )
@@ -7024,12 +6439,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rC?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rC14") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rC14") (unit 1)
         )
@@ -7060,12 +6469,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR041") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0108") (unit 1)
         )
@@ -7127,12 +6530,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW20") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW20") (unit 1)
         )
@@ -7163,12 +6560,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR029") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0106") (unit 1)
         )
@@ -7229,12 +6620,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR057") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR058") (unit 1)
         )
@@ -7268,12 +6653,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED13") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED13") (unit 1)
         )
@@ -7307,12 +6686,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED16") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED16") (unit 1)
         )
@@ -7346,12 +6719,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED19") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED19") (unit 1)
         )
@@ -7382,12 +6749,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR045") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0120") (unit 1)
         )
@@ -7395,40 +6756,26 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x04") (at 303.53 44.45 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid bfb803ba-2599-42c3-87c8-59e603790cf8)
-    (property "Reference" "rJ?" (at 303.53 33.274 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x04" (at 303.53 35.814 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "kbd_local:OLED" (at 303.53 44.45 0)
+  (symbol (lib_id "kbd:+4V5R") (at 226.06 190.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bfc8bc04-85ab-4751-8447-2e8c4aca3169)
+    (property "Reference" "#PWR081" (at 226.06 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 303.53 44.45 0)
+    (property "Value" "+4V5R" (at 226.06 185.42 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 226.06 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 16114750-a3ee-4a92-b0bd-bfb8736e2f43))
-    (pin "2" (uuid a5a91868-5a97-403b-8143-a78bce4e024b))
-    (pin "3" (uuid a84b0623-482f-4981-83a2-d44afd589272))
-    (pin "4" (uuid c3829efa-42fb-4935-bdde-22a780069d26))
+    (property "Datasheet" "" (at 226.06 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9039a1a8-5583-4018-9398-518608101717))
     (instances
-      (project "right"
-        (path "/04ecfb8d-8dc8-41d9-b176-68a9b73f1e5e"
-          (reference "rJ?") (unit 1)
-        )
-      )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rJ?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rJ3") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-          (reference "rJ3") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -7458,12 +6805,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW11") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW11") (unit 1)
         )
@@ -7498,12 +6839,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSMDSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSMDSW1") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSMDSW1") (unit 1)
         )
@@ -7563,12 +6898,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR046") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0109") (unit 1)
         )
@@ -7600,12 +6929,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW18") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW18") (unit 1)
         )
@@ -7637,12 +6960,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW8") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW8") (unit 1)
         )
@@ -7674,12 +6991,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rC?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rC11") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rC11") (unit 1)
         )
@@ -7713,12 +7024,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED3") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED3") (unit 1)
         )
@@ -7752,12 +7057,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED1") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED1") (unit 1)
         )
@@ -7791,12 +7090,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED17") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED17") (unit 1)
         )
@@ -7827,12 +7120,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#FLG?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#FLG02") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#FLG0102") (unit 1)
         )
@@ -7863,12 +7150,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR044") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0130") (unit 1)
         )
@@ -7932,12 +7213,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rJ?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rJ4") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rJ4") (unit 1)
         )
@@ -7968,12 +7243,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR02") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0148") (unit 1)
         )
@@ -8005,12 +7274,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW10") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW10") (unit 1)
         )
@@ -8042,12 +7305,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rSW?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rSW12") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rSW12") (unit 1)
         )
@@ -8088,12 +7345,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rU?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rU4") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rU4") (unit 1)
         )
@@ -8153,12 +7404,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR043") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0133") (unit 1)
         )
@@ -8189,12 +7434,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR053") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0122") (unit 1)
         )
@@ -8284,12 +7523,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rU?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rU1") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rU1") (unit 1)
         )
@@ -8350,12 +7583,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR012") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0144") (unit 1)
         )
@@ -8387,12 +7614,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rC?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rC9") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rC9") (unit 1)
         )
@@ -8423,12 +7644,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR054") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0103") (unit 1)
         )
@@ -8462,12 +7677,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED6") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED6") (unit 1)
         )
@@ -8478,7 +7687,7 @@
   (symbol (lib_id "Diode:ESD5Zxx") (at 73.66 33.02 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5e25013-53a9-4b00-a39f-44d22886460e)
-    (property "Reference" "ZD?" (at 75.565 35.56 0)
+    (property "Reference" "rZD1" (at 75.565 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RB521S30T1G" (at 85.09 38.1 0)
@@ -8497,12 +7706,6 @@
     (pin "2" (uuid 604b8761-c577-4566-9935-56658519c377))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "ZD?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "ZD1") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rZD1") (unit 1)
         )
@@ -8536,12 +7739,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED15") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED15") (unit 1)
         )
@@ -8572,12 +7769,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR05") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0150") (unit 1)
         )
@@ -8608,12 +7799,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR077") (unit 1)
         )
@@ -8647,12 +7832,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rEXLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rEXLED2") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rEXLED2") (unit 1)
         )
@@ -8663,7 +7842,7 @@
   (symbol (lib_id "Device:R_Small") (at 62.865 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef91f8ff-2f66-41be-a60d-a32d39725fee)
-    (property "Reference" "R?" (at 60.96 45.72 90)
+    (property "Reference" "rR9" (at 60.96 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 62.865 45.72 90)
@@ -8679,12 +7858,6 @@
     (pin "2" (uuid 9e4aef64-4e52-41a6-952c-3dce0d69a470))
     (instances
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "R9") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rR9") (unit 1)
         )
@@ -8715,12 +7888,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR042") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0132") (unit 1)
         )
@@ -8752,12 +7919,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rR1") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rR1") (unit 1)
         )
@@ -8788,12 +7949,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR040") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0135") (unit 1)
         )
@@ -8824,12 +7979,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR030") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0111") (unit 1)
         )
@@ -8860,12 +8009,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "#PWR026") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "#PWR0121") (unit 1)
         )
@@ -8897,12 +8040,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rC?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rC5") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rC5") (unit 1)
         )
@@ -8934,12 +8071,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rR?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rR6") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rR6") (unit 1)
         )
@@ -8973,12 +8104,6 @@
         )
       )
       (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-          (reference "rLED?") (unit 1)
-        )
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-          (reference "rLED14") (unit 1)
-        )
         (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
           (reference "rLED14") (unit 1)
         )
