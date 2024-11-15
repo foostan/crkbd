@@ -29,6 +29,12 @@ Crkbd stands for Corne Keyboard.
   - v1 Soldering: ([JP](docs/corne-light/v1/buildguide_jp.md)/[EN](docs/corne-light/v1/buildguide_en.md)):
   - v2 Soldering: ([JP](docs/corne-light/v2/buildguide_low_edition_jp.md)/[EN](docs/corne-light/v2/buildguide_low_edition_en.md)):
 
+## Notice
+There are currently reports of a bug in v4.* caused by electromagnetic interference. Depending on the environment, one or both of the left and right keyboards may stop working. It is known that this is often caused by EMI emitted by mobile phones. If you experience this kind of problem, reconnect the USB, move the EMI-generating device (probably a mobile phone) more than 30 cm away from the keyboard, and observe the situation.
+
+For more details, please see this issue. We look forward to receiving any new information.
+https://github.com/foostan/crkbd/issues/265
+
 ## Images
 
 ### Cherry
