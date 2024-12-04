@@ -1,55 +1,95 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 4cc5d416-57f5-4147-8183-e03ae6b1198a)
-
-  (paper "A5")
-
-  (title_block
-    (title "Corne")
-    (date "2024-05-07")
-    (rev "4.1.0")
-    (company "foostan")
-  )
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 26.67 38.1) (size 54.61 43.18) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 089db7cd-2934-428b-a62a-55e0735649ba)
-    (property "Sheetname" "left" (at 26.67 37.3884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "../../common/left.kicad_sch" (at 26.67 81.8646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 86.36 38.1) (size 52.07 44.45) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 50d96a5e-3d25-4129-9495-15388c76587f)
-    (property "Sheetname" "right" (at 86.36 37.3884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "../../common/right.kicad_sch" (at 86.36 83.1346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "corne-cherry"
-        (path "/4cc5d416-57f5-4147-8183-e03ae6b1198a" (page "3"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4cc5d416-57f5-4147-8183-e03ae6b1198a")
+	(paper "A5")
+	(title_block
+		(title "Corne")
+		(date "2024-05-07")
+		(rev "4.1.0")
+		(company "foostan")
+	)
+	(lib_symbols)
+	(sheet
+		(at 26.67 38.1)
+		(size 54.61 43.18)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "089db7cd-2934-428b-a62a-55e0735649ba")
+		(property "Sheetname" "left"
+			(at 26.67 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../common/left.kicad_sch"
+			(at 26.67 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "corne-cherry"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 38.1)
+		(size 52.07 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "50d96a5e-3d25-4129-9495-15388c76587f")
+		(property "Sheetname" "right"
+			(at 86.36 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../common/right.kicad_sch"
+			(at 86.36 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "corne-cherry"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
