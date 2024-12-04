@@ -9442,6 +9442,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5149201"
+			(at 208.28 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58a94d2d-828c-44af-a982-c084359bdfa8")
 		)
@@ -9515,6 +9524,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C270320"
+			(at 58.42 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4042922c-6f79-4109-9274-bb3043c2865b")
 		)
@@ -9555,7 +9573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 241.3 102.87 0)
 			(effects
 				(font
@@ -9717,6 +9735,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5149201"
+			(at 254 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1df59c13-4f54-4b5d-843a-8754fada4f8b")
 		)
@@ -9858,6 +9885,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5149201"
+			(at 269.24 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cefc47e4-8d04-412a-949e-c523f2da9948")
 		)
@@ -9971,7 +10007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 254 102.87 0)
 			(effects
 				(font
@@ -10131,6 +10167,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25744"
+			(at 67.945 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28d1c38e-16c3-4404-8ab3-0d0ee5292c69")
 		)
@@ -10237,7 +10282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 228.6 102.87 0)
 			(effects
 				(font
@@ -10304,7 +10349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 241.3 133.35 0)
 			(effects
 				(font
@@ -10747,7 +10792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 190.5 133.35 0)
 			(effects
 				(font
@@ -10909,6 +10954,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5149201"
+			(at 208.28 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4cc7706f-bba5-4154-b107-703f3363988d")
 		)
@@ -11020,7 +11074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 190.5 102.87 0)
 			(effects
 				(font
@@ -11182,6 +11236,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5149201"
+			(at 238.76 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5dbd66c4-ea89-41de-880b-51d6b71beba9")
 		)
@@ -11257,6 +11320,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5149201"
+			(at 269.24 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bdd9320c-82ea-4900-9fdb-6010db094d3c")
 		)
@@ -11297,7 +11369,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148WT"
+		(property "Value" "1N4148W"
 			(at 218.44 182.88 90)
 			(effects
 				(font
@@ -11333,7 +11405,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C232841"
+		(property "JLCPCB Part #" "C2128"
 			(at 215.9 181.61 90)
 			(effects
 				(font
@@ -11477,6 +11549,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5149201"
+			(at 284.48 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f3e1f50-8876-46d3-b929-ca936ab8e497")
 		)
@@ -11523,7 +11604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 241.3 118.11 0)
 			(effects
 				(font
@@ -11686,6 +11767,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C85899"
+			(at 38.1 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e2fc95d3-523e-4303-a296-cdae2d8143d6")
 		)
@@ -11821,6 +11911,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5149201"
+			(at 254 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb2f8cf4-cfc5-49cb-b5c3-7b2833dafcd4")
 		)
@@ -11867,7 +11966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1.5u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1.5u"
 			(at 254 148.59 0)
 			(effects
 				(font
@@ -11934,7 +12033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 215.9 118.11 0)
 			(effects
 				(font
@@ -11981,7 +12080,7 @@
 		(at 17.78 264.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12065,7 +12164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 203.2 118.11 0)
 			(effects
 				(font
@@ -12161,6 +12260,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5149201"
+			(at 223.52 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d9bc3a0-f765-4a26-bf2a-5aeb02a08120")
 		)
@@ -12228,6 +12336,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 193.04 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C5149201"
 			(at 193.04 245.11 0)
 			(effects
 				(font
@@ -12433,6 +12550,15 @@
 		)
 		(property "Description" ""
 			(at 67.945 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25908"
+			(at 67.945 38.735 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12698,6 +12824,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 223.52 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C5149201"
 			(at 223.52 227.33 0)
 			(effects
 				(font
@@ -13013,6 +13148,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5149201"
+			(at 193.04 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf4ecf36-669a-4522-ad32-15f4a8490276")
 		)
@@ -13059,7 +13203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 203.2 133.35 0)
 			(effects
 				(font
@@ -13192,7 +13336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 215.9 133.35 0)
 			(effects
 				(font
@@ -13335,7 +13479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 203.2 102.87 0)
 			(effects
 				(font
@@ -13595,7 +13739,7 @@
 		(at 208.28 196.85 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13706,6 +13850,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76939"
 			(at 124.46 104.14 0)
 			(effects
 				(font
@@ -13914,6 +14067,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5149201"
+			(at 254 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f64652ff-91ca-4236-b89c-97f1ea69d2aa")
 		)
@@ -14046,6 +14208,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 62.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76939"
 			(at 62.23 102.87 0)
 			(effects
 				(font
@@ -14255,6 +14426,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5149201"
+			(at 238.76 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad4790e3-e327-417d-93b2-aa10aee5e256")
 		)
@@ -14322,6 +14502,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 73.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76939"
 			(at 73.66 102.87 0)
 			(effects
 				(font
@@ -14441,7 +14630,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u2"
+		(property "Value" "1u"
 			(at 76.2 114.3 0)
 			(effects
 				(font
@@ -14469,6 +14658,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 73.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C52923"
 			(at 73.66 113.03 0)
 			(effects
 				(font
@@ -14604,6 +14802,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76939"
 			(at 114.3 104.14 0)
 			(effects
 				(font
@@ -14772,6 +14979,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5149201"
+			(at 238.76 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e45eb6ec-933b-48ab-abe8-bbff0e362c52")
 		)
@@ -14913,6 +15129,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C76939"
+			(at 133.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1959063c-ae56-4580-8f40-b8851e3ad97b")
 		)
@@ -14974,6 +15199,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 125.73 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15850"
 			(at 125.73 35.56 0)
 			(effects
 				(font
@@ -15220,7 +15454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 254 133.35 0)
 			(effects
 				(font
@@ -15267,7 +15501,7 @@
 		(at 17.78 270.51 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15380,6 +15614,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C76939"
+			(at 143.51 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e6d65c9-fcef-4b9a-a11b-6beac1623605")
 		)
@@ -15466,7 +15709,7 @@
 		(at 308.61 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "957d30f4-c88f-4d0e-8485-7a739183063d")
@@ -15654,6 +15897,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C76939"
+			(at 104.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5102a089-dcd2-4474-8f88-2260f2e62148")
 		)
@@ -15674,7 +15926,7 @@
 		(at 17.78 276.86 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -16301,6 +16553,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C270320"
+			(at 58.42 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eebd99ed-b6dc-40c5-8bd1-68e47b91cd02")
 		)
@@ -16363,6 +16624,15 @@
 		)
 		(property "Description" ""
 			(at 38.1 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C85899"
+			(at 38.1 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16476,7 +16746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 228.6 118.11 0)
 			(effects
 				(font
@@ -16523,7 +16793,7 @@
 		(at 328.93 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -16813,7 +17083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 190.5 118.11 0)
 			(effects
 				(font
@@ -16973,7 +17243,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25905"
+		(property "LCSC Part #" "C270344"
 			(at 53.34 40.64 90)
 			(effects
 				(font
@@ -17051,6 +17321,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C76939"
+			(at 162.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2cb3490-4803-4e24-9ca0-06419f366881")
 		)
@@ -17112,6 +17391,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76939"
 			(at 152.4 104.14 0)
 			(effects
 				(font
@@ -17255,6 +17543,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5149201"
+			(at 284.48 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e25f118-6e6e-4049-ada4-59159efcd85d")
 		)
@@ -17330,6 +17627,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5149201"
+			(at 223.52 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5132b5fd-cd17-4c7b-beb4-54b7f8a96676")
 		)
@@ -17376,7 +17682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 215.9 102.87 0)
 			(effects
 				(font
@@ -17464,6 +17770,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 208.28 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C5149201"
 			(at 208.28 245.11 0)
 			(effects
 				(font
@@ -17624,6 +17939,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25744"
+			(at 212.09 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "247ffac7-90ae-443c-9e1d-4861700aeed5")
 		)
@@ -17664,7 +17988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 241.3 148.59 0)
 			(effects
 				(font
@@ -17817,6 +18141,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 237.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76939"
 			(at 237.49 36.83 0)
 			(effects
 				(font
@@ -18026,6 +18359,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C15850"
+			(at 97.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff7c567d-97a3-42a0-a644-e6f7e41e83f7")
 		)
@@ -18172,6 +18514,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5149201"
+			(at 254 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e98e57c-6283-4eda-b71d-d6191b9ab6c0")
 		)
@@ -18239,6 +18590,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 269.24 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C5149201"
 			(at 269.24 262.89 0)
 			(effects
 				(font
@@ -18520,7 +18880,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 228.6 148.59 0)
 			(effects
 				(font
@@ -18747,6 +19107,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5149201"
+			(at 238.76 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52d76f6b-a098-4620-82f1-11e025ce8d19")
 		)
@@ -18815,6 +19184,15 @@
 		)
 		(property "Description" ""
 			(at 55.88 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C11702"
+			(at 55.88 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18949,6 +19327,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 269.24 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C5149201"
 			(at 269.24 227.33 0)
 			(effects
 				(font
@@ -19134,7 +19521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 254 118.11 0)
 			(effects
 				(font
@@ -19222,6 +19609,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 193.04 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C5149201"
 			(at 193.04 227.33 0)
 			(effects
 				(font
@@ -19422,7 +19818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u"
 			(at 228.6 133.35 0)
 			(effects
 				(font
@@ -19482,7 +19878,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u2"
+		(property "Value" "1u"
 			(at 107.95 114.3 0)
 			(effects
 				(font
@@ -19510,6 +19906,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C52923"
 			(at 105.41 113.03 0)
 			(effects
 				(font
@@ -19585,7 +19990,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25905"
+		(property "LCSC Part #" "C270344"
 			(at 53.34 38.1 90)
 			(effects
 				(font
@@ -19614,7 +20019,7 @@
 		(at 17.78 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -19720,6 +20125,15 @@
 		)
 		(property "Description" ""
 			(at 204.47 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C11702"
+			(at 204.47 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
