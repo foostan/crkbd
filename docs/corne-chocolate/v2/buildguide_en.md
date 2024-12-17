@@ -2,7 +2,7 @@
 
 This is the build guide for Corne Chocolate.
 [Click here for the Corne Cherry build guide](
-https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/buildguide_en.md).
+https://github.com/foostan/crkbd/blob/master/docs/corne-cherry/v2/buildguide_en.md).
 
 ## Parts
 
