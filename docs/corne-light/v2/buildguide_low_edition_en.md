@@ -40,7 +40,7 @@ This is the build guide for Corne Light v2 Low edition.
 If you build the firmware yourself,
 it takes time to prepare the environment,
 so it is recommended to start first. \
-See <https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md>
+See <https://github.com/foostan/crkbd/blob/master/docs/firmware_en.md>
 for more information.
 
 ## Verification
@@ -159,7 +159,7 @@ so be careful not to float it while pressing it with your finger.
 ### Firmware
 
 Write the firmware to ProMicro by referring to the following. \
-<https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md>
+<https://github.com/foostan/crkbd/blob/master/docs/firmware_en.md>
 
 ### Operation check
 

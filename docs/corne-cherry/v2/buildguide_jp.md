@@ -1,7 +1,7 @@
 # Build Guide
 
 こちらは Corne Cherry v2 のビルドガイドになります。
-[Corne Cherry v3 はこちら](https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v3/buildguide_jp.md)。
+[Corne Cherry v3 はこちら](https://github.com/foostan/crkbd/blob/master/docs/corne-cherry/v3/buildguide_jp.md)。
 
 ## 部品
 
@@ -41,7 +41,7 @@
 ## 事前準備
 
 ファームウェアを自分でビルドする場合は環境を整備するのに時間がかかるのではじめに取り掛かっておくことをおすすめします。\
-詳しくは <https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md> を参照してください。
+詳しくは <https://github.com/foostan/crkbd/blob/master/docs/firmware_jp.md> を参照してください。
 
 ## 実装
 
@@ -53,7 +53,7 @@ PCBはリバーシブルになっているので、最初にどちらを左用/�
 
 チップ部品のダイオードのはんだづけを行います。
 どちらの面に取り付けるかは自由ですが、このビルドガイドでは裏面に取り付けていきます。
-なお、[Tilting/Tenting plate](https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/buildguide_tilting_tenting_plate_jp.md)を利用する場合は __必ず裏面につけてください__。
+なお、[Tilting/Tenting plate](https://github.com/foostan/crkbd/blob/master/docs/corne-cherry/v2/buildguide_tilting_tenting_plate_jp.md)を利用する場合は __必ず裏面につけてください__。
 
 チップ部品は非常に小さいためピンセット及び逆作用ピンセットがあると作業がしやすくなります。
 **ダイオードは取り付ける向きが決まっている**ので、次の写真のように予め取り付ける列と行、ダイオードの向きを揃えて配置しておくとスムーズに進められます。
@@ -161,7 +161,7 @@ ProMicroとOLEDモジュールを付けた段階で動作確認をすること�
 ## ファームウェア
 
 下記を参照しファームウェアをProMicroに書き込みます。\
-<https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md>
+<https://github.com/foostan/crkbd/blob/master/docs/firmware_jp.md>
 
 ## LED（オプション）
 

@@ -2,7 +2,7 @@
 
 This is the build guide for Corne Cherry v2.
 [Click here for the Corne Cherry v3 build guide](
-https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v3/buildguide_en.md).
+https://github.com/foostan/crkbd/blob/master/docs/corne-cherry/v3/buildguide_en.md).
 
 ## Parts
 
@@ -44,7 +44,7 @@ https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v3/buildguide_en.m
 If you build the firmware yourself,
 it takes time to prepare the environment,
 so it is recommended to start first. \
-See <https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md>
+See <https://github.com/foostan/crkbd/blob/master/docs/firmware_en.md>
 for more information.
 
 ## Implementation
@@ -60,7 +60,7 @@ Solder the diode of the chip part.
 You can attach it to either side, but in this build guide,
 we will attach it to the back side.
 When using [Tilting / Tenting plate](
-https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/buildguide_tilting_tenting_plate_en.md),
+https://github.com/foostan/crkbd/blob/master/docs/corne-cherry/v2/buildguide_tilting_tenting_plate_en.md),
 be sure to attach it to the back side \_\_.
 
 Since the chip parts are very small,
@@ -214,7 +214,7 @@ and attach the cushion rubber to the four corners to complete the process.
 ## Firmware
 
 Write the firmware to ProMicro by referring to the following. \
-<https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md>
+<https://github.com/foostan/crkbd/blob/master/docs/firmware_en.md>
 
 ## LED (optional)
 

@@ -38,7 +38,7 @@ If you build the firmware yourself,
 it will take some time to set up the environment,
 so it's best to start at the beginning. \
 For more information,
-please see <https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md>.
+please see <https://github.com/foostan/crkbd/blob/master/docs/firmware_en.md>.
 
 ## Soldering
 
@@ -264,7 +264,7 @@ Lastly install keycaps.
 ## Firmware
 
 See below to flash the firmware to the ProMicro. \
-<https://github.com/foostan/crkbd/blob/master/doc/firmware_en.md>
+<https://github.com/foostan/crkbd/blob/master/docs/firmware_en.md>
 
 ### Turning LEDS on
 
