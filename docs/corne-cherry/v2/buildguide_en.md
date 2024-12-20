@@ -44,7 +44,7 @@ https://github.com/foostan/crkbd/blob/master/docs/corne-cherry/v3/buildguide_en.
 If you build the firmware yourself,
 it takes time to prepare the environment,
 so it is recommended to start first. \
-See <https://github.com/foostan/crkbd/blob/master/docs/firmware_en.md>
+See [docs/firmware/rev1](../../firmware/rev1/firmware_en.md)
 for more information.
 
 ## Implementation
@@ -214,7 +214,7 @@ and attach the cushion rubber to the four corners to complete the process.
 ## Firmware
 
 Write the firmware to ProMicro by referring to the following. \
-<https://github.com/foostan/crkbd/blob/master/docs/firmware_en.md>
+[docs/firmware/rev1](../../firmware/rev1/firmware_en.md)
 
 ## LED (optional)
 

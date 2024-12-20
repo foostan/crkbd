@@ -43,7 +43,7 @@ If you build the firmware yourself,
 it will take some time to set up the environment,
 so it's best to start at the beginning. \
 For more information,
-please see <https://github.com/foostan/crkbd/blob/master/docs/firmware/rev1/firmware_en.md>.
+please see [docs/firmware/rev1](../../firmware/rev1/firmware_en.md).
 
 ## Building
 
@@ -276,7 +276,7 @@ because it looks better.
 ## Firmware
 
 See below to flash the firmware to the ProMicro. \
-<https://github.com/foostan/crkbd/blob/master/docs/firmware/rev1/firmware_en.md>
+[docs/firmware/rev1](../../firmware/rev1/firmware_en.md)
 
 This is the end.
 
