@@ -39,7 +39,7 @@
 ## 事前準備
 
 ファームウェアを自分でビルドする場合は環境を整備するのに時間がかかるのではじめに取り掛かっておくことをおすすめします。\
-詳しくは <https://github.com/foostan/crkbd/blob/master/docs/firmware_jp.md> を参照してください。
+詳しくは [docs/firmware/rev1](../../firmware/rev1/firmware_jp.md) を参照してください。
 
 ## 実装
 
@@ -199,7 +199,7 @@ LEDは４つずつはんだづけを行いますが、一度に４つ行わず�
 ## ファームウェア
 
 下記を参照しファームウェアをProMicroに書き込みます。\
-<https://github.com/foostan/crkbd/blob/master/docs/firmware_jp.md>
+[docs/firmware/rev1](../../firmware/rev1/firmware_jp.md)
 
 以上で完成です。
 
