@@ -1,7 +1,7 @@
 # Build Guide
 
 こちらは Corne Cherry v3 のビルドガイドになります。
-[Corne Cherry v2 はこちら](https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v2/buildguide_jp.md)。
+[Corne Cherry v2 はこちら](https://github.com/foostan/crkbd/blob/master/docs/corne-cherry/v2/buildguide_jp.md)。
 
 ## 部品
 
@@ -40,7 +40,7 @@
 ## 事前準備
 
 ファームウェアを自分でビルドする場合は環境を整備するのに時間がかかるのではじめに取り掛かっておくことをおすすめします。\
-詳しくは <https://github.com/foostan/crkbd/blob/main/docs/firmware/rev1/firmware_jp.md> を参照してください。
+詳しくは [docs/firmware/rev1](../../firmware/rev1/firmware_jp.md) を参照してください。
 
 ## 確認
 
@@ -171,7 +171,7 @@ OLED用のピンソケットにピンヘッダを先に差し込み、その後�
 ## ファームウェア
 
 下記を参照しファームウェアをProMicroに書き込みます。\
-<https://github.com/foostan/crkbd/blob/master/doc/firmware_jp.md>
+[docs/firmware/rev1](../../firmware/rev1/firmware_jp.md)
 
 ### 動作確認
 

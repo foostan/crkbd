@@ -2,7 +2,7 @@
 
 This is the build guide for Corne Cherry v3.
 [Click here for the Corne Cherry v2 build guide](
-https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v2/buildguide_en.md).
+https://github.com/foostan/crkbd/blob/master/docs/corne-cherry/v2/buildguide_en.md).
 
 ## Parts
 
@@ -45,7 +45,7 @@ If you build the firmware yourself, it will take some time to set up the environ
 so it's best to start at the beginning.\
 It is recommended to flash ProMicro's prior to soldering.\
 For more information,
-please see <https://github.com/foostan/crkbd/blob/master/docs/firmware/firmware_en.md>.
+please see [docs/firmware/rev1](../../firmware/rev1/firmware_en.md).
 
 ## Verification
 
