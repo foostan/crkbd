@@ -8233,7 +8233,7 @@
 		(uuid "34d5098f-eaee-4a50-a538-687907b263f5")
 	)
 	(label "RE0A"
-		(at 274.955 105.41 90)
+		(at 274.32 105.41 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8242,6 +8242,17 @@
 			(justify left bottom)
 		)
 		(uuid "3b8ca902-90e0-4fe8-a653-ff3b6ca4aa78")
+	)
+	(label "KEYEX1"
+		(at 274.32 120.65 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e90cf79-e86e-4a1a-8ec0-2c2da5f4719f")
 	)
 	(label "LED"
 		(at 111.76 153.67 0)
@@ -8474,6 +8485,17 @@
 		)
 		(uuid "76140576-e842-4e11-ace0-728da6ef7332")
 	)
+	(label "KEYEX2"
+		(at 275.59 156.21 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a8afcef-1abb-49ca-83b0-ed5456b017cc")
+	)
 	(label "SCL"
 		(at 120.015 146.05 0)
 		(fields_autoplaced yes)
@@ -8616,17 +8638,6 @@
 			(justify right bottom)
 		)
 		(uuid "95deaa1c-5b17-464f-bb67-65d9f81156c0")
-	)
-	(label "KEYEX1"
-		(at 269.875 120.65 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "98583200-93bd-4aff-9a77-b1e9aab44984")
 	)
 	(label "KEY7"
 		(at 236.22 138.43 90)
@@ -8826,17 +8837,6 @@
 		)
 		(uuid "c4912e31-f570-44ba-99bf-f168c08226f4")
 	)
-	(label "KEYEX2"
-		(at 270.51 156.21 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c5b02fa5-49d0-45ef-8dbe-0c9dd374a75d")
-	)
 	(label "KEY15"
 		(at 210.82 138.43 90)
 		(fields_autoplaced yes)
@@ -8959,7 +8959,7 @@
 		(uuid "e41bcf64-b908-4965-948a-3d403bb89af8")
 	)
 	(label "REB"
-		(at 269.875 105.41 90)
+		(at 269.24 105.41 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16436,72 +16436,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 274.955 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9697767-aba2-4657-86c8-baec4bd8d1d5")
-		(property "Reference" "#PWR056"
-			(at 274.955 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 274.955 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.955 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.955 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 274.955 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95a56d13-271f-4d8e-a69e-1e9f90ecf30c")
-		)
-		(instances
-			(project "corne-cherry"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 58.42 138.43 270)
 		(unit 1)
@@ -17424,72 +17358,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 275.59 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0e9e75c-6586-4e70-9266-396b687a41c7")
-		(property "Reference" "#PWR059"
-			(at 275.59 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 275.59 160.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 275.59 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50c9d194-d91d-4d5d-9f20-43d6615f23dc")
-		)
-		(instances
-			(project "corne-cherry"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "kbd_local:YS-SK6812MINI-E")
 		(at 284.48 208.28 270)
 		(unit 1)
@@ -18032,7 +17900,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 272.415 105.41 180)
+		(at 271.78 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18040,7 +17908,7 @@
 		(dnp no)
 		(uuid "d05eb1c6-2734-41aa-9561-4fc6c785e41b")
 		(property "Reference" "#PWR054"
-			(at 272.415 99.06 0)
+			(at 271.78 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18049,7 +17917,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 272.415 100.33 90)
+			(at 271.78 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18057,7 +17925,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 272.415 105.41 0)
+			(at 271.78 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18066,7 +17934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 272.415 105.41 0)
+			(at 271.78 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18075,7 +17943,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 272.415 105.41 0)
+			(at 271.78 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18234,6 +18102,72 @@
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 270.51 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d24795c0-1711-492c-994d-9d38a79ab1cd")
+		(property "Reference" "#PWR057"
+			(at 270.51 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bdd962c-c331-47a9-8226-296145513058")
+		)
+		(instances
+			(project "corne-chocolate"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -19861,6 +19795,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 269.24 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6626109-e974-4f83-a094-16d0651e7b81")
+		(property "Reference" "#PWR056"
+			(at 269.24 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd91771a-b237-4063-905c-954515334f32")
+		)
+		(instances
+			(project "corne-chocolate"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 105.41 113.03 0)
 		(unit 1)
@@ -20290,7 +20290,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
-		(at 272.415 113.03 270)
+		(at 271.78 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20298,7 +20298,7 @@
 		(dnp no)
 		(uuid "ffe6fb1d-692e-48d7-aa11-8e89e3c2a886")
 		(property "Reference" "EXSW1"
-			(at 272.415 94.615 90)
+			(at 271.78 94.615 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20306,7 +20306,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch"
-			(at 272.415 97.155 90)
+			(at 271.78 97.155 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20314,7 +20314,7 @@
 			)
 		)
 		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u_rotary_encoder_ec12"
-			(at 276.479 109.22 0)
+			(at 275.844 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20323,7 +20323,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 279.019 113.03 0)
+			(at 278.384 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20332,7 +20332,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 272.415 113.03 0)
+			(at 271.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)

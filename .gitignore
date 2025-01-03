@@ -34,6 +34,7 @@ gerber/
 
 # Backup files (exported from Pcbnew)
 *-backups/
+*backups/
 
 # Order files
 order/

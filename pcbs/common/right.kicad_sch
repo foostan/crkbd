@@ -8034,17 +8034,6 @@
 		)
 		(uuid "053da54f-fa81-4df6-b80b-fd9f10c8640f")
 	)
-	(label "KEYEX2"
-		(at 265.43 156.21 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "069fb0f5-226e-42df-b862-df808a851980")
-	)
 	(label "SWCLK"
 		(at 55.88 194.31 180)
 		(fields_autoplaced yes)
@@ -8079,7 +8068,7 @@
 		(uuid "1868ecdc-5506-44c5-9e95-ea9922867514")
 	)
 	(label "RE0A"
-		(at 269.875 105.41 90)
+		(at 269.24 105.41 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8154,6 +8143,17 @@
 			(justify left bottom)
 		)
 		(uuid "2b088fab-b507-41e7-92d8-0e97995c54dc")
+	)
+	(label "KEYEX1"
+		(at 269.24 120.65 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b767d7d-208b-4ebe-bf5c-90872c7c8f66")
 	)
 	(label "KEY4"
 		(at 243.84 107.95 90)
@@ -8562,6 +8562,17 @@
 		)
 		(uuid "858805a9-4212-4157-8688-88551ee63cb2")
 	)
+	(label "KEYEX2"
+		(at 270.51 156.21 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86c61fad-e266-4127-85ad-411856e30ea8")
+	)
 	(label "KEY19"
 		(at 106.68 148.59 0)
 		(fields_autoplaced yes)
@@ -8572,17 +8583,6 @@
 			(justify left bottom)
 		)
 		(uuid "8ddefc11-c8a1-47d0-8d45-7a4b42f6423c")
-	)
-	(label "KEYEX1"
-		(at 264.795 120.65 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "91653b90-5c2e-4d79-b84d-9b82a4d61028")
 	)
 	(label "KEY2"
 		(at 106.68 184.15 0)
@@ -8794,7 +8794,7 @@
 		(uuid "c68722c7-f1ef-42b6-a613-c1818509eb4b")
 	)
 	(label "REB"
-		(at 264.795 105.41 90)
+		(at 264.16 105.41 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11078,78 +11078,6 @@
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR0134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kbd:GNDR")
-		(at 269.875 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29a3178e-0e99-4efe-9c51-9aaf059b64d4")
-		(property "Reference" "#PWR?"
-			(at 269.875 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDR"
-			(at 269.875 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.875 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.875 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 269.875 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ff111a5-5c2d-439e-8616-5f0e88bcaa1d")
-		)
-		(instances
-			(project "right"
-				(path "/04ecfb8d-8dc8-41d9-b176-68a9b73f1e5e"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "corne-cherry"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -14129,7 +14057,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
-		(at 267.335 113.03 270)
+		(at 266.7 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14137,7 +14065,7 @@
 		(dnp no)
 		(uuid "75751b4a-a991-4b22-9dd5-2f1e42eac390")
 		(property "Reference" "rEXSW?"
-			(at 267.335 94.615 90)
+			(at 266.7 94.615 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14145,7 +14073,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch"
-			(at 267.335 97.155 90)
+			(at 266.7 97.155 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14153,7 +14081,7 @@
 			)
 		)
 		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u_rotary_encoder_ec12"
-			(at 271.399 109.22 0)
+			(at 270.764 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14162,7 +14090,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.939 113.03 0)
+			(at 273.304 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14171,7 +14099,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.335 113.03 0)
+			(at 266.7 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15712,6 +15640,72 @@
 		)
 	)
 	(symbol
+		(lib_id "kbd:GNDR")
+		(at 264.16 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94b53400-054a-4592-842b-5e4725a5e1b8")
+		(property "Reference" "#PWR059"
+			(at 264.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDR"
+			(at 264.16 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ca46d25-bc8a-475e-a2d3-92dd3f95a66e")
+		)
+		(instances
+			(project "corne-chocolate"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 232.41 36.83 0)
 		(unit 1)
@@ -16006,78 +16000,6 @@
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kbd:GNDR")
-		(at 270.51 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c568262-a6f8-4543-8491-99422e074d52")
-		(property "Reference" "#PWR?"
-			(at 270.51 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDR"
-			(at 270.51 160.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6a647ae-54f2-4c31-8840-df8b07f5b26d")
-		)
-		(instances
-			(project "right"
-				(path "/04ecfb8d-8dc8-41d9-b176-68a9b73f1e5e"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "corne-cherry"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -17431,6 +17353,72 @@
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "rLED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kbd:GNDR")
+		(at 265.43 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb83505a-6198-4598-af1d-8811686d18c7")
+		(property "Reference" "#PWR063"
+			(at 265.43 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDR"
+			(at 265.43 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5920d243-1806-45a4-a104-ef594a50bff1")
+		)
+		(instances
+			(project "corne-chocolate"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -19690,7 +19678,7 @@
 	)
 	(symbol
 		(lib_id "kbd:GNDR")
-		(at 267.335 105.41 180)
+		(at 266.7 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19698,7 +19686,7 @@
 		(dnp no)
 		(uuid "e39d438f-8a5a-47a2-bb96-6a5953bf2dba")
 		(property "Reference" "#PWR?"
-			(at 267.335 99.06 0)
+			(at 266.7 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19707,7 +19695,7 @@
 			)
 		)
 		(property "Value" "GNDR"
-			(at 267.335 100.33 90)
+			(at 266.7 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19715,7 +19703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.335 105.41 0)
+			(at 266.7 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19724,7 +19712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.335 105.41 0)
+			(at 266.7 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19733,7 +19721,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.335 105.41 0)
+			(at 266.7 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
