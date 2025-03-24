@@ -53,3 +53,6 @@ If a rotary encoder is used, it can be attached instead of a switch at the posit
 ### 5: Attach keycaps
 ![keycap](https://github.com/foostan/crkbd/assets/736191/9a964932-a798-4377-b4c9-59cb2f1bfc5d)
 
+## Note
+If the TRRS cable is plugged or unplugged while the USB cable is connected, the keyboard's microcontroller may be damaged.  
+Before plugging or unplugging the TRRS cable, always ensure that the USB cable is disconnected.  

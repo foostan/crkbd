@@ -48,3 +48,7 @@ This is the build guide for the left hand side. The right side is the same proce
 
 ### 5: Attach keycaps
 ![keycap](https://github.com/foostan/crkbd/assets/736191/58cea8d4-d596-4379-ba91-5d9adb52ecca)
+
+## Note
+If the TRRS cable is plugged or unplugged while the USB cable is connected, the keyboard's microcontroller may be damaged.  
+Before plugging or unplugging the TRRS cable, always ensure that the USB cable is disconnected.  
