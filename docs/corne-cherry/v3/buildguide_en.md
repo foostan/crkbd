@@ -128,11 +128,11 @@ Solder the SK6812MINI-E and WS2812B.
 ![build_led_front_overview](assets/build_led_front_overview.jpg)
 
 All soldering is done from the back side, but the SK6812MINI-E is for Backlight
-(the front side is shining) and the WS2812B is for Undergrow (the back side is shining).
+(the front side is shining) and the WS2812B is for Underglow (the back side is shining).
 
 ![build_led_back_overview](assets/build_led_back_overview.jpg)
 
-#### WS2812B (Undergrow)
+#### WS2812B (Underglow)
 
 First, solder the WS2812B.
 
