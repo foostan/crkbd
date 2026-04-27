@@ -165,10 +165,10 @@
         "min_silk_clearance": 0.1524,
         "min_text_height": 0.5842,
         "min_text_thickness": 0.752,
-        "min_through_hole_diameter": 0.381,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.1524,
         "min_via_annular_width": 0.1524,
-        "min_via_diameter": 0.635,
+        "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -640,9 +640,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "corne-inidan-hotswap.stl",
       "svg": "",
-      "vrml": ""
+      "vrml": "corne-inidan-hotswap.wrl"
     },
     "page_layout_descr_file": ""
   },

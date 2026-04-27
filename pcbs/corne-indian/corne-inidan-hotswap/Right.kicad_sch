@@ -5293,7 +5293,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 69.85) (xy 377.19 69.85)
+			(xy 368.3 69.85) (xy 382.27 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5580,6 +5580,16 @@
 			(type default)
 		)
 		(uuid "1aa3c8da-68d4-4623-ae1c-d48e91634356")
+	)
+	(wire
+		(pts
+			(xy 88.9 76.2) (xy 85.09 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab45660-4d63-496a-957e-29e1eb9262f3")
 	)
 	(wire
 		(pts
@@ -6453,7 +6463,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 72.39) (xy 377.19 72.39)
+			(xy 368.3 72.39) (xy 382.27 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6760,6 +6770,16 @@
 			(type default)
 		)
 		(uuid "6e8ba254-9263-4d7d-a7f8-ad1d7dc0f45d")
+	)
+	(wire
+		(pts
+			(xy 78.74 76.2) (xy 80.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6cb815-effb-4e41-ba2a-a4911b28a25a")
 	)
 	(wire
 		(pts
@@ -9110,6 +9130,16 @@
 			(justify left bottom)
 		)
 		(uuid "48c4bf70-440d-447d-b806-4ed32096cdbf")
+	)
+	(label "5V_L"
+		(at 88.9 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "48d02fcc-3302-4039-9083-684659b8ac12")
 	)
 	(label "KEY_18"
 		(at 377.19 77.47 180)
@@ -11732,7 +11762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "r+3.3V"
 			(at 163.83 26.67 0)
 			(effects
 				(font
@@ -12601,7 +12631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "r+3.3V"
 			(at 349.25 29.21 0)
 			(effects
 				(font
@@ -13818,7 +13848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "r+3.3V"
 			(at 157.48 52.07 0)
 			(effects
 				(font
@@ -14492,7 +14522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "r+5V"
 			(at 259.08 60.96 90)
 			(effects
 				(font
@@ -14898,7 +14928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "r+5V"
 			(at 123.952 52.07 0)
 			(effects
 				(font
@@ -15746,6 +15776,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 78.74 76.2 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62d88836-fd42-4551-9080-04138d84e41f")
+		(property "Reference" "#PWR0219"
+			(at 82.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "r+5V"
+			(at 74.93 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73275391-c18b-4517-9978-2a0086a76264")
+		)
+		(instances
+			(project "corne-inidan-hotswap"
+				(path "/c90c0725-f1d3-4c5d-9757-c1f2f2a5449f/c662f5df-c1ad-47b5-b30e-5a138a045676"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 76.2 127 0)
 		(unit 1)
@@ -16504,7 +16601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "rVBUS"
 			(at 63.5 30.48 0)
 			(effects
 				(font
@@ -17057,6 +17154,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky_Small_Filled")
+		(at 82.55 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84dd09da-9af9-4b09-828f-b04935a68a77")
+		(property "Reference" "rD6"
+			(at 82.55 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DSK34"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 82.55 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol, filled shape"
+			(at 82.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part" "C727076"
+			(at 82.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name_2" "TWGMC"
+			(at 82.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number_2" "DSK34"
+			(at 82.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c859ed2f-1f66-4e02-8a65-680bf6a122cd")
+		)
+		(pin "2"
+			(uuid "cdbdc438-58ad-46c0-9906-216263d61817")
+		)
+		(instances
+			(project "corne-inidan-hotswap"
+				(path "/c90c0725-f1d3-4c5d-9757-c1f2f2a5449f/c662f5df-c1ad-47b5-b30e-5a138a045676"
+					(reference "rD6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 153.67 127 0)
 		(unit 1)
@@ -17569,7 +17760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "User_Button_Switch_Keyboard:keyswitch_cherrymx_hotswap_1u_rotary_encoder_ec12"
+		(property "Footprint" "User_Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Hotswap_Rotary-Encoder"
 			(at 53.086 154.94 0)
 			(effects
 				(font
@@ -21125,7 +21316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "r+5V"
 			(at 89.662 31.75 0)
 			(effects
 				(font
@@ -21334,7 +21525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "r+5V"
 			(at 117.602 26.67 0)
 			(effects
 				(font
@@ -21739,7 +21930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "r+3.3V"
 			(at 342.9 158.75 0)
 			(effects
 				(font
@@ -21805,7 +21996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "r+5V"
 			(at 217.17 57.15 90)
 			(effects
 				(font
@@ -24294,7 +24485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "User_Button_Switch_Keyboard:keyswitch_cherrymx_hotswap_1u_rotary_encoder_ec12"
+		(property "Footprint" "User_Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Hotswap_Rotary-Encoder"
 			(at 53.086 205.74 0)
 			(effects
 				(font

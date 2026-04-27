@@ -7243,7 +7243,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 69.85) (xy 377.19 69.85)
+			(xy 368.3 69.85) (xy 382.27 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7340,6 +7340,16 @@
 			(type default)
 		)
 		(uuid "a058d913-8821-41f7-86a0-3d59ed743a80")
+	)
+	(wire
+		(pts
+			(xy 78.74 76.2) (xy 80.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09bc5e7-caaf-4462-8e85-453330316f87")
 	)
 	(wire
 		(pts
@@ -7653,7 +7663,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 72.39) (xy 377.19 72.39)
+			(xy 368.3 72.39) (xy 382.27 72.39)
 		)
 		(stroke
 			(width 0)
@@ -8180,6 +8190,16 @@
 			(type default)
 		)
 		(uuid "df5a4cfb-b05c-43f6-bf13-62649f915e53")
+	)
+	(wire
+		(pts
+			(xy 88.9 76.2) (xy 85.09 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8dce93-a4a9-4145-af2d-99f6b9c27aed")
 	)
 	(wire
 		(pts
@@ -8980,6 +9000,16 @@
 			(justify right bottom)
 		)
 		(uuid "23e436f4-bcd0-40df-8298-11d9aeec521d")
+	)
+	(label "5V_L"
+		(at 88.9 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "25b2022b-fb65-4fad-98ec-e2da3eeeea51")
 	)
 	(label "KEY_EX2"
 		(at 377.19 74.93 180)
@@ -12267,7 +12297,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "331c6a94-4f06-4be0-a9e6-e177cf9c5a71")
-		(property "Reference" "LED5"
+		(property "Reference" "LED4"
 			(at 229.87 123.19 0)
 			(effects
 				(font
@@ -12325,7 +12355,7 @@
 		(instances
 			(project "corne-inidan-hotswap"
 				(path "/c90c0725-f1d3-4c5d-9757-c1f2f2a5449f/f4940f7d-bc6d-4495-a44d-e8b9a3eadf42"
-					(reference "LED5")
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -15449,6 +15479,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky_Small_Filled")
+		(at 82.55 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61ea988e-a25c-4f56-bd12-1cbf89ddea71")
+		(property "Reference" "D6"
+			(at 82.55 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DSK34"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 82.55 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol, filled shape"
+			(at 82.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part" "C727076"
+			(at 82.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name_2" "TWGMC"
+			(at 82.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number_2" "DSK34"
+			(at 82.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cefb905-c1ea-49cc-906b-6bb91b711d54")
+		)
+		(pin "2"
+			(uuid "5330e23a-9f9d-43a8-b05b-d2dfb1dc0eb7")
+		)
+		(instances
+			(project "corne-inidan-hotswap"
+				(path "/c90c0725-f1d3-4c5d-9757-c1f2f2a5449f/f4940f7d-bc6d-4495-a44d-e8b9a3eadf42"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 204.47 55.88 0)
 		(unit 1)
@@ -15819,7 +15943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "User_Button_Switch_Keyboard:keyswitch_cherrymx_hotswap_1u_rotary_encoder_ec12"
+		(property "Footprint" "User_Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Hotswap_Rotary-Encoder"
 			(at 264.414 129.54 0)
 			(effects
 				(font
@@ -18659,7 +18783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "User_Button_Switch_Keyboard:keyswitch_cherrymx_hotswap_1u_rotary_encoder_ec12"
+		(property "Footprint" "User_Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Hotswap_Rotary-Encoder"
 			(at 264.414 180.34 0)
 			(effects
 				(font
@@ -20337,6 +20461,73 @@
 			(project "corne-inidan-hotswap"
 				(path "/c90c0725-f1d3-4c5d-9757-c1f2f2a5449f/f4940f7d-bc6d-4495-a44d-e8b9a3eadf42"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 78.74 76.2 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab974026-5d81-42e1-8fba-6a1f2081e00c")
+		(property "Reference" "#PWR0218"
+			(at 82.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 74.93 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38caaab2-1c86-4f5d-84a2-33bdd99133f5")
+		)
+		(instances
+			(project "corne-inidan-hotswap"
+				(path "/c90c0725-f1d3-4c5d-9757-c1f2f2a5449f/f4940f7d-bc6d-4495-a44d-e8b9a3eadf42"
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -22446,7 +22637,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d30b6f8a-f9b5-4865-8115-2865865beae2")
-		(property "Reference" "LED4"
+		(property "Reference" "LED5"
 			(at 191.77 123.19 0)
 			(effects
 				(font
@@ -22504,7 +22695,7 @@
 		(instances
 			(project "corne-inidan-hotswap"
 				(path "/c90c0725-f1d3-4c5d-9757-c1f2f2a5449f/f4940f7d-bc6d-4495-a44d-e8b9a3eadf42"
-					(reference "LED4")
+					(reference "LED5")
 					(unit 1)
 				)
 			)
