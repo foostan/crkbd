@@ -35,6 +35,9 @@ gerber/
 # Backup files (exported from Pcbnew)
 *-backups/
 
+# KiCad local history snapshots
+.history/
+
 # Order files
 order/
 .idea/
