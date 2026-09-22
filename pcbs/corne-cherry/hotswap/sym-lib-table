@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "crkbd_common") (type "KiCad") (uri "${KIPRJMOD}/../../common/kicad-symbols/kbd.kicad_sym") (options "") (descr "Corne project symbols"))
+)

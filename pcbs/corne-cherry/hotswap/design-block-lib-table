@@ -1,0 +1,4 @@
+(design_block_lib_table
+	(version 7)
+	(lib (name "kicad-symbols") (type "KiCad") (uri "${CRKBD_COMMON_DIR}/kicad-symbols") (options "") (descr ""))
+)

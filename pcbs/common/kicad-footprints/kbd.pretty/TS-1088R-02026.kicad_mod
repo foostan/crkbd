@@ -1,0 +1,139 @@
+(footprint "TS-1088R-02026"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "usb usb-c 2.0 pd")
+	(property "Reference" "REF**"
+		(at 0.3 2.2 0)
+		(layer "F.SilkS")
+		(uuid "b5ac578c-2bbb-4c25-a767-dc69af07a1a1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TS-1088R-02026"
+		(at 0 3.6 0)
+		(layer "F.Fab")
+		(uuid "733e5d15-c14d-445d-babe-c1342364837d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f31fe34c-b9ee-4503-b574-0c833f2d87e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba43de5f-834f-4cd9-8191-fe6e416867c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.4 -1.4)
+		(end 1.4 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b659b798-c8d7-47af-bdc5-a42026451a82")
+	)
+	(fp_line
+		(start 1.4 1.4)
+		(end -1.4 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e612912e-387b-49b5-9b87-4eb6c692f4a2")
+	)
+	(fp_line
+		(start -3 -1.75)
+		(end 3 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0fb11572-1851-4da0-adc3-96cbf1efc961")
+	)
+	(fp_line
+		(start -3 1.75)
+		(end -3 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "63353d31-72c1-4e48-81a4-97f489641cb6")
+	)
+	(fp_line
+		(start -3 1.75)
+		(end 3 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce12c52a-86a0-4db1-acb6-ee5243e0fe27")
+	)
+	(fp_line
+		(start 3 1.75)
+		(end 3 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df1a7688-48ba-4a17-898b-49431ce087bf")
+	)
+	(pad "1" smd rect
+		(at -2.225 0 180)
+		(size 1.05 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "55fc2bce-e1e7-41c8-9e4f-64ac2db14000")
+	)
+	(pad "2" smd rect
+		(at 2.225 0 180)
+		(size 1.05 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "16b4df61-2d21-40b8-b896-c7444a976c06")
+	)
+	(embedded_fonts no)
+	(model "${CRKBD_COMMON_DIR}/kicad-packages3D/kbd.3dshapes/TS-1088R-02026.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
