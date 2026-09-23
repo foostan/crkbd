@@ -169,7 +169,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.09,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -551,9 +551,9 @@
       "gencad": "",
       "idf": "",
       "netlist": "corne.net",
-      "plot": "",
+      "plot": "./jlcpcb",
       "specctra_dsn": "",
-      "step": "../../../../../../Desktop/corne-pcb.STEP",
+      "step": "../../../../../../../../Desktop/corne-pcb.STEP",
       "vrml": "../../../../../../Desktop/corne.wrl"
     },
     "page_layout_descr_file": ""

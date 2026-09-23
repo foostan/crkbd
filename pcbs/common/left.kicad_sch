@@ -4924,7 +4924,7 @@
 	)
 	(text "ESD"
 		(exclude_from_sim no)
-		(at 171.704 109.982 0)
+		(at 170.4819 110.7055 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11671,7 +11671,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMEG4010ER,115"
+		(property "Value" "PMEG4010CEJ,115"
 			(at 228.6 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)

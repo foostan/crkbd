@@ -4133,7 +4133,7 @@
 	)
 	(text "ESD"
 		(exclude_from_sim no)
-		(at 188.214 107.442 0)
+		(at 186.9766 108.1657 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5680,16 +5680,6 @@
 		)
 		(uuid "029cc904-657c-48bb-b991-47f5fb565c12")
 	)
-	(label "COL4"
-		(at 29.21 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0375e0d1-f8e7-4a8e-b4df-be6395a94469")
-	)
 	(label "USB_DM"
 		(at 97.79 74.93 180)
 		(effects
@@ -5910,6 +5900,16 @@
 		)
 		(uuid "84d2c378-8a06-42d3-83a5-04795c57d992")
 	)
+	(label "COL4"
+		(at 29.21 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87d9e715-a7bc-4ad1-a807-cd19459701e4")
+	)
 	(label "+3V3"
 		(at 115.57 87.63 180)
 		(effects
@@ -5959,16 +5959,6 @@
 			(justify right bottom)
 		)
 		(uuid "aec5a8c8-776e-4938-af3c-e36582f0a24a")
-	)
-	(label "COL5"
-		(at 29.21 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0154ca4-f404-49da-8468-6a70342ee17d")
 	)
 	(label "COL2"
 		(at 80.01 175.26 180)
@@ -6029,6 +6019,16 @@
 			(justify right bottom)
 		)
 		(uuid "e3601388-5d98-4a14-b221-5286bf705915")
+	)
+	(label "COL5"
+		(at 29.21 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7b3be1c-e5c4-4af6-a976-a3a312475d30")
 	)
 	(label "ROW3"
 		(at 74.93 238.76 180)
@@ -11553,7 +11553,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMEG4010ER,115"
+		(property "Value" "PMEG4010CEJ,115"
 			(at 246.38 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
