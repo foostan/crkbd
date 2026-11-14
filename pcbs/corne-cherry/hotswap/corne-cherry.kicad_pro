@@ -264,7 +264,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "4.1.0"
+      "sch_revision": "5.0.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -551,10 +551,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "corne.net",
-      "plot": "./jlcpcb",
+      "plot": "./production",
       "specctra_dsn": "",
-      "step": "../../../../../../../../Desktop/corne-pcb.STEP",
-      "vrml": "../../../../../../Desktop/corne.wrl"
+      "step": "",
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
@@ -692,7 +692,7 @@
         "uuid": "4cc5d416-57f5-4147-8183-e03ae6b1198a"
       }
     ],
-    "used_designators": "D24-25,#PWR2,#PWR4-5,#PWR7,#PWR9,#PWR11-17,#PWR26-27,#PWR32,#PWR83-84,#PWR138,#PWR143,#PWR157-158,#PWR161-164,C1-4,C6-7,C11-12,U1-2,U5-6,TVSD2-4,F1-4,#FLG1-6,J2,BOOT1-2,SD2,NRST1-2,R3-4",
+    "used_designators": "D24-25,#PWR2,#PWR4-5,#PWR7,#PWR9,#PWR11-17,#PWR26-27,#PWR32,#PWR83-84,#PWR138,#PWR143,#PWR157-159,#PWR161-164,C1-4,C6-7,C11-12,U1-2,U5-6,TVSD2-4,F1-4,#FLG1-6,J2,BOOT1-2,SD2,NRST1-2,R3-4",
     "variants": []
   },
   "sheets": [
