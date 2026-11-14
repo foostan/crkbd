@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "Corne")
-		(date "2024-05-07")
-		(rev "4.1.0")
+		(date "2026-11-14")
+		(rev "5.0.0")
 		(company "foostan")
 	)
 	(lib_symbols)
