@@ -42,3 +42,6 @@ gerber/
 order/
 production-review/
 .idea/
+
+# KiCad Fabrication Toolkit plugin settings
+fabrication-toolkit-options.json
