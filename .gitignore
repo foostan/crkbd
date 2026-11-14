@@ -35,6 +35,13 @@ gerber/
 # Backup files (exported from Pcbnew)
 *-backups/
 
+# KiCad local history snapshots
+.history/
+
 # Order files
 order/
+production-review/
 .idea/
+
+# KiCad Fabrication Toolkit plugin settings
+fabrication-toolkit-options.json

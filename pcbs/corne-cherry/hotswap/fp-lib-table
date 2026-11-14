@@ -1,4 +1,4 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "kbd_local")(type "KiCad")(uri "${KBD_DIR}/kicad-footprints/kbd.pretty")(options "")(descr ""))
+	(version 7)
+	(lib (name "crkbd") (type "KiCad") (uri "${KIPRJMOD}/../../common/kicad-footprints/kbd.pretty") (options "") (descr "Shared keyboard footprints"))
 )
