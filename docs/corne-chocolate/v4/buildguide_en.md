@@ -8,18 +8,18 @@ This is the build guide for Corne Chocolate v4.
 
 ### Required
 
-| Name                 | Count   | Remarks                               |
-|:---------------------|:--------|:--------------------------------------|
-| PCB                  | 1 set   |                                       |
-| Case                 | 1 set   |                                       |
-| Switch plate         | 1 set   | FR4 1.6mm thick                       |
-| Key switches         | 42 - 46 | Only Kailh choc v1 and v2 switches    |
-| Keycaps              | 42 - 46 | 1u 40 pcs, 1.5u 2 pcs                 |
-| Spacer M2            | 8       | 5 mm For Case assembly                |
-| Screw M2             | 16      | 4.5 mm For Case assembly              |
-| Rubber cushion       | 8       |                                       |
-| TRRS (4 poles) cable | 1       | TRS (3 poles) cable is not compatible |
-| Type-C cable         | 1       |                                       |
+| Name                 | Count   | Remarks                                                                                     |
+|:---------------------|:--------|:--------------------------------------------------------------------------------------------|
+| PCB                  | 1 set   |                                                                                             |
+| Case                 | 1 set   |                                                                                             |
+| Switch plate         | 1 set   | FR4 1.6mm thick                                                                             |
+| Key switches         | 42 - 46 | Only Kailh choc v1 and v2 switches                                                          |
+| Keycaps              | 42 - 46 | 1u 40 pcs, 1.5u 2 pcs                                                                       |
+| Spacer M2            | 8       | 5 mm For Case assembly                                                                      |
+| Screw M2             | 16      | 4.5 mm For Case assembly                                                                    |
+| Rubber cushion       | 8       |                                                                                             |
+| TRRS (4 poles) cable | 1       | v4.0.0: TRS (3 poles) cable is not compatible<br/>v4.1.0: TRS (3 poles) cable is compatible |
+| Type-C cable         | 1       |                                                                                             |
 
 ### Optional
 
