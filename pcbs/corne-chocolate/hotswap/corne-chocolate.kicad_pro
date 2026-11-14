@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.825,
-          "width": 1.7
+          "drill": 0.55,
+          "height": 0.55,
+          "width": 0.55
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -51,7 +51,23 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.25,
+          "corner_radius": 0.1,
+          "corner_smoothing": 2,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.0,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 3,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.25,
+          "thermal_relief_spoke_width": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -80,7 +96,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "warning",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
@@ -94,7 +110,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "ignore",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -103,16 +119,16 @@
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "error",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "ignore",
         "text_on_edge_cuts": "error",
         "text_thickness": "ignore",
@@ -120,12 +136,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "tuning_profile_track_geometries": "ignore",
+        "tuning_profile_track_geometries": "warning",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -137,9 +153,9 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.19,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.1,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -153,7 +169,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -248,7 +264,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "5.0.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -535,10 +551,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "corne.net",
-      "plot": "",
+      "plot": "./production",
       "specctra_dsn": "",
-      "step": "../../../../../../../Desktop/corne-pcb.STEP",
-      "vrml": "../../../../../../Desktop/corne.wrl"
+      "step": "",
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
@@ -546,7 +562,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -673,16 +689,16 @@
       {
         "filename": "corne-chocolate.kicad_sch",
         "name": "corne-chocolate",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "4cc5d416-57f5-4147-8183-e03ae6b1198a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D24-25,#PWR2,#PWR4-5,#PWR7,#PWR9,#PWR11-17,#PWR26-27,#PWR32,#PWR83-84,#PWR138,#PWR143,#PWR157-159,#PWR161-164,C1-4,C6-7,C11-12,U1-2,U5-6,TVSD2-4,F1-4,#FLG1-6,J2,BOOT1-2,SD2,NRST1-2,R3-4",
     "variants": []
   },
   "sheets": [
     [
       "4cc5d416-57f5-4147-8183-e03ae6b1198a",
-      ""
+      "corne-chocolate"
     ],
     [
       "089db7cd-2934-428b-a62a-55e0735649ba",
