@@ -125,7 +125,7 @@
 		(uuid "16b4df61-2d21-40b8-b896-c7444a976c06")
 	)
 	(embedded_fonts no)
-	(model "${CRKBD_COMMON_DIR}/kicad-packages3D/kbd.3dshapes/TS-1088R-02026.step"
+	(model "${KIPRJMOD}/../../common/kicad-packages3D/kbd.3dshapes/TS-1088R-02026.step"
 		(offset
 			(xyz 0 0 0)
 		)
